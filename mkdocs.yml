@@ -1,0 +1,49 @@
+site_name: Bildung 6.0
+
+
+repo_url: https://github.com/bildung6/bildung6
+
+site_url: https://bildung6.github.io/bildung6/
+
+markdown_extensions:
+  - footnotes
+  - abbr
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+theme:
+  custom_dir: docs/overrides
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - social
+    - content.code.annotate
+    - content.code.copy
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
