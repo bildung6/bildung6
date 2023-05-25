@@ -46,8 +46,8 @@ Contributions are always welcome!
 
 ## Acknowledgements
 
-- [Illustrations](https://undraw.co/)
-- [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
+- Amazing illustrations from [undraw.co](https://undraw.co/)
+- A lot of inspiration taken from the home page of [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/)
 
 ## Feedback
 
