@@ -13,3 +13,8 @@ th {
     margin-bottom:5px;
     padding: 0.525em 0.7em;
 }
+
+svg {
+    margin:auto;
+    display: block;
+}
