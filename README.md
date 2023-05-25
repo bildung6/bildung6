@@ -39,6 +39,13 @@ Directly via mkdocs
 ```bash
 mkdocs serve
 ```
+
+## Authors
+
+- [@nahakiole / Robin Glauser](https://github.com/nahakiole)
+- [@d-reic / Daniel Reichenpfader](https://github.com/d-reic)
+- [@dckbfh / Kerstin Denecke](https://github.com/dckbfh)
+
 ## Contributing
 
 Contributions are always welcome!
