@@ -11,4 +11,3 @@
 
 | Datum      | Thema                                                           | Ort                                              |
 |------------|-----------------------------------------------------------------|--------------------------------------------------|
-| 2023-09-05 | [Towards an AI Competence Model for Higher Education](ectel.md) | ECTEL Campus Universitário de Santiago, Portugal |
