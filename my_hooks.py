@@ -32,13 +32,9 @@ def on_nav(Navigation, config, files):
 
 
 def on_page_markdown(markdown, page, config, files):
-    print(page.meta)
     if page.meta.get('type') is not None:
-        print("Found block type: " + page.meta.get('type'))
         if os.path.isfile("docs/overrides/blocks/single/" + page.meta.get('type') + ".html"):
             page.meta["template"] = "blocks/single/" + page.meta.get('type') + ".html"
-            print("Using custom template for " + page.meta.get('type'))
-            print(page.meta)
     return markdown
 
 
