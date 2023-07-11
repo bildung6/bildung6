@@ -4,6 +4,7 @@ type: "tool"
 description: An AI-powered image generator.
 tags:
 - "image-generation"
+- "midjourney"
 ---
 
 ### Midjourney

@@ -4,6 +4,7 @@ type: "tool"
 description: An AI-powered flashcard generator.
 tags:
 - "flashcards"
+- "ankigpt"
 ---
 
 ### Ankigpt

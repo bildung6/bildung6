@@ -22,7 +22,7 @@ KI kann bei der Transkription von Gesprächen helfen, indem sie automatisch den 
 
 ## Tools
 
-[tool=bard,deepwrite]
+[tool=whisper]
 
 
 ## Risiken

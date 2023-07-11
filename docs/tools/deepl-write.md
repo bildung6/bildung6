@@ -4,6 +4,8 @@ type: "tool"
 description: An AI-powered writing assistant that helps you write better content.
 tags:
 - "writing-assistant"
+- "deeplwrite"
+- "deepl-write"
 ---
 
 ### DeepL Write

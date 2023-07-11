@@ -21,7 +21,7 @@ KI kann verwendet werden, um die sprachliche Korrektur von Studierenden zu unter
 
 ## Tools
 
-[tool=chatgpt,deepwrite]
+[tool=chatgpt,deeplwrite]
 
 
 ## Risiken

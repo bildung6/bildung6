@@ -4,7 +4,7 @@ type: "tool"
 description: A computational knowledge engine that answers factual queries using AI and a curated database.
 tags:
 - "knowledge-engine"
-- "AI"
+- "wolframalpha"
 ---
 
 ### Wolfram Alpha

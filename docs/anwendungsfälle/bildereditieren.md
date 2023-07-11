@@ -21,7 +21,7 @@ KI kann bei der Bildbearbeitung helfen, indem sie automatisch Verbesserungen ode
 
 ## Tools
 
-[tool=deepwrite,photomath]
+[tool=photomath]
 
 
 ## Risiken

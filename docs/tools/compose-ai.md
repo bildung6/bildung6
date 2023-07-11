@@ -4,6 +4,7 @@ type: "tool"
 description: A writing assistant that helps you draft emails, articles, and more using AI.
 tags:
 - "writing-assistant"
+- "composeai"
 ---
 
 ### Compose AI

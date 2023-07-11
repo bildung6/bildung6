@@ -5,6 +5,7 @@ pages:
     - develop
   script:
     - pip install mkdocs-material
+    - pip install mkdocs-macros-plugin
     - mkdocs build --site-dir public
   artifacts:
     paths:

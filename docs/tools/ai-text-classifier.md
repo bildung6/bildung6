@@ -4,6 +4,8 @@ type: "tool"
 description: A machine learning model that classifies text into different categories.
 tags:
 - "text-classification"
+- "aitextclassifier"
+belearn: true
 ---
 
 

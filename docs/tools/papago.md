@@ -4,7 +4,7 @@ type: "app"
 description: A translation app powered by Naver's AI technology.
 tags:
 - "translation"
-- "AI"
+- "papago"
 ---
 
 ### Papago

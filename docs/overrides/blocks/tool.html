@@ -6,6 +6,10 @@
 
             <li >
                 <strong>{{ sub.title }}</strong>
+
+                {% if sub.meta.belearn %}
+                 <div class="belearn-tool">★★★★★ Bildung 6.0 Siegel</div>
+                {% endif %}
                 <hr>
                 {% if sub.meta.image %}
                 <img src="{{ sub.meta.image | url }}" alt="{{ sub.title }}">

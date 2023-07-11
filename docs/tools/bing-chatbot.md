@@ -4,6 +4,8 @@ type: "tool"
 description: A chatbot powered by Microsoft's Bing search engine.
 tags:
 - "chatbot"
+- "bing"
+- "bingchatbot"
 ---
 
 ### Bing Chatbot

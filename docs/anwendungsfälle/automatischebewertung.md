@@ -21,7 +21,7 @@ KI kann bei der automatischen Auswertung von Tests helfen, indem sie Antworten a
 
 ## Tools
 
-[tool=bard,deepwrite]
+[tool=bard,deeplwrite]
 
 
 ## Risiken

@@ -114,6 +114,20 @@ svg {
     border-left-width: 4px;
 }
 
+.grid li {
+    position: relative;
+}
+
+.belearn-tool {
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 5px 10px;
+    background-color: #FF9800;
+    color: #fff;
+    font-size: 12px;
+}
+
 @media print {
 
     body {

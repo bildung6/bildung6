@@ -4,7 +4,7 @@ type: "tool"
 description: An AI-powered text editor that helps you write better content.
 tags:
 - "text-editing"
-- "AI"
+- "bard"
 ---
 
 ### Bard

@@ -4,7 +4,7 @@ type: "software"
 description: Adobe Photoshop's AI-powered features, such as content-aware fill, neural filters, and sky replacement.
 tags:
 - "image-editing"
-- "AI"
+- "photoshop-ai"
 ---
 
 ### Photoshop AI

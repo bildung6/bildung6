@@ -4,6 +4,7 @@ type: "tool"
 description: An AI-powered search machine
 tags:
 - "search-engine"
+- "perplexity"
 ---
 
 ### Perplexity

@@ -21,7 +21,7 @@ KI kann Bilder generieren, die auf bestimmten Themen, Stilen oder Anforderungen 
 
 ## Tools
 
-[tool=starryai,deepwrite]
+[tool=starryai,deeplwrite]
 
 
 ## Risiken
