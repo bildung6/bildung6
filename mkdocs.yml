@@ -1,8 +1,8 @@
 site_name: Bildung 6.0
 
 
-#repo_url: https://github.com/bildung6/bildung6
-#site_url: https://bildung6.github.io/bildung6/
+repo_url: https://gitlab.ti.bfh.ch/bildung6/bildung6
+site_url: https://bildung6.pages.ti.bfh.ch/bildung6/
 edit_uri: edit/main/docs/
 
 markdown_extensions:
