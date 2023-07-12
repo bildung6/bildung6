@@ -150,3 +150,28 @@ svg {
     }
 
 }
+
+.mermaid [aria-roledescription="mindmap"] text {
+    fill: #fff !important;
+}
+
+.mermaid [aria-roledescription="mindmap"] path,
+.mermaid [aria-roledescription="mindmap"] line {
+    fill: #2c2c2c !important;
+    stroke: #2c2c2c !important;
+}
+
+.mermaid [aria-roledescription="mindmap"] .edge {
+    stroke: #9e9e9e !important;
+    fill: #fff !important;
+}
+
+
+.mermaid [aria-roledescription="mindmap"] .node-circle {
+    stroke: #526cfe !important;
+    fill: #526cfe !important;
+}
+
+.sdg {
+    width: 30%;
+}

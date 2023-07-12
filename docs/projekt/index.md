@@ -5,6 +5,20 @@ title: Über das Projekt
 # Bildung 6.0
 
 
+```mermaid
+mindmap
+  root((Belearn<br/> Bildung 6.0))
+    Risiken
+    Tools
+    Chancen
+    Leitlinien
+    Quests
+    Anwendungsfälle
+    AnwenderInnen
+    Workshop
+```
+
+
 Das Projekt Bildung 6.0 stellt relevante und verlässliche Informationen und Empfehlungen zum richtigen Umgang mit KI-basierten Werkzeugen für Studierende und Lehrende auf einer Online-Plattform bereit.
 
 ## Steckbrief
@@ -25,7 +39,10 @@ Verschiedene Formen von Künstlicher Intelligenz (KI) sind mittlerweile in viele
 
 ## Vorgehen
 
-Mittels Internet- und Literaturrecherche wird ein Überblick über bestehende KI-basierte Werkzeuge ermittelt. Anschliessend werden die speziellen Bedürfnisse der Studierenden und Lehrenden erhoben. Beispielsweise werden zeitaufwändige, mühsame oder repetitive Tätigkeiten ermittelt, die mit KI-basierten Werkzeugen unterstützt werden können. Anhand von Anwendungsfällen werden auf einer Plattform Informationen und Tools zusammengestellt, wie KI in der Hochschullehre unterstützen kann. Zusätzlich werden Leitlinien erarbeitet zum kritischen Umgang mit diesen Werkzeugen.
+- Mittels Internet- und Literaturrecherche wird ein Überblick über bestehende KI-basierte Werkzeuge ermittelt. 
+- Anschliessend werden die speziellen Bedürfnisse der Studierenden und Lehrenden erhoben. Beispielsweise werden zeitaufwändige, mühsame oder repetitive Tätigkeiten ermittelt, die mit KI-basierten Werkzeugen unterstützt werden können. 
+- Anhand von Anwendungsfällen werden auf einer Plattform Informationen und Tools zusammengestellt, wie KI in der Hochschullehre unterstützen kann. 
+- Zusätzlich werden Leitlinien erarbeitet zum kritischen Umgang mit diesen Werkzeugen.
 
 ## Ergebnisse
 
@@ -33,6 +50,6 @@ Zu erwartende Ergebnisse sind die Plattform zu KI-basierten Werkzeugen in der Le
 
 ## Beitrag zu den SDGs
 
-- 4: Hochwertige Bildung
-- 5: Geschlechtergleichheit
-- 10: Weniger Ungleichheiten
+![4: Hochwertige Bildung](E-WEB-Goal-3-de.png){.sdg .sdg-4}
+![5: Geschlechtergleichheit](E-WEB-Goal-4-de.png){.sdg .sdg-5}
+![10: Weniger Ungleichheiten](E-WEB-Goal-9-de.png){.sdg .sdg-10}

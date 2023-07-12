@@ -29,8 +29,6 @@ def on_nav(Navigation, config, files):
     return Navigation
 
 
-
-
 def on_page_markdown(markdown, page, config, files):
     if page.meta.get('type') is not None:
         if os.path.isfile("docs/overrides/blocks/single/" + page.meta.get('type') + ".html"):

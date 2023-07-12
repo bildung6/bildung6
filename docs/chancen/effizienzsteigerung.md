@@ -1,7 +1,7 @@
 ---
 title: Effizienzsteigerung
 type: "chance"
-description: Der Einsatz von KI-Systemen ermöglicht eine Steigerung der **Effizienz** im Bildungsbereich.
+description: Der Einsatz von KI-Systemen ermöglicht eine Steigerung der Effizienz im Bildungsbereich.
 tags:
   - "effizienzsteigerung"
 ---
