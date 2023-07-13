@@ -203,11 +203,11 @@ svg {
 
 .md-tabs__link svg {
     display: inline-block;
-    height: 0.8rem;
-    width: 0.8rem;
+    height: 0.7rem;
+    width: 0.7rem;
     position: absolute;
     left: 0.5rem;
-    top: 0.6rem;
+    top: 0.7rem;
     fill: #ffffff;
 }
 
