@@ -44,7 +44,6 @@ theme:
   features:
     - content.action.edit
     - content.action.view
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - social
@@ -64,3 +63,6 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
   - javascripts/extra.js
 
+nav_icons:
+  startseite: home
+  anwenderinnen: users

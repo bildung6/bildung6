@@ -1,6 +1,7 @@
 ---
-title: Übersicht
+title: Quests
 is_overview: true
+icon: material/map-marker-path
 ---
 
 <img src="images/quest.svg" alt="Quest">

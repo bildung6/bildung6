@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 .md-header__title {
     margin-left:0;
 }
@@ -122,10 +126,20 @@ svg {
     position: absolute;
     right:0;
     top:0;
-    padding: 5px 10px;
-    background-color: #FF9800;
-    color: #fff;
+    padding: 3px 8px;
+    background-color: #ffb75e;
+    color: #333;
     font-size: 12px;
+    text-align: center;
+}
+
+.belearn-tool .stars {
+    font-size: 16px;
+    color: #fff;
+}
+
+.belearn-tool .stars .filled {
+    color: #ad6800;
 }
 
 @media print {
@@ -174,4 +188,51 @@ svg {
 
 .sdg {
     width: 30%;
+}
+
+.md-tabs__item {
+    padding:0;
+}
+
+.md-tabs__link {
+    padding: 13px 12px 14px 33px;
+    border-radius: 4px 4px 0 0;
+    margin-top:.4rem;
+    position: relative;
+}
+
+.md-tabs__link svg {
+    display: inline-block;
+    height: 0.8rem;
+    width: 0.8rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.6rem;
+    fill: #ffffff;
+}
+
+.md-tabs__link:focus, .md-tabs__link:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.md-tabs__link--active, .md-tabs__link--active:hover  {
+    opacity: 1;
+    background: #ffffff;
+    color: #4051b5;
+}
+
+.md-tabs__link--active svg, .md-tabs__link--active:hover  svg {
+    fill: #4051b5;
+}
+
+h1 svg {
+    display: inline-block;
+    height: 1.2rem !important;
+    width: 1.5rem;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    fill: var(--md-default-fg-color--light);
+    position: relative;
+    top: -0.1rem;
 }

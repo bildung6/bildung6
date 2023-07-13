@@ -1,8 +1,7 @@
 ---
 title: Über das Projekt
+icon: fontawesome/solid/mountain
 ---
-
-# Bildung 6.0
 
 
 ```mermaid
