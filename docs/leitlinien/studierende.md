@@ -1,6 +1,7 @@
 ---
 title: Leitlinie für Studierende
 type: "guideline"
+image: "AnwenderInnen/images/studying.svg"
 description: In den folgenden Leitlinien werden die wichtigsten Aspekte für den Einsatz von KI in der Lehre für Studierende zusammengefasst.
 tags:
   - "studierende"
