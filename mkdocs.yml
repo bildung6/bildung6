@@ -40,7 +40,7 @@ hooks:
 
 theme:
   custom_dir: docs/overrides
-  lang: de
+  language: de
   features:
     - content.action.edit
     - content.action.view

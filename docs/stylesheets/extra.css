@@ -206,10 +206,12 @@ svg {
     height: 0.7rem;
     width: 0.7rem;
     position: absolute;
-    left: 0.5rem;
-    top: 0.6rem;
+    left: 0.55rem;
+    top: 0.69rem;
     fill: #ffffff;
 }
+
+
 
 .md-tabs__link:focus, .md-tabs__link:hover {
     background: rgba(255, 255, 255, 0.1);
@@ -235,4 +237,31 @@ h1 svg {
     fill: var(--md-default-fg-color--light);
     position: relative;
     top: -0.1rem;
+}
+
+.md-nav__link svg {
+    display: none;
+    height: 0.9rem;
+    width: 0.9rem;
+    margin: 0;
+    fill: var(--md-default-fg-color--light);
+}
+
+@media screen and (max-width: 76.1875em) {
+    .md-nav__link {
+        position: relative;
+    }
+
+    .md-nav__link svg {
+        display: inline-block;
+        height: 0.9rem;
+        width: 0.9rem;
+        position: absolute;
+        left: 0.6rem;
+        top: 0.7rem;
+    }
+
+    .md-nav--primary .md-nav__link {
+        padding-left: 2rem;
+    }
 }

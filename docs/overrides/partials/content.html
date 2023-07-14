@@ -15,6 +15,11 @@ This file was automatically generated - do not edit
     {{ page.title | d(config.site_name, true)}}</h1>
 
 {% endif %}
+
+{% if page.meta.image %}
+<img src="{{ page.meta.image | url }}" alt="{{ page.title }}">
+{% endif %}
+
 {{ page.content }}
 {% if page.meta and (
 page.meta.git_revision_date_localized or
