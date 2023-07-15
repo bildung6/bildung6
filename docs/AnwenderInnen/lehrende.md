@@ -2,7 +2,7 @@
 title: Lehrende
 type: "user"
 image: "AnwenderInnen/images/teaching.svg"
-description: Lehrende können KI-Systeme verwenden, um ihre Lernprozesse zu verbessern.
+description: Lehrende können KI-Systeme verwenden, um ihre effizienter Unterrichtsmaterialien zusammenzustellen.
 tags:
 - "lehrende"
 ---
