@@ -2,12 +2,12 @@
 title: Wissenschaftliches Arbeiten
 type: "quest"
 image: quests/images/wissenschaftlich.svg
-description: Welche Tools gibt es für wissenschaftliches Arbeiten mit KI? 
+description: Welche KOI-Tools unterstützen mich beim wissenschaftlichen Arbeiten? 
 ---
 
 ![Wissenschaftliches Arbeiten](images/wissenschaftlich.svg)
 
-In diesem Quest geht es darum, wie KI für Wissenschaftliches Arbeiten eingesetzt werden kann. 
+In diesem Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen Arbeiten eingesetzt werden kann. 
 
 ###	Fragestellung generieren
 1.	Ein Tool nutzen mit mind. 3 verschiedenen Prompts, um Ideen zu generieren
@@ -23,7 +23,7 @@ In diesem Quest geht es darum, wie KI für Wissenschaftliches Arbeiten eingesetz
 
 ### Präsentation üben
 
-1.	Powerpoint Speaker Coach (falls möglich)
+1.	Powerpoint Speaker Coach 
 
 [usecase=powerpoint]
 
