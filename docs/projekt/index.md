@@ -24,10 +24,9 @@ Das Projekt Bildung 6.0 stellt relevante und verlässliche Informationen und Emp
 
 - Lead-Departement: Technik und Informatik
 - Institut: Institut für Medizininformatik I4MI
-- BFH-Zentrum: Themenfeld Humane Digitale Transformation
+- Themenfeld: Humane Digitale Transformation
 - Förderorganisation: BFH
-- Laufzeit (geplant): 01.03.2023 - 28.02.2025
-- Projektverantwortung: Prof. Dr. Kerstin Denecke
+- Laufzeit (geplant): 01.03.2023 - 31.12.2023
 - Projektleitung: Prof. Dr. Kerstin Denecke
 - Projektmitarbeitende: Daniel Reichenpfader, Robin Paul Glauser
 - Schlüsselwörter: Künstliche Intelligenz, Hochschullehre, Ethik
@@ -41,7 +40,7 @@ Verschiedene Formen von Künstlicher Intelligenz (KI) sind mittlerweile in viele
 - Mittels Internet- und Literaturrecherche wird ein Überblick über bestehende KI-basierte Werkzeuge ermittelt. 
 - Anschliessend werden die speziellen Bedürfnisse der Studierenden und Lehrenden erhoben. Beispielsweise werden zeitaufwändige, mühsame oder repetitive Tätigkeiten ermittelt, die mit KI-basierten Werkzeugen unterstützt werden können. 
 - Anhand von Anwendungsfällen werden auf einer Plattform Informationen und Tools zusammengestellt, wie KI in der Hochschullehre unterstützen kann. 
-- Zusätzlich werden Leitlinien erarbeitet zum kritischen Umgang mit diesen Werkzeugen.
+- Zusätzlich werden Leitlinien zum kritischen Umgang mit diesen Werkzeugen erarbeitet.
 
 ## Ergebnisse
 
