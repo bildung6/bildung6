@@ -2,7 +2,7 @@
 title: Studierende
 type: "user"
 image: "AnwenderInnen/images/studying.svg"
-description: Studierende können KI-Systeme verwenden, um ihre Lernprozesse zu verbessern.
+description: Studierende können KI-Systeme verwenden, um ihre Lernprozesse zu verbessern und effizienter zu studieren.
 tags:
 - "studierende"
 ---
