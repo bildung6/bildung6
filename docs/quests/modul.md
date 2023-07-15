@@ -1,5 +1,5 @@
 ---
-title: Modul Management
+title: Modulmanagement
 type: "quest"
 image: quests/images/modul.svg
 description: Wie kann KI in der Lehre für Module eingesetzt werden? 
