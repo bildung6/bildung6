@@ -29,11 +29,6 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  - mermaid2:
-      version: 10.2.4
-      arguments:
-        securityLevel: 'loose'
-        theme: 'neutral'
 
 hooks:
   - my_hooks.py
@@ -60,9 +55,4 @@ extra_css:
   - stylesheets/extra.css?v=1.2
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
   - javascripts/extra.js
-
-nav_icons:
-  startseite: home
-  anwenderinnen: users

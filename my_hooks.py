@@ -61,6 +61,8 @@ def on_post_page(html, page, config):
                         for page_tag in page.meta.get('tags'):
                             if page_tag == tag:
                                 tagged_pages.append(page)
+                        if page.meta.get("id", "") == tag:
+                            tagged_pages.append(page)
             filtered_pages = tagged_pages
 
         block_template = load_block(block_name + '.html')

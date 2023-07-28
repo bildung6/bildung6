@@ -3,19 +3,7 @@ title: Über das Projekt
 icon: fontawesome/solid/mountain
 ---
 
-
-```mermaid
-mindmap
-  root((Belearn<br/> Bildung 6.0))
-    Risiken
-    Tools
-    Chancen
-    Leitlinien
-    Quests
-    Anwendungsfälle
-    AnwenderInnen
-    Workshop
-```
+<object data="projekt.svg"></object>
 
 
 Das Projekt Bildung 6.0 stellt relevante und verlässliche Informationen und Empfehlungen zum richtigen Umgang mit KI-basierten Werkzeugen für Studierende und Lehrende auf einer Online-Plattform bereit.
@@ -45,6 +33,14 @@ Verschiedene Formen von Künstlicher Intelligenz (KI) sind mittlerweile in viele
 ## Ergebnisse
 
 Zu erwartende Ergebnisse sind die Plattform zu KI-basierten Werkzeugen in der Lehre und Leitlinien zum kritischen Umgang mit ihnen.
+
+
+## Förderung
+
+![Belearn](belearn.png){.belearn}
+
+
+Das Projekt wird im Rahmen des Förderprogramms [BeLearn](https://belearn.swiss/projekt/bildung-6-0-lernen-und-lehren-mit-ku%cc%88nstlicher-intelligenz-inklusion-statt-disruption/) gefördert.
 
 ## Beitrag zu den SDGs
 
