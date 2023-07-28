@@ -21,7 +21,7 @@ KI kann bei der Textübersetzung helfen, indem sie automatisch Texte von einer S
 
 ## Tools
 
-[tool=papago,deeplwrite]
+[tool=papago,deepl-write]
 
 
 ## Risiken

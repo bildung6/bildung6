@@ -21,7 +21,7 @@ KI kann Transkriptionen von Audioaufnahmen, wie Vorlesungen oder Interviews, ers
 
 ## Tools
 
-[tool=bard,deeplwrite]
+[tool=bard,deepl-write]
 
 
 ## Risiken

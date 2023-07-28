@@ -2,8 +2,10 @@
 title: ChatGPT
 type: "tool"
 description: Mit ChatGPT können Dialoge mit einem KI-System geführt werden.
+id: "chatgpt"
 tags:
-- "chatgpt"
+- "Account erforderlich"
+- "Proprietär"
 ---
 
 ### ChatGPT

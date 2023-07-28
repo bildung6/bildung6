@@ -5,7 +5,6 @@ image: quests/images/wissenschaftlich.svg
 description: Welche KOI-Tools unterstützen mich beim wissenschaftlichen Arbeiten? 
 ---
 
-![Wissenschaftliches Arbeiten](images/wissenschaftlich.svg)
 
 In diesem Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen Arbeiten eingesetzt werden kann. 
 

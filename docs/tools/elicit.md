@@ -2,9 +2,9 @@
 title: Elicit
 type: "tool"
 description: An AI-powered writing assistant that helps you express your thoughts more clearly and effectively.
+id: "elicit"
 tags:
-- "writing-assistant"
-- "elicit"
+- "Kostenlos"
 ---
 
 ### Elicit

@@ -21,7 +21,7 @@ KI kann bei der Transkription von Audioaufnahmen, wie Vorlesungen oder Interview
 
 ## Tools
 
-[tool=composeai,deeplwrite]
+[tool=composeai,deepl-write]
 
 
 ## Risiken

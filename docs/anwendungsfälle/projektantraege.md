@@ -21,7 +21,7 @@ KI kann beim Verfassen von Projektanträgen helfen, indem sie Vorschläge für S
 
 ## Tools
 
-[tool=deeplwrite,wolframalpha]
+[tool=deepl-write,wolframalpha]
 
 
 ## Risiken

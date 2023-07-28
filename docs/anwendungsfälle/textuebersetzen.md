@@ -21,7 +21,7 @@ KI kann dazu verwendet werden, Texte zu übersetzen und so den Zugang zu Ressour
 
 ## Tools
 
-[tool=papago,deeplwrite]
+[tool=papago,deepl-write]
 
 
 ## Risiken

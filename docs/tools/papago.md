@@ -2,9 +2,9 @@
 title: Papago
 type: "app"
 description: A translation app powered by Naver's AI technology.
+id: "papago"
 tags:
-- "translation"
-- "papago"
+- "Kostenpflichtig"
 ---
 
 ### Papago

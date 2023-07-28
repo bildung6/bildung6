@@ -2,9 +2,10 @@
 title: Ankigpt
 type: "tool"
 description: An AI-powered flashcard generator.
+id: "ankigpt"
+image: "tools/ankigpt.png"
 tags:
-- "flashcards"
-- "ankigpt"
+- "Gratisversion"
 ---
 
 ### Ankigpt

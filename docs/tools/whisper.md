@@ -2,9 +2,10 @@
 title: Whisper
 type: "tool"
 description: Mit Whisper können Sprachaufnahmen in Text umgewandelt werden.
+id:  "whisper"
 tags:
-- "whisper"
-- "speech-to-text"
+- "Kostenlos"
+- "Open Source"
 ---
 
 ### Whisper

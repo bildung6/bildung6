@@ -2,10 +2,10 @@
 title: Bing Chatbot
 type: "tool"
 description: A chatbot powered by Microsoft's Bing search engine.
+id: "bingchatbot"
 tags:
-- "chatbot"
-- "bing"
-- "bingchatbot"
+- "Kostenlos"
+- "Proprietär"
 ---
 
 ### Bing Chatbot

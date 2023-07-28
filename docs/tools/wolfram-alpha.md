@@ -2,9 +2,9 @@
 title: Wolfram Alpha
 type: "tool"
 description: A computational knowledge engine that answers factual queries using AI and a curated database.
+id: "wolframalpha"
 tags:
-- "knowledge-engine"
-- "wolframalpha"
+- "Kostenpflichtig"
 ---
 
 ### Wolfram Alpha

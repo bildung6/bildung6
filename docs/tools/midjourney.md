@@ -2,9 +2,10 @@
 title: Midjourney
 type: "tool"
 description: An AI-powered image generator.
+id: "midjourney"
 tags:
-- "image-generation"
-- "midjourney"
+- "Kostenlos"
+- "Proprietär"
 ---
 
 ### Midjourney

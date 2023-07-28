@@ -2,9 +2,11 @@
 title: Bard
 type: "tool"
 description: An AI-powered text editor that helps you write better content.
+id: "bard"
+image: "tools/bard.png"
 tags:
-- "text-editing"
-- "bard"
+- "Kostenlos"
+- "Proprietär"
 ---
 
 ### Bard

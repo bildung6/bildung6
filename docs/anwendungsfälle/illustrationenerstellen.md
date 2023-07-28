@@ -22,7 +22,7 @@ KI kann bei der Erstellung von Illustrationen und Grafiken helfen.
 
 ## Tools
 
-[tool=deeplwrite,starryai]
+[tool=deepl-write,starryai]
 
 
 ## Risiken

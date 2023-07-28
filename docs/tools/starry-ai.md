@@ -2,9 +2,9 @@
 title: Starry AI
 type: "tool"
 description: An AI-powered image generator
+id: "starry-ai"
 tags:
-- "image-generation"
-- "starry-ai"
+- "Kostenpflichtig"
 ---
 
 ### Starry AI

@@ -2,9 +2,9 @@
 title: Perplexity
 type: "tool"
 description: An AI-powered search machine
+id: "perplexity"
 tags:
-- "search-engine"
-- "perplexity"
+- "Proprietär"
 ---
 
 ### Perplexity

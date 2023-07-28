@@ -2,8 +2,10 @@
 title: IBM Watson
 type: "tool"
 description: A suite of AI and machine learning services, including natural language understanding, speech to text, and more.
+id: "ibm-watson"
 tags:
-- "ibm-watson"
+- "Kostenpflichtig"
+- "Proprietär"
 ---
 
 ### IBM Watson
