@@ -1,14 +1,16 @@
 ---
-title: Handschriftliche Notizen zu Latex / Markdown
-type: "usecase"
 description: KI kann helfen, handschriftliche Notizen in Latex oder Markdown zu konvertieren.
-image: anwendungsfälle/images/usecase.svg
+id: handschriftlichenotizenlatex
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "handschriftlichenotizen"
-- "latex"
-- "markdown"
-- "studierende"
+- handschriftlichenotizen
+- latex
+- markdown
+- studierende
+title: Handschriftliche Notizen zu Latex / Markdown
+type: usecase
 ---
+
 
 # Handschriftliche Notizen zu Latex / Markdown
 
@@ -18,12 +20,28 @@ KI kann helfen, handschriftliche Notizen in Latex oder Markdown zu konvertieren.
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=photomath]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: photomath
+```
+
 
 
 ## Risiken

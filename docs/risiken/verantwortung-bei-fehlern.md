@@ -1,11 +1,14 @@
 ---
+description: "Wenn KI-Systeme Fehler machen, kann es schwierig sein, festzustellen,\
+  \ wer daf\xFCr verantwortlich ist."
+id: verantwortung-bei-fehlern
+tags:
+- fehler
+- verantwortung
 title: Verantwortung bei Fehlern
-type: "risk"
-description: Wenn KI-Systeme Fehler machen, kann es schwierig sein, festzustellen, wer dafür verantwortlich ist.
-tags: 
-  - "fehler"
-  - "verantwortung"
+type: risk
 ---
+
 
 ### Verantwortung bei Fehlern
 

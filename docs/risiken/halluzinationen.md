@@ -1,11 +1,15 @@
 ---
-title: Halluzinationen
-type: "risk"
-description: Halluzinationen sind ein Risiko, das bei der Verwendung von KI in der Bildung auftreten kann, dabei können KI-Systeme falsche oder ungenaue Informationen erzeugen.
+description: "Halluzinationen sind ein Risiko, das bei der Verwendung von KI in der\
+  \ Bildung auftreten kann, dabei k\xF6nnen KI-Systeme falsche oder ungenaue Informationen\
+  \ erzeugen."
+id: halluzinationen
 tags:
-- "falsche-Informationen"
-  - "risiken"
+- falsche-Informationen
+- risiken
+title: Halluzinationen
+type: risk
 ---
+
 
 ### Halluzinationen
 

@@ -25,6 +25,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
+        - name: yaml
+          class: yaml
+          format: superfences.fence_code_format
 
 plugins:
   - search

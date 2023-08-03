@@ -1,12 +1,16 @@
 ---
-title: Bilder generieren
-type: "usecase"
-description: KI kann Bilder generieren, die auf bestimmten Themen, Stilen oder Anforderungen basieren, um den Lerninhalten visuelle Unterstützung und Attraktivität zu verleihen.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann Bilder generieren, die auf bestimmten Themen, Stilen oder Anforderungen\
+  \ basieren, um den Lerninhalten visuelle Unterst\xFCtzung und Attraktivit\xE4t zu\
+  \ verleihen."
+id: bildergenerieren
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "bildergenerieren"
-- "lehrende"
+- bildergenerieren
+- lehrende
+title: Bilder generieren
+type: usecase
 ---
+
 
 # Bilder generieren
 
@@ -16,7 +20,15 @@ KI kann Bilder generieren, die auf bestimmten Themen, Stilen oder Anforderungen 
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
@@ -26,7 +38,18 @@ KI kann Bilder generieren, die auf bestimmten Themen, Stilen oder Anforderungen 
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

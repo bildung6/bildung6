@@ -1,10 +1,12 @@
 ---
-title: Zugänglichkeit 24/7
-type: "chance"
-description: Eine grosse Chance von KI in der Bildung ist die Zugänglichkeit.
+description: "Eine grosse Chance von KI in der Bildung ist die Zug\xE4nglichkeit."
+id: zuganglichkeit-247
 tags:
-  - "zuganglichkeit"
+- zuganglichkeit
+title: "Zug\xE4nglichkeit 24/7"
+type: chance
 ---
+
 
 ### Zugänglichkeit 24/7
 

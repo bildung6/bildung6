@@ -4,4 +4,9 @@ title: Leitlinien
 ---
 
 
-[guideline]
+```yaml
+condition: or
+entityType: guideline
+rules: []
+```
+

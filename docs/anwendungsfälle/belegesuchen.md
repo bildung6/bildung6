@@ -1,12 +1,16 @@
 ---
-title: Belege suchen
-type: "usecase"
-description: KI kann bei der Suche nach Belegen für Argumente oder Hypothesen helfen, indem sie relevante Studien, Artikel oder Daten identifiziert und präsentiert.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Suche nach Belegen f\xFCr Argumente oder Hypothesen\
+  \ helfen, indem sie relevante Studien, Artikel oder Daten identifiziert und pr\xE4\
+  sentiert."
+id: belegesuchen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "belegesuchen"
-- "studierende"
+- belegesuchen
+- studierende
+title: Belege suchen
+type: usecase
 ---
+
 
 # Belege suchen
 
@@ -16,12 +20,31 @@ KI kann bei der Suche nach Belegen für Argumente oder Hypothesen helfen, indem 
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=bingchatbot,composeai]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: bingchatbot
+- condition: contains
+  property: id
+  value: composeai
+```
+
 
 
 ## Risiken
@@ -31,4 +54,12 @@ KI kann bei der Suche nach Belegen für Argumente oder Hypothesen helfen, indem 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

@@ -4,4 +4,9 @@ title: AnwenderInnen
 ---
 
 
-[user]
+```yaml
+condition: or
+entityType: user
+rules: []
+```
+

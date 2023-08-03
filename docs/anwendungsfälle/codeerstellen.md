@@ -1,12 +1,15 @@
 ---
-title: Code erstellen
-type: "usecase"
-description: KI kann bei der Erstellung von Code helfen, indem sie Vorschläge und Beispiele liefert.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Erstellung von Code helfen, indem sie Vorschl\xE4ge\
+  \ und Beispiele liefert."
+id: codeerstellen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "codeerstellen"
-- "studierende"
+- codeerstellen
+- studierende
+title: Code erstellen
+type: usecase
 ---
+
 
 # Code erstellen
 
@@ -16,17 +19,47 @@ KI kann bei der Erstellung von Code helfen, indem sie Vorschläge und Beispiele 
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=composeai,tabnine]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: tabnine
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

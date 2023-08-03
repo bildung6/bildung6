@@ -1,10 +1,13 @@
 ---
-title: Motivation fördern
-type: "chance"
-description: Die Motivation der Schülerinnen und Schüler ist ein entscheidender Faktor für erfolgreiches Lernen.
+description: "Die Motivation der Sch\xFClerinnen und Sch\xFCler ist ein entscheidender\
+  \ Faktor f\xFCr erfolgreiches Lernen."
+id: motivation
 tags:
-  - "motivation"
+- motivation
+title: "Motivation f\xF6rdern"
+type: chance
 ---
+
 
 ### Motivation fördern
 

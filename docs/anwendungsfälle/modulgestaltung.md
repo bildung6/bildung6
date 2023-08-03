@@ -1,12 +1,15 @@
 ---
-title: Modul-Gestaltung
-type: "usecase"
-description: KI kann bei der Gestaltung von Modulen helfen, indem sie Vorschläge für Struktur, Inhalte und Aktivitäten macht.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Gestaltung von Modulen helfen, indem sie Vorschl\xE4\
+  ge f\xFCr Struktur, Inhalte und Aktivit\xE4ten macht."
+id: modulgestaltung
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "modulgestaltung"
-- "lehrende"
+- modulgestaltung
+- lehrende
+title: Modul-Gestaltung
+type: usecase
 ---
+
 
 # Modul-Gestaltung
 
@@ -16,17 +19,47 @@ KI kann bei der Gestaltung von Modulen helfen, indem sie Vorschläge für Strukt
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=cogram,composeai]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: cogram
+- condition: contains
+  property: id
+  value: composeai
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

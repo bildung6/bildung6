@@ -1,13 +1,15 @@
 ---
-title: Fragenbeantwortung zum Modul
-type: "usecase"
 description: KI kann bei der Beantwortung von Fragen zum Modul helfen.
-image: anwendungsfälle/images/usecase.svg
+id: fragenbeantwortungzummodul
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "fragenbeantwortung"
-- "lehrende"
-- "studierende"
+- fragenbeantwortung
+- lehrende
+- studierende
+title: Fragenbeantwortung zum Modul
+type: usecase
 ---
+
 
 # Fragenbeantwortung zum Modul
 
@@ -17,19 +19,60 @@ KI kann bei der Beantwortung von Fragen zum Modul helfen.
 
 ## AnwenderInnen
 
-[user=lehrende,studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=chatgpt,papago]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: chatgpt
+- condition: contains
+  property: id
+  value: papago
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,datenschutz]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: datenschutz
+```
+
 
 
 ## Chance
 
-[chance=zeitersparnis]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zeitersparnis
+```
+

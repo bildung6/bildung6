@@ -1,10 +1,13 @@
 ---
-title: Zeitersparnis
-type: "chance"
-description: Der Einsatz von KI in der Bildung kann Lehrkräften eine wertvolle Zeitersparnis ermöglichen.
+description: "Der Einsatz von KI in der Bildung kann Lehrkr\xE4ften eine wertvolle\
+  \ Zeitersparnis erm\xF6glichen."
+id: zeitersparnis
 tags:
-  - "zeitersparnis"
+- zeitersparnis
+title: Zeitersparnis
+type: chance
 ---
+
 
 ### Zeitersparnis
 

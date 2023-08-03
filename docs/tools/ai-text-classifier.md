@@ -9,9 +9,6 @@ tags:
 belearn: true
 ---
 
-
-
-
 ### AI Text Classifier
 
 A machine learning model that classifies text into different categories.

@@ -1,10 +1,13 @@
 ---
-title: Entlastung durch Automatisierung
-type: "chance"
-description: Ein weiterer Vorteil von KI in der Bildung ist die Entlastung der Lehrkräfte durch Automatisierung.
+description: "Ein weiterer Vorteil von KI in der Bildung ist die Entlastung der Lehrkr\xE4\
+  fte durch Automatisierung."
+id: entlastung-durch-automatisierung
 tags:
-- "entlastung-durch-automatisierung"
+- entlastung-durch-automatisierung
+title: Entlastung durch Automatisierung
+type: chance
 ---
+
 
 ### Entlastung durch Automatisierung
 

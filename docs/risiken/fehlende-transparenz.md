@@ -1,11 +1,15 @@
 ---
-title: Fehlende Transparenz
-type: "risk"
-description: Die fehlende Transparenz bei der Entwicklung und Implementierung von KI-Systemen kann zu Misstrauen und Skepsis gegenüber diesen Technologien führen.
+description: "Die fehlende Transparenz bei der Entwicklung und Implementierung von\
+  \ KI-Systemen kann zu Misstrauen und Skepsis gegen\xFCber diesen Technologien f\xFC\
+  hren."
+id: fehlende-transparenz
 tags:
-  - "transparenz"
-  - "risiken"
+- transparenz
+- risiken
+title: Fehlende Transparenz
+type: risk
 ---
+
 
 ### Fehlende Transparenz
 

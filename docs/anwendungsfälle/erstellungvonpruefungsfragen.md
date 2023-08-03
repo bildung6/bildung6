@@ -1,12 +1,15 @@
 ---
-title: Erstellung von Prüfungsfragen
-type: "usecase"
-description: KI kann bei der Erstellung von Prüfungsfragen helfen, indem sie Vorschläge für relevante und herausfordernde Fragen macht.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Erstellung von Pr\xFCfungsfragen helfen, indem sie Vorschl\xE4\
+  ge f\xFCr relevante und herausfordernde Fragen macht."
+id: erstellungvonpruefungsfragen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "prüfungsfragen"
-- "lehrende"
+- "pr\xFCfungsfragen"
+- lehrende
+title: "Erstellung von Pr\xFCfungsfragen"
+type: usecase
 ---
+
 
 # Erstellung von Prüfungsfragen
 
@@ -16,17 +19,47 @@ KI kann bei der Erstellung von Prüfungsfragen helfen, indem sie Vorschläge fü
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

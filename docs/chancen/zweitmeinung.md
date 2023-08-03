@@ -1,10 +1,12 @@
 ---
-title: Zweitmeinung
-type: "chance"
-description: KI kann den Schülern eine wertvolle Zweitmeinung bieten.
+description: "KI kann den Sch\xFClern eine wertvolle Zweitmeinung bieten."
+id: zweitmeinung
 tags:
-  - "zweitmeinung"
+- zweitmeinung
+title: Zweitmeinung
+type: chance
 ---
+
 
 ### Zweitmeinung
 

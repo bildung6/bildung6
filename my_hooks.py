@@ -1,8 +1,9 @@
 import os
 import re
 
+from bs4 import BeautifulSoup
 from jinja2 import Environment, BaseLoader
-
+import yaml
 
 class Global:
     nav = None
@@ -35,41 +36,60 @@ def on_page_markdown(markdown, page, config, files):
             page.meta["template"] = "blocks/single/" + page.meta.get('type') + ".html"
     return markdown
 
+def filter_entities(entities, filter_dict):
+    op_map = {
+        'equals': lambda x, y: x == y,
+        'greater_than': lambda x, y: x > y,
+        'less_than': lambda x, y: x < y,
+        'contains': lambda x, y: y in x,
+        'matches': lambda x, y: re.search(y, x)
+    }
+
+    def match(entity, rule):
+        prop = rule['property']
+        condition = rule.get('condition', 'and')
+        value = rule['value']
+        return op_map[condition](entity.meta.get(prop, ""), value)
+
+    def evaluate(entity, filter_group):
+        if 'property' in filter_group:
+            return match(entity, filter_group)
+
+        if len(filter_group['rules']) == 0:
+            return True
+
+        results = [evaluate(entity, rule) for rule in filter_group['rules']]
+        return all(results) if filter_group.get("condition", "and") == 'and' else any(results)
+
+    return [entity for entity in entities if evaluate(entity, filter_dict) and entity.meta.get('type', '') == filter_dict.get('entityType')]
+
 
 def on_post_page(html, page, config):
     pages = get_children(Global.nav)
-
-    # find all [asfsd=sdfsdf] with regex
-    blocks = re.findall(r'\[[a-zA-Z\=0-9,\-]+\]', html)
+    # use html parser to find all blocks in html
+    parsed = BeautifulSoup(html, 'html.parser')
+    blocks = parsed.find_all('code')
     for block in blocks:
-        original = block
-        block = block.strip("[]")
-        if len(block.split('=')) == 2:
-            block_name, tags = block.split('=')
-            tags = tags.split(',')
-        else:
-            block_name = block
-            tags = []
+        if block.text.startswith('yaml') and block.text.find('entityType') > -1:
+            parent = block.parent
+            # remove yaml from block text
+            text = block.text.replace('yaml\n', '')
+            # parse yaml
+            yaml_data = yaml.safe_load(text)
+            filtered_pages = filter_entities(pages, yaml_data)
+            block_template = load_block(yaml_data.get("entityType", "block") + '.html')
+            block_render = block_template.render(elements=filtered_pages)
+            parent.replace_with(BeautifulSoup(block_render, 'html.parser'))
+        elif block.text.startswith("yaml") and block.text.find("question") > -1:
+            parent = block.parent
+            text = block.text.replace('yaml\n', '')
+            yaml_data = yaml.safe_load(text)
 
-        filtered_pages = filter_by_meta(pages, 'type', block_name)
+            block_template = load_block('question.html')
+            block_render = block_template.render(yaml_data)
+            parent.replace_with(BeautifulSoup(block_render, 'html.parser'))
 
-        if len(tags) > 0:
-            tagged_pages = []
-            for tag in tags:
-                for page in filtered_pages:
-                    if page.meta.get('tags') is not None:
-                        for page_tag in page.meta.get('tags'):
-                            if page_tag == tag:
-                                tagged_pages.append(page)
-                        if page.meta.get("id", "") == tag:
-                            tagged_pages.append(page)
-            filtered_pages = tagged_pages
-
-        block_template = load_block(block_name + '.html')
-        block_render = block_template.render(elements=filtered_pages)
-        html = html.replace(original, block_render)
-
-    return html
+    return parsed.prettify()
 
 
 def url(path):

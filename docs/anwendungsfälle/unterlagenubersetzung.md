@@ -1,13 +1,16 @@
 ---
-title: Unterlagen-Übersetzung
-type: "usecase"
-description: KI kann bei der Übersetzung von Unterlagen in verschiedene Sprachen helfen.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der \xDCbersetzung von Unterlagen in verschiedene Sprachen\
+  \ helfen."
+id: unterlagenubersetzung
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "unterlagenubersetzung"
-- "lehrende"
-- "studierende"
+- unterlagenubersetzung
+- lehrende
+- studierende
+title: "Unterlagen-\xDCbersetzung"
+type: usecase
 ---
+
 
 # Unterlagen-Übersetzung
 
@@ -17,12 +20,34 @@ KI kann bei der Übersetzung von Unterlagen in verschiedene Sprachen helfen.
 
 ## AnwenderInnen
 
-[user=lehrende,studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=papago,ibmwatson]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: papago
+- condition: contains
+  property: id
+  value: ibmwatson
+```
+
 
 
 ## Risiken

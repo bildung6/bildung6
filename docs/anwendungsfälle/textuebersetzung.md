@@ -1,12 +1,15 @@
 ---
-title: Textübersetzung
-type: "usecase"
-description: KI kann bei der Textübersetzung helfen, indem sie automatisch Texte von einer Sprache in eine andere übersetzt.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Text\xFCbersetzung helfen, indem sie automatisch Texte\
+  \ von einer Sprache in eine andere \xFCbersetzt."
+id: textuebersetzung
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "textuebersetzung"
-- "studierende"
+- textuebersetzung
+- studierende
+title: "Text\xFCbersetzung"
+type: usecase
 ---
+
 
 # Textübersetzung
 
@@ -16,7 +19,15 @@ KI kann bei der Textübersetzung helfen, indem sie automatisch Texte von einer S
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
@@ -26,7 +37,18 @@ KI kann bei der Textübersetzung helfen, indem sie automatisch Texte von einer S
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

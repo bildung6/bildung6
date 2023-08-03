@@ -1,12 +1,15 @@
 ---
-title: Code Debuggen
-type: "usecase"
-description: KI kann beim Debuggen von Code helfen, indem sie automatisch Fehler identifiziert und Vorschläge für deren Behebung macht.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann beim Debuggen von Code helfen, indem sie automatisch Fehler\
+  \ identifiziert und Vorschl\xE4ge f\xFCr deren Behebung macht."
+id: codedebuggen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "codedebuggen"
-- "studierende"
+- codedebuggen
+- studierende
+title: Code Debuggen
+type: usecase
 ---
+
 
 # Code Debuggen
 
@@ -16,19 +19,57 @@ KI kann beim Debuggen von Code helfen, indem sie automatisch Fehler identifizier
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=composeai,tabnine]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: tabnine
+```
+
 
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=zeitersparnis]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zeitersparnis
+```
+

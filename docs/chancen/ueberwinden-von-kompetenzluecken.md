@@ -1,10 +1,13 @@
 ---
-title: Überwinden von Kompetenzlücken
-type: "chance"
-description: Durch den Einsatz von KI können Schülerinnen und Schüler gezielte Unterstützung erhalten, um Kompetenzlücken zu überwinden.
+description: "Durch den Einsatz von KI k\xF6nnen Sch\xFClerinnen und Sch\xFCler gezielte\
+  \ Unterst\xFCtzung erhalten, um Kompetenzl\xFCcken zu \xFCberwinden."
+id: ueberwinden-von-kompetenzluecken
 tags:
-  - "kompetenzluecken"
+- kompetenzluecken
+title: "\xDCberwinden von Kompetenzl\xFCcken"
+type: chance
 ---
+
 
 ### Überwinden von Kompetenzlücken
 

@@ -1,11 +1,14 @@
 ---
-title: Verlust von Arbeitsplätzen
-type: "risk"
-description: Der Einsatz von KI in der Bildung kann auch zu einem Verlust von Arbeitsplätzen führen.
+description: "Der Einsatz von KI in der Bildung kann auch zu einem Verlust von Arbeitspl\xE4\
+  tzen f\xFChren."
+id: verlust-arbeitsplaetze
 tags:
-- "verlust-von-arbeitsplätzen"
-  - "risiken"
+- "verlust-von-arbeitspl\xE4tzen"
+- risiken
+title: "Verlust von Arbeitspl\xE4tzen"
+type: risk
 ---
+
 
 ### Verlust von Arbeitsplätzen
 

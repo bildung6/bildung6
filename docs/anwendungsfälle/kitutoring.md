@@ -1,12 +1,16 @@
 ---
-title: KI Tutoring
-type: "usecase"
-description: KI Tutoring kann Studierenden bei der Bewältigung von Lerninhalten und dem Erreichen ihrer Lernziele helfen, indem es personalisierte Unterstützung, Feedback und Ressourcen anbietet.
-image: anwendungsfälle/images/usecase.svg
+description: "KI Tutoring kann Studierenden bei der Bew\xE4ltigung von Lerninhalten\
+  \ und dem Erreichen ihrer Lernziele helfen, indem es personalisierte Unterst\xFC\
+  tzung, Feedback und Ressourcen anbietet."
+id: kitutoring
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "kitutoring"
-- "studierende"
+- kitutoring
+- studierende
+title: KI Tutoring
+type: usecase
 ---
+
 
 # KI Tutoring
 
@@ -16,17 +20,47 @@ KI Tutoring kann Studierenden bei der Bewältigung von Lerninhalten und dem Erre
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=chatgpt,bard]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: chatgpt
+- condition: contains
+  property: id
+  value: bard
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,datenschutz]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: datenschutz
+```
+
 
 
 ## Chance

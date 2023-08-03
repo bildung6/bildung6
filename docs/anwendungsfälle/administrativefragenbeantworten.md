@@ -1,13 +1,15 @@
 ---
-title: Administrative Fragen beantworten
-type: "usecase"
 description: KI kann administrative Fragen von Studierenden und Lehrenden beantworten.
-image: anwendungsfälle/images/usecase.svg
+id: administrativefragenbeantworten
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "administrativefragen"
-- "studierende"
-- "lehrende"
+- administrativefragen
+- studierende
+- lehrende
+title: Administrative Fragen beantworten
+type: usecase
 ---
+
 
 # Administrative Fragen beantworten
 
@@ -17,19 +19,60 @@ KI kann administrative Fragen von Studierenden und Lehrenden beantworten.
 
 ## AnwenderInnen
 
-[user=studierende,lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=chatgpt,papago]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: chatgpt
+- condition: contains
+  property: id
+  value: papago
+```
+
 
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=zeitersparnis]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zeitersparnis
+```
+

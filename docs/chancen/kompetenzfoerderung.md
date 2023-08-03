@@ -1,10 +1,13 @@
 ---
-title: Kompetenzförderung
-type: "chance"
-description: KI kann dazu beitragen, die Kompetenzen der Schülerinnen und Schüler gezielt zu fördern.
+description: "KI kann dazu beitragen, die Kompetenzen der Sch\xFClerinnen und Sch\xFC\
+  ler gezielt zu f\xF6rdern."
+id: kompetenzfoerderung
 tags:
-  - "kompetenzfoerderung"
+- kompetenzfoerderung
+title: "Kompetenzf\xF6rderung"
+type: chance
 ---
+
 
 ### Kompetenzförderung
 

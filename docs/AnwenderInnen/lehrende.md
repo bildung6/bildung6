@@ -1,14 +1,25 @@
 ---
-title: Lehrende
-type: "user"
-image: "AnwenderInnen/images/teaching.svg"
-description: Lehrende können KI-Systeme verwenden, um ihre effizienter Unterrichtsmaterialien zusammenzustellen.
+description: "Lehrende k\xF6nnen KI-Systeme verwenden, um ihre effizienter Unterrichtsmaterialien\
+  \ zusammenzustellen."
+id: lehrende
+image: AnwenderInnen/images/teaching.svg
 tags:
-- "lehrende"
+- lehrende
+title: Lehrende
+type: user
 ---
+
 
 
 
 Folgende Anwendungsfälle sind für Lehrende relevant:
 
-[usecase=lehrende]
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+

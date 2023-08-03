@@ -1,12 +1,16 @@
 ---
-title: Ideen für Arbeitsaufträge
-type: "usecase"
-description: KI kann bei der Entwicklung von Arbeitsaufträgen hilfreich sein, indem sie Vorschläge für relevante und ansprechende Themen und Aufgaben erstellt.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Entwicklung von Arbeitsauftr\xE4gen hilfreich sein,\
+  \ indem sie Vorschl\xE4ge f\xFCr relevante und ansprechende Themen und Aufgaben\
+  \ erstellt."
+id: ideenfuerarbeitsauftraege
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "arbeitsauftraege"
-- "lehrende"
+- arbeitsauftraege
+- lehrende
+title: "Ideen f\xFCr Arbeitsauftr\xE4ge"
+type: usecase
 ---
+
 
 # Ideen für Arbeitsaufträge
 
@@ -16,17 +20,47 @@ KI kann bei der Entwicklung von Arbeitsaufträgen hilfreich sein, indem sie Vors
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

@@ -1,12 +1,16 @@
 ---
-title: Ideen generieren / Brainstorming
-type: "usecase"
-description: KI kann bei der Ideenfindung und beim Brainstorming helfen, indem sie kreative und innovative Vorschläge für Projekte, Aufgaben oder Forschungsthemen macht.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Ideenfindung und beim Brainstorming helfen, indem sie\
+  \ kreative und innovative Vorschl\xE4ge f\xFCr Projekte, Aufgaben oder Forschungsthemen\
+  \ macht."
+id: ideengenerieren
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "ideengenerieren"
-- "lehrende"
+- ideengenerieren
+- lehrende
+title: Ideen generieren / Brainstorming
+type: usecase
 ---
+
 
 # Ideen generieren / Brainstorming
 
@@ -16,17 +20,47 @@ KI kann bei der Ideenfindung und beim Brainstorming helfen, indem sie kreative u
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

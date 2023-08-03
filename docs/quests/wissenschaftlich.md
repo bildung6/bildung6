@@ -2,7 +2,7 @@
 title: Wissenschaftliches Arbeiten
 type: "quest"
 image: quests/images/wissenschaftlich.svg
-description: Welche KOI-Tools unterstützen mich beim wissenschaftlichen Arbeiten? 
+description: Welche KI-Tools unterstützen mich beim wissenschaftlichen Arbeiten? 
 ---
 
 
@@ -13,7 +13,15 @@ In diesem Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen
 2.	Feedback zur Fragestellung einholen (Prompt vorgeben, darf adaptiert werden)
 3.	Tool: ChatGPT oder ähnliches, Elicit
 
-[usecase=sprachlichekorrektur]
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: contains
+  property: id
+  value: sprachlichekorrektur
+```
+
 
 ###	Journalistischer Artikel
 
@@ -24,7 +32,15 @@ In diesem Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen
 
 1.	Powerpoint Speaker Coach 
 
-[usecase=powerpoint]
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: contains
+  property: id
+  value: powerpoint
+```
+
 
 ### Literaturrecherche
 

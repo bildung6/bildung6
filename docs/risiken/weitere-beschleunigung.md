@@ -1,11 +1,14 @@
 ---
-title: Weitere Beschleunigung
-type: "risk"
-description: Die Implementierung von KI in Bildungseinrichtungen kann eine weitere Beschleunigung des Lerntempos und des Leistungsdrucks verursachen.
+description: Die Implementierung von KI in Bildungseinrichtungen kann eine weitere
+  Beschleunigung des Lerntempos und des Leistungsdrucks verursachen.
+id: weitere-beschleunigung
 tags:
-  - "beschleunigung"
-  - "risiken"
+- beschleunigung
+- risiken
+title: Weitere Beschleunigung
+type: risk
 ---
+
 
 ### Weitere Beschleunigung
 

@@ -12,4 +12,12 @@ description: Wie kann KI in der Lehre für Module eingesetzt werden?
 
 
 
-[usecase=chatbot]
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: contains
+  property: id
+  value: chatbot
+```
+

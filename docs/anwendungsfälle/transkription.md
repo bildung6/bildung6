@@ -1,12 +1,15 @@
 ---
-title: Transkription
-type: "usecase"
-description: KI kann bei der Transkription von Audioaufnahmen, wie Vorlesungen oder Interviews, helfen.
-image: anwendungsfälle/images/usecase.svg
+description: KI kann bei der Transkription von Audioaufnahmen, wie Vorlesungen oder
+  Interviews, helfen.
+id: transkription
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "transkription"
-- "studierende"
+- transkription
+- studierende
+title: Transkription
+type: usecase
 ---
+
 
 # Transkription
 
@@ -16,7 +19,15 @@ KI kann bei der Transkription von Audioaufnahmen, wie Vorlesungen oder Interview
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
@@ -26,7 +37,18 @@ KI kann bei der Transkription von Audioaufnahmen, wie Vorlesungen oder Interview
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

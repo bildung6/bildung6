@@ -1,10 +1,12 @@
 ---
-title: Förderung von Innovation
-type: "chance"
-description: Die Verwendung von KI in der Bildung fördert die Innovation im Bildungsbereich.
+description: "Die Verwendung von KI in der Bildung f\xF6rdert die Innovation im Bildungsbereich."
+id: foerderung-von-innovation
 tags:
-- "foerderung-von-innovation"
+- foerderung-von-innovation
+title: "F\xF6rderung von Innovation"
+type: chance
 ---
+
 
 ### Förderung von Innovation
 

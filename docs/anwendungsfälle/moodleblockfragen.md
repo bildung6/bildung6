@@ -1,12 +1,16 @@
 ---
-title: Fragen erstellen
-type: "usecase"
-description: KI kann bei der Erstellung von Fragen für Tests oder Übungen helfen, indem sie Vorschläge für relevante und herausfordernde Fragen macht, die auf den Lernzielen des Kurses basieren.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Erstellung von Fragen f\xFCr Tests oder \xDCbungen helfen,\
+  \ indem sie Vorschl\xE4ge f\xFCr relevante und herausfordernde Fragen macht, die\
+  \ auf den Lernzielen des Kurses basieren."
+id: moodleblockfragen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "fragen"
-- "lehrende"
+- fragen
+- lehrende
+title: Fragen erstellen
+type: usecase
 ---
+
 
 # Fragen erstellen
 
@@ -16,17 +20,47 @@ KI kann bei der Erstellung von Fragen für Tests oder Übungen helfen, indem sie
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

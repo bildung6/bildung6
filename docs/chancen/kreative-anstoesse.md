@@ -1,10 +1,12 @@
 ---
-title: Kreative Anstösse
-type: "chance"
-description: KI kann den Unterricht durch kreative Anstösse bereichern.
+description: "KI kann den Unterricht durch kreative Anst\xF6sse bereichern."
+id: kreative-anstoesse
 tags:
-  - "kreative-anstoesse"
+- kreative-anstoesse
+title: "Kreative Anst\xF6sse"
+type: chance
 ---
+
 
 ### Kreative Anstösse
 

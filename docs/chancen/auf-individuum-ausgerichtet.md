@@ -1,10 +1,13 @@
 ---
-title: Auf Individuum ausgerichtet
-type: "chance"
-description: KI in der Bildung ermöglicht eine stärkere Ausrichtung auf das Individuum.
+description: "KI in der Bildung erm\xF6glicht eine st\xE4rkere Ausrichtung auf das\
+  \ Individuum."
+id: auf-individuum-ausgerichtet
 tags:
-- "auf-individuum-ausgerichtet"
+- auf-individuum-ausgerichtet
+title: Auf Individuum ausgerichtet
+type: chance
 ---
+
 
 ### Auf Individuum ausgerichtet
 

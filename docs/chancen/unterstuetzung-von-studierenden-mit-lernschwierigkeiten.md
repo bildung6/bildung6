@@ -1,10 +1,12 @@
 ---
-title: Unterstützung von Studierenden mit Lernschwierigkeiten
-type: "chance"
-description: KI kann Studierenden mit Lernschwierigkeiten gezielt unterstützen.
+description: "KI kann Studierenden mit Lernschwierigkeiten gezielt unterst\xFCtzen."
+id: unterstuetzung-von-studierenden-mit-lernschwierigkeiten
 tags:
-- "studierende-mit-lernschwierigkeiten"
+- studierende-mit-lernschwierigkeiten
+title: "Unterst\xFCtzung von Studierenden mit Lernschwierigkeiten"
+type: chance
 ---
+
 
 ### Unterstützung von Studierenden mit Lernschwierigkeiten
 

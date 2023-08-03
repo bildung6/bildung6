@@ -5,4 +5,9 @@ title: Chancen
 
 
 
-[chance]
+```yaml
+condition: or
+entityType: chance
+rules: []
+```
+

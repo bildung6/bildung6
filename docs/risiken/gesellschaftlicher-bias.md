@@ -1,11 +1,14 @@
 ---
-title: Gesellschaftlicher Bias
-type: "risk"
-description: Ein weiteres Risiko ist der gesellschaftliche Bias, der durch die Verwendung von KI in der Bildung verstärkt werden kann.
+description: "Ein weiteres Risiko ist der gesellschaftliche Bias, der durch die Verwendung\
+  \ von KI in der Bildung verst\xE4rkt werden kann."
+id: gesellschaftlicher-bias
 tags:
-  - "bias"
-  - "risiken"
+- bias
+- risiken
+title: Gesellschaftlicher Bias
+type: risk
 ---
+
 
 ### Gesellschaftlicher Bias
 

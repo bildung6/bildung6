@@ -1,11 +1,15 @@
 ---
-title: Abhängigkeit
-type: "risk"
-description: Die Abhängigkeit von KI-Technologien kann dazu führen, dass Schüler und Lehrer ihre Fähigkeiten zur Problemlösung und zum kritischen Denken verlieren.
+description: "Die Abh\xE4ngigkeit von KI-Technologien kann dazu f\xFChren, dass Sch\xFC\
+  ler und Lehrer ihre F\xE4higkeiten zur Probleml\xF6sung und zum kritischen Denken\
+  \ verlieren."
+id: abhaengigkeit
 tags:
-  - "abhängigkeit"
-  - "risiken"
+- "abh\xE4ngigkeit"
+- risiken
+title: "Abh\xE4ngigkeit"
+type: risk
 ---
+
 
 ### Abhängigkeit
 

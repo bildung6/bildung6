@@ -1,11 +1,14 @@
 ---
-title: Gefahr der Manipulation
-type: "risk"
-description: Die Verwendung von KI in der Bildung birgt auch die Gefahr der Manipulation, indem KI-Systeme Informationen oder Lehrmaterialien verfälschen.
+description: "Die Verwendung von KI in der Bildung birgt auch die Gefahr der Manipulation,\
+  \ indem KI-Systeme Informationen oder Lehrmaterialien verf\xE4lschen."
+id: gefahr-der-manipulation
 tags:
-  - "manipulation"
-  - "risiken"
+- manipulation
+- risiken
+title: Gefahr der Manipulation
+type: risk
 ---
+
 
 ### Gefahr der Manipulation
 

@@ -1,12 +1,16 @@
 ---
-title: Strukturen geben
-type: "usecase"
-description: KI kann dabei helfen, Strukturen für Texte, Projekte oder Lektionen zu erstellen, um die Informationen klar, logisch und verständlich zu präsentieren.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann dabei helfen, Strukturen f\xFCr Texte, Projekte oder Lektionen\
+  \ zu erstellen, um die Informationen klar, logisch und verst\xE4ndlich zu pr\xE4\
+  sentieren."
+id: strukturengergen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "strukturengergen"
-- "lehrende"
+- strukturengergen
+- lehrende
+title: Strukturen geben
+type: usecase
 ---
+
 
 # Strukturen geben
 
@@ -16,19 +20,57 @@ KI kann dabei helfen, Strukturen für Texte, Projekte oder Lektionen zu erstelle
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=zeitersparnis]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zeitersparnis
+```
+

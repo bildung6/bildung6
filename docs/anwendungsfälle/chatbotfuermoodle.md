@@ -1,14 +1,18 @@
 ---
-title: Chatbot für Moodle Kurse
-type: "usecase"
-description: Ein Chatbot für Moodle Kurse kann verwendet werden, um automatisch Fragen von Studierenden zu beantworten, Ressourcen bereitzustellen und den Lernenden bei der Navigation durch den Kurs zu helfen.
-image: anwendungsfälle/images/usecase.svg
+description: "Ein Chatbot f\xFCr Moodle Kurse kann verwendet werden, um automatisch\
+  \ Fragen von Studierenden zu beantworten, Ressourcen bereitzustellen und den Lernenden\
+  \ bei der Navigation durch den Kurs zu helfen."
+id: chatbotfuermoodle
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "chatbot"
-- "moodle"
-- "studierende"
-- "lehrende"
+- chatbot
+- moodle
+- studierende
+- lehrende
+title: "Chatbot f\xFCr Moodle Kurse"
+type: usecase
 ---
+
 
 # Chatbot für Moodle Kurse
 
@@ -18,19 +22,60 @@ Ein Chatbot für Moodle Kurse kann verwendet werden, um automatisch Fragen von S
 
 ## AnwenderInnen
 
-[user=studierende,lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=chatgpt,bard]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: chatgpt
+- condition: contains
+  property: id
+  value: bard
+```
+
 
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

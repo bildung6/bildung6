@@ -1,12 +1,15 @@
 ---
-title: Dokumentation
-type: "usecase"
-description: KI kann bei der Erstellung von Dokumentation für Projekte oder Kurse helfen.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Erstellung von Dokumentation f\xFCr Projekte oder Kurse\
+  \ helfen."
+id: dokumentation
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "dokumentation"
-- "lehrende"
+- dokumentation
+- lehrende
+title: Dokumentation
+type: usecase
 ---
+
 
 # Dokumentation
 
@@ -16,19 +19,57 @@ KI kann bei der Erstellung von Dokumentation für Projekte oder Kurse helfen.
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

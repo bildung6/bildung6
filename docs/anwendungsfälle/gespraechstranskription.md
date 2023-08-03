@@ -1,13 +1,16 @@
 ---
-title: Gesprächstranskription
-type: "usecase"
-description: KI kann bei der Transkription von Gesprächen helfen, indem sie automatisch den gesprochenen Text in geschriebenen Text umwandelt.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Transkription von Gespr\xE4chen helfen, indem sie automatisch\
+  \ den gesprochenen Text in geschriebenen Text umwandelt."
+id: gespraechstranskription
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "gespraechstranskription"
-- "lehrende"
-- "studierende"
+- gespraechstranskription
+- lehrende
+- studierende
+title: "Gespr\xE4chstranskription"
+type: usecase
 ---
+
 
 # Gesprächstranskription
 
@@ -17,19 +20,57 @@ KI kann bei der Transkription von Gesprächen helfen, indem sie automatisch den 
 
 ## AnwenderInnen
 
-[user=lehrende,studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
 
-[tool=whisper]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: whisper
+```
+
 
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

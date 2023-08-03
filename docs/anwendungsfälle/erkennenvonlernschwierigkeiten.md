@@ -1,13 +1,16 @@
 ---
-title: Erkennen von Lernschwierigkeiten
-type: "usecase"
-description: KI kann dabei helfen, Lernschwierigkeiten bei Studierenden zu erkennen, indem sie Muster im Lernverhalten und in den Leistungen identifiziert.
-image: anwendungsfälle/images/usecase.svg
+description: KI kann dabei helfen, Lernschwierigkeiten bei Studierenden zu erkennen,
+  indem sie Muster im Lernverhalten und in den Leistungen identifiziert.
+id: erkennenvonlernschwierigkeiten
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "erkennenvonlernschwierigkeiten"
-- "studierende"
-- "lehrende"
+- erkennenvonlernschwierigkeiten
+- studierende
+- lehrende
+title: Erkennen von Lernschwierigkeiten
+type: usecase
 ---
+
 
 # Erkennen von Lernschwierigkeiten
 
@@ -17,7 +20,18 @@ KI kann dabei helfen, Lernschwierigkeiten bei Studierenden zu erkennen, indem si
 
 ## AnwenderInnen
 
-[user=studierende,lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools

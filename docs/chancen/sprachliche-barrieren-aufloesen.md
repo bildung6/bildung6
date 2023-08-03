@@ -1,10 +1,13 @@
 ---
-title: Sprachliche Barrieren auflösen
-type: "chance"
-description: Eine weitere Chance von KI in der Bildung besteht darin, sprachliche Barrieren aufzulösen.
+description: "Eine weitere Chance von KI in der Bildung besteht darin, sprachliche\
+  \ Barrieren aufzul\xF6sen."
+id: sprachliche-barrieren-aufloesen
 tags:
-- "sprachliche-barrieren"
+- sprachliche-barrieren
+title: "Sprachliche Barrieren aufl\xF6sen"
+type: chance
 ---
+
 
 ### Sprachliche Barrieren auflösen
 

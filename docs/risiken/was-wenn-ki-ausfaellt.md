@@ -1,11 +1,14 @@
 ---
-title: Was wenn KI ausfällt?
-type: "risk"
-description: Sollte KI ausfallen, könnten Bildungseinrichtungen, die auf KI setzen, Schwierigkeiten haben, den normalen Betrieb aufrechtzuerhalten.
+description: "Sollte KI ausfallen, k\xF6nnten Bildungseinrichtungen, die auf KI setzen,\
+  \ Schwierigkeiten haben, den normalen Betrieb aufrechtzuerhalten."
+id: was-wenn-ki-ausfaellt
 tags:
-  - "offline"
-  - "risiken"
+- offline
+- risiken
+title: "Was wenn KI ausf\xE4llt?"
+type: risk
 ---
+
 
 ### Was wenn KI ausfällt?
 

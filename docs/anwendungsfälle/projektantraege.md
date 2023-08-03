@@ -1,12 +1,15 @@
 ---
-title: Projektanträge schreiben
-type: "usecase"
-description: KI kann beim Verfassen von Projektanträgen helfen, indem sie Vorschläge für Struktur, Inhalt und Argumentation liefert.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann beim Verfassen von Projektantr\xE4gen helfen, indem sie Vorschl\xE4\
+  ge f\xFCr Struktur, Inhalt und Argumentation liefert."
+id: projektantraege
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "projektantraege"
-- "studierende"
+- projektantraege
+- studierende
+title: "Projektantr\xE4ge schreiben"
+type: usecase
 ---
+
 
 # Projektanträge schreiben
 
@@ -16,7 +19,15 @@ KI kann beim Verfassen von Projektanträgen helfen, indem sie Vorschläge für S
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
@@ -26,9 +37,28 @@ KI kann beim Verfassen von Projektanträgen helfen, indem sie Vorschläge für S
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

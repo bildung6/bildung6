@@ -1,11 +1,14 @@
 ---
-title: Leitlinie für Dozierende
-type: "guideline"
-description: In den folgenden Leitlinien werden die wichtigsten Aspekte für den Einsatz von KI in der Lehre zusammengefasst.
-image: "AnwenderInnen/images/teaching.svg"
+description: "In den folgenden Leitlinien werden die wichtigsten Aspekte f\xFCr den\
+  \ Einsatz von KI in der Lehre zusammengefasst."
+id: dozierende
+image: AnwenderInnen/images/teaching.svg
 tags:
-  - "dozierende"
+- dozierende
+title: "Leitlinie f\xFCr Dozierende"
+type: guideline
 ---
+
 
 # Leitlinie für Dozierende
 

@@ -1,11 +1,14 @@
 ---
-title: Abnahme Reflexionsfähigkeit
-type: "risk"
-description: Die Verwendung von KI-Technologien kann auch zu einer Abnahme der Reflexionsfähigkeit bei Schülern und Lehrern führen.
+description: "Die Verwendung von KI-Technologien kann auch zu einer Abnahme der Reflexionsf\xE4\
+  higkeit bei Sch\xFClern und Lehrern f\xFChren."
+id: abnahme-reflexionsfaehigkeit
 tags:
-  - "reflexionsfähigkeit"
-  - "risiken"
+- "reflexionsf\xE4higkeit"
+- risiken
+title: "Abnahme Reflexionsf\xE4higkeit"
+type: risk
 ---
+
 
 ### Abnahme Reflexionsfähigkeit
 

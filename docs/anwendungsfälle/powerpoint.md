@@ -1,13 +1,15 @@
 ---
-title: PowerPoint
-type: "usecase"
-description: KI kann verwendet werden um Präsentationen zu verbessern.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann verwendet werden um Pr\xE4sentationen zu verbessern."
+id: powerpoint
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "powerpoint"
-- "studierende"
-- "lehrende"
+- powerpoint
+- studierende
+- lehrende
+title: PowerPoint
+type: usecase
 ---
+
 
 # PowerPoint
 
@@ -17,7 +19,18 @@ KI kann verwendet werden, um die sprachliche Korrektur von Studierenden zu unter
 
 ## AnwenderInnen
 
-[user=studierende,lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
@@ -27,9 +40,28 @@ KI kann verwendet werden, um die sprachliche Korrektur von Studierenden zu unter
 
 ## Risiken
 
-[risk=kompetenzverlust,datenschutz]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: datenschutz
+```
+
 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

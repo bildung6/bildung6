@@ -1,13 +1,15 @@
 ---
-title: Illustrationen, Grafiken erstellen
-type: "usecase"
 description: KI kann bei der Erstellung von Illustrationen und Grafiken helfen.
-image: anwendungsfälle/images/usecase.svg
+id: illustrationenerstellen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "illustrationen"
-- "grafiken"
-- "lehrende"
+- illustrationen
+- grafiken
+- lehrende
+title: Illustrationen, Grafiken erstellen
+type: usecase
 ---
+
 
 # Illustrationen, Grafiken erstellen
 
@@ -17,7 +19,15 @@ KI kann bei der Erstellung von Illustrationen und Grafiken helfen.
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
@@ -27,7 +37,18 @@ KI kann bei der Erstellung von Illustrationen und Grafiken helfen.
 
 ## Risiken
 
-[risk=kompetenzverlust,datenschutz]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: datenschutz
+```
+
 
 
 ## Chance

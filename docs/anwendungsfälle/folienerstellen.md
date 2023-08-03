@@ -1,12 +1,16 @@
 ---
-title: Folien erstellen
-type: "usecase"
-description: KI kann bei der Erstellung von Folien für Präsentationen helfen, indem sie Vorschläge für Design, Layout und Inhalt macht, um die Informationen klar und ansprechend zu präsentieren.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Erstellung von Folien f\xFCr Pr\xE4sentationen helfen,\
+  \ indem sie Vorschl\xE4ge f\xFCr Design, Layout und Inhalt macht, um die Informationen\
+  \ klar und ansprechend zu pr\xE4sentieren."
+id: folienerstellen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "folienerstellen"
-- "lehrende"
+- folienerstellen
+- lehrende
+title: Folien erstellen
+type: usecase
 ---
+
 
 # Folien erstellen
 
@@ -16,17 +20,47 @@ KI kann bei der Erstellung von Folien für Präsentationen helfen, indem sie Vor
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

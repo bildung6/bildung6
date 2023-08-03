@@ -10,5 +10,10 @@ icon: material/map-marker-path
     Auf dieser Seite findest du eine Übersicht über die Quests. Eine Quest besteht aus mehreren Anwendungsfällen zu einem Themenbereich.
 </p>
 
-[quest]
+```yaml
+condition: or
+entityType: quest
+rules: []
+```
+
 

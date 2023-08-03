@@ -4,5 +4,10 @@ title: Tools
 ---
 
 
-[tool]
+```yaml
+condition: or
+entityType: tool
+rules: []
+```
+
 

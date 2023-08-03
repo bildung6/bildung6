@@ -1,12 +1,15 @@
 ---
-title: Fragebogen formulieren
-type: "usecase"
-description: KI kann bei der Formulierung und Gestaltung von Fragebögen helfen, um valide und zuverlässige Daten zu erfassen.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Formulierung und Gestaltung von Frageb\xF6gen helfen,\
+  \ um valide und zuverl\xE4ssige Daten zu erfassen."
+id: fragebogenformulieren
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "fragebogen"
-- "lehrende"
+- fragebogen
+- lehrende
+title: Fragebogen formulieren
+type: usecase
 ---
+
 
 # Fragebogen formulieren
 
@@ -16,17 +19,44 @@ KI kann bei der Formulierung und Gestaltung von Fragebögen helfen, um valide un
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

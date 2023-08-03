@@ -1,10 +1,13 @@
 ---
-title: Personalisiertes Lernen
-type: "chance"
-description: Eine der grossen Chancen von KI in der Bildung ist das Angebot von personalisiertem Lernen.
+description: Eine der grossen Chancen von KI in der Bildung ist das Angebot von personalisiertem
+  Lernen.
+id: personalisiertes-lernen
 tags:
-- "personalisiertes-lernen"
+- personalisiertes-lernen
+title: Personalisiertes Lernen
+type: chance
 ---
+
 
 ### Personalisiertes Lernen
 

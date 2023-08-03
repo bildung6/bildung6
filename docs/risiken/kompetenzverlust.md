@@ -1,10 +1,13 @@
 ---
-title: Kompetenzverlust
-type: "risk"
-description: Der Einsatz von KI in der Bildung kann zu einem Kompetenzverlust bei Schülern und Lehrern führen. 
+description: "Der Einsatz von KI in der Bildung kann zu einem Kompetenzverlust bei\
+  \ Sch\xFClern und Lehrern f\xFChren."
+id: kompetenzverlust
 tags:
-  - "kompetenzverlust"
+- kompetenzverlust
+title: Kompetenzverlust
+type: risk
 ---
+
 
 ### Kompetenzverlust
 

@@ -1,11 +1,14 @@
 ---
-title: Geschützte Daten
-type: "risk"
-description: In der Bildung können geschützte Daten und Datenschutz ein Risiko darstellen, wenn Künstliche Intelligenz (KI) eingesetzt wird.
+description: "In der Bildung k\xF6nnen gesch\xFCtzte Daten und Datenschutz ein Risiko\
+  \ darstellen, wenn K\xFCnstliche Intelligenz (KI) eingesetzt wird."
+id: geschuetzte-daten
 tags:
-  - "datenschutz"
-  - "risiken"
+- datenschutz
+- risiken
+title: "Gesch\xFCtzte Daten"
+type: risk
 ---
+
 
 ### Geschützte Daten
 

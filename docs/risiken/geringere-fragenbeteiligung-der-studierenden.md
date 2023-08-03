@@ -1,11 +1,14 @@
 ---
-title: Geringere Fragenbeteiligung der Studierenden
-type: "risk"
-description: Der Einsatz von KI in der Bildung kann zu einer geringeren Fragenbeteiligung der Studierenden führen.
+description: "Der Einsatz von KI in der Bildung kann zu einer geringeren Fragenbeteiligung\
+  \ der Studierenden f\xFChren."
+id: geringere-fragenbeteiligung-der-studierenden
 tags:
-  - "fragenbeteiligung"
-  - "risiken"
+- fragenbeteiligung
+- risiken
+title: Geringere Fragenbeteiligung der Studierenden
+type: risk
 ---
+
 
 ### Geringere Fragenbeteiligung der Studierenden
 

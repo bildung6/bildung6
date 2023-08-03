@@ -5,4 +5,9 @@ title: Risiken
 
 ![risks.svg](risks.svg)
 
-[risk]
+```yaml
+condition: or
+entityType: risk
+rules: []
+```
+

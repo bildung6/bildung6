@@ -4,7 +4,7 @@ type: "tool"
 description: An AI-powered code completion tool that helps you write code faster and more efficiently, developed by GitHub.
 id: "github-copilot"
 tags:
-- "Kostenpflichtig
+- "Kostenpflichtig"
 - "Proprietär"
 ---
 

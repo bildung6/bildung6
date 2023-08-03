@@ -1,12 +1,16 @@
 ---
-title: Fallbeispiele erstellen
-type: "usecase"
-description: KI kann bei der Erstellung von Fallbeispielen helfen, indem sie Vorschläge für relevante und interessante Fälle macht, die auf realen Situationen oder Problemen basieren.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Erstellung von Fallbeispielen helfen, indem sie Vorschl\xE4\
+  ge f\xFCr relevante und interessante F\xE4lle macht, die auf realen Situationen\
+  \ oder Problemen basieren."
+id: fallbeispieleerstellen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "fallbeispiele"
-- "lehrende"
+- fallbeispiele
+- lehrende
+title: Fallbeispiele erstellen
+type: usecase
 ---
+
 
 # Fallbeispiele erstellen
 
@@ -16,17 +20,47 @@ KI kann bei der Erstellung von Fallbeispielen helfen, indem sie Vorschläge für
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=kompetenzverlust,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

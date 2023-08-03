@@ -1,12 +1,16 @@
 ---
-title: Priorisieren
-type: "usecase"
-description: KI kann bei der Priorisierung von Aufgaben in der Projektplanung helfen, indem sie Vorschläge für die Reihenfolge und Wichtigkeit von Aufgaben macht, um die Effizienz und den Erfolg des Projekts zu maximieren.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann bei der Priorisierung von Aufgaben in der Projektplanung helfen,\
+  \ indem sie Vorschl\xE4ge f\xFCr die Reihenfolge und Wichtigkeit von Aufgaben macht,\
+  \ um die Effizienz und den Erfolg des Projekts zu maximieren."
+id: priorisieren
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "priorisieren"
-- "lehrende"
+- priorisieren
+- lehrende
+title: Priorisieren
+type: usecase
 ---
+
 
 # Priorisieren
 
@@ -16,19 +20,54 @@ KI kann bei der Priorisierung von Aufgaben in der Projektplanung helfen, indem s
 
 ## AnwenderInnen
 
-[user=lehrende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: lehrende
+```
+
 
 
 ## Tools
 
-[tool=composeai,elicit]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: composeai
+- condition: contains
+  property: id
+  value: elicit
+```
+
 
 
 ## Risiken
 
-[risk=monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance
 
-[chance=effizienzsteigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienzsteigerung
+```
+

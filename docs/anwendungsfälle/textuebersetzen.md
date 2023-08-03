@@ -1,12 +1,15 @@
 ---
-title: Texte übersetzen
-type: "usecase"
-description: KI kann dazu verwendet werden, Texte zu übersetzen und so den Zugang zu Ressourcen und Informationen in verschiedenen Sprachen zu ermöglichen.
-image: anwendungsfälle/images/usecase.svg
+description: "KI kann dazu verwendet werden, Texte zu \xFCbersetzen und so den Zugang\
+  \ zu Ressourcen und Informationen in verschiedenen Sprachen zu erm\xF6glichen."
+id: textuebersetzen
+image: "anwendungsf\xE4lle/images/usecase.svg"
 tags:
-- "textübersetzen"
-- "studierende"
+- "text\xFCbersetzen"
+- studierende
+title: "Texte \xFCbersetzen"
+type: usecase
 ---
+
 
 # Texte übersetzen
 
@@ -16,7 +19,15 @@ KI kann dazu verwendet werden, Texte zu übersetzen und so den Zugang zu Ressour
 
 ## AnwenderInnen
 
-[user=studierende]
+```yaml
+condition: or
+entityType: user
+rules:
+- condition: contains
+  property: id
+  value: studierende
+```
+
 
 
 ## Tools
@@ -26,7 +37,18 @@ KI kann dazu verwendet werden, Texte zu übersetzen und so den Zugang zu Ressour
 
 ## Risiken
 
-[risk=datenschutz,monopolbildung]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: monopolbildung
+```
+
 
 
 ## Chance

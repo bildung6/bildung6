@@ -4,4 +4,9 @@ title: Anwendungsfälle
 ---
 
 
-[usecase]
+```yaml
+condition: or
+entityType: usecase
+rules: []
+```
+
