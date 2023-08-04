@@ -46,9 +46,28 @@ rules:
 
 ## Risiken
 
-[risk=konsequenzen-fuer-das-schriftliche-arbeiten,datenschutz]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: konsequenzen-fuer-das-schriftliche-arbeiten
+- condition: contains
+  property: id
+  value: datenschutz
+```
+
 
 
 ## Chance
 
-[chance=effizienz-steigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienz-steigerung
+```
+

@@ -297,27 +297,40 @@ h1 svg {
 .answers {
     list-style-type: none !important;
     padding-left: 0 !important;
+    margin-left: 0 !important;
 }
 
 .answers li {
     margin-bottom: 0.5em;
+    margin-left:0 !important;
 }
 
 .answers li label {
     display: block;
-    border-radius: 0.25em;
+    border-radius: 0.3em;
     padding: 0.2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    cursor: pointer;
 }
 
 .correct {
     background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .incorrect {
     background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-width: 1px;
+    border-style: solid;
 }
 
-.question input[type="radio"] {
+.question input[type="radio"],
+.question input[type="checkbox"] {
     position: relative;
     top: 2px;
 }
@@ -327,4 +340,33 @@ h1 svg {
     color: #333;
     display: none;
     margin-left: 5px;
+}
+
+.all-right {
+    border-radius: 0.3em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.md-social {
+    font-size: .64rem;
+    margin: auto 0.6rem;
+    padding: 0.4rem 0;
+}
+
+.md-social__link {
+    width: auto;
+    height: auto;
+}
+
+.md-social__link svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+    position: relative;
+    top: -0.05rem;
+}
+
+.md-footer .md-footer-meta__inner {
+    margin-top: 0;
 }

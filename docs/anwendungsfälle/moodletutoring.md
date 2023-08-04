@@ -70,4 +70,12 @@ rules:
 
 ## Chance
 
-[chance=personalisiertes-lernen]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: personalisiertes-lernen
+```
+

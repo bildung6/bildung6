@@ -47,3 +47,16 @@ Das Projekt wird im Rahmen des Förderprogramms [BeLearn](https://belearn.swiss/
 ![4: Hochwertige Bildung](E-WEB-Goal-3-de.png){.sdg .sdg-4}
 ![5: Geschlechtergleichheit](E-WEB-Goal-4-de.png){.sdg .sdg-5}
 ![10: Weniger Ungleichheiten](E-WEB-Goal-9-de.png){.sdg .sdg-10}
+
+## Lizenz
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
+BeLearn Bildung 6.0 Informationsplattform
+
+- Kerstin Denecke
+- Robin Glauser
+- Denis Moser
+- Daniel Reichenpfader 
+
+BFH Technik und Informatik, 21. Juli 2023, lizenziert unter CC BY-SA 4.0 International

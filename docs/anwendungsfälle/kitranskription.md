@@ -32,7 +32,18 @@ rules:
 
 ## Tools
 
-[tool=bard,deepl-write]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: bard
+- condition: contains
+  property: id
+  value: deepl-write
+```
+
 
 
 ## Risiken
@@ -53,4 +64,12 @@ rules:
 
 ## Chance
 
-[chance=effizienz-steigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienz-steigerung
+```
+

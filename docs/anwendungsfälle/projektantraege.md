@@ -32,7 +32,18 @@ rules:
 
 ## Tools
 
-[tool=deepl-write,wolframalpha]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: deepl-write
+- condition: contains
+  property: id
+  value: wolframalpha
+```
+
 
 
 ## Risiken

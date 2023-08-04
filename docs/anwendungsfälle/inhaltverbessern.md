@@ -65,4 +65,12 @@ rules:
 
 ## Chance
 
-[chance=zuganglichkeit-247]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zuganglichkeit-247
+```
+

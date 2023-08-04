@@ -1,6 +1,6 @@
 ---
 title: Papago
-type: "app"
+type: "tool"
 description: A translation app powered by Naver's AI technology.
 id: "papago"
 tags:

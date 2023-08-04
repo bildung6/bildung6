@@ -32,7 +32,18 @@ rules:
 
 ## Tools
 
-[tool=ai-text-classifier,composeai]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: ai-text-classifier
+- condition: contains
+  property: id
+  value: composeai
+```
+
 
 
 ## Risiken

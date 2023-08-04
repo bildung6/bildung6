@@ -32,7 +32,18 @@ rules:
 
 ## Tools
 
-[tool=papago,deepl-write]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: papago
+- condition: contains
+  property: id
+  value: deepl-write
+```
+
 
 
 ## Risiken
@@ -53,4 +64,12 @@ rules:
 
 ## Chance
 
-[chance=zuganglichkeit-247]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zuganglichkeit-247
+```
+

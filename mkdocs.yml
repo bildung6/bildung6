@@ -55,7 +55,13 @@ theme:
     logo: material/book-open-page-variant
     repo: fontawesome/brands/github
 extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
   - stylesheets/extra.css?v=1.4
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/extra.js?v=1.3
+extra:
+  social:
+    - icon: simple/creativecommons
+      link: /bildung6/projekt/#lizenz
+      name: CC BY-SA 4.0 International

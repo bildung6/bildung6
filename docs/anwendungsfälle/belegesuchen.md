@@ -49,7 +49,18 @@ rules:
 
 ## Risiken
 
-[risk=bias-diskriminierung,datenschutz]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: bias-diskriminierung
+- condition: contains
+  property: id
+  value: datenschutz
+```
+
 
 
 ## Chance

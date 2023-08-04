@@ -48,16 +48,16 @@ rules:
   value: deeplwrite
 ```
 
-**Aufgabe 1:**
+!!! question "Aufgabe 1"
+    Was könnten Risiken bei der Verwendung von KI zur sprachlichen Korrektur sein?
 
-Was könnten Risiken bei der Verwendung von KI zur sprachlichen Korrektur sein?
+    ??? success "Lösung anzeigen"
+    
+        Bei der Verwendung von KI zur sprachlichen Korrektur können folgende Risiken auftreten:
 
-??? success "Lösung anzeigen"
-
-    Bei der Verwendung von KI zur sprachlichen Korrektur können folgende Risiken auftreten:
-    - Datenschutz und Datensicherheit
-    - Fehlende Transparenz
-    - Abhängigkeit
+        - Datenschutz und Datensicherheit
+        - Fehlende Transparenz
+        - Abhängigkeit
 
 
 

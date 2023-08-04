@@ -32,7 +32,18 @@ rules:
 
 ## Tools
 
-[tool=deepl-write,starryai]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: deepl-write
+- condition: contains
+  property: id
+  value: starryai
+```
+
 
 
 ## Risiken
@@ -53,4 +64,12 @@ rules:
 
 ## Chance
 
-[chance=kreative-anstoesse]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: kreative-anstoesse
+```
+

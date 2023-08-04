@@ -8,6 +8,7 @@ import yaml
 class Global:
     nav = None
     config = None
+    cache = {}
 
 
 def load_block(block_name):

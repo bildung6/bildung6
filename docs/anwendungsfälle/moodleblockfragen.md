@@ -65,4 +65,12 @@ rules:
 
 ## Chance
 
-[chance=kreative-anstoesse]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: kreative-anstoesse
+```
+

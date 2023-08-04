@@ -33,7 +33,18 @@ rules:
 
 ## Tools
 
-[tool=bard,deepl-write]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: bard
+- condition: contains
+  property: id
+  value: deepl-write
+```
+
 
 
 ## Risiken

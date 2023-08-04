@@ -51,9 +51,6 @@ entityType: risk
 rules:
 - condition: contains
   property: id
-  value: datenschutz
-- condition: contains
-  property: id
   value: monopolbildung
 ```
 

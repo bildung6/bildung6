@@ -61,4 +61,12 @@ rules:
 
 ## Chance
 
-[chance=effizienz-steigerung]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: effizienz-steigerung
+```
+

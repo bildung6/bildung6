@@ -36,14 +36,44 @@ rules:
 
 ## Tools
 
-[tool=ai-text-classifier,bard]
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: contains
+  property: id
+  value: ai-text-classifier
+- condition: contains
+  property: id
+  value: bard
+```
+
 
 
 ## Risiken
 
-[risk=datenschutz,geringere-fragenbeteiligung-der-studierenden]
+```yaml
+condition: or
+entityType: risk
+rules:
+- condition: contains
+  property: id
+  value: datenschutz
+- condition: contains
+  property: id
+  value: geringere-fragenbeteiligung-der-studierenden
+```
+
 
 
 ## Chance
 
-[chance=zuganglichkeit-247]
+```yaml
+condition: or
+entityType: chance
+rules:
+- condition: contains
+  property: id
+  value: zuganglichkeit-247
+```
+
