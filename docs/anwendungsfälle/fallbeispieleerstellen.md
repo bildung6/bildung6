@@ -3,7 +3,7 @@ description: "KI kann bei der Erstellung von Fallbeispielen helfen, indem sie Vo
   ge f\xFCr relevante und interessante F\xE4lle macht, die auf realen Situationen\
   \ oder Problemen basieren."
 id: fallbeispieleerstellen
-image: "anwendungsf\xE4lle/images/usecase.svg"
+image: "anwendungsf\xE4lle/images/usecase.svg" 
 tags:
 - fallbeispiele
 - lehrende

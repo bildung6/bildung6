@@ -9,9 +9,27 @@ description: Welche KI-Tools unterstützen mich beim wissenschaftlichen Arbeiten
 In diesem Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen Arbeiten eingesetzt werden kann. 
 
 ###	Fragestellung generieren
+<!-- 
 1.	Ein Tool nutzen mit mind. 3 verschiedenen Prompts, um Ideen zu generieren
 2.	Feedback zur Fragestellung einholen (Prompt vorgeben, darf adaptiert werden)
-3.	Tool: ChatGPT oder ähnliches, Elicit
+3.	Tool: ChatGPT oder ähnliches, Elicit 
+-->
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: fragestellungengenerieren
+```
+
+
+###	Journalistischer Artikel
+<!-- 
+1.	Feedback einholen und optimieren
+2.	Tool: ChatGPT oder ähnliches
+-->
 
 ```yaml
 condition: or
@@ -23,10 +41,6 @@ rules:
 ```
 
 
-###	Journalistischer Artikel
-
-1.	Feedback einholen und optimieren
-2.	Tool: ChatGPT oder ähnliches
 
 ### Präsentation üben
 
