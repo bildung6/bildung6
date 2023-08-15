@@ -110,18 +110,6 @@ Mit dem ersten Prompt wurde ChatGPT aufgefordert eine *Rolle* (Experte) einzuneh
 
 *Falls du ein OpenAI-Account besitzt und den Chatverlauf weiterführen willst, kannst du diesen Link nutzen: https://chat.openai.com/share/372d5054-33ad-4bdb-ace5-74cd5ff7394e*
 
----
-
-## AnwenderInnen
-
-```yaml
-condition: or
-entityType: user
-rules:
-- condition: contains
-  property: id
-  value: studierende
-```
 
 ---
 
