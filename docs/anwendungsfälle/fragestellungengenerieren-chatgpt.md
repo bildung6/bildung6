@@ -25,7 +25,7 @@ Mit einer guten Prompt-Strategie kannst du die Wahrscheinlichkeit erhöhen, bess
   ---
 
 # Prompt Beispiele
-???+ info
+???+ info "Bemerkung"
 
     Wie sich hier erkennen lässt, sind die ChatGPT-Antworten eher generisch und oberflächlich formuliert.  
     
