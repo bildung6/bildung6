@@ -25,6 +25,11 @@ Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT
 
 ## Beispiele
 
+In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu übernehmen und konstruktives Feedback zu den überreichten Text zu geben. 
+
+*Anmerkung: Die hier im Prompt übergebene Texte enthalten rein fiktive Inhalte, die ohne wissenschaftlichen Grundlagen erstellt wurden.*
+
+
 ???+ info "Bemerkung"
 
     Bei der Erstellung der hier gezeigten Beispiele wurde festgestellt, dass ChatGPT-3.5 fälschlicherweise nicht in der Lage war, die vorhandenen Grammatik- und Rechtschreibfehler zu erkennen. Obwohl im zweiten Anlauf (durch Drücken des *Regenate*-Buttons) die Fehler entdeckt wurden, ist es empfehlenswert, auf ein dafür spezifisches digitales Werkzeug auszuweichen (z.B. Microsoft Word, oder DeepL Write).
@@ -32,11 +37,6 @@ Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT
     Beachte, dass die Länge einer Eingabeaufforderung oder Prompts bei ChatGPT-3.5 limitiert ist. Es ist also nicht möglich dem Chatbot (Stand August 23) lange Texte zu übergeben.
 
 ---
-
-In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu übernehmen und konstruktives Feedback zu den überreichten Text zu geben. 
-
-*Anmerkung: Die hier im Prompt übergebene Texte enthalten rein fiktive Inhalte, die ohne wissenschaftlichen Grundlagen erstellt wurden.*
-
 
 ### Beispiel 1: Mit ChatGPT ein Feedback zu einem wissenschaftsjournalistischen Text generieren (ChatGPT-3.5)
 
@@ -198,33 +198,51 @@ rules:
 
 ## Risiken
 
-<!-- 
+
 ```yaml
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: kompetenzverlust
-- condition: contains
+  value: geschuetzte-daten
+- condition: equals
   property: id
   value: monopolbildung
+- condition: equals
+  property: id
+  value: nachvollziehbarkeit
+- condition: equals
+  property: id
+  value: verantwortung-bei-fehlern
+- condition: equals
+  property: id
+  value: xxx
+- condition: equals
+  property: id
+  value: xxx
 ```
--->
+
+
+
+
 ---
 
 ## Chancen
 
-<!-- 
+
 ```yaml
 condition: or
 entityType: chance
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: kreative-anstoesse
+  value: zweitmeinung
+- condition: equals
+  property: id
+  value: effizienz-steigerung
 ```
--->
+
 
 ---
 
