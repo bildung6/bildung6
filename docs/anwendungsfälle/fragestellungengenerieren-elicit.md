@@ -156,9 +156,11 @@ rules:
 ## Links
 
 Entwicklerseite:
+
 - https://elicit.org/ 
 
 Jan Hendrik Kirchner erklärt, wie er Elicit zur schnellen Erstellung von Forschungsvorschlägen nutzte.
+
 - https://youtu.be/YO9UiBWx6jw
 
 ---
