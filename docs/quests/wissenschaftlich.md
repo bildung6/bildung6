@@ -35,9 +35,12 @@ rules:
 condition: or
 entityType: usecase
 rules:
-- condition: contains
+- condition: equals
   property: id
   value: sprachlichekorrektur
+- condition: equals
+  property: id
+  value: journalistischerartikelfeedback
 ```
 
 

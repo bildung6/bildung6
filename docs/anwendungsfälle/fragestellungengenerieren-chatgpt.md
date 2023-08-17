@@ -110,7 +110,6 @@ Mit dem ersten Prompt wurde ChatGPT aufgefordert eine *Rolle* (Experte) einzuneh
 
 *Falls du ein OpenAI-Account besitzt und den Chatverlauf weiterführen willst, kannst du diesen Link nutzen: https://chat.openai.com/share/372d5054-33ad-4bdb-ace5-74cd5ff7394e*
 
-
 ---
 
 ## Tools
@@ -123,6 +122,8 @@ rules:
   property: id
   value: chatgpt
 ```
+
+---
 
 ## Risiken
 
@@ -175,7 +176,7 @@ Für die Erstellung der hier verwendeten Prompts wurden folgende Quellen genutzt
 
 ---
 
-## Quellen
+## Quellenverzeichnis
 
 1.	Xames MD, Jannatul S. ChatGPT for research and publication: Opportunities and challenges. J Appl Learn Teach [Internet]. 4. April 2023 [zitiert 7. August 2023];6(1). Verfügbar unter: https://journals.sfu.ca/jalt/index.php/jalt/article/view/741
 2.	Rahman M, Terano HJR, Rahman N, Salamzadeh A, Rahaman S. ChatGPT and Academic Research: A Review and Recommendations Based on Practical Examples. J Educ Manag Dev Stud. 27. März 2023;3(1):1–12. 
