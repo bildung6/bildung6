@@ -38,6 +38,8 @@ In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu über
 
 ---
 
+
+
 ### Beispiel 1: Mit ChatGPT ein Feedback zu einem wissenschaftsjournalistischen Text generieren (ChatGPT-3.5)
 
 In diesem Beispiel wurde ein Artikel übermittelt, der in nüchterner und technischer Tonart verfasst ist. 
@@ -109,7 +111,7 @@ Insgesamt ist der Artikel auf einem guten Weg, um wissenschaftsjournalistische S
 
 **Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkt genauer erklären. 
 
-*Falls du ein OpenAI-Account besitzt und den Chatverlauf einsehen oder weiterführen willst oder, kannst du diesen Link nutzen: https://chat.openai.com/share/6dea5db8-cfc3-44ff-9e2e-8501ccfa0e19*
+*Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link:  https://chat.openai.com/share/6dea5db8-cfc3-44ff-9e2e-8501ccfa0e19*
 
   ---
 
@@ -179,7 +181,7 @@ Zusammenfassend lässt sich sagen, dass der Text noch Überarbeitung benötigt, 
 
 **Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkt genauer erklären. 
 
-*Falls du ein OpenAI-Account besitzt und den Chatverlauf einsehen oder weiterführen willst oder, kannst du diesen Link nutzen: https://chat.openai.com/share/5847df09-48f1-4fef-93ac-0a339c0e8600*
+*Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link:  https://chat.openai.com/share/5847df09-48f1-4fef-93ac-0a339c0e8600*
 
 ---
 
@@ -261,7 +263,7 @@ Sonstige Nachschlagewerke:
 - https://platform.openai.com/docs/guides/gpt-best-practices
 
 
-Verwendete Prompts zum erstellen fiktiver Artikel:
+Chatverlauf zum erstellen fiktiver Artikel:
 
 - Beispiel 1 (Passing Bablock Regression): https://chat.openai.com/share/eae1cf8d-db91-4ca2-b33e-7d4c6c3c72c5
 - Beispiel 2 (Klimawandel und Piraten): https://chat.openai.com/share/80efb46f-da97-4f12-8017-a3fa909b764c

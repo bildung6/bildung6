@@ -53,7 +53,7 @@ Mit einer guten Prompt-Strategie kannst du die Wahrscheinlichkeit erhöhen, bess
 
 *Falls du ein OpenAI-Account besitzt und den Chatverlauf weiterführen willst, kannst du diesen Link nutzen: https://chat.openai.com/share/99599fd4-2611-4456-b8b0-d42cb5218a88*
 
-  ---
+---
 
 ### Beispiel 2: Erweiterter Dialog (ChatGPT-3.5)
 **Input:**
@@ -108,7 +108,7 @@ Diese drei Forschungsfragen erweitern das Thema "Künstliche Intelligenz" im Zus
 Mit dem ersten Prompt wurde ChatGPT aufgefordert eine *Rolle* (Experte) einzunehmen und der Kontext (Wissenschaftliches Schreiben) angegeben. Im zweiten Prompt wurde einer der Vorschläge weiter bearbeitet (Einbezug von "Künstliche Intelligenz").  
 
 
-*Falls du ein OpenAI-Account besitzt und den Chatverlauf weiterführen willst, kannst du diesen Link nutzen: https://chat.openai.com/share/372d5054-33ad-4bdb-ace5-74cd5ff7394e*
+*Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link: https://chat.openai.com/share/372d5054-33ad-4bdb-ace5-74cd5ff7394e*
 
 ---
 
