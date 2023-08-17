@@ -37,30 +37,59 @@ rules:
 
 ## Risiken
 
-<!-- 
+
 ```yaml
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: kompetenzverlust
-- condition: contains
+  value: geschuetzte-daten
+- condition: equals
   property: id
   value: monopolbildung
+- condition: equals
+  property: id
+  value: nachvollziehbarkeit
+- condition: equals
+  property: id
+  value: verantwortung-bei-fehlern
+- condition: equals
+  property: id
+  value: xxx
+- condition: equals
+  property: id
+  value: xxx
 ```
--->
+
+
+
+
 ---
 
-## Chance
+## Chancen
 
-<!-- 
+
 ```yaml
 condition: or
 entityType: chance
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: kreative-anstoesse
+  value: zweitmeinung
+- condition: equals
+  property: id
+  value: effizienz-steigerung
 ```
--->
+
+
+---
+
+## Links
+  
+
+---
+
+## Quellenverzeichnis
+
+
