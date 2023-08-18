@@ -44,6 +44,8 @@ rules:
 ```
 
 
+<!--
+---
 
 ### Präsentation üben
 
@@ -57,11 +59,22 @@ rules:
   property: id
   value: powerpoint
 ```
+-->
 
+---
 
 ### Literaturrecherche
 
 1.	Nutzen von Elicit, um Informationen zum Background zusammenzustellen inkl. Entsprechender Referenzen
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: literaturrecherche
+```
 
 ### Summary erstellen
 
