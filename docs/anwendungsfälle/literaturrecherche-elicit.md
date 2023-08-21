@@ -21,14 +21,18 @@ Ahand einer Fragestellung zeigt Elicit relevante Arbeiten an und stellt diese mi
 
 Anwender:innen können diese interaktive Tabelle und die Zusammenfassungen nutzen, um weitere Vorschläge zu generieren und sich damit eine Auswahl an wissenschaftlichen Quellen zusammenzustellen. 
 
+Das folgende Beispiel zeigt, wie dieses KI-basiertes Werkzeug in der Anfangsphase der Literaturrecherche eingesetzt werden kann. 
+
+Eine weitere Anwendungsmöglichkeit ist die Literaturrecherche in der Schlussphase deiner wissenschaftlichen Arbeit, um deine Forschungsergebnisse in den Kontext des aktuellen Forschungsstandes zu stellen (z.B. im Diskussionsteil deines Berichts). Du kannst deine Hauptergebnisse in Form von Aussagen oder Fragen formulieren, um nach Quellen zu suchen, die deine Ergebnisse stützen oder widerlegen.
+
 
 ---
 
-## Beispiel: Sichtung und Auslese von Quellen 
+## Beispiel: Sichtung und Auslese von Quellen
 
-Dieses Beispiel zeigt, wie Elicit genutzt werden kann, um eine Auswahl an Literatur zusammenzustellen, die als Ausgangspunkt der weiteren Recherchentätigkeiten dienen.
+Dieses Beispiel zeigt, wie Elicit genutzt werden kann, um eine Auswahl an Literatur zusammenzustellen.
 
-Das Ziel hier ist die Identifizierung von wissenschaftlichen Quellen zur Fragestellung *"What are the advantages and disadvantages of using chatbots for healthcare delivery?"*. 
+Das Ziel in diesem Beispiel ist die Identifizierung von wissenschaftlichen Quellen zur Fragestellung *"What are the advantages and disadvantages of using chatbots for healthcare delivery?"*. 
 
 Ausgehend von der Forschungsfrage wurden in mehreren Schritten Vorschläge generiert, gefiltert und aussortiert.
 
@@ -39,10 +43,6 @@ Ausgehend von der Forschungsfrage wurden in mehreren Schritten Vorschläge gener
     Bedenke, dass es in deiner Verantwortung liegt, die Relevanz der Quellen und die Richtigkeit der generierten Zusammenfassungen zu überprüfen. Als in der Forschung tätige Person musst du auch in der Lage sein, den Inhalt der gesichteten Literatur zu verstehen und zu interpretieren.
 
 ---
-
-
----
-
 
 
 **Schritt 1: Erste Vorschläge mit einer Forschungfrage generieren**
@@ -77,41 +77,49 @@ Dazu werden im Feld unten links die jeweiligen Optionen ausgewählt:
 
 ---
 
-**Schritt 4: Interessante Quelle markieren um weitere Vorschläge zu generieren**
+**Schritt 4: Weitere Vorschläge generieren**
 
-Entscheiden welche wir lesen die informationen um grob einzugrenzen, markieren dann clear unstarred
+Bei der Durchsicht der Tabelle entdecken wir unter den Vorschlägen 3 Quellen, die für uns relevant sind. Wir möchten jedoch weitere Quellen hinzufügen und die weniger relevanten aussortieren:  
+
+- Dazu ***markieren*** wir die Quellen, die wir behalten möchten.
+- Dann sortieren wir mit ***Clear Unstarred*** die nicht relevanten Quellen aus
+-  und generieren mit ***Show more like starred*** weitere Vorschläge, bis wir eine Auswahl relevanter Quellen zusammengestellt haben.
+-  Für die Auswahl der Quellen lesen wir die Abstracts, indem wir die Inhalte direkt aus der Tabelle öffnen.<br> (Falls wir keinen Zugriff auf ein PDF haben nutzen wird die Informationen (Titel, DOI), um es aus anderen wissenschaftlichen Datenbanken herunterzuladen.)
+
+Quellen markieren, um sie zu behalten:
+![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-6a-markierenquellen.png)
+
+Aussortierte Liste nach ***Clear unstarred***:
+![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-6b-cleared.png)
+
+Resultat nach mehreren Vorschlagsgenerierungen und Aussortierungen (Markieren --> ***Clear*** --> ***Show more like starred*** -->  Markieren --> ...):
+![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-10-finalresult.png)
+
+Einsicht in eine Quelle zur Entscheidung, ob sie eingeschlossen werden sollte:
+![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-11-lookintoabstract.png)
 
 ---
 
-**Schritt 5: Interessante Quelle markieren um weitere Vorschläge zu generieren**
+## Tipps:
 
-wir gehen tiefer in die Suche und lesen die Abstract um weitere Quellen ein- oder auszuschliessen.
+- Nutze ***Export as***, um die fertige Literaturliste als BIB- oder CSV-Datei zu exportieren. Diese können ggf. in deinem Literaturverwaltungsprogramm importiert werden.
 
-Tipp: kopiere den Titel um in Wissensdatenbanken oder auf Google Scholar nachzusehen ob du die Zugang zur Publikations erhältst.
+- Notiere die Quellen bzw. deine Ergebnisse in einem ***separaten Dokument***. Elicit befindet sich als Produkt noch im Frühstadium. Es kann vorkommen, dass das System nicht mehr reagiert.
 
-Wenn
-
----
-
-**Schritt 4: Export der Literaturliste**
+- Recherchiere in der Entwicklerseite von Ought, nach weiteren Einsatzmöglichkeiten.
 
 ---
-
-**Schritt 5: Mögliches weiteres Vorgehen**
-
-//Lesen, Keywords suchen, Schreiben, suche nach google Scholar
-
-**Tipps:**
-
-- //Schaue dir Elicit Tool an und Recherchiere auf Entwicklerseite Ought
-- //Nutze Exportfunktion
-- //Definiere dir eine Methodik zum Systematischen Vorgehen und klär mit deiner Betreung ab ob so ok
-
-
-
 
 ## Tools 
 
+```yaml
+condition: or
+entityType: tool
+rules:
+- condition: equals
+  property: id
+  value: elicit
+```
 
 ---
 
@@ -123,15 +131,30 @@ entityType: risk
 rules:
 - condition: contains
   property: id
-  value: datenschutz
+  value: abhängikeit
 - condition: contains
   property: id
-  value: monopolbildung
+  value: bias-diskriminierung
+- condition: contains
+  property: id
+  value: faehigkeit-komplexe-aufgaben-loesen-nimmt-ab
+- condition: contains
+  property: id
+  value: gesellschaftlicher-bias
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: nachvollziebarkeit
+- condition: contains
+  property: id
+  value: verlust-kreativität
 ```
 
 ---
 
-## Chance
+## Chancen
 
 ```yaml
 condition: or
@@ -139,18 +162,23 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: effizienz-steigerung
+  value: effizienzsteigerung
 ```
 
 ---
 
 ## Links
 
-//seite von ought
+Elicit:
 
-//youtube link von Hendrick Kirchner
+- Elict App: https://elicit.org/
+- Elicit FAQ: https://elicit.org/faq
+- Entwicklerseiter: https://ought.org/elicit
+- Youtube Channel: https://www.youtube.com/@Oughtinc
 
-//publikation elicit
+Jan Hendrik Kirchner erklärt, wie er Elicit zur schnellen Erstellung von Forschungsvorschlägen nutzte.
+
+- https://youtu.be/YO9UiBWx6jw
 
 ---
 

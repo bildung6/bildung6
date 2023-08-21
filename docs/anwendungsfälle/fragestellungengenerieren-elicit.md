@@ -108,8 +108,6 @@ rules:
 
 ## Risiken
 
-Bias
-
 
 ```yaml
 condition: or
@@ -155,9 +153,11 @@ rules:
 
 ## Links
 
-Entwicklerseite:
-
-- https://elicit.org/ 
+Elicit:
+- Elict App: https://elicit.org/
+- Elicit FAQ: https://elicit.org/faq
+- Entwicklerseiter: https://ought.org/elicit
+- Youtube Channel: https://www.youtube.com/@Oughtinc
 
 Jan Hendrik Kirchner erklärt, wie er Elicit zur schnellen Erstellung von Forschungsvorschlägen nutzte.
 

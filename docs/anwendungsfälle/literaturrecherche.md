@@ -23,10 +23,6 @@ KI-basierte Werkzeuge haben das Potenzial, dich bei der Suche und Auswahl geeign
 
 ## Tools für diesen Anwendungsfall
 
-- Elitc: verwaltung, summarize, entdecken
-- Research Rabbit: entdecken und relevanz erkennen
-- consesus.app: argumente finden, ggf. fragestellung
-- Scholarcy eher summarize: checken
 
 ```yaml
 condition: or
@@ -45,15 +41,10 @@ rules:
 condition: or
 entityType: tool
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: composeai
-- condition: contains
-  property: id
-  value: bingchatbot
+  value: elicit
 ```
-
----
 
 ## Risiken
 
@@ -63,15 +54,30 @@ entityType: risk
 rules:
 - condition: contains
   property: id
-  value: datenschutz
+  value: abhängikeit
 - condition: contains
   property: id
-  value: monopolbildung
+  value: bias-diskriminierung
+- condition: contains
+  property: id
+  value: faehigkeit-komplexe-aufgaben-loesen-nimmt-ab
+- condition: contains
+  property: id
+  value: gesellschaftlicher-bias
+- condition: contains
+  property: id
+  value: kompetenzverlust
+- condition: contains
+  property: id
+  value: nachvollziebarkeit
+- condition: contains
+  property: id
+  value: verlust-kreativität
 ```
 
 ---
 
-## Chance
+## Chancen
 
 ```yaml
 condition: or
@@ -79,7 +85,7 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: effizienz-steigerung
+  value: effizienzsteigerung
 ```
 
 ---
