@@ -20,24 +20,11 @@ Beispielsweise können so schnell wissenschaftliche Quellen zusammengefasst werd
 
 Ein weitere Anwendungsmöglichkeit ist das Zusammenfassen eigener Texte für das Schreiben eines Abstracts.
 
----
-<!--
 
-## Anwender:innen
-
-```yaml
-condition: or
-entityType: user
-rules:
-- condition: contains
-  property: id
-  value: studierende
-```
--->
 ---
+
 
 ## Tools für diesen Anwendungsfall
-
 
 ```yaml
 condition: or
@@ -48,7 +35,9 @@ rules:
   value: summariesgenerieren-chatgpt
 ```
 
+
 ---
+
 
 ## Risiken
 
@@ -63,7 +52,8 @@ rules:
 
 ---
 
-## Chance
+
+## Chancen
 
 ```yaml
 condition: or
