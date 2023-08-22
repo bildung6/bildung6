@@ -10,18 +10,21 @@ type: usecase
 ---
 
 
-
 # Feedback zum journalistischen Artikel zur Optimierung
 
 Eine mögliche Anwendung von KI-basierten Werkzeugen ist die Analyse von Texten. Im Fall von ChatGPT-3.5 von OpenAI scheint dieser Chatbot in der Lage zu sein, auf Texteingaben zu reagieren, die ihm über Prompts übermittelt werden.
 
+
 ---
+
 
 ## Beschreibung
 
 Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
 
+
 ---
+
 
 ## Beispiele
 
@@ -36,8 +39,8 @@ In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu über
 
     Beachte, dass die Länge einer Eingabeaufforderung oder Prompts bei ChatGPT-3.5 limitiert ist. Es ist also nicht möglich dem Chatbot (Stand August 23) lange Texte zu übergeben.
 
----
 
+---
 
 
 ### Beispiel 1: Mit ChatGPT ein Feedback zu einem wissenschaftsjournalistischen Text generieren (ChatGPT-3.5)
@@ -45,7 +48,7 @@ In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu über
 In diesem Beispiel wurde ein Artikel übermittelt, der in nüchterner und technischer Tonart verfasst ist. 
 Im Prompt wurden Trennzeichen (###, """) eingesetzt, um die Anweisungen und den Text voneinander zu separieren.
 
-Dieser fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt eine mögliche Anwendung eines statistischen Verfahrens. Aus Platz- und Darstellungsgründen wird der Text hier nicht wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden (OpenAI-Account erforderlich).
+Dieser fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt eine mögliche Anwendung eines statistischen Verfahrens. Aus Platz- und Darstellungsgründen wird der Text hier nicht wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden.
 
 
 **Input:**
@@ -113,7 +116,8 @@ Insgesamt ist der Artikel auf einem guten Weg, um wissenschaftsjournalistische S
 
 *Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link:  https://chat.openai.com/share/6dea5db8-cfc3-44ff-9e2e-8501ccfa0e19*
 
-  ---
+
+---
 
 
 ### Beispiel 2: Mit ChatGPT ein Feedback zu einem wissenschaftsjournalistischen Text generieren (ChatGPT-3.5)
@@ -121,7 +125,7 @@ Insgesamt ist der Artikel auf einem guten Weg, um wissenschaftsjournalistische S
 In diesem Beispiel wurde ein absichtlich schlecht verfasster Artikel übermittelt, der mehrere Rechtschreibefehler und umgangsprachliche Ausdrücke enthält. 
 Im Prompt wurden Trennzeichen (###, """) verwendet, um Instruktion und Text voneinander zu trennen.
 
-Dieser fiktive Artikel wurde mithilfe ChatGPT-3.5 erstellt und versucht einen Zusammenhang zwischen Klimawandel und Piraterie herzustellen. Aus Platz- und Darstellungsgründen wird der Texte hier nicht abgebildet, ist aber über den Link zum Gesprächsverlauf (OpenAI-Account erforderlich) einsehbar.  
+Dieser fiktive Artikel wurde mithilfe ChatGPT-3.5 erstellt und versucht einen Zusammenhang zwischen Klimawandel und Piraterie herzustellen. Aus Platz- und Darstellungsgründen wird der Texte hier nicht abgebildet, ist aber über den Link zum Gesprächsverlauf einsehbar.  
 
 **Input:**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
@@ -226,9 +230,8 @@ rules:
 ```
 
 
-
-
 ---
+
 
 ## Chancen
 

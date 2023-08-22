@@ -65,7 +65,6 @@ rules:
 
 ### Literaturrecherche
 
-1.	Nutzen von Elicit, um Informationen zum Background zusammenzustellen inkl. Entsprechender Referenzen
 
 ```yaml
 condition: or
@@ -78,8 +77,17 @@ rules:
 
 ### Summary erstellen
 
-1.	Studierenden erstellen Zusammenfassung und lassen durch ChatGPT optimieren
-2.	Offen lassen: Studis können die eigene Version nutzen oder die optimierte
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: summariesgenerieren
+```
+
+
 
 ### Sprachliche Korrektur etc. nach Bedarf
 

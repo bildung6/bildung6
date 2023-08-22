@@ -16,7 +16,6 @@ type: usecase
 Elicit kann dazu genutzt werden, um Denkanstösse bei der Formulierung der Fragestellung zu gewinnen.
 
 
-
 ## Beschreibung
 Die Hauptfunktionalitäten dieses Research Assistenten zielen vor allem auf die Unterstützung bei der *Literaturrecherche* ab (Stand August 2023) (1). Zur Formulierung deiner Fragestellung kannst du diese Hauptfunktionen nutzen, um Literaturen zu identifizieren, aus der du deine eigene Fragestellung ableiten kannst.
 
@@ -40,19 +39,20 @@ Dabei kannst du deine Fragestellung als Ausgangspunkt verwenden oder auch nur ei
 
 Im folgenden Beispiel werden die Begriffe "Medical Informatics" und "Care at Home" kombiniert, um Vorschläge für Fragestellungen zu generieren.
 
-**Schritt 1: Auf den Task "Brainstorm Research Question" zugreifen ** 
+
+**Schritt 1: Auf den Task "Brainstorm Research Question" zugreifen** 
 
 ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_1.png){: style="width:700px"}
 
 
-**Schritt 2: Zwei Themenfelder angeben ** 
+**Schritt 2: Zwei Themenfelder angeben** 
 
 ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_2.png){: style="width:700px"}
 
 ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_3.png){: style="width:700px"}
 
 
-**Schritt 3: Weitere Vorschläge generieren ** 
+**Schritt 3: Weitere Vorschläge generieren** 
 
 Du kannst die für dich relevanten Fragestellungen markieren, um so weitere Vorschläge zu generieren.
 
@@ -67,7 +67,7 @@ Nutze hierbei die Buttons *Show more like starred* und *Clear unstarred*.
 ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_6.png){: style="width:500px"}
 
 
-**Schritt 3: Auswahl eines Vorschlages ** 
+**Schritt 3: Auswahl eines Vorschlages** 
 
 Hast du dich für eine Fragestellung entschieden, kannst du diese Verwenden um mögliche Literaturen zu identifizieren.
 Dazu *kopiere* die Fragestellung und *paste* sie in die Hauptfunktionalität rein.
