@@ -3,12 +3,12 @@ description: "KI kann bei der Erstellung von Summaries helfen, indem sie Texte z
 id: summariesgenerieren
 image: "anwendungsf\xE4lle/images/ideas_bearbeitet.svg" 
 tags:
-- fragestellungen
 - studierende
 title: Summaries generieren
 type: usecase
 ---
 
+<!--
 
 # Summaries generieren
 
@@ -64,3 +64,4 @@ rules:
   value: kreative-anstoesse
 ```
 
+-->

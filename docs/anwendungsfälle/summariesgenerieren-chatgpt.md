@@ -11,7 +11,7 @@ type: usecase
 
 
 # Summaries generieren mit ChatGPT
-
+<!--
 ## Beschreibung
 
 Bei wissenschaftlichen Tätigkeiten, sei es bei der Recherche oder dem Verfassen von Semesterarbeiten, kann das Generieren von Zusammenfassungen durch ChatGPT eine Zeitersparnis bedeuten. Bei der Erstellung von Abschnitten oder Kapiteln können die generierten Zusammenfassungen dazu verwendet werden, den roten Faden im Text zu behalten und die Struktur des Berichts sinnvoll aufzubauen.
@@ -249,6 +249,7 @@ https://chat.openai.com/share/19a1b905-ea5a-4091-bac7-55e8d053b11c
 
 ## Quellen
 
-1.	Diaz J. Break the Limits: Send Large Text Blocks to ChatGPT with Ease [Internet]. Medium. 2023 [zitiert 22. August 2023]. Verfügbar unter: https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270
+1.	Diaz J. Break the Limits: Send Large Text Blocks to ChatGPT with Ease. Medium. 2023 [zitiert 22. August 2023]. Verfügbar unter: https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270
 
 2.	Bangor A, Kortum P, Miller J. Determining what individual SUS scores mean: adding an adjective rating scale. J Usability Stud. 1. Mai 2009;4(3):114–23. 
+-->
