@@ -50,7 +50,7 @@ Für das Zusammenfassen von Texten kann "tldr" (too long; didn't read) im Prompt
 
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
 
-<mark>tldr, antworte auf Deutsch:</mark>
+tldr, antworte auf Deutsch:
 <br>
 <br>
 "Die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion
@@ -95,15 +95,15 @@ Der nachfolgende Dialog umfasst grob diese Schritte:
 **Input 1: Erster Chunk**
 
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
-<mark>Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part 1/2 received" and wait for the next part.</mark>
+Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part 1/2 received" and wait for the next part.
 <br>
-<mark>[START PART 1/2]</mark> 
+[START PART 1/2]
 <br>
 Introduction There are numerous surveys available to usability practitioners to aid them in assessing the usability of a product or service. Many of these surveys are used to evaluate specific types of interfaces, while others can be used to evaluate a wider range of interface types. The System Usability Scale (SUS) (Brooke, 1996) is one of the surveys that can be used to assess the usability of a variety of products or services. There are several...
 <br>
-<mark>[END PART 1/2]</mark> 
+[END PART 1/2]
 <br>
-<mark>Remember not answering yet. Just acknowledge you received this part with the message "Part 1/2 received" and wait for the next part.</mark>
+Remember not answering yet. Just acknowledge you received this part with the message "Part 1/2 received" and wait for the next part.
 </p>
 
 **Ouptut 1**
@@ -115,13 +115,13 @@ Part 1/2 received. I'll be waiting for the next part of your text.
 
 **Input 2: Letzter Chunk**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
-<mark>[START PART 2/2]</mark>
+[START PART 2/2]
 <br>
 er, if an item is not considered to be concrete singular, then multiple item questionnaires should be utilized. Because different parts of an interface may be judged differently (e.g., the main navigation vs. the help system), we believe that the items tested as part of usability assessments are not necessarily singular. Because we assume that the interfaces are not always singular, as defined by Rossiter (2002), the non-singular nature of the item makes using only a single item questionnaire alone inadvisable. Another note of caution regarding...
 <br>
-<mark>[END PART 2/2]</mark> 
+[END PART 2/2]
 <br>
-<mark>ALL PARTS SENT. Now you can continue processing the request.</mark> 
+ALL PARTS SENT. Now you can continue processing the request.
 </p>
 
 
@@ -135,7 +135,7 @@ Part 2/2 received. Thank you for providing the complete text. If you have any qu
 
 **Input 3: Generiere ein Abstract**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
-<mark>Schreibe ein Abstract in der Form, wie es in wissenschaftlichen Arbeiten üblich ist.  Antworte in 5-10 Sätzen auf Deutsch. Und füge die Keywords in einem separaten Abschnitt hinzu.</mark> 
+Schreibe ein Abstract in der Form, wie es in wissenschaftlichen Arbeiten üblich ist.  Antworte in 5-10 Sätzen auf Deutsch. Und füge die Keywords in einem separaten Abschnitt hinzu.
 </p>
 
 **Output 3**
