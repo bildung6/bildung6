@@ -165,10 +165,7 @@ The System Usability Scale (SUS) is an inexpensive, yet effective tool for asses
 <br>
 <br>
 Keywords: System Usability Scale, SUS, Surveys, User Satisfaction, Usability
-
 </p>
-
-
 
 
 ---
@@ -186,6 +183,7 @@ rules:
 ```
 
 ---
+
 
 ## Risiken
 
@@ -229,7 +227,9 @@ rules:
   value: sprachliche-barrieren-aufloesen
 ```
 
+
 ---
+
 
 ## Links
 
@@ -243,7 +243,9 @@ Chatverlauf zum erstellen fiktiver Artikel:
 - Beispiel 1 (Kurzer Artikel über Ziebeln und Pastinaken in der Sovietunion): 
 https://chat.openai.com/share/19a1b905-ea5a-4091-bac7-55e8d053b11c
 
+
 ---
+
 
 ## Quellen
 
