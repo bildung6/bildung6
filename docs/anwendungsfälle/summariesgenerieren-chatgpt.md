@@ -38,7 +38,7 @@ Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wi
 ---
 
 
-### Beispiel 1: Kurzer Text Zusammenfassen
+### Beispiel 1: Kurzer Text zusammenfassen
 
 Der hier genutzte fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion. Aus Platz- und Darstellungsgründen wird der Text hier nicht in voller Länge wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. Der generierte Text umfasst ca. 650 Wörter bzw. 5000 Zeichen.
 
@@ -79,7 +79,7 @@ In der Sowjetunion spielten Zwiebeln und Pastinaken eine bedeutende Rolle in der
 
 Dieses Beispiel simuliert, wie ChatGPT-3.5 verwendet werden könnte, um eine Zusammenfassung einer bestehenden Arbeit (z.B. deiner Seminararbeit) zu erstellen.
 
-Der in diesem Beispiel verwendete Text stammt aus der Arbeit *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die SUS um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
+Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die SUS um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
 
 Um das bestehende Eingabe-Limit (Stand August 2023) von ChatGPT-3.5 zu umgehen, wurde der Text in mehrere Teile zerlegt und mit spezifischen Prompts an den Chatbot übergeben. 
 
@@ -247,7 +247,7 @@ ChatGPT PROMPTs Splitter von Jose Diaz:
 
 Chatverlauf zum erstellen fiktiver Artikel:
 
-- Beispiel 1 (Kurzer Artikel über Ziebeln und Pastinaken in der Sovietunion): 
+- Beispiel 1 (Kurzer Artikel über Zwiebeln und Pastinaken in der Sovietunion): 
 https://chat.openai.com/share/19a1b905-ea5a-4091-bac7-55e8d053b11c
 
 
