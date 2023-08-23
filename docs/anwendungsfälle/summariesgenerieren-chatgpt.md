@@ -3,7 +3,6 @@ description: "Nutze ChatGPT um die Inhalte deines Berichts zusammenzufassen."
 id: summariesgenerieren-chatgpt
 image: "anwendungsf\xE4lle/images/chatbot.svg"
 tags:
-- summariesgenerieren
 - studierende
 title: Summaries generieren mit ChatGPT
 type: usecase
