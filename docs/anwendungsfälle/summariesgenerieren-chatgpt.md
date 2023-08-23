@@ -171,8 +171,7 @@ Keywords: System Usability Scale, SUS, Surveys, User Satisfaction, Usability
 </p>
 
 
-**Tipp:** 
-- Nutze den *Regenerate*-Button um weitere Antworten zu generieren oder formuliere die Anweisung zur Generierung einer Zusammenfassung um.
+**Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren oder formuliere die Anweisung zur Generierung einer Zusammenfassung um.
 
 
 ---
