@@ -34,6 +34,7 @@ Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wi
     
     Bedenke, dass es in deiner Verantwortung liegt, die Relevanz der Quellen und die Richtigkeit der generierten Zusammenfassungen zu überprüfen. Als in der Forschung tätige Person musst du auch in der Lage sein, den Inhalt der gesichteten Literatur zu verstehen und zu interpretieren.
 
+
 ---
 
 
@@ -168,6 +169,10 @@ The System Usability Scale (SUS) is an inexpensive, yet effective tool for asses
 <br>
 Keywords: System Usability Scale, SUS, Surveys, User Satisfaction, Usability
 </p>
+
+
+**Tipp:** 
+- Nutze den *Regenerate*-Button um weitere Antworten zu generieren oder formuliere die Anweisung zur Generierung einer Zusammenfassung um.
 
 
 ---
