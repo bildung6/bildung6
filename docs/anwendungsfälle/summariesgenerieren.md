@@ -8,7 +8,6 @@ title: Summaries generieren
 type: usecase
 ---
 
-<!--
 
 # Summaries generieren
 
@@ -36,9 +35,6 @@ rules:
 ```
 
 
----
-
-
 ## Risiken
 
 ```yaml
@@ -47,11 +43,25 @@ entityType: risk
 rules:
 - condition: contains
   property: id
+  value: halluzinationen
+- condition: contains
+  property: id
+  value: nachvollziehbarkeit
+- condition: contains
+  property: id
+  value: geschuetzte-daten
+- condition: contains
+  property: id
+  value: bias-diskriminierung
+- condition: contains
+  property: id
+  value: gesellschaftlicher-bias
+- condition: contains
+  property: id
   value: kompetenzverlust
 ```
 
 ---
-
 
 ## Chancen
 
@@ -61,7 +71,22 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: kreative-anstoesse
+  value: effizienzsteigerung
+- condition: contains
+  property: id
+  value: sprachliche-barrieren-aufloesen
 ```
 
--->
+
+---
+
+
+## Links
+
+
+---
+
+
+## Quellen
+
+
