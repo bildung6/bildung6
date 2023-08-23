@@ -5,7 +5,7 @@ pages:
     - develop
   script:
 #    - pip install mkdocs-material
-    - pip install mkdocs-material==9.1.5
+    - pip install mkdocs-material==9.1.21
     - pip install mkdocs-macros-plugin
     - pip install mkdocs-mermaid2-plugin
     - mkdocs build --site-dir public
@@ -13,4 +13,4 @@ pages:
     paths:
       - public
 
-#Aktuelle Version mkdocs-material 9.2.3, führte zu einem unlösbarer Exception (jinja2.exceptions.UndefinedError: 'nav_item' is undefined), darum auf 9.1.5 bleiben. Denis 23.08.23
+#Denis 23.08.23.: Aktuelle Version mkdocs-material 9.2.3, führte zu Exception (jinja2.exceptions.UndefinedError: 'nav_item' is undefined), letzte funktionierende Version 9.1.21.
