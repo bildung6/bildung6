@@ -4,10 +4,13 @@ pages:
   only:
     - develop
   script:
-    - pip install mkdocs-material
+#    - pip install mkdocs-material
+    - pip install mkdocs-material==9.1.5
     - pip install mkdocs-macros-plugin
     - pip install mkdocs-mermaid2-plugin
     - mkdocs build --site-dir public
   artifacts:
     paths:
       - public
+
+#Aktuelle Version mkdocs-material 9.2.3, führte zu einem unlösbarer Exception (jinja2.exceptions.UndefinedError: 'nav_item' is undefined), darum auf 9.1.5 bleiben. Denis 23.08.23
