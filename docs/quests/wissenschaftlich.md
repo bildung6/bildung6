@@ -37,9 +37,6 @@ entityType: usecase
 rules:
 - condition: equals
   property: id
-  value: sprachlichekorrektur
-- condition: equals
-  property: id
   value: journalistischerartikelfeedback
 ```
 
@@ -89,10 +86,16 @@ rules:
 
 
 
-### Sprachliche Korrektur etc. nach Bedarf
+### Sprachliche Korrektur
 
-1.	In der Methodik die Nutzung beschreiben
-2.	Tools: DeepL Write
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: sprachlichekorrektur
+```
 
 
 

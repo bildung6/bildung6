@@ -18,6 +18,10 @@ type: usecase
 
 KI kann verwendet werden, um die sprachliche Korrektur von Studierenden zu unterstützen. Dies kann in Form von automatischen Korrekturen oder als Feedback für Studierende erfolgen.
 
+
+---
+
+<!--
 ## AnwenderInnen
 
 ```yaml
@@ -33,21 +37,28 @@ rules:
 ```
 
 
-## Tools
+---
+-->
+
+## Tools für diesen Anwendungsfall
 
 
 ```yaml
 condition: or
-entityType: tool
+entityType: usecase
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: chatgpt
-- condition: contains
-  property: id
-  value: deeplwrite
+  value: sprachlichekorrektur-deeplwrite
 ```
 
+
+---
+
+
+## Quiz
+
+<!--
 !!! question "Aufgabe 1"
     Was könnten Risiken bei der Verwendung von KI zur sprachlichen Korrektur sein?
 
@@ -111,10 +122,13 @@ answers:
 - [True, "Notwendigkeit der Schulung von Lehrern und Schülern im Umgang mit KI"]
 - [False, "Mangel an verfügbaren KI-Technologien für die Bildung", "Dies ist keine Herausforderung bei der Implementierung von KI in der Bildung"]
 ```
+-->
+
+---
 
 
 ## Risiken
-
+<!--
 ```yaml
 condition: or
 entityType: risk
@@ -126,10 +140,12 @@ rules:
   property: id
   value: datenschutz
 ```
+-->
+
+---
 
 
-
-## Chance
+## Chancen
 
 ```yaml
 condition: or
@@ -138,5 +154,19 @@ rules:
 - condition: contains
   property: id
   value: effizienzsteigerung
+- condition: contains
+  property: id
+  value: sprachliche-barrieren-aufloesen
 ```
 
+
+---
+
+
+## Links
+
+
+---
+
+
+## Quellen
