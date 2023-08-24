@@ -42,9 +42,9 @@ rules:
 
 
 <!--
----
 
 ### Präsentation üben
+
 
 1.	Powerpoint Speaker Coach 
 
@@ -58,7 +58,6 @@ rules:
 ```
 -->
 
----
 
 ### Literaturrecherche
 
@@ -71,6 +70,7 @@ rules:
   property: id
   value: literaturrecherche
 ```
+
 
 ### Summary erstellen
 
@@ -85,8 +85,8 @@ rules:
 ```
 
 
-
 ### Sprachliche Korrektur
+
 
 ```yaml
 condition: or
