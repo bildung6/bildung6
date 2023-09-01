@@ -17,7 +17,7 @@ type: usecase
 
 Elicit ist ein KI-basiertes Forschungsassistenzsystem, das bei der Literaturrecherche eingesetzt werden kann. Es beschleunigt die Suche und Auswahl von Literatur. 
 
-Ahand einer Fragestellung zeigt Elicit relevante Arbeiten an und stellt diese mit Zusammenfassungen in einer *Tabelle* dar.
+Anhand einer Fragestellung zeigt Elicit relevante Arbeiten an und stellt diese mit Zusammenfassungen in einer *Tabelle* dar.
 
 Anwender:innen können diese interaktive Tabelle und die Zusammenfassungen nutzen, um weitere Vorschläge zu generieren und sich damit eine Auswahl an wissenschaftlichen Quellen zusammenzustellen. 
 
@@ -59,7 +59,7 @@ Als erstes wird folgende Fragestellung eingegeben, um die ersten Vorschläge zu 
 
 ---
 
-**Schritt 2: Die Filterfunktion nutzen um die Suche nach Reviews einzugrenzen**
+**Schritt 2: Die Filterfunktion nutzen, um die Suche nach Reviews einzugrenzen**
 
 Um die Suche einzugrenzen sollen nur systematische Übersichtsarbeiten (Systematic Reviews) angezeigt werden. Dazu wird die Filterfunktion genutzt.
 
