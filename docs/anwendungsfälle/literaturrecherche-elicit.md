@@ -108,6 +108,8 @@ Einsicht in eine Quelle zur Entscheidung, ob sie eingeschlossen werden sollte:
 
 - Recherchiere in der Entwicklerseite von Ought, nach weiteren Einsatzmöglichkeiten.
 
+- Die Nutzung von Elicit ersetzt keine Recherche mit PubMed oder IEEEXplore. Sei dir bewusst, dass Elicit nur bestimmte Quellen durchsucht und beispielsweise Preprints anzeigt (Publikationen ohne Begutachtung). 
+
 ---
 
 ## Tools 
