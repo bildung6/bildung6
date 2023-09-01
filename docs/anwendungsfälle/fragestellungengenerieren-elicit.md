@@ -13,13 +13,13 @@ type: usecase
 
 # Fragestellungen generieren mit Elicit
 
-Elicit kann dazu genutzt werden, um Denkanstösse bei der Formulierung der Fragestellung zu gewinnen.
+Elicit kann genutzt werden, um Denkanstösse bei der Formulierung der Fragestellung zu gewinnen.
 
 
 ## Beschreibung
-Die Hauptfunktionalitäten dieses Research Assistenten zielen vor allem auf die Unterstützung bei der *Literaturrecherche* ab (Stand August 2023) (1). Zur Formulierung deiner Fragestellung kannst du diese Hauptfunktionen nutzen, um Literaturen zu identifizieren, aus der du deine eigene Fragestellung ableiten kannst.
+Die Hauptfunktionalitäten dieses Research Assistenten zielen vor allem auf die Unterstützung bei der *Literaturrecherche* ab (Stand August 2023) (1). Zur Formulierung deiner Fragestellung kannst du diese Hauptfunktionen nutzen, um Fachpublikationen zu identifizieren, aus der du deine eigene Fragestellung ableiten kannst. Oder du nutzt das Tool um zu prüfen, ob es bereits Publikationen gibt, die deine Forschungsfrage adressieren oder gar beantworten.
 
-Zudem gibt es einzelne Funktionalitäten oder *Research Task*, wie z.B. *Brainstorm Research Question*. Mit dem *Brainstorming* kannst du mehrere Vorschläge generieren lassen.
+Zudem bietet das Tool einzelne Funktionalitäten oder *Research Task*, wie z.B. *Brainstorm Research Question*. Mit dem *Brainstorming* kannst du mehrere Vorschläge generieren lassen.
 
 ---
 
@@ -76,7 +76,7 @@ Dazu *kopiere* die Fragestellung und *paste* sie in die Hauptfunktionalität rei
 ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_7b.png){: style="width:700px"}
 
 
-Stelle dir nun eine Auswahl an Literaturen zusammen, die du Lesen willst um deine eigene Fragestellung zu formulieren.
+Stelle dir nun eine Auswahl an Literaturen zusammen, die du lesen willst, um deine eigene Fragestellung zu formulieren.
 Die Einarbeit in dein Thema ermöglicht dir herauszufinden, welche Implikationen sich aus den publizierten Forschungsresultate ergeben.
 
 
@@ -85,7 +85,7 @@ Die Einarbeit in dein Thema ermöglicht dir herauszufinden, welche Implikationen
 
 **Tipps:**
 
-Es lässt sich auch direkt das Suchfeld der Hauptfunktionalität nutzen um Fragestellungen zu *brainstormen*:
+Es lässt sich auch direkt das Suchfeld der Hauptfunktionalität nutzen, um Fragestellungen zu *brainstormen*:
 
 ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_9a.png){: style="width:500px"}
 
