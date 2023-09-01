@@ -16,7 +16,7 @@ type: usecase
 
 ## Beschreibung
 
-KI kann verwendet werden, um die sprachliche Korrektur von Studierenden zu unterstützen. Dies kann in Form von automatischen Korrekturen oder als Feedback für Studierende erfolgen.
+KI-basierte Werkzeuge können verwendet werden, um Studierende in der sprachlichen Korrektur von ihnen verfasster Texte zu unterstützen. Dies kann in Form von automatischen Korrekturen oder als Feedback für Studierende erfolgen.
 
 
 ---
