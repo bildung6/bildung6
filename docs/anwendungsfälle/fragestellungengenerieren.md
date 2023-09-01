@@ -20,7 +20,7 @@ KI kann dir bei der Formulierung von Forschungfragen helfen, indem sie Vorschlä
 
 Die Formulierung einer Fragestellung ist einer der ersten grundlegenden Schritte bei der wissenschaftlichen Arbeitsweise. Sie konkretisiert ein Forschungsinteresse in eine Aufgabe, die es mit deiner Untersuchung zu beantworten gilt.
 
-In der ersten Phase der wissenschaftlichen Arbeitsweise kannst du KI-Werkzeuge nutzen um Vorschläge zu einzuholen. Nutze die KI um Ideen oder einen ersten Entwurf zu generieren, oder zum Brainstorming. Diese Ergebnisse können als Inspiration bei der Formulierung der eigentlichen Forschungsfrage dienen.
+In der ersten Phase deiner wissenschaftlichen Arbeit kannst du KI-Werkzeuge nutzen, um Vorschläge für mögliche Fragestellungen einzuholen. Nutze die KI, um Ideen oder einen ersten Entwurf zu generieren oder zum Brainstorming. Die Ergebnisse können als Inspiration bei der Formulierung der eigentlichen Forschungsfrage dienen. Wichtig: Prüfe, dass es eine Forschungsfrage ist, die noch nicht beantwortet wurde.
 
 ---
 <!--
