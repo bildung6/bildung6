@@ -13,9 +13,9 @@ type: usecase
 
 # Fragestellungen generieren mit ChatGPT
 
-ChatGPT kann dazu genutzt werden, um Denkanstösse bei der Formulierung der Fragestellung zu gewinnen (1–3).
+ChatGPT kann genutzt werden, um Denkanstösse bei der Formulierung der Forschungsfrage zu gewinnen (1–3).
 
-Beispielsweise lässt sich der Chatbot dazu auffordern (mit Prompts), eine Liste mit möglichen Fragestellungen zu erstellen. Weiter kannst du den Chatbot bitten, seine Vorschläge zu spezifizieren. Im Chatverlauf kannst du auch die Gelegenheit nutzen, um dir Grundlagenbegriffe erklären zu lassen. Dabei hängt die Qualität der Chatbot-Antworten auch davon ab, wie deine Prompts formuliert sind.
+Beispielsweise lässt sich der Chatbot mit Prompts dazu auffordern, eine Liste mit möglichen Fragestellungen zu erstellen. Weiter kannst du den Chatbot bitten, seine Vorschläge zu spezifizieren. Im Chatverlauf kannst du auch die Gelegenheit nutzen, um dir Grundlagenbegriffe erklären zu lassen. Dabei hängt die Qualität der Chatbot-Antworten auch davon ab, wie deine Prompts formuliert sind.
 
 Mit einer guten Prompt-Strategie kannst du die Wahrscheinlichkeit erhöhen, bessere Antworten zu erhalten (3,4). Sieh dir dazu die hier aufgeführten Beispiele an. Da ChatGPT laufend verbessert wird, könnten manche Prompt-Strategien an Aktualität verlieren (4,5). Am besten recherchierst du selbstständig nach effektiven Prompts, indem du z.B. einschlägige Internetressourcen nutzt oder die hier aufgeführten Links und Quellenverweise verwendest.
 
