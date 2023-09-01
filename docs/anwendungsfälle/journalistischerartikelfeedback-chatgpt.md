@@ -12,7 +12,7 @@ type: usecase
 
 # Feedback zum journalistischen Artikel zur Optimierung
 
-Eine mögliche Anwendung von KI-basierten Werkzeugen ist die Analyse von Texten. Im Fall von ChatGPT-3.5 von OpenAI scheint dieser Chatbot in der Lage zu sein, auf Texteingaben zu reagieren, die ihm über Prompts übermittelt werden.
+Eine mögliche Anwendung von KI-basierten Werkzeugen ist die Analyse von Texten in Hinblick auf Inhalt und Sprache. Davon kannst du profitieren und dir z.B. von ChatGPT Feedback geben lassen.
 
 
 ---
@@ -20,7 +20,7 @@ Eine mögliche Anwendung von KI-basierten Werkzeugen ist die Analyse von Texten.
 
 ## Beschreibung
 
-Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
+Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT nutzen, um Verbesserungsvorschläge einzuholen.
 
 
 ---
@@ -28,9 +28,9 @@ Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT
 
 ## Beispiele
 
-In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu übernehmen und konstruktives Feedback zu den überreichten Text zu geben. 
+In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu übernehmen und konstruktives Feedback zu dem übermitteltem Text zu geben. 
 
-*Anmerkung: Die hier im Prompt übergebene Texte enthalten rein fiktive Inhalte, die ohne wissenschaftlichen Grundlagen erstellt wurden.*
+*Anmerkung: Die hier im Prompt übergebenen Texte enthalten rein fiktive Inhalte, die ohne wissenschaftlichen Grundlagen erstellt wurden.*
 
 
 ???+ info "Bemerkung"
