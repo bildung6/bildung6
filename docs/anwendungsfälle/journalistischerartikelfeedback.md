@@ -15,7 +15,7 @@ type: usecase
 
 ## Beschreibung
 
-Das Verfassen von wissenschaftsjournalistischen Artikeln kann eine Aufgabe sein, die du im Rahmen deines Studiums als Leistungsnachweis erbringen musst. Beispielsweise kann von dir verlangt werden, dass du deine Seminararbeit im wissenschaftsjournalistischen Stil zusammenfasst. Im Gegensatz zu einem wissenschaftlichen Bericht richtet sich ein wissenschaftsjournalistischer Artikel ggf. an ein breiteres Publikum. Dies hat Auswirkungen auf Stil und Form deines Textes.
+Das Verfassen von wissenschaftsjournalistischen Artikeln kann eine Aufgabe sein, die du im Rahmen deines Studiums als Leistungsnachweis erbringst. Beispielsweise kann von dir verlangt werden, dass du deine Seminararbeit im wissenschaftsjournalistischen Stil zusammenfasst. Im Gegensatz zu einem wissenschaftlichen Bericht richtet sich ein wissenschaftsjournalistischer Artikel an ein breiteres Publikum. Dies hat Auswirkungen auf Stil und Form deines Textes.
 
 Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du z.B. KBW wie Chatbots nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
 
