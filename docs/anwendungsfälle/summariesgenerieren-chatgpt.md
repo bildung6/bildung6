@@ -16,11 +16,11 @@ type: usecase
 
 Bei wissenschaftlichen Tätigkeiten, sei es bei der Recherche oder dem Verfassen von Semesterarbeiten, kann das Generieren von Zusammenfassungen durch ChatGPT eine Zeitersparnis bedeuten. Bei der Erstellung von Abschnitten oder Kapiteln können die generierten Zusammenfassungen dazu verwendet werden, den roten Faden im Text zu behalten und die Struktur des Berichts sinnvoll aufzubauen.
 
-Ein weiterer Anwendungsfall liegt in der Erstellung von Abstracts. Die generierten Zusammenfassungen können als Grundlage dienen, um prägnante und aussagekräftige Abstracts für eine Berichte zu formulieren.
+Ein weiterer Anwendungsfall liegt in der Erstellung von Abstracts. Die generierten Zusammenfassungen können als Grundlage dienen, um prägnante und aussagekräftige Abstracts für einen Bericht zu formulieren.
 
 Die folgenden Beispiele zeigen, wie ChatGPT-3.5 verwendet werden kann, um Zusammenfassungen von Texten zu generieren.
 
-Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise beruht darauf, dass bei ChatGPT die Zeichenbegrenzung eingehalten werden muss (Stand August 2023) und es ggf. notwendig ist, längere Texte in "Chunks" zu übergeben (1).
+Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise ist nötig, da bei ChatGPT die Zeichenbegrenzung eingehalten werden muss (Stand August 2023) und es ggf. notwendig ist, längere Texte in "Chunks" zu übergeben (1).
 
 **Es ist wichtig, die generierten Texte kritisch zu überprüfen, um etwaige fehlerhafte Informationen zu erkennen. Besonders im Hinblick auf Zitate und Referenzen sollten die geltenden Zitierregeln sorgfältig beachtet werden, um die Quellen korrekt anzugeben und Plagiate zu vermeiden.**
 
@@ -79,7 +79,7 @@ In der Sowjetunion spielten Zwiebeln und Pastinaken eine bedeutende Rolle in der
 
 Dieses Beispiel simuliert, wie ChatGPT-3.5 verwendet werden könnte, um eine Zusammenfassung einer bestehenden Arbeit (z.B. deiner Seminararbeit) zu erstellen.
 
-Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die SUS um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
+Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die System Usability Scale (SUS) um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
 
 Um das bestehende Eingabe-Limit (Stand August 2023) von ChatGPT-3.5 zu umgehen, wurde der Text in mehrere Teile zerlegt und mit spezifischen Prompts an den Chatbot übergeben. 
 
