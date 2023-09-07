@@ -53,13 +53,13 @@ Für das Zusammenfassen von Texten kann **"tldr"** (too long; didn't read) im Pr
 <mark>tldr, antworte auf Deutsch:</mark>
 <br>
 <br>
-"Die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion
+"""Die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion
 <br>
 <br>
 Die Landwirtschaft spielte eine zentrale Rolle in der Sowjetunion, sowohl als wirtschaftlicher Motor als auch als Instrument der politischen Ideologie. Zwei bescheidene Gemüsesorten, Zwiebeln und Pastinaken, mögen auf den ersten Blick als unscheinbar erscheinen, doch sie hatten einen bemerkenswerten Einfluss auf die Landwirtschaft und die Gesellschaft des Landes. In diesem Artikel werden wir die Bedeutung von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion genauer betrachten.
 <br>
 <br>
-In den frühen Jahren nach der Gründung der Sowjetunion im Jahr 1922....""
+In den frühen Jahren nach der Gründung der Sowjetunion im Jahr 1922...."""
 </p>
 
 
@@ -111,7 +111,7 @@ Introduction There are numerous surveys available to usability practitioners to 
 
 **Ouptut 1**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: rgba(247,247,248)">
-<mark>Part 1/2 received. I'll be waiting for the next part of your text.</mark>
+Part 1/2 received. I'll be waiting for the next part of your text.
 </p>
 
 <br>
