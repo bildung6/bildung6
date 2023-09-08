@@ -27,7 +27,10 @@ type: guide
 
     Ganz unten finden sich Links, die u.a. zu den verwendeten Quellen führen.
 
-    Die meisten Beispiele wurden mit ChatGPT-3.5 getestet.
+    **Funktionieren die gezeigten Inhalte?**<br>
+    Die meisten Beispiele wurden im September 2023 mit ChatGPT-3.5 getestet. Allerdings funktionieren sie mit anderen Chatbots(wie Bard von Google) möglicherweise nicht so gut. Auch kann es sein, dass die hier vorgestellten Inhalte mit jeder neuen Version von ChatGPT an Aktualität verlieren, bzw. nicht mehr effizient sind. 
+    
+    ***Tipp: Bevor du aufgibst, versuche beim Ausprobieren der Beispiele einen neuen Chat-Dialog zu öffnen oder benutze den "Regenerate"-Button in ChatGPT, um eine von mehreren Antworten auszuwählen.***
 
 
 
@@ -89,7 +92,7 @@ Um eine relevante Antwort zu erhalten, solltest du sicherstellen, dass die Anfra
       <p style="text-indent:10px">
         <i>Beispiele mit optimierten Prompts. Quelle: 
             <a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-include-details-in-your-query-to-get-more-relevant-answers">
-              GPT Best Practises, OpenAI
+              GPT Best Practises (OpenAI API), von OpenAI
             </a>
         </i>
       </p>
@@ -121,7 +124,7 @@ Um eine relevante Antwort zu erhalten, solltest du sicherstellen, dass die Anfra
 ### Taktik: Role Prompting
 Weist man dem Chatbot eine bestimmte Rolle (oder Persona) zu, spiegelt sich diese in seinen Antworten wider. Dies kann z.B. genutzt werden, wenn die Antworten in einer fachspezifischen Sprache erfolgen oder fachspezifische Inhalte enthalten sollen. 
 
-**Tipp:** Im Internet gibt es etliche Beispiele, die unter den Begriffen "Role Prompting", "Persona", "Assigning Roles", "Role Based Prompts" oder "Act as" aufgefürt sind.
+***Tipp:** Im Internet gibt es etliche Beispiele, die unter den Begriffen "Role Prompting", "Persona", "Assigning Roles", "Role Based Prompts" oder "Act as" aufgefürt sind.*
 
 <table>
   <caption align="bottom"> 
@@ -137,15 +140,15 @@ Weist man dem Chatbot eine bestimmte Rolle (oder Persona) zu, spiegelt sich dies
     <th>Bemerkungen</th>
   </tr>
   <tr>
-    <td bgcolor="HoneyDew">Nimm die Rolle eines Studentenbetreuers an …</td>
+    <td bgcolor="HoneyDew"><mark>Nimm die Rolle eines Studentenbetreuers an...</mark></td>
     <td bgcolor="White"></td>
   </tr>
     <tr>
-    <td bgcolor="HoneyDew">… antworte mit einem konstruktiven Vorschlag zu jedem Kritikpunkt.</td>
+    <td bgcolor="HoneyDew"><mark>...antworte mit einem konstruktiven Vorschlag zu jedem Kritikpunkt.</mark></td>
     <td bgcolor="White"></td>
   </tr>
     <tr>
-    <td bgcolor="HoneyDew">… antworte mit kurzen und objektiven Antworten.</td>
+    <td bgcolor="HoneyDew"><mark>...antworte mit kurzen und objektiven Antworten.</mark></td>
     <td bgcolor="White"></td>
   </tr>
   <tr>
@@ -177,9 +180,9 @@ Beispielsweise wird nach der eigentlichen Anweisung, eine Textzusammenfassung zu
   <caption align="bottom"> 
     <div align="left" text-format="italic">
       <p style="text-indent:10px">
-        <i>Beispiel zum Nutzen von Trennzeichen. Adaptiert übernommen von
+        <i>Beispiel zum Nutzen von Trennzeichen. Auf Basis von
           <a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-use-delimiters-to-clearly-indicate-distinct-parts-of-the-input">
-            GPT Best Practises, OpenAI
+            GPT Best Practises (OpenAI API), von OpenAI.
           </a>
        </i>
      </p>
@@ -199,7 +202,7 @@ Beispielsweise wird nach der eigentlichen Anweisung, eine Textzusammenfassung zu
 
 
 ### Taktik: Step-by-Step anleiten
-Manche Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben. Wenn die Schritte explizit aufschreiben werden, kann das Modell sie leichter nachvollziehen (1).
+Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben. Wenn die Schritte explizit aufgeschrieben werden, kann das Modell sie leichter nachvollziehen (1).
 
 
 <table>
@@ -231,7 +234,7 @@ Manche Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
   </tr>
   <tr>
     <td bgcolor="HoneyDew">
-      Halte dich an diese Schritte um meine Fragen zu reagieren: 
+      Halte dich an diese Schritte um auf meine Fragen zu reagieren: 
       <br>
       <br>
       Step 1 - Ich werde dir einen Text geben, der durch dreifache Anführungszeichen (""") begrenzt ist, merke dir diesen Text im weiteren Chat-Verlauf.
@@ -287,7 +290,7 @@ Manche Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
       Names:
     </td>
     </td>
-     <td bgcolor="white"> Quelle: <a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-provide-examples">GPT Best Practises, OpenAI</a>
+     <td bgcolor="white"> Quelle: <a href="https://platform.openai.com/docs/quickstart/add-some-examples">Quickstart (OpenAI API), von OpenAI</a>
     </td>
   </tr>
      <tr>
@@ -422,7 +425,7 @@ Manche Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     </td>
     </td>
      <td bgcolor="white">
-      Quelle:<a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text">GPT Best Practises, OpenAI</a>, leicht adaptiert.
+      Quelle:<a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text">GPT Best Practises (OpenAI API), von OpenAI </a>und leicht adaptiert.
       <br>
       <br>
       Nutze diesen <a href="https://chat.openai.com/share/e9d59f03-ce82-498d-b076-be1556a32456"> <i>Link,</i></a>um einen Chatverlauf (ChatGPT-3.5) zu diesem Beispiel anzuschauen. Der dort verwendete Text stammte aus einem Wikipedia-Eintrag: <br> https://de.wikipedia.org/wiki/Haus_Plantagenet
@@ -441,7 +444,7 @@ Es ist jedoch zu beachten, dass die Anweisung an das Modell, eine bestimmte Anza
   <caption align="bottom"> 
     <div align="left" text-format="italic">
       <p style="text-indent:10px">
-        <i>Beispiele zu gewünschten Antwortformaten. Quelle:<a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-specify-the-desired-length-of-the-output">GPT Best Practises, OpenAI,</a>übersetzt und adaptiert.</i>
+        <i>Beispiele zu gewünschten Antwortformaten. Quelle:<a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-specify-the-desired-length-of-the-output">GPT Best Practises (OpenAI API) von OpenAI</a></i>
      </p>
     </div>
   </caption>
@@ -467,36 +470,162 @@ Es ist jedoch zu beachten, dass die Anweisung an das Modell, eine bestimmte Anza
 </table>
 
 
-
-
-
-
-
-
 ---
 
 
 ## Strategie: Referenztexte nutzen
+Chatbots wie ChatGPT generieren ihre Antworten anhand der verwendeten Trainingsdaten, was in einigen Fällen unzureichend sein kann. Im Falle von ChatGPT ist es möglich, einen Referenztext zur Verfügung zu stellen und den Chatbot anzuweisen, Antworten auf der Grundlage dieses Textes zu generieren. Zum Beispiel, um dem Chatbot Fragen zu einem bestimmten Artikel zu stellen.
+
+***Hinweis:*** *Zu beachten ist, dass bei ChatGPT die Grösse der Prompts begrenzt ist (Context Limit) und längere Referenztexte diesen Rahmen schnell sprengen können. Dieses Problem kann ggf. dadurch umgangen werden, indem der Referenztext abschnittsweise in "Chunks" mit mehreren Prompts übermittelt wird (siehe "Strategie: In Teile zerlegen").*
+
 
 ### Taktik: Referenztexte als Basis für Antworten
 Um Antworten zu generieren, die spezifisch für den Referenztext sind, kann der Chatbot angewiesen werden, Fragen mit Hilfe des übermittelten Textes zu beantworten (1).
 
 
-*Hinweis: Die folgenden Prompts basieren weitgehend auf der englischen 
+<table>
+  <caption align="bottom"> 
+    <div align="left" text-format="italic">
+      <p style="text-indent:10px">
+        <i>Beispiel: Referenztexte als Basis für Antworten</i>
+     </p>
+    </div>
+  </caption>
+  <tr>
+    <th>Beispiele</th>
+    <th>Bemerkungen</th>
+  </tr>
+  <tr>
+    <td width="70%" bgcolor="HoneyDew">
+    Halte dich an diese Schritte um auf meine Fragen zu reagieren: 
+    <br>
+    <br>
+    Step 1 - Ich werde dir einen Text, der durch dreifache Anführungszeichen (""") begrenzt ist, merke dir diesen Text im weiter Verlauf unserer Konversation (""") 
+    <br>
+    <br>
+    Step 2 - Du bestätigst, dass du den Text erhalten hast und sagst mir, dass du nun bereit bist für meine Fragen 
+    <br>
+    <br>
+    Step 3- Du beantwortest jeder meiner Fragen, indem du den angegebenen Text verwendest. Wenn du die Antwort im Angegebenen Text findest, schreibe "Ich konnte keine Antwort finden". 
+    <br>
+    <br>
+    """Sir Joseph William Bazalgette (Aussprache: /ˈbæzəldʒɛt/; * 28. März 1819..."""
+    </td>
+    <td bgcolor="White">
+    Dieser Prompt basiert auf den <a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-instruct-the-model-to-answer-using-a-reference-text"> "Best Practices" der englischen OpenAI-Dokumentation zur OpenAI-API</a>. Wir haben die dortigen Prompts übersetzt und adaptiert. Da das Hochladen von Dokumenten bei der Freemium-Version noch nicht möglich war (Stand August 2023), wurde der Referenztext direkt in den Prompt reinkopiert.
+    <br>
+    <br>
+    Nutze diesen <a href="https://chat.openai.com/share/255d000a-6b4c-4452-b85b-0c179bbf8adb"> <i>Link,</i></a>um einen Chatverlauf (ChatGPT-3.5) zu diesem Beispiel anzuschauen. Der dort verwendete Text stammte aus einem Wikipedia-Eintrag: <br> https://de.wikipedia.org/wiki/Joseph_Bazalgette
+    </td>
+  </tr>
+</table>
 
-OpenAI-Dokumentation (https://platform.openai.com/docs/guides/gpt-best-practices/tactic-instruct-the-model-to-answer-using-a-reference-text) 
-
-und scheint in der deutschen Übersetzung (ChatGPT-3.5) weniger gut zu funktionieren. Daher wurde der Prompt im Beispiel hier als Schritt-für-Schritt-Anleitung umformuliert.*
 
 
+### Taktik: Antworten mit Zitaten aus einem Referenztext generieren
+Hier wird die oben beschriebene Taktik erweitert, indem der Chatbot angewiesen wird, die entsprechenden Passagen des Referenztextes wiederzugeben. Dies kann bei der Überprüfung der generierten Antworten hilfreich sein. Beispielsweise kann das Nachschlagen im verwendeten Referenztext so erleichtert werden.
 
 
+<table>
+  <caption align="bottom"> 
+    <div align="left" text-format="italic">
+      <p style="text-indent:10px">
+        <i>Beispiel: Referenztexte als Basis für Antworten nutzen und mit Zitierungshinweisen antworten lassen.</i>
+     </p>
+    </div>
+  </caption>
+  <tr>
+    <th>Beispiel</th>
+    <th>Bemerkung</th>
+  </tr>
+  <tr>
+    <td width="70%" bgcolor="HoneyDew">
+      You will be provided with a document delimited by triple quotes and a question. The you will wait for my questions. Your task is then to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." <mark> If an answer to the question is provided, it must always be annotated with a citation. Use always the following format for to cite relevant passages like ({"citation": the person was born in berlin})</mark> 
+      <br>
+      <br>
+      Text:<br>
+      """Sir Joseph William Bazalgette (Aussprache: /ˈbæzəldʒɛt/; 
+    </td>
+    <td bgcolor="white">
+      Dies ist eine erweiterte Version der obrigen Anweisung. Mit Step 2 und 3 wollten wir erreichen, dass der Chatbot auf unsere Fragen wartet. Ohne diese Anpassung hatte ChatGPT (ChatGPT-3.5) z.T. kuriose Antworten generiert. 
+      <br>
+      <br>
+      Nutze diesen <a href="https://chat.openai.com/share/58e061e4-a89a-47f4-ab72-649e0486319c">
+          <i>Link,</i>
+        </a>
+      um einen Chatverlauf (ChatGPT-3.5) zu diesem Beispiel anzuschauen. Der damals verwendete Text stammte von Wikipedia: 
+      <br>
+      (https://de.wikipedia.org/wiki/Joseph_Bazalgette).
+    </td>
+  </tr>
+</table>
 
 
 ---
 
 
-Folgende Anwendungsfälle können hierzu relevant sein:
+## Strategie: In Teile zerlegen
+Manchmal ist es sinvoller komplexere Aufgaben in kleinere Teilaufgaben zu zerlegen. 
+
+
+### Taktik: Lange Texte stückweise übermitteln
+Die Verarbeitung grösserer Texte kann ggf. durch das vorhandene Context Limit verhindert werden. Beispielsweise können längere Texte, die der Chatbot zusammenfassen soll, nicht in einem Prompt übermittelt werden. Diese Einschränkung lässt sich ggf. umgehen, indem die Texte in "Chunks" mit mehreren Prompts übermittelt werden.
+
+
+<table>
+  <caption align="bottom"> 
+    <div align="left" text-format="italic">
+      <p style="text-indent:10px">
+        <i>Beispiel eines langen Texts, der stückweise übermittelt wird.</i>
+     </p>
+    </div>
+  </caption>
+  <tr>
+    <th>Beispiel</th>
+    <th>Bemerkung</th>
+  </tr>
+  <tr>
+    <td width="60%" bgcolor="HoneyDew">
+      <mark>Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part 1/2 received" and wait for the next part.</mark>
+      <br>
+      <mark>[START PART 1/2]</mark>
+      <br>
+      """Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet..."""
+      <br>
+      <mark>[END PART 1/2]</mark>
+      <br>
+      <mark>Remember not answering yet. Just acknowledge you received this part with the message "Part 1/2 received" and wait for the next part.</mark>
+    </td>
+    <td bgcolor="white">
+      Diese Prompts wurden aus dem <a href="https://chatgpt-prompt-splitter.jjdiaz.dev/">
+        <strong><i>ChatGPT PROMPTs Splitter</strong></i> von Jose Diaz</a> übernommen. Mit diesem Tool lassen sich längere Texte einfach und mit passenden Prompt-Anweisungen aufteilen.
+      <br>
+      <br>
+      Im ersten Prompt wird der erste Chunk des Textes übergeben.
+    </td>
+  </tr>
+  <tr>
+    <td width="60%" bgcolor="HoneyDew">
+      <mark>[START PART 2/2]</mark>
+      <br>
+      ""...et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."""
+      <br>
+      <mark>[END PART 2/2]</mark>
+      <br>
+      <mark>ALL PARTS SENT. Now you can continue processing the request.</mark>
+    </td>
+     <td bgcolor="white">
+      Im letzten Prompt wird der letzte Chunk des Textes übermittelt.
+    </td>
+  </tr>
+</table>
+
+
+
+---
+
+## Relevante Anwendungsfälle
+Bei diesen Anwendungsfällen könnten die hier aufgeführten Hinweise und Beispiele angewendet werden:
 
 ```yaml
 condition: or
@@ -509,22 +638,27 @@ rules:
 
 ---
 
+
 ## Links
 
-- https://learnprompting.org/de/
+ChatGPT Best Practices (OpenAI API):
+
+-	https://platform.openai.com/docs/guides/gpt-best-practices
+
+Weitere Onlinequellen zu Promting:
+
+- https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md
+- https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+- https://www.scribbr.com/ai-tools/chatgpt-prompts/
+
+Sammlung von Promptbeispielen:
+
+- https://github.com/f/awesome-chatgpt-prompts
 
 
-
-
-<!--
 ---
-description: "Nutze Prompt Engeneering für bessere Chatbot-Antworten"
-id: promptengineering
-image: guide/images/adventuremap.svg
-tags:
-- studierende
-title: Prompt Engineering für Prompt Kompezenz
-type: guide
----
 
--->
+
+## Quellen
+
+1.	GPT best practices [Internet]. [zitiert 31. August 2023]. OpenAI Platform. Verfügbar unter: https://platform.openai.com
