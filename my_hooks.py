@@ -1,9 +1,10 @@
 import os
 import re
 
+import yaml
 from bs4 import BeautifulSoup
 from jinja2 import Environment, BaseLoader
-import yaml
+
 
 class Global:
     nav = None
@@ -26,9 +27,25 @@ def load_block(block_name):
 
 
 def on_nav(Navigation, config, files):
+    desired_order = ["", "Quests", "Chancen & Risiken", "Guides", "Leitlinien", "Tools", "Projekt"]
+
     for section in Navigation:
         if section.title == "Chancenrisiken":
             section.title = 'Chancen & Risiken'
+
+    title_to_element = {}
+    for element in Navigation.items:
+        if element.title is None:
+            title_to_element[""] = element
+        else:
+            title_to_element[element.title] = element
+
+    reordered_list = []
+    for title in desired_order:
+        if title in title_to_element:
+            reordered_list.append(title_to_element[title])
+    Navigation.items = reordered_list
+
     Global.nav = Navigation
     Global.config = config
     return Navigation
@@ -39,6 +56,7 @@ def on_page_markdown(markdown, page, config, files):
         if os.path.isfile("docs/overrides/blocks/single/" + page.meta.get('type') + ".html"):
             page.meta["template"] = "blocks/single/" + page.meta.get('type') + ".html"
     return markdown
+
 
 def filter_entities(entities, filter_dict):
     op_map = {
@@ -65,7 +83,8 @@ def filter_entities(entities, filter_dict):
         results = [evaluate(entity, rule) for rule in filter_group['rules']]
         return all(results) if filter_group.get("condition", "and") == 'and' else any(results)
 
-    return [entity for entity in entities if evaluate(entity, filter_dict) and entity.meta.get('type', '') == filter_dict.get('entityType')]
+    return [entity for entity in entities if
+            evaluate(entity, filter_dict) and entity.meta.get('type', '') == filter_dict.get('entityType')]
 
 
 def on_post_page(html, page, config):

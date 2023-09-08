@@ -70,6 +70,6 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: effizienz-steigerung
+  value: effizienzsteigerung
 ```
 

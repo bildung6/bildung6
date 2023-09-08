@@ -79,7 +79,7 @@ rules:
   value: zweitmeinung
 - condition: equals
   property: id
-  value: effizienz-steigerung
+  value: effizienzsteigerung
 ```
 
 

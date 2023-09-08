@@ -2,6 +2,8 @@
 title: Austausch Plattform
 ---
 
+![Plattform](plattform.png)
+
 Die Bildung 6.0 Austauschplattform wurde bereitgestellt, um einen Austausch zwischen Interessierten zu ermöglichen. Das Projektteam stellt immer wieder auch verschiedene Ressourcen rund um das Thema KI in der Lehre dort bereit. Aber in erster Linie soll ein Erfahrungsaustausch stattfinden. Dies wird durch vom Projektteam organisierte Events und Diskussionen zum Einsatz von KI in der Lehre unterstützt.
 
 [:simple-discord:  Link zur Discord Plattform](https://discord.gg/S2tdXkKWdB){ .md-button .md-button--primary .discord-button }

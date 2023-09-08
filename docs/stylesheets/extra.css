@@ -389,4 +389,55 @@ li.anwendungsfälle
     background: #f8f8f8;
 }
 
+.overview {
+    position: relative;
+}
 
+.overview .point {
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.overview .point.quest {
+    left: 55%;
+    top:30%;
+}
+
+
+.overview .point.chancen {
+    left: 46%;
+    top:40%;
+}
+
+.overview .point svg {
+    color: #fff;
+    background: #F44336;
+    fill: #fff;
+    border-radius: 100%;
+    padding: 0.4em;
+    height: 3em;
+    z-index: 20;
+    width: 3em;
+    position: relative;
+}
+
+.overview .point span {
+    transition: 0.5s all;
+    position: absolute;
+    z-index: 10;
+    left: 2em;
+    top: 0.65em;
+    color: #fff;
+    background: #F44336;
+    border-radius: 0 10px 10px 0;
+    padding: 0.1em 0.6em 0.1em 0.6em;
+    width: max-content;
+    opacity: 0;
+}
+
+.overview .point:hover span {
+    display: block;
+    left: 2.5em;
+    opacity:1;
+}

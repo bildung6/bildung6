@@ -1,40 +1,27 @@
 <div class="filter">
     <h2>Filter</h2>
-
 </div>
-
 <div class="result tool">
     <div class="grid cards">
         <ul>
-
             {% for sub in elements %}
-
             <li >
                 <strong>{{ sub.title }}</strong>
-
                 {% if sub.meta.belearn %}
                  <div class="belearn-tool">
                      <div class="stars">
-
                          <span class="filled">★★★★</span>★
-
                      </div>
-
                      Bildung 6.0 Siegel</div>
                 {% endif %}
                 <hr>
                 {% if sub.meta.image %}
                 <img src="{{ sub.meta.image | url }}" alt="{{ sub.title }}" >
-
                 {% endif %}
-
                 <p>{{ sub.meta.description }}</p>
-
-
                 {% for tag in sub.meta.tags %}
                 <span class="tag">{{ tag }}</span>
                 {% endfor %}
-
                 <p><a href="{{ sub.url | url  }}"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg"
                                                                             viewBox="0 0 24 24"><path
                         d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span>
@@ -45,7 +32,6 @@
     </div>
 </div>
 <script>
-
     let pureElements = document.querySelectorAll('.result li');
 
     let elements = [];
@@ -104,9 +90,4 @@
 
         }
     }
-
-
-
-
-
 </script>
