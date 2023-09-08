@@ -26,6 +26,9 @@ def load_block(block_name):
 
 
 def on_nav(Navigation, config, files):
+    for section in Navigation:
+        if section.title == "Chancenrisiken":
+            section.title = 'Chancen & Risiken'
     Global.nav = Navigation
     Global.config = config
     return Navigation

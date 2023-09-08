@@ -1,6 +1,6 @@
 ---
 icon: fontawesome/solid/award
-title: Chancen
+title: Übersicht
 ---
 
 

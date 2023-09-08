@@ -370,3 +370,23 @@ h1 svg {
 .md-footer .md-footer-meta__inner {
     margin-top: 0;
 }
+
+.grid.cards li:only-child {
+    max-width: 21em;
+    /* margin: auto !important; */
+    display: block;
+}
+
+li.anwenderinnen,
+li.anwendungsfälle
+{
+    display: none;
+}
+
+.grid.cards li.disabled {
+    filter: grayscale(100%);
+    pointer-events: none;
+    background: #f8f8f8;
+}
+
+

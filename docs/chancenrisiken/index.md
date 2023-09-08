@@ -4,9 +4,4 @@ title: Chancen und Risiken
 ---
 # Chancen und Risiken
 
-```yaml
-condition: or
-entityType: risk
-rules: []
-```
-
+Hier findest du eine Übersicht der Chancen und Risiken von KI in der Bildung. 

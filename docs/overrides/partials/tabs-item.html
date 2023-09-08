@@ -13,7 +13,7 @@ This file was automatically generated - do not edit
 {% if nav_item.children %}
 {% include "partials/tabs-item.html" %}
 {% else %}
-<li class="md-tabs__item">
+<li class="md-tabs__item {{ nav_item.title|lower }}">
     <a href="{{ nav_item.url | url }}" class="{{ class }} {{ nav_item.title|lower }}">
 
         {% if nav_item.meta.icon %}
@@ -27,7 +27,7 @@ This file was automatically generated - do not edit
 </li>
 {% endif %}
 {% else %}
-<li class="md-tabs__item">
+<li class="md-tabs__item {{ nav_item.title|lower }}">
     <a href="{{ nav_item.url | url }}" class="{{ class }} {{ nav_item.title|lower }}">
 
 

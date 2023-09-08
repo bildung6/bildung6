@@ -1,6 +1,6 @@
 ---
 icon: material/snake
-title: Risiken
+title: Übersicht
 ---
 
 ![risks.svg](risks.svg)

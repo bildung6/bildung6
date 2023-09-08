@@ -10,14 +10,14 @@ Das Projekt Bildung 6.0 stellt relevante und verlässliche Informationen und Emp
 
 ## Steckbrief
 
-- Lead-Departement: Technik und Informatik
-- Institut: Institut für Medizininformatik I4MI
-- Themenfeld: Humane Digitale Transformation
-- Förderorganisation: BFH
-- Laufzeit (geplant): 01.03.2023 - 31.12.2023
-- Projektleitung: Prof. Dr. Kerstin Denecke
-- Projektmitarbeitende: Daniel Reichenpfader, Robin Paul Glauser
-- Schlüsselwörter: Künstliche Intelligenz, Hochschullehre, Ethik
+- **Lead-Departement:** Technik und Informatik
+- **Institut:** Institut für Medizininformatik I4MI
+- **Themenfeld:** Humane Digitale Transformation
+- **Förderorganisation:** BFH
+- **Laufzeit (geplant):** 01.03.2023 - 31.12.2023
+- **Projektleitung:** Prof. Dr. Kerstin Denecke
+- **Projektmitarbeitende:** Daniel Reichenpfader, Robin Glauser, Denis Moser
+- **Schlüsselwörter:** Künstliche Intelligenz, Hochschullehre, Ethik
 
 ## Ausgangslage
 
@@ -33,7 +33,6 @@ Verschiedene Formen von Künstlicher Intelligenz (KI) sind mittlerweile in viele
 ## Ergebnisse
 
 Zu erwartende Ergebnisse sind die Plattform zu KI-basierten Werkzeugen in der Lehre und Leitlinien zum kritischen Umgang mit ihnen.
-
 
 ## Förderung
 
@@ -54,9 +53,6 @@ Das Projekt wird im Rahmen des Förderprogramms [BeLearn](https://belearn.swiss/
 
 BeLearn Bildung 6.0 Informationsplattform
 
-- Kerstin Denecke
-- Robin Glauser
-- Denis Moser
-- Daniel Reichenpfader 
+Kerstin Denecke, Robin Glauser, Denis Moser, Daniel Reichenpfader 
 
 BFH Technik und Informatik, 21. Juli 2023, lizenziert unter CC BY-SA 4.0 International

@@ -12,7 +12,7 @@ This file was automatically generated - do not edit
 ) %}
 {% set class = class ~ " md-nav__item--section" %}
 {% endif %}
-<li class="{{ class }} md-nav__item--nested">
+<li class="{{ class }} md-nav__item--nested {{ nav_item.title|lower }}">
     {% set expanded = "navigation.expand" in features %}
     {% set active = nav_item.active or expanded %}
     {% set checked = "checked" if nav_item.active %}
