@@ -60,12 +60,45 @@ rules:
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
+  property: id
+  value: abhaengigkeit
+- condition: equals
+  property: id
+  value: abnahme-reflexionsfaehigkeit
+- condition: equals
+  property: id
+  value: blindes-folgen
+- condition: equals
+  property: id
+  value: faehigkeit-komplexe-aufgaben-loesen-nimmt-ab
+- condition: equals
+  property: id
+  value: fehlende-transparenz
+- condition: equals
+  property: id
+  value: gesellschaftlicher-bias
+- condition: equals
   property: id
   value: kompetenzverlust
-- condition: contains
+- condition: equals
+  property: id
+  value: meinungsverlust
+- condition: equals
   property: id
   value: monopolbildung
+- condition: equals
+  property: id
+  value: nachvollziehbarkeit
+- condition: equals
+  property: id
+  value: plagiate
+- condition: equals
+  property: id
+  value: verlust-kreativitaet
+- condition: equals
+  property: id
+  value: wem-gehoert-die-ki
 ```
 
 ---
