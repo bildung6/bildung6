@@ -392,36 +392,23 @@ li.anwendungsfälle
     position: relative;
 }
 
-.overview .point {
+.overview a {
+    color: transparent;
+    background:transparent;
+    height: 18%;
+    width: 16%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.8em;
+    border-radius: 1em;
     transition: 0.5s all;
-    position: relative;
-    float:left;
 }
 
-
-.overview .point svg {
-    color: #fff;
-    background: #F44336;
-    fill: #fff;
-    border-radius: 100%;
-    padding: 0.4em;
-    height: 3em;
-    z-index: 20;
-    width: 3em;
-    position: relative;
-}
-
-
-
-.overview .point span {
-    transition: 0.5s all;
-    z-index: 10;
-    left: 2.5em;
-    top: 0.65em;
-    color: #fff;
-    background: #F44336;
-    border-radius: 10px;
-    padding:0.2em;
-    margin-right: 10px;
-    display: block;
+.overview a:hover,
+.overview a:focus,
+.overview a:active {
+    color: transparent;
+    background: rgba(82, 108, 254, 0.13);
 }
