@@ -169,6 +169,7 @@ rules:
 ## Links
 
 Elicit:
+
 - Elict App: https://elicit.org/
 - Elicit FAQ: https://elicit.org/faq
 - Entwicklerseiter: https://ought.org/elicit
@@ -180,6 +181,7 @@ Jan Hendrik Kirchner erklärt, wie er Elicit zur schnellen Erstellung von Forsch
 
 ---
 
-## Quellenverzeichnis
+## Quellen
+
 1.	FAQ | Elicit [Internet]. [zitiert 14. August 2023]. Verfügbar unter: https://elicit.org/faq
 

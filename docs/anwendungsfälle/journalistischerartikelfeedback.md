@@ -92,6 +92,6 @@ rules:
 
 ---
 
-## Quellenverzeichnis
+## Quellen
 
 

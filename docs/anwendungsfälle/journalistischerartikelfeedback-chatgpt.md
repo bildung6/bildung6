@@ -276,4 +276,4 @@ Chatverlauf zum erstellen fiktiver Artikel:
 
 ---
 
-## Quellenverzeichnis
+## Quellen
