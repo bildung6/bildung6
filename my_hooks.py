@@ -27,7 +27,7 @@ def load_block(block_name):
 
 
 def on_nav(Navigation, config, files):
-    desired_order = ["", "Quests", "Chancen & Risiken", "Guides", "Leitlinien", "Tools", "Projekt"]
+    desired_order = ["", "Quests", "Chancen & Risiken", "Guides", "Leitlinien", "Tools", "Projekt", "AnwenderInnen", "Anwendungsfälle"]
 
     for section in Navigation:
         if section.title == "Chancenrisiken":

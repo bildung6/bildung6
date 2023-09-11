@@ -287,7 +287,6 @@ h1 svg {
 .belearn {
     background-color: #000;
     padding: 0.5rem 1rem;
-    max-width: 600px !important;
 }
 
 .question {
@@ -394,21 +393,11 @@ li.anwendungsfälle
 }
 
 .overview .point {
-    position: absolute;
-    left:0;
-    top:0;
+    transition: 0.5s all;
+    position: relative;
+    float:left;
 }
 
-.overview .point.quest {
-    left: 55%;
-    top:30%;
-}
-
-
-.overview .point.chancen {
-    left: 46%;
-    top:40%;
-}
 
 .overview .point svg {
     color: #fff;
@@ -422,22 +411,17 @@ li.anwendungsfälle
     position: relative;
 }
 
+
+
 .overview .point span {
     transition: 0.5s all;
-    position: absolute;
     z-index: 10;
-    left: 2em;
+    left: 2.5em;
     top: 0.65em;
     color: #fff;
     background: #F44336;
-    border-radius: 0 10px 10px 0;
-    padding: 0.1em 0.6em 0.1em 0.6em;
-    width: max-content;
-    opacity: 0;
-}
-
-.overview .point:hover span {
+    border-radius: 10px;
+    padding:0.2em;
+    margin-right: 10px;
     display: block;
-    left: 2.5em;
-    opacity:1;
 }
