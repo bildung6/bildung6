@@ -43,22 +43,31 @@ entityType: risk
 rules:
 - condition: contains
   property: id
-  value: halluzinationen
+  value: abhaengigkeit
 - condition: contains
   property: id
-  value: nachvollziehbarkeit
+  value: abnahme-reflexionsfaehigkeit
+- condition: contains
+  property: id
+  value: fehlende-transparenz
 - condition: contains
   property: id
   value: geschuetzte-daten
 - condition: contains
   property: id
-  value: bias-diskriminierung
-- condition: contains
-  property: id
-  value: gesellschaftlicher-bias
-- condition: contains
-  property: id
   value: kompetenzverlust
+- condition: contains
+  property: id
+  value: monopolbildung
+- condition: contains
+  property: id
+  value: nachvollziehbarkeit
+- condition: contains
+  property: id
+  value: plagiate
+- condition: contains
+  property: id
+  value: wem-gehoert-die-ki
 ```
 
 ---
