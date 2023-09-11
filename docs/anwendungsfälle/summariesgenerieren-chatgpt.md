@@ -236,10 +236,10 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: effizienzsteigerung
+  value: sprachliche-barrieren-aufloesen
 - condition: contains
   property: id
-  value: sprachliche-barrieren-aufloesen
+  value: zweitmeinung
 ```
 
 
