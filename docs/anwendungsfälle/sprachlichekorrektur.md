@@ -128,19 +128,16 @@ answers:
 
 
 ## Risiken
-<!--
+
 ```yaml
 condition: or
 entityType: risk
 rules:
 - condition: contains
   property: id
-  value: kompetenzverlust
-- condition: contains
-  property: id
-  value: datenschutz
+  value: fehlende-transparenz
 ```
--->
+
 
 ---
 

@@ -71,7 +71,6 @@ rules:
 
 ## Risiken
 
-<!--
 
 ```yaml
 condition: or
@@ -79,9 +78,8 @@ entityType: risk
 rules:
 - condition: contains
   property: id
-  value: halluzinationen
+  value: fehlende-transparenz
 ```
--->
 
 ---
 
