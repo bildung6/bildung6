@@ -44,7 +44,13 @@ entityType: risk
 rules:
 - condition: equals
   property: id
+  value: fehlende-transparenz
+- condition: equals
+  property: id
   value: geschuetzte-daten
+- condition: equals
+  property: id
+  value: gesellschaftlicher-bias
 - condition: equals
   property: id
   value: monopolbildung
@@ -53,13 +59,7 @@ rules:
   value: nachvollziehbarkeit
 - condition: equals
   property: id
-  value: verantwortung-bei-fehlern
-- condition: equals
-  property: id
-  value: xxx
-- condition: equals
-  property: id
-  value: xxx
+  value: wem-gehoert-die-ki
 ```
 
 
