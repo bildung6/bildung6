@@ -13,11 +13,11 @@ type: usecase
 
 ## Beschreibung
 
-Das Generieren von Summaries oder Zusammenfassungen kann in verschiedenen Situationen beim wissenschaftlichen Arbeiten genutzt werden. 
+Das Generieren von Summaries oder Zusammenfassungen kann in verschiedenen Phasen der wissenschaftlichen Arbeit eingesetzt werden. 
 
-Beispielsweise können so schnell wissenschaftliche Quellen zusammengefasst werden. Diese Zusammenfassungen können dir einen Überblick zu den jeweiligen Forschungsergebnissen geben, die du zur Gliederung eines Berichts verwenden kannst.
+So können beispielsweise wissenschaftliche Quellen schnell zusammengefasst werden. Diese Zusammenfassungen können einen Überblick über die Forschungsergebnisse geben, der für die Gliederung eines Berichts verwendet werden kann.
 
-Ein weitere Anwendungsmöglichkeit ist das Zusammenfassen eigener Texte für das Schreiben eines Abstracts.
+Eine weitere Anwendungsmöglichkeit ist das Zusammenfassen eigener Texte für die Erstellung eines Abstracts.
 
 
 ---

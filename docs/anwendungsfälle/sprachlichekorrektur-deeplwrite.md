@@ -1,7 +1,6 @@
 ---
-description: "KI kann verwendet werden, um die sprachliche Korrektur von Studierenden\
-  \ zu unterst\xFCtzen. Dies kann in Form von automatischen Korrekturen oder als Feedback\
-  \ f\xFCr Studierende erfolgen."
+description: "DeepL Write kann verwendet werden, um die sprachliche Korrektur von Studierenden\
+  \ zu unterst\xFCtzen."
 id: sprachlichekorrektur-deeplwrite
 image: "anwendungsf\xE4lle/images/decide.svg"
 tags:
@@ -17,9 +16,7 @@ type: usecase
 
 ## Beschreibung
 
-DeepL Write ist ein KI-basierter Schreibassistent, der Texte hinsichtlich Grammatik, Rechtschreibung und Stil optimiert. 
-
-Studierende können mithilfe von DeepL Write ihre wissenschaftlichen Arbeiten sprachlich verfeinern, wodurch Grammatik, Rechtschreibung und Stil auf hohem Niveau sichergestellt werden können. 
+DeepL Write ist ein KI-basierter Schreibassistent, der Texte hinsichtlich Grammatik, Rechtschreibung und Stil optimiert. Studierende können mithilfe von DeepL Write ihre wissenschaftlichen Arbeiten sprachlich verfeinern, wodurch Grammatik, Rechtschreibung und Stil auf hohem Niveau sichergestellt werden können. 
 
 Der zu bearbeitende Text kann einfach in das dafür vorgesehene Textfenster eingefügt werden; das Tool erkennt und korrigiert Fehler automatisch, wobei Verbesserungsvorschläge im rechten Textfenster grün markiert werden. 
 
@@ -38,9 +35,9 @@ Der zu bearbeitende Text kann einfach in das dafür vorgesehene Textfenster eing
 
 In diesem Beispiel wurde links ein Text eingefügt. DeepL Write zeigt rechts den korrigierten Text an, bei dem die geänderten Teile grün markiert sind. 
 
-Im rechten Feld kann der Text weiter bearbeitet werden. Zum Beispiel kann ein Wort angeklickt werden, um eine alternative Bezeichnung auszuwählen. Hier können auch ganze Sätze umformuliert werden, indem oben im Drop-Down-Menü die Option "Ganzer Satz" ausgewählt wird.
+Im rechten Feld kann der Text weiter bearbeitet werden. Zum Beispiel kann ein Wort angeklickt werden, um eine alternative Bezeichnung auszuwählen. Hier können auch ganze Sätze umformuliert werden, indem oben im Dropdown-Menü die Option "Ganzer Satz" ausgewählt wird.
 
-Das folgende Beispiel zeigt, dass DeepL Write einzelne Fehler korrigiert und die Punktuation verbessert hatte. Ausserdem wurde eine formalere Schreibweise erreicht.
+Das folgende Beispiel zeigt, dass DeepL Write einzelne Fehler korrigiert und die Punktuation verbessert hatte. Ausserdem wurde eine formalere Schreibweise erreicht:
 
 ![alt text](../anwendungsfälle/images/deeplwrite-sprachlichekorrektur/deeplwrite-1.png)
 

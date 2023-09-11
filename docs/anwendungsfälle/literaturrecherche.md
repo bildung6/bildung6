@@ -1,5 +1,5 @@
 ---
-description: "KI kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
+description: "Elicit kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
   \ relevante Artikel und Studien identifiziert und vorschl\xE4gt."
 id: literaturrecherche
 image: "anwendungsf\xE4lle/images/filesearching.svg"

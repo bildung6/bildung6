@@ -1,5 +1,5 @@
 ---
-description: "Generiere Feedback zu deinem (wissenschafts-) journalistischen Artikel."
+description: "Generiere Feedback zu deinem (wissenschafts-) journalistischen Artikel, um diesen zu optimieren."
 id:  journalistischerartikelfeedback-chatgpt
 image: "anwendungsf\xE4lle/images/chatbot.svg" 
 tags:
@@ -10,12 +10,9 @@ type: usecase
 ---
 
 
-# Feedback zum journalistischen Artikel zur Optimierung
+# Feedback zum journalistischen Artikel mit ChatGPT generieren
 
-Eine mögliche Anwendung von KI-basierten Werkzeugen ist die Analyse von Texten in Hinblick auf Inhalt und Sprache. Davon kannst du profitieren und dir z.B. von ChatGPT Feedback geben lassen.
-
-
----
+Eine mögliche Anwendung von KI-basierten Tools ist die Analyse von Texten in Bezug auf Inhalt und Sprache. Davon kannst du profitieren, indem du dir z.B. von ChatGPT Feedback geben lässt.
 
 
 ## Beschreibung
@@ -28,27 +25,26 @@ Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du ChatGPT
 
 ## Beispiele
 
-In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu übernehmen und konstruktives Feedback zu dem übermitteltem Text zu geben. 
+In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu übernehmen und konstruktives Feedback zu dem übermittelten Text zu geben.
 
-*Anmerkung: Die hier im Prompt übergebenen Texte enthalten rein fiktive Inhalte, die ohne wissenschaftlichen Grundlagen erstellt wurden.*
+*Hinweis: Die hier in den Prompts übermittelten Texte enthalten rein fiktive Inhalte. Aus Platz- und Darstellungsgründen werden sie hier nicht in voller Länge wiedergegeben. Sie können jedoch über die unten stehenden Links zum Chatverlauf eingesehen werden.*
 
 
 ???+ info "Bemerkung"
 
-    Bei der Erstellung der hier gezeigten Beispiele wurde festgestellt, dass ChatGPT-3.5 fälschlicherweise nicht in der Lage war, die vorhandenen Grammatik- und Rechtschreibfehler zu erkennen. Obwohl im zweiten Anlauf (durch Drücken des *Regenate*-Buttons) die Fehler entdeckt wurden, ist es empfehlenswert, auf ein dafür spezifisches digitales Werkzeug auszuweichen (z.B. Microsoft Word, oder DeepL Write).
+    Bei der Erstellung der hier gezeigten Beispiele wurde festgestellt, dass ChatGPT-3.5 fälschlicherweise nicht in der Lage war, vorhandene Grammatik- und Rechtschreibfehler zu erkennen. Obwohl die Fehler im zweiten Anlauf (durch Drücken des Regenate-Buttons) entdeckt wurden, ist es empfehlenswert, auf ein dafür spezifisches digitales Werkzeug auszuweichen (z.B. Microsoft Word, oder DeepL Write).
 
-    Beachte, dass die Länge einer Eingabeaufforderung oder Prompts bei ChatGPT-3.5 limitiert ist. Es ist also nicht möglich dem Chatbot (Stand August 23) lange Texte zu übergeben.
+    Bitte beachte, dass die Länge eines Prompts in ChatGPT-3.5 begrenzt ist. 
 
 
 ---
 
 
-### Beispiel 1: Mit ChatGPT ein Feedback zu einem wissenschaftsjournalistischen Text generieren (ChatGPT-3.5)
+### Beispiel 1: Feedback zu einem Text einholen
 
-In diesem Beispiel wurde ein Artikel übermittelt, der in nüchterner und technischer Tonart verfasst ist. 
-Im Prompt wurden Trennzeichen (###, """) eingesetzt, um die Anweisungen und den Text voneinander zu separieren.
+In diesem Beispiel wurde ein Artikel übermittelt, der in einem nüchternen und technischen Ton verfasst ist. Im Prompt wurden Trennzeichen (###, """) verwendet, um Anweisungen und Text zu trennen.
 
-Dieser fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt eine mögliche Anwendung eines statistischen Verfahrens. Aus Platz- und Darstellungsgründen wird der Text hier nicht wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden.
+Dieser fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt eine mögliche Anwendung eines statistischen Verfahrens. 
 
 
 **Input:**
@@ -74,7 +70,6 @@ Die kontinuierliche Entwicklung in der Informationstechnologie (IT) hat zu einer
 **Ouptut:**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: rgba(247,247,248)">
 <strong>Beurteilung des Textes:</strong>
-<br>
 <br>
 Der vorliegende wissenschaftsjournalistische Artikel erreicht insgesamt ein solides Niveau. Die Erklärungen sind klar und verständlich, und der Text ist gut strukturiert. Dennoch gibt es einige Bereiche, in denen Verbesserungen vorgenommen werden könnten, um den Artikel noch stärker zu machen.
 <br>
@@ -112,7 +107,7 @@ Die Struktur des Artikels ist klar und folgt einem logischen Aufbau. Die Einleit
 Insgesamt ist der Artikel auf einem guten Weg, um wissenschaftsjournalistische Standards zu erfüllen. Mit einigen Verbesserungen in der Erklärung von Fachbegriffen, dem Lesefluss und der Hinzufügung von weiteren Quellen könnte der Artikel noch informativer und ansprechender gestaltet werden.
 </p>
 
-**Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkt genauer erklären. 
+**Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkte genauer erklären. 
 
 *Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link:  https://chat.openai.com/share/6dea5db8-cfc3-44ff-9e2e-8501ccfa0e19*
 
@@ -120,12 +115,11 @@ Insgesamt ist der Artikel auf einem guten Weg, um wissenschaftsjournalistische S
 ---
 
 
-### Beispiel 2: Mit ChatGPT ein Feedback zu einem wissenschaftsjournalistischen Text generieren (ChatGPT-3.5)
+### Beispiel 2: Feedback zu einem schlecht geschriebenen Text einholen
 
-In diesem Beispiel wurde ein absichtlich schlecht verfasster Artikel übermittelt, der mehrere Rechtschreibefehler und umgangsprachliche Ausdrücke enthält. 
-Im Prompt wurden Trennzeichen (###, """) verwendet, um Instruktion und Text voneinander zu trennen.
+In diesem Beispiel wurde ein schlecht geschriebener Artikel mit mehreren Rechtschreibfehlern und umgangssprachlichen Ausdrücken übermittelt.
 
-Dieser fiktive Artikel wurde mithilfe ChatGPT-3.5 erstellt und versucht einen Zusammenhang zwischen Klimawandel und Piraterie herzustellen. Aus Platz- und Darstellungsgründen wird der Texte hier nicht abgebildet, ist aber über den Link zum Gesprächsverlauf einsehbar.  
+Dieser fiktive Artikel wurde mit ChatGPT-3.5 erstellt und versucht einen Zusammenhang zwischen Klimawandel und Piraterie herzustellen. 
 
 **Input:**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
@@ -183,7 +177,7 @@ Der vorliegende Text zeigt einige Anzeichen von Kreativität und Verspieltheit, 
 Zusammenfassend lässt sich sagen, dass der Text noch Überarbeitung benötigt, um das angemessene Niveau wissenschaftsjournalistischen Schreibens zu erreichen. Es geht darum, die Information klar, präzise und sachlich zu vermitteln, ohne die Ernsthaftigkeit des Themas zu beeinträchtigen.
 </p>
 
-**Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkt genauer erklären. 
+**Tipp:** Nutze den *Regenerate*-Button um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkte genauer erklären. 
 
 *Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link:  https://chat.openai.com/share/5847df09-48f1-4fef-93ac-0a339c0e8600*
 

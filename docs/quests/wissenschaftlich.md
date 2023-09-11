@@ -6,7 +6,7 @@ description: Welche KI-Tools unterstützen mich beim wissenschaftlichen Arbeiten
 ---
 
 
-In diesem Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen Arbeiten eingesetzt werden kann. 
+In dieser Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen Arbeiten eingesetzt werden kann. 
 
 ###	Fragestellung generieren
 <!-- 

@@ -14,15 +14,15 @@ type: usecase
 
 ## Beschreibung
 
-Bei wissenschaftlichen Tätigkeiten, sei es bei der Recherche oder dem Verfassen von Semesterarbeiten, kann das Generieren von Zusammenfassungen durch ChatGPT eine Zeitersparnis bedeuten. Bei der Erstellung von Abschnitten oder Kapiteln können die generierten Zusammenfassungen dazu verwendet werden, den roten Faden im Text zu behalten und die Struktur des Berichts sinnvoll aufzubauen.
+Bei wissenschaftlichen Tätigkeiten, sei es bei der Recherche oder beim Verfassen von Semesterarbeiten, kann das Generieren von Zusammenfassungen mit ChatGPT eine Zeitersparnis bedeuten. Bei der Erstellung von Abschnitten oder Kapiteln können die generierten Zusammenfassungen dazu verwendet werden, den roten Faden im Text zu behalten und die Struktur des Berichts sinnvoll aufzubauen.
 
 Ein weiterer Anwendungsfall liegt in der Erstellung von Abstracts. Die generierten Zusammenfassungen können als Grundlage dienen, um prägnante und aussagekräftige Abstracts für einen Bericht zu formulieren.
 
 Die folgenden Beispiele zeigen, wie ChatGPT-3.5 verwendet werden kann, um Zusammenfassungen von Texten zu generieren.
 
-Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise ist nötig, da bei ChatGPT die Zeichenbegrenzung eingehalten werden muss (Stand August 2023) und es ggf. notwendig ist, längere Texte in "Chunks" zu übergeben (1).
+Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise ist notwendig, da bei ChatGPT die Zeichenbegrenzung eingehalten werden muss (Stand August 2023) und es notwendig sein kann, längere Texte in "Chunks" zu übertragen (1).
 
-**Es ist wichtig, die generierten Texte kritisch zu überprüfen, um etwaige fehlerhafte Informationen zu erkennen. Besonders im Hinblick auf Zitate und Referenzen sollten die geltenden Zitierregeln sorgfältig beachtet werden, um die Quellen korrekt anzugeben und Plagiate zu vermeiden.**
+**Es ist wichtig, die generierten Texte kritisch auf fehlerhafte Informationen zu überprüfen. Insbesondere bei Zitaten, Verweisen und Paraphrasen sind die geltenden Zitierregeln genau zu beachten, um Quellen korrekt anzugeben und Plagiate zu vermeiden.**
 
 
 ---
@@ -30,21 +30,25 @@ Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wi
 
 ## Beispiele
 
-???+ info "Bemerkung"
+Die folgenden Beispiele zeigen, wie mit ChatGPT Zusammenfassungen von Texten generiert werden können.
+
+
+???+ info "Achtung"
     
     Bedenke, dass es in deiner Verantwortung liegt, die Relevanz der Quellen und die Richtigkeit der generierten Zusammenfassungen zu überprüfen. Als in der Forschung tätige Person musst du auch in der Lage sein, den Inhalt der gesichteten Literatur zu verstehen und zu interpretieren.
 
+
+Aus Platz- und Darstellungsgründen werden die Texte hier nicht in voller Länge wiedergegeben. Sie können jedoch über die unten stehenden Links zum Chatverlauf eingesehen werden.
 
 ---
 
 
 ### Beispiel 1: Kurzer Text zusammenfassen
-
-Der hier genutzte fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion. Aus Platz- und Darstellungsgründen wird der Text hier nicht in voller Länge wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. Der generierte Text umfasst ca. 650 Wörter bzw. 5000 Zeichen.
-
 Für das Zusammenfassen von Texten kann **"tldr"** (too long; didn't read) im Prompt verwendet werden. 
 
-(*Die verwendeten Anweisungen sind <mark>gelb markiert</mark>.*)
+Der hier genutzte fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion. 
+
+
 
 **Input**
 
@@ -77,7 +81,7 @@ In der Sowjetunion spielten Zwiebeln und Pastinaken eine bedeutende Rolle in der
 
 ### Beispiel 2: Langer Text schrittweise einfügen und zusammenfassen
 
-Dieses Beispiel simuliert, wie ChatGPT-3.5 verwendet werden könnte, um eine Zusammenfassung einer bestehenden Arbeit (z.B. deiner Seminararbeit) zu erstellen.
+Dieses Beispiel simuliert, wie ChatGPT-3.5 verwendet werden kann, um eine Zusammenfassung einer bestehenden Arbeit (z.B. deiner Seminararbeit) zu erstellen.
 
 Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die System Usability Scale (SUS) um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
 
@@ -89,7 +93,7 @@ Der nachfolgende Dialog umfasst grob diese Schritte:
 
 1. Kopiere den Text aus dem Dokument
 2. Teile den Text in mehrere Chunks auf (Nutze ein Textdokument oder verwende ein Werkzeug wie den *ChatGPT PROMPTs Splitter*)
-3. Übergebe den Text schrittweise via Prompts mit den dazugehörigen Anweisungen
+3. Den Text in mehreren Prompts mit entsprechenden Anweisungen übermitteln
 4. Lass ChatGPT eine Zusammenfassung generieren
 
 
