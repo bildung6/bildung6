@@ -90,10 +90,13 @@ rules:
 condition: or
 entityType: chance
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: effizienzsteigerung
-- condition: contains
+  value: kompetenzerwerb-durch-ki
+- condition: equals
+  property: id
+  value: kompetenzfoerderung
+- condition: equals
   property: id
   value: sprachliche-barrieren-aufloesen
 ```
