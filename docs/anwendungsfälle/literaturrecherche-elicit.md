@@ -151,7 +151,9 @@ rules:
   value: plagiate
 ```
 
+
 ---
+
 
 ## Chancen
 
@@ -161,10 +163,12 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: effizienzsteigerung
+  value: kompetenzerwerb-durch-ki
 ```
 
+
 ---
+
 
 ## Links
 
