@@ -24,7 +24,7 @@ Du kannst ChatGPT nutzen, um Denkanstösse für die Formulierung der Forschungsf
 
   ---
 
-# Beispiele
+## Beispiele
 Die folgenden Beispiele zeigen, wie ChatGPT-3.5 verwendet werden kann, um Fragen/Forschungsfragen zu generieren.
     
 
