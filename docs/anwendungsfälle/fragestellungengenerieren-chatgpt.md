@@ -174,9 +174,7 @@ rules:
 
 ---
 
-## Chance
-
-Kritisches Denken (Atlas 2023)
+## Chancen
 
 ```yaml
 condition: or
@@ -184,10 +182,15 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: kreative-anstoesse
+  value: kompetenzerwerb-durch-ki
+- condition: contains
+  property: id
+  value: zweitmeinung
 ```
 
+
 ---
+
 
 ## Links
 

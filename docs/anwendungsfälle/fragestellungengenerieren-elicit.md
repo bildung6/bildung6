@@ -158,7 +158,10 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: kreative-anstoesse
+  value: kompetenzerwerb-durch-ki
+- condition: contains
+  property: id
+  value: zweitmeinung
 ```
 
 ---
