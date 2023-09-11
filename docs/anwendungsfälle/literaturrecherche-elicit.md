@@ -133,13 +133,10 @@ entityType: risk
 rules:
 - condition: contains
   property: id
-  value: abhängikeit
+  value: abnahme-reflexionsfaehigkeit
 - condition: contains
   property: id
-  value: bias-diskriminierung
-- condition: contains
-  property: id
-  value: faehigkeit-komplexe-aufgaben-loesen-nimmt-ab
+  value: fehlende-transparenz
 - condition: contains
   property: id
   value: gesellschaftlicher-bias
@@ -148,10 +145,10 @@ rules:
   value: kompetenzverlust
 - condition: contains
   property: id
-  value: nachvollziebarkeit
+  value: nachvollziehbarkeit
 - condition: contains
   property: id
-  value: verlust-kreativität
+  value: plagiate
 ```
 
 ---
