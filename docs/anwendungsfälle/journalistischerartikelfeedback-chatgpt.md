@@ -242,10 +242,13 @@ entityType: chance
 rules:
 - condition: equals
   property: id
-  value: zweitmeinung
+  value: kompetenzerwerb-durch-ki
 - condition: equals
   property: id
-  value: effizienzsteigerung
+  value: sprachliche-barrieren-aufloesen
+- condition: equals
+  property: id
+  value: zweitmeinung
 ```
 
 
