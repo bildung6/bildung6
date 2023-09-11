@@ -12,12 +12,13 @@ type: usecase
 
 
 # Feedback zum journalistischen Artikel zur Optimierung
+Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du KBW wie Chatbots nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
+
 
 ## Beschreibung
 
 Das Verfassen von wissenschaftsjournalistischen Beiträgen kann eine Aufgabe sein, die du im Rahmen deines Studiums als Leistungsnachweis erbringen musst. Beispielsweise kann von dir verlangt werden, dass du deine Seminararbeit im wissenschaftsjournalistischen Stil zusammenfasst. Im Gegensatz zu einem wissenschaftlichen Bericht richtet sich ein wissenschaftsjournalistischer Artikel an ein breiteres Publikum. Das hat Auswirkungen auf Stil und Form deines Textes.
 
-Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du z.B. KBW wie Chatbots nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
 
 ---
 

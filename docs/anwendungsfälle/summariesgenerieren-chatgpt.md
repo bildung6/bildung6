@@ -10,17 +10,15 @@ type: usecase
 
 
 # Summaries generieren mit ChatGPT
+Nutze ChatGPT um die Inhalte deines Berichts zusammenzufassen.
 
 
 ## Beschreibung
 
-Bei wissenschaftlichen Tätigkeiten, sei es bei der Recherche oder beim Verfassen von Semesterarbeiten, kann das Generieren von Zusammenfassungen mit ChatGPT eine Zeitersparnis bedeuten. Bei der Erstellung von Abschnitten oder Kapiteln können die generierten Zusammenfassungen dazu verwendet werden, den roten Faden im Text zu behalten und die Struktur des Berichts sinnvoll aufzubauen.
+Bei wissenschaftlichen Tätigkeiten, sei es bei der Recherche oder beim Verfassen von Semesterarbeiten, kann das Generieren von Zusammenfassungen mit ChatGPT eine Zeitersparnis bedeuten. 
 
-Ein weiterer Anwendungsfall liegt in der Erstellung von Abstracts. Die generierten Zusammenfassungen können als Grundlage dienen, um prägnante und aussagekräftige Abstracts für einen Bericht zu formulieren.
+Bei der Erstellung von Abschnitten oder Kapiteln könnten die generierten Zusammenfassungen dazu verwendet werden, den roten Faden im Text zu behalten und die Struktur des Berichts sinnvoll aufzubauen. Ein weiterer Anwendungsfall liegt in der Erstellung von Abstracts. Die generierten Zusammenfassungen können als Grundlage dienen, um prägnante und aussagekräftige Abstracts für einen Bericht zu formulieren.
 
-Die folgenden Beispiele zeigen, wie ChatGPT-3.5 verwendet werden kann, um Zusammenfassungen von Texten zu generieren.
-
-Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise ist notwendig, da bei ChatGPT die Zeichenbegrenzung eingehalten werden muss (Stand August 2023) und es notwendig sein kann, längere Texte in "Chunks" zu übertragen (1).
 
 **Es ist wichtig, die generierten Texte kritisch auf fehlerhafte Informationen zu überprüfen. Insbesondere bei Zitaten, Verweisen und Paraphrasen sind die geltenden Zitierregeln genau zu beachten, um Quellen korrekt anzugeben und Plagiate zu vermeiden.**
 
@@ -30,10 +28,10 @@ Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wi
 
 ## Beispiele
 
-Die folgenden Beispiele zeigen, wie mit ChatGPT Zusammenfassungen von Texten generiert werden können.
+Die folgenden Beispiele zeigen, wie Zusammenfassungen von Texten mit ChatGPT-3.5 erstellt werden können. Beispiel 1 zeigt die Zusammenfassung eines kurzen Textes. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise ist notwendig, da ChatGPT eine Zeichenbegrenzung hat (Stand August 2023) und längere Texte ggf. in "Chunks" übertragen werden müssen (1).
 
 
-???+ info "Achtung"
+???+ info "Bemerkung"
     
     Bedenke, dass es in deiner Verantwortung liegt, die Relevanz der Quellen und die Richtigkeit der generierten Zusammenfassungen zu überprüfen. Als in der Forschung tätige Person musst du auch in der Lage sein, den Inhalt der gesichteten Literatur zu verstehen und zu interpretieren.
 
@@ -46,7 +44,7 @@ Aus Platz- und Darstellungsgründen werden die Texte hier nicht in voller Länge
 ### Beispiel 1: Kurzer Text zusammenfassen
 Für das Zusammenfassen von Texten kann **"tldr"** (too long; didn't read) im Prompt verwendet werden. 
 
-Der hier genutzte fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion. 
+*Der hier verwendete fiktive Artikel wurde mit ChatGPT-3.5 erstellt und beschreibt die Rolle von Zwiebeln und Pastinaken in der Landwirtschaft der Sowjetunion.*
 
 
 
@@ -83,21 +81,18 @@ In der Sowjetunion spielten Zwiebeln und Pastinaken eine bedeutende Rolle in der
 
 Dieses Beispiel simuliert, wie ChatGPT-3.5 verwendet werden kann, um eine Zusammenfassung einer bestehenden Arbeit (z.B. deiner Seminararbeit) zu erstellen.
 
-Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die System Usability Scale (SUS) um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
+Um das bestehende Eingabe-Limit (Stand August 2023) von ChatGPT-3.5 zu umgehen, wurde der Text in mehrere Teile zerlegt und mit spezifischen Prompts an den Chatbot übergeben. Hierfür wurde der ***ChatGPT PROMPTs Splitter*** von Jose Diaz (https://chatgpt-prompt-splitter.jjdiaz.dev/) verwendet, mit dem längere Texte **einfach und mit passenden Prompt-Anweisungen aufgeteilt werden können**.
 
-Um das bestehende Eingabe-Limit (Stand August 2023) von ChatGPT-3.5 zu umgehen, wurde der Text in mehrere Teile zerlegt und mit spezifischen Prompts an den Chatbot übergeben. 
-
-Hierfür wurde der ***ChatGPT PROMPTs Splitter*** von Jose Diaz (https://chatgpt-prompt-splitter.jjdiaz.dev/) verwendet, mit dem längere Texte **einfach und mit passenden Prompt-Anweisungen aufgeteilt werden können**.
-
-Der nachfolgende Dialog umfasst grob diese Schritte:
+Der nachfolgende Chatbot-Dialog umfasst grob diese Schritte:
 
 1. Kopiere den Text aus dem Dokument
 2. Teile den Text in mehrere Chunks auf (Nutze ein Textdokument oder verwende ein Werkzeug wie den *ChatGPT PROMPTs Splitter*)
-3. Den Text in mehreren Prompts mit entsprechenden Anweisungen übermitteln
+3. Übermittle den Text mit mehreren Prompts
 4. Lass ChatGPT eine Zusammenfassung generieren
 
 
-(*Die verwendeten Anweisungen sind <mark>gelb markiert</mark>.*)
+*Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die System Usability Scale (SUS) um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.*
+
 
 **Input 1: Erster Chunk**
 
@@ -118,7 +113,6 @@ Introduction There are numerous surveys available to usability practitioners to 
 Part 1/2 received. I'll be waiting for the next part of your text.
 </p>
 
-<br>
 
 **Input 2: Letzter Chunk**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
@@ -257,7 +251,7 @@ ChatGPT PROMPTs Splitter von Jose Diaz:
 - ChatGPT PROMPTs Splitter App: https://chatgpt-prompt-splitter.jjdiaz.dev/
 - Beschreibung: https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270
 
-Chatverlauf zum erstellen fiktiver Artikel:
+Chatverlauf zur Erstellung des fiktiven Artikels:
 
 - Beispiel 1 (Kurzer Artikel über Zwiebeln und Pastinaken in der Sovietunion): 
 https://chat.openai.com/share/19a1b905-ea5a-4091-bac7-55e8d053b11c

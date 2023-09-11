@@ -1,5 +1,5 @@
 ---
-description: "KI kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
+description: "Elicit kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
   \ relevante Artikel und Studien identifiziert und vorschl\xE4gt."
 id: literaturrecherche-elicit
 image: "anwendungsf\xE4lle/images/choose_editedinsgtar.svg"
@@ -12,10 +12,11 @@ type: usecase
 
 
 # Literaturrecherche mit Elicit
+Elicit kann dich bei der Suche und Auswahl geeigneter Literatur zu unterstützen.
 
 ## Beschreibung
 
-Elicit ist ein KI-basiertes Forschungsassistenzsystem, das bei der Literaturrecherche eingesetzt werden kann. Es beschleunigt die Suche und Auswahl von Literatur. 
+Elicit ist ein KI-basiertes Forschungsassistenzsystem, das bei der Literaturrecherche eingesetzt werden kann, um die Suche und Auswahl von Literatur zu beschleunigen.
 
 Ausgehend von einer Fragestellung zeigt Elicit relevante Arbeiten an und stellt diese mit Zusammenfassungen in einer *Tabelle* dar. Anwender:innen können diese interaktive Tabelle und die Zusammenfassungen nutzen, um weitere Vorschläge zu generieren und sich damit eine Auswahl an wissenschaftlichen Quellen zusammenzustellen. 
 
@@ -37,13 +38,11 @@ Dieses Beispiel zeigt, wie Elicit verwendet werden kann, um eine Auswahl an Lite
     
     Bedenke, dass es in deiner Verantwortung liegt, die Relevanz der Quellen und die Richtigkeit der generierten Zusammenfassungen zu überprüfen. Als in der Forschung tätige Person musst du auch in der Lage sein, den Inhalt der gesichteten Literatur zu verstehen und zu interpretieren.
 
----
-
 
 **Schritt 1: Erste Vorschläge mit einer Forschungfrage generieren**
 
 
-Als erstes wird folgende Fragestellung eingegeben, um die ersten Vorschläge zu generieren:
+Als erstes wird eine Fragestellung eingegeben, um die ersten Vorschläge zu generieren, z.B. :
 
 *"What are the advantages and disadvantages of using chatbots for healthcare delivery?"* 
 
@@ -52,7 +51,7 @@ Als erstes wird folgende Fragestellung eingegeben, um die ersten Vorschläge zu 
 -->
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-1-frage.png)
 
----
+
 
 **Schritt 2: Die Filterfunktion nutzen, um die Suche nach Reviews einzugrenzen**
 
@@ -60,7 +59,7 @@ Um die Suche einzugrenzen sollen nur systematische Übersichtsarbeiten (Systemat
 
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-3-filterforreviews.png)
 
----
+
 
 **Schritt 3: Weitere Informationen in der Tabelle anzeigen lassen**
 
@@ -70,7 +69,7 @@ Wähle dazu die entsprechenden Optionen im Feld unten links aus:
 
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-5-generatemoreinfo.png)
 
----
+
 
 **Schritt 4: Weitere Vorschläge generieren**
 
@@ -87,7 +86,7 @@ Quellen markieren, um sie zu behalten:
 Aussortierte Liste nach ***Clear unstarred***:
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-6b-cleared.png)
 
-Resultat nach mehreren Vorschlagsgenerierungen und Aussortierungen (Markieren --> ***Clear*** --> ***Show more like starred*** -->  Markieren --> ...):
+Resultat nach mehreren Vorschlagsgenerierungen und Aussortierungen (Markieren --> Clear --> Show more like starred -->  Markieren --> ...):
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-10-finalresult.png)
 
 Einsicht in eine Quelle zur Entscheidung, ob sie eingeschlossen werden sollte:

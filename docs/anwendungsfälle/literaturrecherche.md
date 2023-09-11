@@ -1,5 +1,5 @@
 ---
-description: "Elicit kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
+description: "KI kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
   \ relevante Artikel und Studien identifiziert und vorschl\xE4gt."
 id: literaturrecherche
 image: "anwendungsf\xE4lle/images/filesearching.svg"
@@ -12,12 +12,13 @@ type: usecase
 
 
 # Literaturrecherche
+KI-basierte Werkzeuge haben das Potenzial, dich bei der Suche und Auswahl geeigneter Literatur zu unterstützen.
 
 ## Beschreibung
 
 Eine Literaturrecherche ist der systematische Prozess der Identifizierung wissenschaftlicher Quellen zu einem bestimmten Thema. Sie dient dazu, den aktuellen Stand der Forschung zu erkennen und die eigene Arbeit in einen Kontext zu stellen. Sie hilft, das vorhandene Wissen zu verstehen und die Relevanz der eigenen Fragestellung zu begründen.
 
-KI-basierte Werkzeuge haben das Potenzial, dich bei der Suche und Auswahl geeigneter Literatur zu unterstützen.
+
 
 ---
 

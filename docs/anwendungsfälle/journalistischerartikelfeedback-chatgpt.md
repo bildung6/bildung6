@@ -12,7 +12,7 @@ type: usecase
 
 # Feedback zum journalistischen Artikel mit ChatGPT generieren
 
-Eine mögliche Anwendung von KI-basierten Tools ist die Analyse von Texten in Bezug auf Inhalt und Sprache. Davon kannst du profitieren, indem du dir z.B. von ChatGPT Feedback geben lässt.
+Eine mögliche Anwendung von KI-basierten Tools ist die Analyse von Texten in Bezug auf Inhalt und Sprache. Davon kannst du profitieren, indem du dir von ChatGPT ein Feedback geben lässt.
 
 
 ## Beschreibung

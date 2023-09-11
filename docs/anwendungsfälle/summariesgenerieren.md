@@ -10,14 +10,13 @@ type: usecase
 
 
 # Summaries generieren
+KI kann bei der Erstellung von Summaries helfen, indem sie Texte zusammenfasst.
 
 ## Beschreibung
 
 Das Generieren von Summaries oder Zusammenfassungen kann in verschiedenen Phasen der wissenschaftlichen Arbeit eingesetzt werden. 
 
-So können beispielsweise wissenschaftliche Quellen schnell zusammengefasst werden. Diese Zusammenfassungen können einen Überblick über die Forschungsergebnisse geben, der für die Gliederung eines Berichts verwendet werden kann.
-
-Eine weitere Anwendungsmöglichkeit ist das Zusammenfassen eigener Texte für die Erstellung eines Abstracts.
+So können beispielsweise wissenschaftliche Quellen schnell zusammengefasst werden. Diese Zusammenfassungen können einen Überblick über die Forschungsergebnisse geben, der für die Gliederung eines Berichts verwendet werden kann. Eine weitere Anwendungsmöglichkeit ist das Zusammenfassen eigener Texte für die Erstellung eines Abstracts.
 
 
 ---

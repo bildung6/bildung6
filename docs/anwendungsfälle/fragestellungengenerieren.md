@@ -14,9 +14,9 @@ type: usecase
 
 # Fragestellungen generieren
 
-## Beschreibung
-
 KI kann dir bei der Formulierung von Forschungfragen helfen, indem sie Vorschläge für Fragestellungen generiert.
+
+## Beschreibung
 
 Die Formulierung einer Fragestellung ist einer der ersten grundlegenden Schritte bei der wissenschaftlichen Arbeitsweise. Sie konkretisiert ein Forschungsinteresse in eine Aufgabe, die es mit deiner Untersuchung zu beantworten gilt.
 
@@ -35,8 +35,9 @@ rules:
   property: id
   value: studierende
 ```
--->
+
 ---
+-->
 
 ## Tools für diesen Anwendungsfall
 

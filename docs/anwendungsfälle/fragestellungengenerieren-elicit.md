@@ -23,7 +23,7 @@ Zudem bietet das Tool einzelne Funktionalitäten oder *Research Task*, wie z.B. 
 
 ---
 
-## Anwendungsbeispiele
+## Beispiel
 
 ### Mit *Brainstorm Research Question* Fragestellungen generieren
 

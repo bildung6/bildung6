@@ -13,28 +13,31 @@ type: usecase
 
 # Fragestellungen generieren mit ChatGPT
 
-ChatGPT kann genutzt werden, um Denkanstösse bei der Formulierung der Forschungsfrage zu gewinnen (1–3).
+Nutze ChatGPT, um deine Forschungsfrage zu formulieren.
 
-Beispielsweise lässt sich der Chatbot mit Prompts dazu auffordern, eine Liste mit möglichen Fragestellungen zu erstellen. Weiter kannst du den Chatbot bitten, seine Vorschläge zu spezifizieren. Im Chatverlauf kannst du auch die Gelegenheit nutzen, um dir Grundlagenbegriffe erklären zu lassen. Dabei hängt die Qualität der Chatbot-Antworten auch davon ab, wie deine Prompts formuliert sind.
+## Beschreibung
 
-Mit einer guten Prompt-Strategie kannst du die Wahrscheinlichkeit erhöhen, bessere Antworten zu erhalten (3,4). Sieh dir dazu die hier aufgeführten Beispiele an. Da ChatGPT laufend verbessert wird, könnten manche Prompt-Strategien an Aktualität verlieren (4,5). Am besten recherchierst du selbstständig nach effektiven Prompts, indem du z.B. einschlägige Internetressourcen nutzt oder die hier aufgeführten Links und Quellenverweise verwendest.
+Du kannst ChatGPT nutzen, um Denkanstösse für die Formulierung der Forschungsfrage zu erhalten (1-3). Beispielsweise kann der Chatbot durch Prompts aufgefordert werden, eine Liste möglicher Fragestellungengen zu erstellen. Weiter kannst du den Chatbot bitten, seine Vorschläge zu spezifizieren. Im Chatverlauf kannst du auch die Gelegenheit nutzen, um dir Grundlagenbegriffe erklären zu lassen.
 
 
 **Beachte hierbei die geltenden Richtlinien deiner Bildungsinstitution zur Nutzung von KI-Werkzeugen und die Risiken, die mit der Nutzung von ChatGPT einhergehen!**
 
   ---
 
-# Prompt Beispiele
-???+ info "Bemerkung"
-
-    Wie sich hier erkennen lässt, sind die ChatGPT-Antworten eher generisch und oberflächlich formuliert.  
-    
-    Es liegt an dir, den Wahrheitsgehalt und die Relevanz zu überprüfen. An dieser Stelle ist zu erwähnen das ChatGPT-3.5 nicht in der Lage ist korrekte Quellenangaben zu liefern. Jedoch lassen sich die so gewonnenen Informationen als Ausgangspunkt für deine Recherchearbeit nutzen. 
-    
-    Mit der weiteren Einarbeitung in dein wissenschaftliches Themengebiet wird es dir möglich sein, eine eigene Fragestellung zu formulieren. 
+# Beispiele
+Die folgenden Beispiele zeigen, wie ChatGPT-3.5 verwendet werden kann, um Fragen/Forschungsfragen zu generieren.
     
 
-### Beispiel 1: Einfacher Dialog (ChatGPT-3.5)
+### Beispiel 1: Einfacher Dialog
+
+Hier werden mehrere Forschungsfragen zu einem Thema generiert.
+
+
+???+ info "Achtung"
+
+    Wie sich hier erkennen lässt, sind die ChatGPT-Antworten eher generisch und oberflächlich formuliert. Es liegt an dir den Wahrheitsgehalt und die Relevanz zu überprüfen. An dieser Stelle muss erwähnt werden, dass ChatGPT-3.5 nicht in der Lage ist, korrekte Quellenangaben zu liefern. Die Informationen können jedoch als Ausgangspunkt für deine Recherchearbeit dienen.
+
+
 **Input:**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">Formuliere 4 mögliche Forschungsfragen zum Thema: "Verwendung von Sensoren im Bereich Care at Home".</p>
 
@@ -55,7 +58,10 @@ Mit einer guten Prompt-Strategie kannst du die Wahrscheinlichkeit erhöhen, bess
 
 ---
 
-### Beispiel 2: Erweiterter Dialog (ChatGPT-3.5)
+### Beispiel 2: Erweiterter Dialog
+
+Hier werden mehrere Forschungsfragen mit mehreren Prompts generiert. Mit dem ersten Prompt wurde a) ChatGPT aufgefordert eine *Rolle* (Experte) einzunehmen und b) der Kontext (Wissenschaftliches Schreiben) angegeben. Im zweiten Prompt wurde einer der Vorschläge weiter bearbeitet (Einbezug von "Künstliche Intelligenz").  
+
 **Input:**
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">Nimm die Rolle eines wissenschaftlichen Experten für Medizininformatik ein. Ich werde dir Fragen zum Thema "Schreiben einer wissenschaftlichen Arbeit" stellen und du wirst als Experte jede meiner Anfragen beantworten. Meine erste Anfrage lautet: "Formuliere 2 mögliche Forschungsfragen zum Thema: "Verwendung von Sensoren im Bereich Care at Home".</p>
 
@@ -105,7 +111,7 @@ Diese Frage fokussiert sich auf die Ableitung konkreter Handlungsempfehlungen au
 Diese drei Forschungsfragen erweitern das Thema "Künstliche Intelligenz" im Zusammenhang mit Sensordaten und personalisierter präventiver Betreuung von Patienten und bieten interessante Richtungen für weitere wissenschaftliche Untersuchungen.
 </p>
 
-Mit dem ersten Prompt wurde ChatGPT aufgefordert eine *Rolle* (Experte) einzunehmen und der Kontext (Wissenschaftliches Schreiben) angegeben. Im zweiten Prompt wurde einer der Vorschläge weiter bearbeitet (Einbezug von "Künstliche Intelligenz").  
+
 
 
 *Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link: https://chat.openai.com/share/372d5054-33ad-4bdb-ace5-74cd5ff7394e*
@@ -201,14 +207,14 @@ Für die Erstellung der hier verwendeten Prompts wurden folgende Quellen genutzt
 - https://www.scribbr.ch/ki-tools-nutzen-ch/gute-chatgpt-prompts/
 - https://www.scribbr.ch/ki-tools-nutzen-ch/chatgpt-hausarbeit-bachelorarbeit/
 
+
 ---
+
 
 ## Quellenverzeichnis
 
 1.	Xames MD, Jannatul S. ChatGPT for research and publication: Opportunities and challenges. J Appl Learn Teach [Internet]. 4. April 2023 [zitiert 7. August 2023];6(1). Verfügbar unter: https://journals.sfu.ca/jalt/index.php/jalt/article/view/741
 2.	Rahman M, Terano HJR, Rahman N, Salamzadeh A, Rahaman S. ChatGPT and Academic Research: A Review and Recommendations Based on Practical Examples. J Educ Manag Dev Stud. 27. März 2023;3(1):1–12. 
 3.	Atlas S. ChatGPT for Higher Education and Professional Development: A Guide to Conversational AI. Coll Bus Fac Publ [Internet]. 1. Januar 2023; Verfügbar unter: https://digitalcommons.uri.edu/cba_facpubs/548
-4.	Chen J, Chen L, Huang H, Zhou T. When do you need Chain-of-Thought Prompting for ChatGPT? [Internet]. arXiv; 2023 [zitiert 7. August 2023]. Verfügbar unter: http://arxiv.org/abs/2304.03262
-5.	Spannagel C. Künstliche Intelligenz in der Hochschullehre [Internet]. 2023 Juni 16 [zitiert 8. August 2023]; Pädagogischen Hochschule Heidelberg. Verfügbar unter: https://www.youtube.com/watch?v=iebF-5RimgY
 
 ---
