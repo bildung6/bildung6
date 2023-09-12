@@ -21,7 +21,9 @@ Die Hauptfunktionalitäten dieses Research Assistenten zielen vor allem auf die 
 
 Zudem bietet das Tool einzelne Funktionalitäten oder *Research Task*, wie z.B. *Brainstorm Research Question*. Mit dem *Brainstorming* kannst du mehrere Vorschläge generieren lassen.
 
+
 ---
+
 
 ## Beispiel
 

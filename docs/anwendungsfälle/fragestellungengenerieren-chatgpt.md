@@ -81,7 +81,6 @@ Dieses Beispiel zeigt, wie mehrere Forschungsfragen zu einem Thema generiert wer
 ---
 
 
-
 ### Erweiterter Dialog
 
 Hier werden mehrere Forschungsfragen mit mehreren Prompts generiert. Mit dem ersten Prompt wurde a) ChatGPT aufgefordert eine *Rolle* (Experte) einzunehmen und b) der Kontext (Wissenschaftliches Schreiben) angegeben. Im zweiten Prompt wurde einer der Vorschläge weiter bearbeitet (Einbezug von "Künstliche Intelligenz").  
