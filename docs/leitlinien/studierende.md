@@ -1,16 +1,26 @@
 ---
 description: "In den folgenden Leitlinien werden die wichtigsten Aspekte f\xFCr den\
-  \ Einsatz von KI in der Lehre f\xFCr Studierende zusammengefasst."
-id: studierende
+  \ Einsatz von KI in der Lehre f\xFCr zusammengefasst."
+id: leitlinien
 image: AnwenderInnen/images/studying.svg
-tags:
-- studierende
-title: "Leitlinie f\xFCr Studierende"
+title: "Allgemeine Leitlinie"
 type: guideline
+disabled: True
 ---
 
+# Allgemeine Leitlinie
 
-# Leitlinien für Studierende
+!!! info "Demnächst verfügbar"
+
+    Diese Leitlinie wird demnächst verfügbar. 
+
+<!--
+
+
+### Verbote oder Einschränkungen
+
+Wir empfehlen, den Einsatz von KI in der Lehre nicht zu verbieten. Stattdessen sollte der Einsatz von KI in der Lehre durch Richtlinien und Leitlinien geregelt werden.
+
 
 ### 1. KI-basierte Werkzeuge sind nicht immer verlässlich
 
@@ -84,3 +94,4 @@ Es ist wichtig, **Diskussionen über Genauigkeits- und Bias-Problematiken** zu f
 ## Grundlagen des Prompt-Designs lehren
 
 Die Vermittlung der **Grundlagen des Prompt-Designs** ermöglicht es den Studierenden, effektivere Eingabeaufforderungen für KI-Systeme zu erstellen und ihre Ergebnisse besser zu interpretieren. Dies kann dazu beitragen, die Qualität ihrer Arbeit und die Relevanz der von KI generierten Inhalte zu verbessern.
+-->
