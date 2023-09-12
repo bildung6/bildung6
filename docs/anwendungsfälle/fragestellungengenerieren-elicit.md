@@ -1,5 +1,5 @@
 ---
-description: "KI kann bei der Erstellung von Fragestellungen helfen, indem sie Vorschl\xE4\
+description: "Elicit kann bei der Erstellung von Fragestellungen helfen, indem sie Vorschl\xE4\
   ge f\xFCr relevante und interessante Fragestellungen generiert."
 id: fragestellungengenerieren-elicit
 image: "anwendungsf\xE4lle/images/researching.svg"
@@ -25,7 +25,14 @@ Zudem bietet das Tool einzelne Funktionalitäten oder *Research Task*, wie z.B. 
 
 ## Beispiel
 
-### Mit *Brainstorm Research Question* Fragestellungen generieren
+Dieses Beispiel zeigt, wie mit Elicit mehrere Fragestellungen generiert werden können.
+
+### Mit "Brainstorm Research Question" Fragestellungen generieren
+
+Mit dem Elicit-Task *Brainstorm Research Question* kannst du Vorschläge zu Fragestellungen einholen.
+Dabei kannst du deine Fragestellung als Ausgangspunkt verwenden oder auch nur einzelne Themenfelder angeben.
+
+Im folgenden Beispiel werden die Begriffe "Medical Informatics" und "Care at Home" kombiniert, um Vorschläge für Fragestellungen zu generieren.
 
 ???+ info "Bemerkung"
 
@@ -34,64 +41,30 @@ Zudem bietet das Tool einzelne Funktionalitäten oder *Research Task*, wie z.B. 
     Bedenke hierbei, dass es an dir liegt die Relevanz dieser Vorschläge zu überprüfen.
 
 
-Mit dem Elicit-Task *Brainstorm Research Question* kannst du Vorschläge zu Fragestellungen einholen.
-Dabei kannst du deine Fragestellung als Ausgangspunkt verwenden oder auch nur einzelne Themenfelder angeben.
 
-Im folgenden Beispiel werden die Begriffe "Medical Informatics" und "Care at Home" kombiniert, um Vorschläge für Fragestellungen zu generieren.
-
-
-**Schritt 1: Auf den Task "Brainstorm Research Question" zugreifen** 
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_1.png){: style="width:700px"}
-
-
-**Schritt 2: Zwei Themenfelder angeben** 
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_2.png){: style="width:700px"}
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_3.png){: style="width:700px"}
+| Beispiel: Step-by-Step zur Fragestellung                                              |
+| :------------------------------------------------------------------------------------ |
+| **1. Auf den Task "Brainstorm Research Question" zugreifen**                          | 
+| ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_1.png)      |
+| **2. Themenfelder angeben**<br>Gib eine Fragestellung, Keywords oder Themenfelder ein.| 
+| ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_3.png)      |
+| **3. Weitere Vorschläge generieren**<br> Du kannst die relevanten Fragestellungen markieren, um so weitere Vorschläge zu generieren. <br> Nutze hierbei die Buttons *Show more like starred* und *Clear unstarred.*|
+| ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_4.png) |
+| **4. Auswahl eines Vorschlages**<br>Wenn du dich für eine Fragestellung entschieden hast, kannst du diese verwenden, um mögliche Literatur zu identifizieren. Kopiere dazu die Fragestellung und füge sie in die Hauptfunktionalität ein.| 
+| ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_7b.png){: style="width:700px"} |
+| **5. Passende Literaturen auswählen** <br>Stelle dir nun eine Auswahl an Literaturen zusammen, die du lesen willst, um deine eigene Fragestellung zu formulieren. Die Einarbeit in dein Thema ermöglicht dir herauszufinden, welche Implikationen sich aus den publizierten Forschungsresultate ergeben.|
+| ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_8.png)      | 
 
 
-**Schritt 3: Weitere Vorschläge generieren** 
+!!! Tip  "Tipp"
 
-Du kannst die für dich relevanten Fragestellungen markieren, um so weitere Vorschläge zu generieren.
+    Es lässt sich auch direkt das Suchfeld der Hauptfunktionalität nutzen, um Fragestellungen zu *brainstormen*:
 
-Nutze hierbei die Buttons *Show more like starred* und *Clear unstarred*.
+    ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_9a.png){: style="width:500px"}
 
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_4.png){: style="width:500px"}
-
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_5.png){: style="width:500px"}
-
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_6.png){: style="width:500px"}
-
-
-**Schritt 3: Auswahl eines Vorschlages** 
-
-Hast du dich für eine Fragestellung entschieden, kannst du diese Verwenden um mögliche Literaturen zu identifizieren.
-Dazu *kopiere* die Fragestellung und *paste* sie in die Hauptfunktionalität rein.
-
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_7b.png){: style="width:700px"}
-
-
-Stelle dir nun eine Auswahl an Literaturen zusammen, die du lesen willst, um deine eigene Fragestellung zu formulieren.
-Die Einarbeit in dein Thema ermöglicht dir herauszufinden, welche Implikationen sich aus den publizierten Forschungsresultate ergeben.
-
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_8.png)
-
-
-**Tipps:**
-
-Es lässt sich auch direkt das Suchfeld der Hauptfunktionalität nutzen, um Fragestellungen zu *brainstormen*:
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_9a.png){: style="width:500px"}
-
-![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_9b.png){: style="width:500px"}
 
 ---
+
 
 ## Tools
 
@@ -148,7 +121,9 @@ rules:
   value: verlust-kreativitaet
 ```
 
+
 ---
+
 
 ## Chancen
 
@@ -164,7 +139,9 @@ rules:
   value: zweitmeinung
 ```
 
+
 ---
+
 
 ## Links
 
@@ -179,7 +156,9 @@ Jan Hendrik Kirchner erklärt, wie er Elicit zur schnellen Erstellung von Forsch
 
 - https://youtu.be/YO9UiBWx6jw
 
+
 ---
+
 
 ## Quellen
 
