@@ -40,16 +40,19 @@ Dieses Beispiel zeigt, wie mit einem Prompt mehrere Forschungsfragen zu einem Th
     <th>Beispiel</th>
   </tr>
   <tr>
-    <td bgcolor="c5cae9"><i>Input:</i></td>
+    <td bgcolor="5D6CC0"><p style="color:white"><i>Input:</i></p></td>
   </tr>
   <tr>
-    <td bgcolor="c5cae9">Formuliere 4 mögliche Forschungsfragen zum Thema: "Verwendung von Sensoren im Bereich Care at Home"</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white"><strong>
+      Formuliere 4 mögliche Forschungsfragen zum Thema: "Verwendung von Sensoren im Bereich Care at Home"<strong>
+    </td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb"><i>Output:</i></td>
+    <td bgcolor="white"><i>Output:</i></td>
   </tr>
   <tr>
-    <td bgcolor="#fbfbfb">
+    <td bgcolor="white">
       1. "Wie beeinflusst die Integration von verschiedenen Sensoren in häuslichen Umgebungen die Lebensqualität und Selbstständigkeit älterer Menschen im Bereich 'Care at Home'?"
       <br>
       <br>
@@ -88,18 +91,19 @@ Hier werden mehrere Forschungsfragen mit mehreren Prompts generiert. Mit dem ers
     <th>Beispiel</th>
   </tr>
   <tr>
-    <td bgcolor="c5cae9"><i>Input 1:</i></td>
+    <td bgcolor="5D6CC0"><p style="color:white"><i>Input 1:</i></p></td>
   </tr>
   <tr>
-    <td bgcolor="c5cae9">
-      Nimm die Rolle eines wissenschaftlichen Experten für Medizininformatik ein. Ich werde dir Fragen zum Thema "Schreiben einer wissenschaftlichen Arbeit" stellen und du wirst als Experte jede meiner Anfragen beantworten. Meine erste Anfrage lautet: "Formuliere 2 mögliche Forschungsfragen zum Thema: "Verwendung von Sensoren im Bereich Care at Home"
+    <td bgcolor="5D6CC0">
+      <p style="color:white"><strong>
+        Nimm die Rolle eines wissenschaftlichen Experten für Medizininformatik ein. Ich werde dir Fragen zum Thema "Schreiben einer wissenschaftlichen Arbeit" stellen und du wirst als Experte jede meiner Anfragen beantworten. Meine erste Anfrage lautet: "Formuliere 2 mögliche Forschungsfragen zum Thema: "Verwendung von Sensoren im Bereich Care at Home"</strong>
     </td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb"><i>Output 1:</i></td>
+    <td bgcolor="white"><i>Output 1:</i></td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb">
+    <td bgcolor="white">
       Natürlich, ich stehe Ihnen gerne als wissenschaftlicher Experte für Medizininformatik zur Verfügung. Hier sind zwei mögliche Forschungsfragen zum Thema "Verwendung von Sensoren im Bereich Care at Home":
       <br>
       <br>
@@ -117,18 +121,19 @@ Hier werden mehrere Forschungsfragen mit mehreren Prompts generiert. Mit dem ers
     </td>
   </tr>
     <tr>
-    <td bgcolor="c5cae9"><i>Input 2:</i></td>
+    <td bgcolor="5D6CC0"><p style="color:white"><i>Input 2:</i></p></td>
   </tr>
   <tr>
-    <td bgcolor="c5cae9">
-      Formuliere, basierend auf deiner 2. Forschungsfrage "Wie können Sensordaten aus häuslichen Umgebungen effektiv erfasst, übertragen, verarbeitet und interpretiert werden, um eine personalisierte und präventive Betreuung von Patienten zu ermöglichen?", drei weitere Forschungsfragen mit dem Thema "Künstliche Intelligenz".
+    <td bgcolor="5D6CC0">
+      <p style="color:white"><strong>
+        Formuliere, basierend auf deiner 2. Forschungsfrage "Wie können Sensordaten aus häuslichen Umgebungen effektiv erfasst, übertragen, verarbeitet und interpretiert werden, um eine personalisierte und präventive Betreuung von Patienten zu ermöglichen?", drei weitere Forschungsfragen mit dem Thema "Künstliche Intelligenz".</strong>
     </td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb"><i>Output 2:</i></td>
+    <td bgcolor="white"><i>Output 2:</i></td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb">
+    <td bgcolor="white">
       Natürlich, hier sind drei Forschungsfragen, die auf der zweiten Forschungsfrage basieren und sich auf die Anwendung von Künstlicher Intelligenz im Zusammenhang mit Sensordaten und personalisierter präventiver Betreuung von Patienten im häuslichen Umfeld konzentrieren:
       <br>
       <br>
