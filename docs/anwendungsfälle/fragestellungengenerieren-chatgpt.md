@@ -22,20 +22,17 @@ Du kannst ChatGPT nutzen, um Denkanstösse für die Formulierung der Forschungsf
 
 **Beachte hierbei die geltenden Richtlinien deiner Bildungsinstitution zur Nutzung von KI-Werkzeugen und die Risiken, die mit der Nutzung von ChatGPT einhergehen!**
 
+
   ---
 
+
 ## Beispiele
-Die folgenden Beispiele zeigen, wie ChatGPT-3.5 verwendet werden kann, um Fragen/Forschungsfragen zu generieren.
-    
+
+ChatGPT kann auf Anfrage Vorschläge für ein beliebiges Anliegen generieren. Im Folgenden wird gezeigt, wie Prompts zur Generierung von Fragestellungen verwendet werden können.
 
 ### Einfacher Dialog
 
-Dieses Beispiel zeigt, wie mehrere Forschungsfragen zu einem Thema generiert werden können.
-
-
-???+ info "Bemerkung"
-
-    Wie sich hier erkennen lässt, sind die ChatGPT-Antworten eher generisch und oberflächlich formuliert. Es liegt an dir den Wahrheitsgehalt und die Relevanz zu überprüfen. An dieser Stelle muss erwähnt werden, dass ChatGPT-3.5 nicht in der Lage ist, korrekte Quellenangaben zu liefern. Die Informationen können jedoch als Ausgangspunkt für deine Recherchearbeit dienen.
+Dieses Beispiel zeigt, wie mit einem Prompt mehrere Forschungsfragen zu einem Thema generiert werden können.
 
 
 <table >
@@ -160,6 +157,12 @@ Hier werden mehrere Forschungsfragen mit mehreren Prompts generiert. Mit dem ers
 </table>
 
 
+???+ info "Bemerkung"
+
+    Wie die Beispiele zeigen, sind die Antworten im ChatGPT eher allgemein und oberflächlich formuliert. Es liegt an dir, den Wahrheitsgehalt und die Relevanz zu überprüfen. An dieser Stelle muss auch erwähnt werden, dass ChatGPT-3.5 nicht in der Lage ist, korrekte Quellenangaben zu liefern. Die Informationen können jedoch als Ausgangspunkt für deine Recherchearbeit dienen.
+
+
+
 ---
 
 
@@ -245,7 +248,7 @@ rules:
 
 ## Links
 
-Für die Erstellung der hier verwendeten Prompts wurden folgende Quellen genutzt:
+Folgende Quellen wurden herangezogen, um die hier verwendeten Prompts zu erstellen:
 
 - https://learnprompting.org/docs/basics/prompting
 - https://github.com/f/awesome-chatgpt-prompts

@@ -249,7 +249,15 @@ rules:
 ChatGPT PROMPTs Splitter von Jose Diaz:
 
 - ChatGPT PROMPTs Splitter App: https://chatgpt-prompt-splitter.jjdiaz.dev/
-- Beschreibung: https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270
+- App-Beschreibung: https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270
+
+
+Folgende Quellen wurden herangezogen, um die hier verwendeten Prompts zu erstellen:
+
+- https://platform.openai.com/docs/guides/gpt-best-practices
+- https://chatgpt-prompt-splitter.jjdiaz.dev/
+
+
 
 Chatverlauf zur Erstellung des fiktiven Artikels:
 

@@ -250,7 +250,7 @@ rules:
 
 ## Links
   
-Die hier verwendeten Prompts basieren teilweise auf Inhalte dieser Quellen:
+Folgende Quellen wurden herangezogen, um die hier verwendeten Prompts zu erstellen:
 
 - https://github.com/f/awesome-chatgpt-prompts
 - https://www.scribbr.com/ai-tools/chatgpt-assignments/
