@@ -41,15 +41,13 @@ Das folgende Beispiel zeigt, dass DeepL Write einzelne Fehler korrigiert und die
     DeepL Write befindet sich im August 2023 noch in der Beta-Phase, was sich auf die Performance auswirken kann.
 
     Es ist auch möglich, einen Stil zu wählen (Einfach, Geschäftlich, Akademisch, Technisch), aber dies scheint derzeit noch fehlerbehaftet zu sein (Stand August 2023).
-    
+
 
 !!! Tip  "Tipp"
 
     Versuche längere Texte abschnittsweise einzufügen. Bei der kostenlosen Version von DeepL Write ist die Zeichenlimite auf 2000 Zeichen gesetzt (Stand August 2023).  
       
     
-
-
 
 ---
 
