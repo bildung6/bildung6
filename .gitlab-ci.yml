@@ -4,13 +4,10 @@ pages:
   only:
     - develop
   script:
-#    - pip install mkdocs-material
-    - pip install mkdocs-material==9.1.21
+    - pip install mkdocs-material
     - pip install mkdocs-macros-plugin
     - pip install mkdocs-mermaid2-plugin
     - mkdocs build --site-dir public
   artifacts:
     paths:
       - public
-
-#Denis 23.08.23.: Aktuelle Version mkdocs-material 9.2.3, führte zu Exception (jinja2.exceptions.UndefinedError: 'nav_item' is undefined), letzte funktionierende Version 9.1.21.
