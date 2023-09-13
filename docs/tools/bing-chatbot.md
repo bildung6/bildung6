@@ -10,6 +10,6 @@ tags:
 
 ### Bing Chatbot
 
-A chatbot powered by Microsoft's Bing search engine.
+Ein auf OpenAI's Model basierender Chatbot von Microsoft, welcher das Web durchsuchen kann.
 
 [bing.com](https://bing.com/){ .md-button .md-button--primary } 

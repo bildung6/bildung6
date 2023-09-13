@@ -10,6 +10,6 @@ tags:
 
 ### Midjourney
 
-An AI-powered image generator.
+Ein KI-gestützter Bildgenerator, welcher über Discord gesteuert werden kann.
 
 [midjourney.com](https://www.midjourney.com/){ .md-button .md-button--primary } 

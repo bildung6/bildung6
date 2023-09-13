@@ -9,6 +9,6 @@ tags:
 
 ### Perplexity
 
-An AI-powered search machine.
+Eine KI-unterstützte Suchmaschine.
 
 [perplexity.ai](https://www.perplexity.ai/){ .md-button .md-button--primary } 

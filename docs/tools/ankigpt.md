@@ -10,6 +10,6 @@ tags:
 
 ### Ankigpt
 
-An AI-powered flashcard generator.
+Ein KBW Tool, welches Lernkarten erstellen kann.
 
 [ankigpt.wtf](https://ankigpt.wtf/){ .md-button .md-button--primary } 

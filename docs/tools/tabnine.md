@@ -10,6 +10,6 @@ tags:
 
 ### Tabnine
 
-An AI-powered code completion tool that helps you write code faster and more efficiently.
+Ein KI-gestütztes Tool zur Code-Vervollständigung, mit dem Sie Code schneller und effizienter schreiben können.
 
 [tabnine.com](https://www.tabnine.com/){ .md-button .md-button--primary } 

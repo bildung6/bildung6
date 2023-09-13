@@ -10,6 +10,6 @@ tags:
 
 ### Github Copilot
 
-An AI-powered code completion tool that helps you write code faster and more efficiently, developed by GitHub.
+Ein von GitHub entwickeltes KI-gestütztes Tool zur Code-Vervollständigung, mit dem schneller und effizienter Code geschreiben werden kann.
 
 [copilot.github.com](https://copilot.github.com/){ .md-button .md-button--primary } 

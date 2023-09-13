@@ -11,6 +11,6 @@ tags:
 
 ### Bard
 
-An AI-powered text editor that helps you write better content.
+Ein KBW von Google welches ständig ausgebaut wird als Konkurrenz zu ChatGPT.
 
 [bard.google.com](https://bard.google.com/?hl=en){ .md-button .md-button--primary } 

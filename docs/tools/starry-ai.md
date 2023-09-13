@@ -9,6 +9,6 @@ tags:
 
 ### Starry AI
 
-An AI-powered image generator.
+Ein KI-gestützter Bildgenerator.
 
 [starryai.com](https://starryai.com/){ .md-button .md-button--primary } 
