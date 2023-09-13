@@ -6,6 +6,7 @@ id: "chatgpt"
 tags:
 - "Account erforderlich"
 - "Proprietär"
+- "Text"
 ---
 
 ### ChatGPT

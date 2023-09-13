@@ -1,11 +1,12 @@
 ---
 title: Bing Chatbot
 type: "tool"
-description: A chatbot powered by Microsoft's Bing search engine.
+description: Ein auf OpenAI's Model basierender Chatbot von Microsoft, welcher das Web durchsuchen kann.
 id: "bingchatbot"
 tags:
 - "Kostenlos"
 - "Proprietär"
+- "Text"
 ---
 
 ### Bing Chatbot

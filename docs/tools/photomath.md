@@ -1,10 +1,10 @@
 ---
 title: Photomath
 type: "tool"
-description: An app that uses AI to solve math problems by scanning them with your phone's camera.
+description: Eine App, die KI einsetzt, um Matheaufgaben zu lösen, indem man sie mit der Kamera des Telefons scannt.
 id: "photomath"
 tags:
-- "math"
+- "Lerntool"
 ---
 
 ### Photomath

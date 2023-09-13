@@ -1,7 +1,7 @@
 ---
 title: Papago
 type: "tool"
-description: A translation app powered by Naver's AI technology.
+description: Eine Übersetzungs-App, die auf der KI-Technologie von Naver basiert.
 id: "papago"
 tags:
 - "Kostenpflichtig"

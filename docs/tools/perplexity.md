@@ -1,7 +1,7 @@
 ---
 title: Perplexity
 type: "tool"
-description: An AI-powered search machine
+description: Eine KI-unterstützte Suchmaschine.
 id: "perplexity"
 tags:
 - "Proprietär"

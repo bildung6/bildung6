@@ -1,11 +1,12 @@
 ---
 title: Ankigpt
 type: "tool"
-description: An AI-powered flashcard generator.
+description: Ein KBW Tool, welches Lernkarten erstellen kann.
 id: "ankigpt"
 image: "tools/ankigpt.png"
 tags:
 - "Gratisversion"
+- "Lerntool"
 ---
 
 ### Ankigpt

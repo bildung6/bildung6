@@ -1,10 +1,12 @@
 ---
 title: Photoshop AI
 type: "software"
-description: Adobe Photoshop's AI-powered features, such as content-aware fill, neural filters, and sky replacement.
+description: Die KI-gesteuerten Funktionen von Adobe Photoshop, z. B. inhaltsabhängige Füllung, neuronale Filter und Himmelsersatz.
 id: "photoshop-ai"
 tags:
-  - "Proprietär"
+- "Proprietär"
+- "Kostenpflichtig"
+- "Bild Generation"
 ---
 
 ### Photoshop AI

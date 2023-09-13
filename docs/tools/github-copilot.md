@@ -1,7 +1,7 @@
 ---
 title: Github Copilot
 type: "tool"
-description: An AI-powered code completion tool that helps you write code faster and more efficiently, developed by GitHub.
+description: Ein von GitHub entwickeltes KI-gestütztes Tool zur Code-Vervollständigung, mit dem schneller und effizienter Code geschreiben werden kann.
 id: "github-copilot"
 tags:
 - "Kostenpflichtig"

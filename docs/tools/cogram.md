@@ -1,7 +1,7 @@
 ---
 title: Cogram
 type: "tool"
-description: Cogram uses AI to take notes in virtual meetings, track action items, and automate downstream tasks
+description: Cogram nutzt KI, um in virtuellen Besprechungen Notizen zu machen, Aktionspunkte zu verfolgen und nachgelagerte Aufgaben zu automatisieren.
 id: "cogram"
 tags:
 - "Proprietär"

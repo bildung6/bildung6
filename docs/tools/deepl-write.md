@@ -1,10 +1,11 @@
 ---
 title: DeepL Write
 type: "tool"
-description: An AI-powered writing assistant that helps you write better content.
+description: DeepL Write ist ein auf künstlicher Intelligenz basierendes Schreibtool.
 id: "deepl-write"
 tags:
 - "Kostenpflichtig"
+- "Text"
 ---
 
 ### DeepL Write

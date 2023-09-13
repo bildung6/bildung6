@@ -1,11 +1,13 @@
 ---
 title: Midjourney
 type: "tool"
-description: An AI-powered image generator.
+description: Ein KI-gestützter Bildgenerator, welcher über Discord gesteuert werden kann.
+
 id: "midjourney"
 tags:
 - "Kostenlos"
 - "Proprietär"
+- "Bild Generation"
 ---
 
 ### Midjourney

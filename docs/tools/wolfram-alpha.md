@@ -1,10 +1,11 @@
 ---
 title: Wolfram Alpha
 type: "tool"
-description: A computational knowledge engine that answers factual queries using AI and a curated database.
+description: Eine computergestützte Wissensmaschine, die mithilfe von KI und einer kuratierten Datenbank Sachfragen beantwortet.
 id: "wolframalpha"
 tags:
 - "Kostenpflichtig"
+- "Lerntool"
 ---
 
 ### Wolfram Alpha

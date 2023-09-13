@@ -1,11 +1,13 @@
 ---
 title: Compose AI
 type: "tool"
-description: A writing assistant that helps you draft emails, articles, and more using AI.
+description: Ein Schreibassistent, der mithilfe von KI beim Verfassen von E-Mails, Artikeln und mehr unterstützt.
+
 id: "composeai"
 tags:
 - "Kostenlos"
 - "Proprietär"
+- "Text"
 ---
 
 ### Compose AI
