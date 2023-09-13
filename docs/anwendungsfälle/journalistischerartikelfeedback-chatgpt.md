@@ -208,7 +208,7 @@ In diesem Beispiel wurde ein schlecht geschriebener Artikel mit mehreren Rechtsc
 
 ???+ info "Bemerkung"
 
-    Bei der Erstellung der hier gezeigten Beispiele wurde festgestellt, dass ChatGPT-3.5 fälschlicherweise nicht in der Lage war, vorhandene Grammatik- und Rechtschreibfehler zu erkennen. Obwohl die Fehler im zweiten Anlauf (durch Drücken des Regenate-Buttons) entdeckt wurden, ist es empfehlenswert, auf ein dafür spezifisches digitales Werkzeug auszuweichen (z.B. Microsoft Word, oder DeepL Write).
+    Bei der Erstellung der hier gezeigten Beispiele wurde festgestellt, dass ChatGPT-3.5 z.T. nicht in der Lage war, vorhandene Grammatik- und Rechtschreibfehler zu erkennen. Obwohl die Fehler im zweiten Anlauf (durch Drücken des *Regenate-*Buttons) entdeckt wurden, ist es empfehlenswert, auf ein dafür spezifisches digitales Werkzeug auszuweichen (z.B. Microsoft Word, oder DeepL Write).
 
 
 

@@ -19,18 +19,13 @@ DeepL Write ist ein KI-basierter Schreibassistent, der Texte hinsichtlich Gramma
 
 Der zu überarbeitende Text kann einfach in das dafür vorgesehene Textfenster eingefügt werden; das Tool erkennt und korrigiert Fehler automatisch, wobei Verbesserungsvorschläge im rechten Textfenster grün markiert werden.
 
-**Bitte beachte die geltenden Richtlinien deiner Bildungseinrichtung zur Verwendung von KI-Tools! Gegebenenfalls musst du die Verwendung von KBW zur sprachlichen Korrektur in deiner schriftlichen Arbeit deklarieren (z.B. explizit in der Methodik erwähnen oder durch einen pauschalen Hinweis andeuten).**
+**Bitte beachte die geltenden Richtlinien deiner Bildungseinrichtung zur Verwendung von KI-Tools! Gegebenenfalls musst du die Verwendung von KI-basierten Werkzeugen zur sprachlichen Korrektur in deiner schriftlichen Arbeit deklarieren (z.B. explizit in der Methodik erwähnen oder durch einen pauschalen Hinweis andeuten).**
 
 
 ---
 
 
 ## Beispiel
-
-???+ info "Bemerkung"
-
-    DeepL Write befindet sich im August 2023 noch in der Beta-Phase, was sich auf die Performance auswirken kann.
-
 
 In diesem Beispiel wurde links Text eingefügt. Rechts zeigt DeepL Write den korrigierten Text an, bei dem die geänderten Teile grün markiert sind.
 
@@ -41,11 +36,20 @@ Das folgende Beispiel zeigt, dass DeepL Write einzelne Fehler korrigiert und die
 ![alt text](../anwendungsfälle/images/deeplwrite-sprachlichekorrektur/deeplwrite-1.png)
 
 
-**Tipp:** 
+???+ info "Bemerkung"
 
-- Versuche längere Texte abschnittsweise einzufügen. Bei der kostenlosen Version von DeepL Write ist die Zeichenlimite auf 2000 Zeichen gesetzt (Stand August 2023).  
-  
-- Es ist auch möglich, einen Stil zu wählen (Einfach, Geschäftlich, Akademisch, Technisch), aber dies scheint derzeit noch fehlerbehaftet zu sein (Stand August 2023).
+    DeepL Write befindet sich im August 2023 noch in der Beta-Phase, was sich auf die Performance auswirken kann.
+
+    Es ist auch möglich, einen Stil zu wählen (Einfach, Geschäftlich, Akademisch, Technisch), aber dies scheint derzeit noch fehlerbehaftet zu sein (Stand August 2023).
+    
+
+!!! Tip  "Tipp"
+
+    Versuche längere Texte abschnittsweise einzufügen. Bei der kostenlosen Version von DeepL Write ist die Zeichenlimite auf 2000 Zeichen gesetzt (Stand August 2023).  
+      
+    
+
+
 
 ---
 
