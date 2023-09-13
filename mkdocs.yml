@@ -51,6 +51,7 @@ theme:
   palette:
     primary: #4051b5
     accent: #4051b5
+  favicon: images/favicon.png
   icon:
     logo: material/book-open-page-variant
     repo: fontawesome/brands/github
