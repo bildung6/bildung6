@@ -1,7 +1,7 @@
 ---
 title: Elicit
 type: "tool"
-description: An AI-powered writing assistant that helps you express your thoughts more clearly and effectively.
+description: Elicit ist ein Forschungsassistenzsystem, das bei der Literaturrecherche eingesetzt werden kann.
 id: "elicit"
 tags:
 - "Kostenlos"
