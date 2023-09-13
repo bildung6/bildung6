@@ -14,8 +14,10 @@ disabled: True
 
     Diese Leitlinie wird demnächst verfügbar. 
 
+
 <!--
 
+[:fontawesome-solid-print: Leitlinie Drucken](javascript:window.print()){ .md-button .md-button--primary .print-button }
 
 ### Verbote oder Einschränkungen
 
@@ -29,8 +31,6 @@ KI-basierte Werkzeuge sind nicht immer verlässlich. Die Ergebnisse müssen krit
 ### 2. KI-basierte Werkzeuge können die Lehre unterstützen
 
 KI-basierte Werkzeuge können die Lehre unterstützen. Sie können beispielsweise zeitaufwändige, mühsame oder repetitive Tätigkeiten übernehmen.
-
-
 
 ## Förderung von Medienkompetenz
 
@@ -94,4 +94,5 @@ Es ist wichtig, **Diskussionen über Genauigkeits- und Bias-Problematiken** zu f
 ## Grundlagen des Prompt-Designs lehren
 
 Die Vermittlung der **Grundlagen des Prompt-Designs** ermöglicht es den Studierenden, effektivere Eingabeaufforderungen für KI-Systeme zu erstellen und ihre Ergebnisse besser zu interpretieren. Dies kann dazu beitragen, die Qualität ihrer Arbeit und die Relevanz der von KI generierten Inhalte zu verbessern.
+
 -->
