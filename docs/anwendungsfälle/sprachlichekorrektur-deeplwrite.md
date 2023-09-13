@@ -1,6 +1,5 @@
 ---
-description: "DeepL Write kann verwendet werden, um die sprachliche Korrektur von Studierenden\
-  \ zu unterst\xFCtzen."
+description: "DeepL Write ist ein KI-Schreibassistent, der Studierende bei der sprachlichen Korrektur ihrer Texte unterst\xFCtzt."
 id: sprachlichekorrektur-deeplwrite
 image: "anwendungsf\xE4lle/images/decide.svg"
 tags:
@@ -12,7 +11,7 @@ type: usecase
 
 
 # Sprachliche Korrektur mit DeepL Write
-DeepL Write kann zur Unterstützung der sprachlichen Korrektur schriftlicher Arbeiten eingesetzt werden.
+DeepL Write ist ein KI-Schreibassistent, der Studierende bei der sprachlichen Korrektur ihrer Texte unterstützt.
 
 ## Beschreibung
 
@@ -106,10 +105,4 @@ rules:
 
 - DeepL Write App: https://www.deepl.com/write
 - DeepL Write Beschreibung: https://support.deepl.com/hc/de/articles/6318834492700-DeepL-Write 
-
----
-
-
-## Quellen
-
 

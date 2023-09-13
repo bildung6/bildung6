@@ -40,7 +40,7 @@ In den Beispielen wird ChatGPT-3.5 aufgefordert, die Rolle eines Tutors zu über
 ---
 
 
-### Beispiel 1: Feedback zu einem Text einholen
+### Feedback zu einem Text einholen
 
 In diesem Beispiel wurde ein Artikel übermittelt, der in einem nüchternen und technischen Ton verfasst ist. Im Prompt wurden Trennzeichen (###, """) verwendet, um Anweisungen und Text zu trennen.
 
@@ -115,7 +115,7 @@ Insgesamt ist der Artikel auf einem guten Weg, um wissenschaftsjournalistische S
 ---
 
 
-### Beispiel 2: Feedback zu einem schlecht geschriebenen Text einholen
+### Feedback zu einem schlecht geschriebenen Text einholen
 
 In diesem Beispiel wurde ein schlecht geschriebener Artikel mit mehreren Rechtschreibfehlern und umgangssprachlichen Ausdrücken übermittelt.
 
@@ -265,9 +265,7 @@ Sonstige Nachschlagewerke:
 
 Chatverlauf zum erstellen fiktiver Artikel:
 
-- Beispiel 1 (Passing Bablock Regression): https://chat.openai.com/share/eae1cf8d-db91-4ca2-b33e-7d4c6c3c72c5
-- Beispiel 2 (Klimawandel und Piraten): https://chat.openai.com/share/80efb46f-da97-4f12-8017-a3fa909b764c
+- 1. Beispiel (Passing Bablock Regression): https://chat.openai.com/share/eae1cf8d-db91-4ca2-b33e-7d4c6c3c72c5
+- 2. Beispiel (Klimawandel und Piraten): https://chat.openai.com/share/80efb46f-da97-4f12-8017-a3fa909b764c
 
----
 
-## Quellen

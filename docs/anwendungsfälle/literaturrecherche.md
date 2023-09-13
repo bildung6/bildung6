@@ -88,13 +88,4 @@ rules:
   value: kompetenzerwerb-durch-ki
 ```
 
----
 
-
-## Links
-
-
----
-
-
-## Quellen

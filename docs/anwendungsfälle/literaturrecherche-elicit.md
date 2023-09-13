@@ -1,6 +1,5 @@
 ---
-description: "Elicit kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
-  \ relevante Artikel und Studien identifiziert und vorschl\xE4gt."
+description: "Elicit kann bei der Literaturrecherche behilflich sein, indem es relevante Artikel und Studien identifiziert und zur Auswahl stellt."
 id: literaturrecherche-elicit
 image: "anwendungsf\xE4lle/images/choose_editedinsgtar.svg"
 tags:
@@ -12,7 +11,7 @@ type: usecase
 
 
 # Literaturrecherche mit Elicit
-Elicit kann dich bei der Suche und Auswahl geeigneter Literatur zu unterstützen.
+Elicit kann bei der Literaturrecherche behilflich sein, indem es relevante Artikel und Studien identifiziert und zur Auswahl stellt.
 
 ## Beschreibung
 
@@ -177,6 +176,4 @@ Jan Hendrik Kirchner erklärt, wie er Elicit zur schnellen Erstellung von Forsch
 
 - https://youtu.be/YO9UiBWx6jw
 
----
 
-## Quellen

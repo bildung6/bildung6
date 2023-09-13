@@ -59,9 +59,11 @@ rules:
 ---
 
 
+<!-- Bitte auskommentieres Quiz nicht löschen, wird noch fertiggestellt. msd4 13.09.23-->
+<!--
 ## Quiz
 
-<!--
+
 !!! question "Aufgabe 1"
     Was könnten Risiken bei der Verwendung von KI zur sprachlichen Korrektur sein?
 
@@ -141,6 +143,7 @@ rules:
   value: fehlende-transparenz
 ```
 
+
 ---
 
 
@@ -161,14 +164,3 @@ rules:
   value: sprachliche-barrieren-aufloesen
 ```
 
-
----
-
-
-## Links
-
-
----
-
-
-## Quellen
