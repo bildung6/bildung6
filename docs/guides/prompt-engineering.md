@@ -8,7 +8,7 @@ title: Bessere Chatbot-Antworten mit Prompt-Engineering
 type: guide
 --- 
 
-???+ info "Intro"
+???+ info "Einleitende Fragen"
 
     **An wen richtet sich dieser Guide?**<br>
     Dieser Guide richtet sich an alle, insbesondere an diejenigen, die Anregungen für einen effizienteren Umgang mit Chatbots (wie ChatGPT) suchen.
@@ -25,10 +25,10 @@ type: guide
     **Woher stammen die hier gezeigten Inhalte?**<br>
     Die Idee, die Tipps in Strategien und Taktiken zu unterteilen, haben wir teilweise aus den "Best Practices" der OpenAI-Dokumentation zur ChatGPT-API (GPT-4) übernommen und stellenweise ergänzt.
 
-    Ganz unten finden sich Links, die u.a. zu den verwendeten Quellen führen.
+    Ganz unten findest du Links, die u.a. zu den verwendeten Quellen führen.
 
     **Funktionieren die gezeigten Inhalte?**<br>
-    Die meisten Beispiele wurden im September 2023 mit ChatGPT-3.5 getestet. Allerdings funktionieren sie mit anderen Chatbots(wie Bard von Google) möglicherweise nicht so gut. Auch kann es sein, dass die hier vorgestellten Inhalte mit jeder neuen Version von ChatGPT an Aktualität verlieren, bzw. nicht mehr effizient sind. 
+    Die meisten Beispiele wurden im September 2023 mit ChatGPT-3.5 getestet. Allerdings funktionieren sie mit anderen Chatbots (wie Bard von Google) möglicherweise nicht so gut. Auch kann es sein, dass die hier vorgestellten Inhalte mit jeder neuen Version von ChatGPT an Aktualität verlieren, bzw. nicht mehr effizient sind. 
     
     ***Tipp: Bevor du aufgibst, versuche beim Ausprobieren der Beispiele einen neuen Chat-Dialog zu öffnen oder benutze den "Regenerate"-Button in ChatGPT, um eine von mehreren Antworten auszuwählen.***
 
@@ -103,20 +103,36 @@ Um eine relevante Antwort zu erhalten, solltest du sicherstellen, dass die Anfra
     <th>Besser</th>
   </tr>
   <tr>
-    <td bgcolor="Snow">Wie kann ich in Excel Zahlen hinzufügen?</td>
-    <td bgcolor="HoneyDew">Wie addiere ich eine Reihe von Dollarbeträgen in Excel? Ich möchte dies automatisch für ein ganzes Blatt von Zeilen tun, wobei alle Summen rechts in einer Spalte mit der Bezeichnung "Total" enden.</td>
+    <td bgcolor="white">Wie kann ich in Excel Zahlen hinzufügen?</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Wie addiere ich eine Reihe von Dollarbeträgen in Excel? Ich möchte dies automatisch für ein ganzes Blatt von Zeilen tun, wobei alle Summen rechts in einer Spalte mit der Bezeichnung "Total" enden.
+      </p>
+    </td>
   </tr>
   <tr>
-    <td bgcolor="Snow">Wer ist Präsident?</td>
-    <td bgcolor="HoneyDew">Wer war 2021 der Präsident Mexikos, und wie häufig werden Wahlen abgehalten?</td>
+    <td bgcolor="white">Wer ist Präsident?</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Wer war 2021 der Präsident Mexikos, und wie häufig werden Wahlen abgehalten?
+      </p>
+    </td>
   </tr>
     <tr>
-    <td bgcolor="Snow">Schreibe einen Code zur Berechnung der Fibonacci-Folge.</td>
-    <td bgcolor="HoneyDew">Schreibe eine TypeScript-Funktion zur effizienten Berechnung der Fibonacci-Folge. Kommentiere den Code grosszügig, um zu erklären, was jeder Teil tut und warum er so geschrieben ist.</td>
+    <td bgcolor="white">Schreibe einen Code zur Berechnung der Fibonacci-Folge.</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Schreibe eine TypeScript-Funktion zur effizienten Berechnung der Fibonacci-Folge. Kommentiere den Code grosszügig, um zu erklären, was jeder Teil tut und warum er so geschrieben ist.
+      </p>
+    </td>
   </tr>
     <tr>
-    <td bgcolor="Snow">Fasse die Besprechungsnotizen zusammen.</td>
-    <td bgcolor="HoneyDew">Fasse die Besprechungsnotizen in einem einzigen Absatz zusammen. Erstelle dann eine Liste der Redner und ihrer wichtigsten Punkte. Führe abschliessend die von den Rednern vorgeschlagenen nächsten Schritte oder Massnahmen auf, falls vorhanden. </td>
+    <td bgcolor="white">Fasse die Besprechungsnotizen zusammen.</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Fasse die Besprechungsnotizen in einem einzigen Absatz zusammen. Erstelle dann eine Liste der Redner und ihrer wichtigsten Punkte. Führe abschliessend die von den Rednern vorgeschlagenen nächsten Schritte oder Massnahmen auf, falls vorhanden.
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -140,24 +156,42 @@ Weist man dem Chatbot eine bestimmte Rolle (oder Persona) zu, spiegelt sich dies
     <th>Bemerkungen</th>
   </tr>
   <tr>
-    <td bgcolor="HoneyDew"><mark>Nimm die Rolle eines Studentenbetreuers an...</mark></td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Nimm die Rolle eines Studentenbetreuers an...
+      </p>
+    </td>
     <td bgcolor="White"></td>
   </tr>
     <tr>
-    <td bgcolor="HoneyDew"><mark>...antworte mit einem konstruktiven Vorschlag zu jedem Kritikpunkt.</mark></td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        ...antworte mit einem konstruktiven Vorschlag zu jedem Kritikpunkt.
+      </p>
+    </td>
     <td bgcolor="White"></td>
   </tr>
     <tr>
-    <td bgcolor="HoneyDew"><mark>...antworte mit kurzen und objektiven Antworten.</mark></td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        ...antworte mit kurzen und objektiven Antworten.
+      </p>
+    </td>
     <td bgcolor="White"></td>
   </tr>
   <tr>
-    <td bgcolor="HoneyDew">
-      <mark>Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt.<br>
-      Überprüfe und bewerte kritisch</mark> den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels.<br>
-      Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und<mark> übe konstruktive Kritik zu jedem Punkt.</mark><br>
-      <mark> Achte darauf, den Text im Hinblick auf das geforderte Niveau wissenschaftsjournalistischen Schreibens zu beurteilen </mark> und gib an erster Stelle an, ob der Text das Niveau erreicht. <br><br>
-      """<...Text...>"""
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt.
+        <br>
+        Überprüfe und bewerte kritisch den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels.<br>
+        Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und übe konstruktive Kritik zu jedem Punkt.
+        <br>
+        Achte darauf, den Text im Hinblick auf das geforderte Niveau wissenschaftsjournalistischen Schreibens zu beurteilen und gib an erster Stelle an, ob der Text das Niveau erreicht. 
+        <br>
+        <br>
+        """Lorem ipsum, ..."""
+      </p>
     </td>
     <td bgcolor="White">Eine etwas ausführlicher Prompt, um ein Feedback zur geschriebener Seminararbeit einzuholen.<br><br>
       Die hier verwendeten Prompts basieren teilweise auf Inhalte dieser Quellen:<br><br>
@@ -193,8 +227,14 @@ Beispielsweise wird nach der eigentlichen Anweisung, eine Textzusammenfassung zu
     <th>Bemerkung</th>
   </tr>
   <tr>
-    <td width="50%" bgcolor="HoneyDew">Fasse den in Anführungszeichen gesetzten Text auf Deutsch zusammen.<br><br>
-      <mark>"""</mark>Lorem ipsum...<mark>"""</mark></td>
+    <td width="50%" bgcolor="5D6CC0">
+      <p style="color:white">
+        Fasse den in Anführungszeichen gesetzten Text auf Deutsch zusammen.
+        <br>
+        <br>
+        <strong>"""</strong>Lorem ipsum...<strong>"""</strong>
+      </p>
+    </td>
     <td width="50%" bgcolor="White"></td>
   </tr>
 </table>
@@ -218,35 +258,39 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     <th>Bemerkung</th>
   </tr>
   <tr>
-    <td width="50%" bgcolor="HoneyDew">
-      Befolge die folgenden Schritt-für-Schritt-Anweisungen, um auf meine Eingaben zu reagieren.
-      <br>
-      <br>
-      Schritt 1 - Ich gebe dir einen in dreifachen Anführungszeichen gesetzten Text. Fasse diesen Text in einem Satz mit dem Präfix "Zusammenfassung:" zusammen. 
-      <br>
-      <br>
-      Schritt 2 - Übersetzen Sie die Zusammenfassung aus Schritt 1 ins Englische, mit einem Präfix "Uebersetzung:".
-      <br>
-      <br>
-      """Lorem ipsum, ..."""
+    <td width="50%" bgcolor="5D6CC0">
+      <p style="color:white">
+        Befolge die folgenden Schritt-für-Schritt-Anweisungen, um auf meine Eingaben zu reagieren.
+        <br>
+        <br>
+        Schritt 1 - Ich gebe dir einen in dreifachen Anführungszeichen gesetzten Text. Fasse diesen Text in einem Satz mit dem Präfix "Zusammenfassung:" zusammen. 
+        <br>
+        <br>
+        Schritt 2 - Übersetzen Sie die Zusammenfassung aus Schritt 1 ins Englische, mit einem Präfix "Uebersetzung:".
+        <br>
+        <br>
+        """Lorem ipsum, ..."""
+      </p>
     </td>
     <td bgcolor="white"></td>
   </tr>
   <tr>
-    <td bgcolor="HoneyDew">
-      Halte dich an diese Schritte um auf meine Fragen zu reagieren: 
-      <br>
-      <br>
-      Step 1 - Ich werde dir einen Text geben, der durch dreifache Anführungszeichen (""") begrenzt ist, merke dir diesen Text im weiteren Chat-Verlauf.
-      <br>
-      <br>
-      Step 2 - Du bestätigst, dass du den Text erhalten hast und sagst mir, dass du nun bereit bist für meine Fragen. 
-      <br>
-      <br>
-      Step 3- Du beantwortest jeder meiner Fragen, indem du den angegebenen Text verwendest. Wenn du die Antwort im angegebenen Text nicht findest, schreibe immer "Ich konnte keine Antwort finden". 
-      <br>
-      <br>
-      """Lorem ipsum, ..."""
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Halte dich an diese Schritte um auf meine Fragen zu reagieren: 
+        <br>
+        <br>
+        Step 1 - Ich werde dir einen Text geben, der durch dreifache Anführungszeichen (""") begrenzt ist, merke dir diesen Text im weiteren Chat-Verlauf.
+        <br>
+        <br>
+        Step 2 - Du bestätigst, dass du den Text erhalten hast und sagst mir, dass du nun bereit bist für meine Fragen. 
+        <br>
+        <br>
+        Step 3- Du beantwortest jeder meiner Fragen, indem du den angegebenen Text verwendest. Wenn du die Antwort im angegebenen Text nicht findest, schreibe immer "Ich konnte keine Antwort finden". 
+        <br>
+        <br>
+        """Lorem ipsum, ..."""
+      </p>
     </td>
     <td bgcolor="white">Dies ist eine erweiterte Version der obrigen Anweisung. Mit Step 2 und 3 wollten wir erreichen, dass der Chatbot auf unsere Fragen wartet. Ohne diese Anpassung hatte ChatGPT (ChatGPT-3.5) z.T. kuriose Antworten generiert. 
     <br>
@@ -276,31 +320,40 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     <th>Bemerkung</th>
   </tr>
   <tr>
-     <td width="70%" bgcolor="HoneyDew">
-    <i>Input:</i>
+     <td width="70%" bgcolor="5D6CC0">
+    <p style="color:white"><i>Input:</i></p>
     </td>
   </tr>
-    <td bgcolor="HoneyDew">
-      Suggest three names for an animal that is a superhero.<br><br>
-      <mark>Animal: Cat<br>
-      Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline<br>
-      Animal: Dog<br>
-      Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot<br>
-      Animal: Horse</mark><br>
-      Names:
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Suggest three names for an animal that is a superhero.
+        <br>
+        <br>
+        Animal: Cat
+        <br>
+        Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
+        <br>
+        Animal: Dog
+        <br>
+        Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
+        <br>
+        Animal: Horse
+        <br>
+        Names:
+      </p>
     </td>
     </td>
      <td bgcolor="white"> Quelle: <a href="https://platform.openai.com/docs/quickstart/add-some-examples">Quickstart (OpenAI API), von OpenAI</a>
     </td>
   </tr>
      <tr>
-     <td bgcolor="F7F7F8">
+     <td bgcolor="white">
       <i>Output:</i>
     </td>
   </tr>
     </tr>
      <tr>
-     <td bgcolor="F7F7F8">
+     <td bgcolor="white">
         For a superhero horse:<br>
         1. Thunderhoof<br>
         2. Equine Avenger<br>
@@ -321,20 +374,28 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     <th>Bemerkung</th>
   </tr>
   <tr>
-     <td width="70%" bgcolor="HoneyDew">
-    <i>Input:</i>
+     <td width="70%" bgcolor="5D6CC0">
+    <p style="color:white"><i>Input:</i></p>
     </td>
   </tr>
-    <td bgcolor="HoneyDew">
-      Vervollständige<br><br>
-      <mark>
-        Typ: Blutzellen<br>
-        Zellen: Erythrozyten, Leukozyten, Thrombozyten<br>
-        Typ: Muskelzellen<br>
-        Zellen: Skelettmuskulaturzellen, Herzmuskelzellen, glatte Muskelzellen<br>
-      </mark>
-        Typ: Gewebszellen<br>
-        Zellen:<br>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Vervollständige
+        <br>
+        <br>
+        Typ: Blutzellen
+        <br>
+        Zellen: Erythrozyten, Leukozyten, Thrombozyten
+        <br>
+        Typ: Muskelzellen
+        <br>
+        Zellen: Skelettmuskulaturzellen, Herzmuskelzellen, glatte Muskelzellen
+        <br>
+        Typ: Gewebszellen
+        <br>
+        Zellen:
+        <br>
+      </p>
     </td>
     </td>
      <td bgcolor="white">
@@ -342,13 +403,13 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     </td>
   </tr>
      <tr>
-     <td bgcolor="F7F7F8">
+     <td bgcolor="white">
       <i>Output:</i>
     </td>
   </tr>
     </tr>
      <tr>
-     <td bgcolor="F7F7F8">
+     <td bgcolor="white">
         Typ: Gewebszellen<br>
         Zellen: Fibroblasten, Epithelzellen, Adipozyten (Fettzellen), Chondrozyten (Knorpelzellen), Osteozyten (Knochenzellen), Neuronen (Nervenzellen), Astrozyten (Gliazellen), Makrophagen, Mastzellen, Endothelzellen
   </tr>
@@ -367,22 +428,31 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     <th>Bemerkung</th>
   </tr>
   <tr>
-     <td width="70%" bgcolor="HoneyDew">
-    <i>Input:</i>
+     <td width="70%" bgcolor="5D6CC0">
+    <p style="color:white"><i>Input:</i></p>
     </td>
   </tr>
-    <td bgcolor="HoneyDew">
-      Vervollständige<br><br>
-      <mark>
-       Input: "Stunde","Montag","Dienstag","Mittwoch","Donnerstag","Freitag" <br>
-       Output: Stunde,Montag,Dienstag,Mittwoch,Donnerstag,Freitag<br>
-       Input: "1","Mathematik","Deutsch","Englisch","Erdkunde","Politik"<br>
-       Output: 1,Mathematik,Deutsch,Englisch,Erdkunde,Politik<br>
-       Input: 'Sport','Religion','Kunst'<br>
-       Output: Sport,Religion,Kunst<br>
-      </mark>
-       Input: 'Wüste', 'Tundra', 'Gebirge', 'Oase'<br>
-       Output:
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Vervollständige
+        <br>
+        <br>
+        Input: "Stunde","Montag","Dienstag","Mittwoch","Donnerstag","Freitag"
+        <br>
+        Output: Stunde,Montag,Dienstag,Mittwoch,Donnerstag,Freitag
+        <br>
+        Input: "1","Mathematik","Deutsch","Englisch","Erdkunde","Politik"
+        <br>
+        Output: 1,Mathematik,Deutsch,Englisch,Erdkunde,Politik
+        <br>
+        Input: 'Sport','Religion','Kunst'
+        <br>
+        Output: Sport,Religion,Kunst
+        <br>
+        Input: 'Wüste', 'Tundra', 'Gebirge', 'Oase'
+        <br>
+        Output:
+      </p>
     </td>
     </td>
      <td bgcolor="white">
@@ -390,13 +460,13 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     </td>
   </tr>
      <tr>
-     <td bgcolor="F7F7F8">
+     <td bgcolor="white">
       <i>Output:</i>
     </td>
   </tr>
     </tr>
      <tr>
-     <td bgcolor="F7F7F8">
+     <td bgcolor="white">
        Wüste,Tundra,Gebirge,Oase
   </tr>
 </table>
@@ -414,17 +484,19 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
     <th>Bemerkung</th>
   </tr>
   <tr>
-     <td width="70%" bgcolor="HoneyDew">
-    <i>Input:</i>
+     <td width="70%" bgcolor="5D6CC0">
+      <p style="color:white"><i>Input:</i></p>
     </td>
   </tr>
-    <td bgcolor="HoneyDew">
-      You will be provided with a document delimited by triple quotes and a question. The you will wait for my questions. Your task is then to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must be annotated with a citation. Use always the following format for to cite relevant passages <mark> like ({"citation": the person was born in berlin}) </mark>
-      <br><br>
-      """Das Haus Anjou-Plantagenêt (französisch [ɑ̃ˈʒu-ˌplɑ̃taʒ'nɛ], ..."""
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        You will be provided with a document delimited by triple quotes and a question. The you will wait for my questions. Your task is then to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must be annotated with a citation. Use always the following format for to cite relevant passages <strong> like ({"citation": the person was born in berlin}) </strong>
+        <br>
+        <br>
+        """Das Haus Anjou-Plantagenêt (französisch [ɑ̃ˈʒu-ˌplɑ̃taʒ'nɛ], ..."""
+      </p>
     </td>
-    </td>
-     <td bgcolor="white">
+    <td bgcolor="white">
       Quelle:<a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text">GPT Best Practises (OpenAI API), von OpenAI </a>und leicht adaptiert.
       <br>
       <br>
@@ -449,22 +521,37 @@ Es ist jedoch zu beachten, dass die Anweisung an das Modell, eine bestimmte Anza
     </div>
   </caption>
   <tr>
-    <th>Beispiele</th>
+    <th>Beispiel</th>
     <th>Bemerkungen</th>
   </tr>
   <tr>
-    <td bgcolor="HoneyDew">Fasse den durch dreifache Anführungszeichen markierten Text in <mark>etwa 50 Wörtern</mark> zusammen.<br>
-    """Lorem ipsum, ... """</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Fasse den durch dreifache Anführungszeichen markierten Text in etwa 50 Wörtern zusammen.
+        <br>
+        """Lorem ipsum, ... """
+      </p>
+    </td>
     <td bgcolor="White"></td>
   </tr>
   <tr>
-    <td bgcolor="HoneyDew">Fasse den durch dreifache Anführungszeichen abgegrenzten Text in <mark>2 Absätzen</mark> zusammen.<br>
-    """Lorem ipsum, ... """</td>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Fasse den durch dreifache Anführungszeichen abgegrenzten Text in 2 Absätzen zusammen.
+        <br>
+        """Lorem ipsum, ... """
+      </p>
+    </td>
     <td bgcolor="White"></td>
   </tr>
-    <tr>
-    <td bgcolor="HoneyDew">Fasse den durch dreifache Anführungszeichen abgegrenzten Text in <mark>3 Bullet Points </mark>zusammen.<br>
-    """Lorem ipsum, ... """</td>
+  <tr>
+    <td bgcolor="5D6CC0">
+      <p style="color:white">
+        Fasse den durch dreifache Anführungszeichen abgegrenzten Text in 3 Bullet Points zusammen.
+        <br>
+        """Lorem ipsum, ... """
+      </p>
+    </td>
     <td bgcolor="White"></td>
   </tr>
 </table>
@@ -496,20 +583,22 @@ Um Antworten zu generieren, die spezifisch für den Referenztext sind, kann der 
     <th>Bemerkungen</th>
   </tr>
   <tr>
-    <td width="70%" bgcolor="HoneyDew">
-    Halte dich an diese Schritte um auf meine Fragen zu reagieren: 
-    <br>
-    <br>
-    Step 1 - Ich werde dir einen Text, der durch dreifache Anführungszeichen (""") begrenzt ist, merke dir diesen Text im weiter Verlauf unserer Konversation (""") 
-    <br>
-    <br>
-    Step 2 - Du bestätigst, dass du den Text erhalten hast und sagst mir, dass du nun bereit bist für meine Fragen 
-    <br>
-    <br>
-    Step 3- Du beantwortest jeder meiner Fragen, indem du den angegebenen Text verwendest. Wenn du die Antwort im Angegebenen Text findest, schreibe "Ich konnte keine Antwort finden". 
-    <br>
-    <br>
-    """Sir Joseph William Bazalgette (Aussprache: /ˈbæzəldʒɛt/; * 28. März 1819..."""
+    <td width="70%" bgcolor="5D6CC0">
+    <p style="color:white">
+      Halte dich an diese Schritte um auf meine Fragen zu reagieren: 
+      <br>
+      <br>
+      Step 1 - Ich werde dir einen Text, der durch dreifache Anführungszeichen (""") begrenzt ist, merke dir diesen Text im weiter Verlauf unserer Konversation (""") 
+      <br>
+      <br>
+      Step 2 - Du bestätigst, dass du den Text erhalten hast und sagst mir, dass du nun bereit bist für meine Fragen 
+      <br>
+      <br>
+      Step 3- Du beantwortest jeder meiner Fragen, indem du den angegebenen Text verwendest. Wenn du die Antwort im Angegebenen Text findest, schreibe "Ich konnte keine Antwort finden". 
+      <br>
+      <br>
+      """Sir Joseph William Bazalgette (Aussprache: /ˈbæzəldʒɛt/; * 28. März 1819..."""
+    </p>
     </td>
     <td bgcolor="White">
     Dieser Prompt basiert auf den <a href="https://platform.openai.com/docs/guides/gpt-best-practices/tactic-instruct-the-model-to-answer-using-a-reference-text"> "Best Practices" der englischen OpenAI-Dokumentation zur OpenAI-API</a>. Wir haben die dortigen Prompts übersetzt und adaptiert. Da das Hochladen von Dokumenten bei der Freemium-Version noch nicht möglich war (Stand August 2023), wurde der Referenztext direkt in den Prompt reinkopiert.
@@ -539,12 +628,14 @@ Hier wird die oben beschriebene Taktik erweitert, indem der Chatbot angewiesen w
     <th>Bemerkung</th>
   </tr>
   <tr>
-    <td width="70%" bgcolor="HoneyDew">
-      You will be provided with a document delimited by triple quotes and a question. The you will wait for my questions. Your task is then to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." <mark> If an answer to the question is provided, it must always be annotated with a citation. Use always the following format for to cite relevant passages like ({"citation": the person was born in berlin})</mark> 
+    <td width="70%" bgcolor="5D6CC0">
+      <p style="color:white">
+        You will be provided with a document delimited by triple quotes and a question. The you will wait for my questions. Your task is then to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must always be annotated with a citation. Use always the following format for to cite relevant passages like ({"citation": the person was born in berlin}) 
       <br>
       <br>
       Text:<br>
-      """Sir Joseph William Bazalgette (Aussprache: /ˈbæzəldʒɛt/; 
+      """Sir Joseph William Bazalgette (Aussprache: /ˈbæzəldʒɛt/;
+      </p>
     </td>
     <td bgcolor="white">
       Dies ist eine erweiterte Version der obrigen Anweisung. Mit Step 2 und 3 wollten wir erreichen, dass der Chatbot auf unsere Fragen wartet. Ohne diese Anpassung hatte ChatGPT (ChatGPT-3.5) z.T. kuriose Antworten generiert. 
@@ -585,16 +676,18 @@ Die Verarbeitung grösserer Texte kann ggf. durch das vorhandene Context Limit v
     <th>Bemerkung</th>
   </tr>
   <tr>
-    <td width="60%" bgcolor="HoneyDew">
-      <mark>Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part 1/2 received" and wait for the next part.</mark>
-      <br>
-      <mark>[START PART 1/2]</mark>
-      <br>
-      """Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet..."""
-      <br>
-      <mark>[END PART 1/2]</mark>
-      <br>
-      <mark>Remember not answering yet. Just acknowledge you received this part with the message "Part 1/2 received" and wait for the next part.</mark>
+    <td width="60%" bgcolor="5D6CC0">
+      <p style="color:white">
+        <strong>Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part 1/2 received" and wait for the next part.</strong>
+        <br>
+        <strong>[START PART 1/2]</strong>
+        <br>
+        """Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet..."""
+        <br>
+        <strong>[END PART 1/2]</strong>
+        <br>
+        <strong>Remember not answering yet. Just acknowledge you received this part with the message "Part 1/2 received" and wait for the next part.</strong>
+      </p>
     </td>
     <td bgcolor="white">
       Diese Prompts wurden aus dem <a href="https://chatgpt-prompt-splitter.jjdiaz.dev/">
@@ -605,16 +698,18 @@ Die Verarbeitung grösserer Texte kann ggf. durch das vorhandene Context Limit v
     </td>
   </tr>
   <tr>
-    <td width="60%" bgcolor="HoneyDew">
-      <mark>[START PART 2/2]</mark>
-      <br>
-      ""...et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."""
-      <br>
-      <mark>[END PART 2/2]</mark>
-      <br>
-      <mark>ALL PARTS SENT. Now you can continue processing the request.</mark>
+    <td width="60%" bgcolor="5D6CC0">
+      <p style="color:white">
+        <strong>[START PART 2/2]</strong>
+        <br>
+        ""...et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."""
+        <br>
+        <strong>[END PART 2/2]</strong>
+        <br>
+        <strong>ALL PARTS SENT. Now you can continue processing the request.</strong>
+      </p>
     </td>
-     <td bgcolor="white">
+    <td bgcolor="white">
       Im letzten Prompt wird der letzte Chunk des Textes übermittelt.
     </td>
   </tr>
