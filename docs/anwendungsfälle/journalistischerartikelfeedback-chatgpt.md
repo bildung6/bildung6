@@ -44,33 +44,37 @@ In diesem Beispiel wurde ein Artikel übermittelt, der sich eher nüchtern mit e
     <th>Beispiel</th>
   </tr>
   <tr>
-    <td bgcolor="c5cae9"><i>Input:</i></td>
+    <p style="color:white">
+      <td bgcolor="5D6CC0"><p style="color:white"><i>Input:</i></p></td>
+    </p>
   </tr>
   <tr>
-    <td bgcolor="c5cae9">
-      ### Instruktion ### 
-      <br>
-      Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt. Überprüfe und bewerte kritisch den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels. Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und übe konstruktive Kritik zu jedem Punkt. Achte darauf, den Text im Hinblick auf das geforderte Niveau wissenschaftsjournalistischen Schreibens zu beurteilen und gib an erster Stelle an, ob der Text das Niveau erreicht. 
-      <br>
-      <br>
-      Text:
-      <br>
-      """ Titel: Analyse der praktischen Anwendungsmöglichkeiten von Passing Bablock Regression
-      <br>
-      <br>
-      Abstract:<br>
-      In diesem Bericht wird die praktische innovative Anwendungsmöglichkeit von Passing Bablock Regression (PBR) im Kontext der Informationstechnologie (IT) analysiert. PBR ist eine statistische Methode zur Beurteilung von Messinstrumenten und deren Übereinstimmung. In diesem Bericht werden die Grundlagen von PBR erläutert, gefolgt von einer Untersuchung seiner Anwendung in der IT-Branche. Die Ergebnisse verdeutlichen das Potenzial von PBR zur Verbesserung der Genauigkeit und Verlässlichkeit von IT-Messungen.
-      <br>
-      <br>
-      1. Einleitung<br>
-      Die kontinuierliche Entwicklung in der Informationstechnologie (IT) hat zu einer wachsenden Nachfrage nach präzisen und zuverlässigen Messinstrumenten geführt. Die Verlässlichkeit von Messergebnissen ist entscheidend für die Entwicklung, Implementierung..."""
+    <td bgcolor="5D6CC0">
+      <p style="color:white"><strong>
+        ## Instruktion ### 
+        <br>
+        Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt. Überprüfe und bewerte kritisch den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels. Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und übe konstruktive Kritik zu jedem Punkt. Achte darauf, den Text im Hinblick auf das geforderte Niveau wissenschaftsjournalistischen Schreibens zu beurteilen und gib an erster Stelle an, ob der Text das Niveau erreicht. </strong>
+        <br>
+        <br>
+        Text:
+        <br>
+        """ Titel: Analyse der praktischen Anwendungsmöglichkeiten von Passing Bablock Regression
+        <br>
+        <br>
+        Abstract:<br>
+        In diesem Bericht wird die praktische innovative Anwendungsmöglichkeit von Passing Bablock Regression (PBR) im Kontext der Informationstechnologie (IT) analysiert. PBR ist eine statistische Methode zur Beurteilung von Messinstrumenten und deren Übereinstimmung. In diesem Bericht werden die Grundlagen von PBR erläutert, gefolgt von einer Untersuchung seiner Anwendung in der IT-Branche. Die Ergebnisse verdeutlichen das Potenzial von PBR zur Verbesserung der Genauigkeit und Verlässlichkeit von IT-Messungen.
+        <br>
+        <br>
+        1. Einleitung<br>
+        Die kontinuierliche Entwicklung in der Informationstechnologie (IT) hat zu einer wachsenden Nachfrage nach präzisen und zuverlässigen Messinstrumenten geführt. Die Verlässlichkeit von Messergebnissen ist entscheidend für die Entwicklung, Implementierung..."""
+      </p>
     </td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb"><i>Output:</i></td>
+    <td bgcolor="white"><i>Output:</i></td>
   </tr>
   <tr>
-    <td bgcolor="#fbfbfb">
+    <td bgcolor="white">
      <strong>Beurteilung des Textes:</strong>
       <br>
       Der vorliegende wissenschaftsjournalistische Artikel erreicht insgesamt ein solides Niveau. Die Erklärungen sind klar und verständlich, und der Text ist gut strukturiert. Dennoch gibt es einige Bereiche, in denen Verbesserungen vorgenommen werden könnten, um den Artikel noch stärker zu machen.
@@ -132,28 +136,30 @@ In diesem Beispiel wurde ein schlecht geschriebener Artikel mit mehreren Rechtsc
     <th>Beispiel</th>
   </tr>
   <tr>
-    <td bgcolor="c5cae9"><i>Input:</i></td>
+    <td bgcolor="5D6CC0"><p style="color:white"><i>Input:</i></p></td>
   </tr>
   <tr>
-    <td bgcolor="c5cae9">
-      ### Instruktion ### 
-      <br>
-      Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt. Überprüfe und bewerte kritisch den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels. Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und übe konstruktive Kritik zu jedem Punkt. Achte darauf, den Text im Hinblick auf das geforderte Niveau wissenschaftsjournalistischen Schreibens zu beurteilen und gib an erster Stelle an, ob der Text das Niveau erreicht. 
-      <br>
-      <br>
-      Text:
-      <br>
-      """ Sensationeller Schokker! Klimachange schuld an Piraten-Boom? Experten ratlos!?!
-      <br>
-      <br>
-      In einer bahnbrechenden Enthüllung könnte der Klimawandel einen unerwarteten Nebeneffekt haben - einen Anstieg der Piratenaktivitäten! Ja, Sie haben richtig gehört,..."""
+    <td bgcolor="5D6CC0">
+      <p style="color:white"><strong>
+        ### Instruktion ### 
+        <br>
+        Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt. Überprüfe und bewerte kritisch den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels. Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und übe konstruktive Kritik zu jedem Punkt. Achte darauf, den Text im Hinblick auf das geforderte Niveau wissenschaftsjournalistischen Schreibens zu beurteilen und gib an erster Stelle an, ob der Text das Niveau erreicht. </strong>
+        <br>
+        <br>
+        Text:
+        <br>
+        """ Sensationeller Schokker! Klimachange schuld an Piraten-Boom? Experten ratlos!?!
+        <br>
+        <br>
+        In einer bahnbrechenden Enthüllung könnte der Klimawandel einen unerwarteten Nebeneffekt haben - einen Anstieg der Piratenaktivitäten! Ja, Sie haben richtig gehört,..."""
+      </p>
     </td>
   </tr>
   <tr>
-    <td bgcolor="fbfbfb"><i>Output:</i></td>
+    <td bgcolor="white"><i>Output:</i></td>
   </tr>
   <tr>
-    <td bgcolor="#fbfbfb">
+    <td bgcolor="white">
       <strong>Beurteilung des wissenschaftsjournalistischen Artikels:</strong>
       <br>
       <br>
