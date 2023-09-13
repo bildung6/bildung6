@@ -1,19 +1,19 @@
 ---
-description: "Elicit kann bei der Erstellung von Fragestellungen helfen, indem sie Vorschl\xE4\
-  ge f\xFCr relevante und interessante Fragestellungen generiert."
+description: "Elicit kann bei der Erstellung von Fragestellungen helfen, indem es Vorschl\xE4\
+  ge generiert."
 id: fragestellungengenerieren-elicit
 image: "anwendungsf\xE4lle/images/researching.svg"
 tags:
 - fragestellungen
 - studierende
-title: Fragestellungen generieren Elicit
+title: Fragestellungen generieren mit Elicit
 type: usecase
 ---
 
 
 # Fragestellungen generieren mit Elicit
 
-Elicit kann genutzt werden, um Denkanstösse bei der Formulierung der Fragestellung zu gewinnen.
+Elicit kann bei der Erstellung von Fragestellungen helfen, indem es Vorschläge generiert.
 
 
 ## Beschreibung

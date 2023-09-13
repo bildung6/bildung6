@@ -1,6 +1,6 @@
 ---
-description: "ChatGPT kann bei der Formulierung von Fragestellungen helfen, indem sie Vorschl\xE4\
-  ge f\xFCr Fragestellungen generiert."
+description: "ChatGPT kann bei der Formulierung von Fragestellungen helfen, indem es Vorschl\xE4\
+  ge generiert."
 id: fragestellungengenerieren-chatgpt
 image: "anwendungsf\xE4lle/images/chatbot.svg"
 tags:
@@ -13,7 +13,7 @@ type: usecase
 
 # Fragestellungen generieren mit ChatGPT
 
-Nutze ChatGPT, um deine Forschungsfrage zu formulieren.
+ChatGPT kann bei der Formulierung von Fragestellungen helfen, indem es Vorschläge generiert.
 
 ## Beschreibung
 
