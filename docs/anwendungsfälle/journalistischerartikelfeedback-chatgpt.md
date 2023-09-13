@@ -5,12 +5,12 @@ image: "anwendungsf\xE4lle/images/chatbot.svg"
 tags:
 - journalistischerartikel
 - studierende
-title: Feedback zum journalistischen Artikel mit ChatGPT generieren
+title: Feedback zum journalistischen Artikel mit ChatGPT
 type: usecase
 ---
 
 
-# Feedback zum journalistischen Artikel mit ChatGPT generieren
+# Feedback zum journalistischen Artikel mit ChatGPT
 
 Eine mögliche Anwendung von KI-basierten Tools ist die Analyse von Texten in Bezug auf Inhalt und Sprache. Davon kannst du profitieren, indem du dir von ChatGPT ein Feedback geben lässt.
 
