@@ -144,8 +144,19 @@ svg {
 
 @media print {
 
-    body {
-        margin: 0;
+
+    @page
+    {
+        size: auto;   /* auto is the initial value */
+
+        /* this affects the margin in the printer settings */
+        margin: 15mm 10mm;
+    }
+
+    body
+    {
+        /* this affects the margin on the content before sending to printer */
+        margin: 0px;
         color: #000;
         background-color: #fff;
     }
@@ -161,6 +172,25 @@ svg {
         border: 0;
         background-color: #fff;
         max-width: 100%;
+    }
+
+    a.md-button.print-button {
+        display: none;
+    }
+
+    p, table, img, .admonition {
+        break-inside: avoid;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+
+    @page {
+        @bottom-left {
+            content: counter(page) ' of ' counter(pages);
+        }
     }
 
 }
@@ -213,18 +243,18 @@ svg {
 
 
 
-.md-tabs__link:focus, .md-tabs__link:hover {
+.md-tabs__link:focus .md-tabs__link, .md-tabs__link:hover .md-tabs__link {
     background: rgba(255, 255, 255, 0.1);
 }
 
 
-.md-tabs__link--active, .md-tabs__link--active:hover  {
+.md-tabs__item--active .md-tabs__link,  .md-tabs__item--active:hover .md-tabs__link  {
     opacity: 1;
     background: #ffffff;
     color: #4051b5;
 }
 
-.md-tabs__link--active svg, .md-tabs__link--active:hover  svg {
+.md-tabs__item--active svg, .md-tabs__item--active:hover svg {
     fill: #4051b5;
 }
 
@@ -411,4 +441,8 @@ li.anwendungsfälle
 .overview a:active {
     color: transparent;
     background: rgba(82, 108, 254, 0.13);
+}
+
+[dir=ltr] .md-nav__link svg+* {
+    margin-left:0;
 }
