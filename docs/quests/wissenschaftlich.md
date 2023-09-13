@@ -9,11 +9,8 @@ description: Welche KI-Tools unterstützen mich beim wissenschaftlichen Arbeiten
 In dieser Quest geht es darum, wie KI zur Unterstützung beim wissenschaftlichen Arbeiten eingesetzt werden kann. 
 
 ###	Fragestellung generieren
-<!-- 
-1.	Ein Tool nutzen mit mind. 3 verschiedenen Prompts, um Ideen zu generieren
-2.	Feedback zur Fragestellung einholen (Prompt vorgeben, darf adaptiert werden)
-3.	Tool: ChatGPT oder ähnliches, Elicit 
--->
+
+Das Formulieren einer Fragestellung ist einer der ersten grundlegenden Schritte beim wissenschaftlichen Arbeiten. Nutze KI, um dich dabei zu unterstützen.
 
 ```yaml
 condition: or
@@ -26,10 +23,8 @@ rules:
 
 
 ###	Journalistischer Artikel
-<!-- 
-1.	Feedback einholen und optimieren
-2.	Tool: ChatGPT oder ähnliches
--->
+Das Schreiben von wissenschaftsjournalistischen Artikeln kann eine Aufgabe sein, die du im Rahmen deines Studiums erledigen musst. Nutze KI, um Feedback zu deinem Text zu erhalten.
+
 
 ```yaml
 condition: or
@@ -41,26 +36,8 @@ rules:
 ```
 
 
-<!--
-
-### Präsentation üben
-
-
-1.	Powerpoint Speaker Coach 
-
-```yaml
-condition: or
-entityType: usecase
-rules:
-- condition: contains
-  property: id
-  value: powerpoint
-```
--->
-
-
 ### Literaturrecherche
-
+KI kann bei der Literaturrecherche behilflich sein.
 
 ```yaml
 condition: or
@@ -73,7 +50,7 @@ rules:
 
 
 ### Summary erstellen
-
+KI kann zur Erstellung von Zusammenfassungen verwendet werden.
 
 ```yaml
 condition: or
@@ -86,7 +63,7 @@ rules:
 
 
 ### Sprachliche Korrektur
-
+Benutze KI, um schriftliche Arbeiten sprachlich zu korrigieren.
 
 ```yaml
 condition: or
