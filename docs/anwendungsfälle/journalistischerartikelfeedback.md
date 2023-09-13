@@ -11,7 +11,7 @@ type: usecase
 
 
 
-# Feedback zum journalistischen Artikel zur Optimierung
+# Feedback zum journalistischen Artikel
 Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du KBW wie Chatbots nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
 
 
