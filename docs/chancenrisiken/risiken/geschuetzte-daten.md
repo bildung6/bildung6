@@ -1,5 +1,5 @@
 ---
-description: "Der Einsatz von KI in der Bildung birgt Risiken für den Datenschutz und die Sicherheit geschützter Daten, da persönliche Informationen von Lernenden und Lehrenden gefährdet sein könnten."
+description: "Der Einsatz von KI in der Bildung birgt Risiken für den Datenschutz und die Sicherheit geschützter Daten, da persönliche Informationen von Lernenden, Studierenden und Lehrenden gefährdet sein könnten."
 id: geschuetzte-daten
 tags:
 - datenschutz
@@ -10,7 +10,7 @@ type: risk
 
 
 
-Der Einsatz von KI in der Bildung birgt Risiken für den **Datenschutz** und die Sicherheit **geschützter Daten**, da persönliche Informationen von Lernenden und Lehrenden gefährdet sein könnten.
+Der Einsatz von KI in der Bildung birgt Risiken für den **Datenschutz** und die Sicherheit **geschützter Daten,** da persönliche Informationen von Lernenden, Studierenden und Lehrenden gefährdet sein könnten.
 
 
 ### Beschreibung

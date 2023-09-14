@@ -17,7 +17,7 @@ Large Language Models (LLMs) neigen dazu, falsche Informationen zu produzieren, 
 
 ### Risikominimierung
 
-Um Halluzinationen erkennen zu können, sollte die generierten Ergebnisse **überprüft** werden. Insbesondere bei Quellenangaben, Fakten oder Zitaten besteht eine hohe Wahrscheinlichkeit, dass diese falsch sind (1). 
+Um Halluzinationen erkennen zu können, sollten die generierten Ergebnisse **überprüft** werden. Insbesondere bei Quellenangaben, Fakten oder Zitaten besteht eine hohe Wahrscheinlichkeit, dass diese falsch sind (1). 
 
 Wenn die eigene Fachkenntnis nicht ausreicht, um den Wahrheitsgehalt zu beurteilen, müssen ggf. die **entsprechenden Quellen herangezogen** werden. 
 
