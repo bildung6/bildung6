@@ -12,7 +12,7 @@ type: usecase
 
 
 # Feedback zum journalistischen Artikel
-Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du KBW wie Chatbots nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
+Um deinen wissenschaftsjournalistischen Artikel zu optimieren, kannst du KI-basierte Werkzeuge wie Chatbots nutzen, um Feedback und Verbesserungsvorschläge einzuholen.
 
 
 ## Beschreibung
