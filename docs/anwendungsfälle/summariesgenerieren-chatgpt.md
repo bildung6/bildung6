@@ -87,7 +87,7 @@ Für das Zusammenfassen von Texten kann **"tldr"** (too long; didn't read) im Pr
     Nutze den *Regenerate*-Button in ChatGPT, um weitere Antworten zu generieren. 
     
 
----
+
 
 
 ### Langer Text schrittweise einfügen und zusammenfassen
