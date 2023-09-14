@@ -31,8 +31,6 @@ Bei der Erstellung von Abschnitten oder Kapiteln könnten die generierten Zusamm
 Die folgenden Beispiele zeigen, wie Zusammenfassungen von Texten mit ChatGPT-3.5 erstellt werden können. Im ersten Beispiel wird ein kurzer Text zusammengefasst. Im zweiten Beispiel wird ein längerer Text abschnittsweise übertragen, um anschliessend eine Zusammenfassung zu generieren. Diese Vorgehensweise war notwendig, da ChatGPT eine Zeichenbegrenzung hat (Stand August 2023) und längere Texte ggf. in "Chunks" übertragen werden müssen (1).
 
 
----
-
 
 ### Kurzer Text zusammenfassen
 Für das Zusammenfassen von Texten kann **"tldr"** (too long; didn't read) im Prompt verwendet werden. 
