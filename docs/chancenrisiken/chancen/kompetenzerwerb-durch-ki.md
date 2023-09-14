@@ -1,6 +1,5 @@
 ---
-description: "Durch den Einsatz von KI-Systemen k\xF6nnen Sch\xFClerinnen und Sch\xFC\
-  ler nicht nur ihre fachlichen Kompetenzen entwickeln, sondern auch ihre Kompetenzen\
+description: "Durch den Einsatz von KI-Systemen k\xF6nnen Studierende und Lernende nicht nur ihre fachlichen Kompetenzen entwickeln, sondern auch ihre Kompetenzen\
   \ im Umgang mit KI erwerben."
 id: kompetenzerwerb-durch-ki
 tags:
