@@ -20,7 +20,7 @@ Wenn Daten in die KI eingegeben werden, können sie von den Organisationen, die 
 
 ### Risikominimierung
 
-Lehrende müssen die lokalen Gesetze und Richtlinien einhalten und sicherstellen, dass sie selbst und die Lernenden keine Daten in die KI eingeben, die die Privatsphäre gefährden könnten (1).
+Lehrende müssen die lokalen Gesetze und Richtlinien einhalten und sicherstellen, dass sie selbst und die Lernenden oder Studierenden keine Daten in die KI eingeben, die die Privatsphäre gefährden könnten (1).
 
 Grundsätzlich gilt:
 

@@ -14,7 +14,7 @@ Eine fehlende **Nachvollziehbarkeit** von KI-Entscheidungen kann ein Risiko dars
 
 ## Beschreibung
 
-Wenn Lehrende und Lernende die Funktionsweise und die Entscheidungsfindungsprozesse von KI-Tools nicht verstehen, kann dies das Risiko von Fehlinterpretationen der KI-Ergebnisse erhöhen. Modelle wie ChatGPT verwenden komplexe statistische Verfahren, die ihre Reaktionen bis zu einem gewissen Grad unvorhersehbar machen können.
+Wenn Lehrende, Lernende und Studierende die Funktionsweise und die Entscheidungsfindungsprozesse von KI-Tools nicht verstehen, kann dies das Risiko von Fehlinterpretationen der KI-Ergebnisse erhöhen. Modelle wie ChatGPT verwenden komplexe statistische Verfahren, die ihre Reaktionen bis zu einem gewissen Grad unvorhersehbar machen können.
 
 Beispielsweise kann dieselbe Eingabeaufforderung (Prompt) bei wiederholter Verwendung zu unterschiedlichen Antworten führen. Darüber hinaus neigen KI-Modelle dazu, nicht vorhandene Informationen zu „halluzinieren“ oder zu erfinden. Dieser Aspekt, gepaart mit der innewohnenden Unvorhersehbarkeit der Modelle, kann zu Missverständnissen und Fehlinterpretationen bei den Nutzer:innen führen, insbesondere wenn es um die Interpretation von Chatbot-Antworten und anderen KI-generierten Inhalten geht.
 
@@ -25,9 +25,9 @@ Es ist wichtig, ein Bewusstsein dafür zu schaffen, dass KI-basierte Werkzeuge *
 
 In ihrem Paper (Preprint) schlagen Mollick und Mollick Folgendes für den Unterricht vor (1):
 
-- Lernende sollten wissen, dass sie die Ergebnisse oder Ratschläge einer KI akzeptieren, aktiv hinterfragen oder ablehnen können. 
+- Lernende und Studierende sollten wissen, dass sie die Ergebnisse oder Ratschläge einer KI akzeptieren, aktiv hinterfragen oder ablehnen können. 
 
-- Lernende brauchen klare Richtlinien für die Interaktion mit KI.
+- Lernende und Studierende brauchen klare Richtlinien für die Interaktion mit KI.
 
 - Lehrende demonstrieren, wie sie selbst Eingabeaufforderungen (z.B. in ChatGPT) verwenden und wie sie ihre Fakten überprüfen oder sogar das Feedback der KI in Frage stellen. 
 
