@@ -37,7 +37,7 @@ rules:
 
 
 ### Literaturrecherche
-KI kann bei der Literaturrecherche behilflich sein.
+Die KI kann die Literaturrecherche durch Unterstützung bei der Suche und Auswahl geeigneter Quellen erleichtern.
 
 ```yaml
 condition: or
@@ -50,7 +50,7 @@ rules:
 
 
 ### Summary erstellen
-KI kann zur Erstellung von Zusammenfassungen verwendet werden.
+Künstliche Intelligenz (KI) kann nicht nur eingesetzt werden, um lange Texte automatisch zusammenzufassen, sie kann auch bei der Erstellung von Abstracts wertvolle Hilfe leisten, indem sie die zentralen Punkte eines Textes hervorhebt.
 
 ```yaml
 condition: or
