@@ -29,7 +29,7 @@ In ihrem Paper (Preprint) schlagen Mollick und Mollick Folgendes für den Unterr
 
 - Lernende und Studierende brauchen klare Richtlinien für die Interaktion mit KI.
 
-- Lehrende demonstrieren, wie sie selbst Eingabeaufforderungen (z.B. in ChatGPT) verwenden und wie sie ihre Fakten überprüfen oder sogar das Feedback der KI in Frage stellen. 
+- Lehrende demonstrieren, wie sie selbst Eingabeaufforderungen (z.B. in ChatGPT) verwenden und wie sie ihre Fakten überprüfen oder das Feedback der KI in Frage stellen. 
 
 
 ---
