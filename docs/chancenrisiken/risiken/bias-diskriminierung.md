@@ -28,4 +28,5 @@ Lehrkräfte und alle anderen Benutzer:innen von Large Language Models (LLMs) sol
 
 
 ## Quellen
+
 1.	Mollick ER, Mollick L. Assigning AI: Seven Approaches for Students, with Prompts [Internet]. Rochester, NY; 2023 [zitiert 28. Juli 2023]. Verfügbar unter: https://papers.ssrn.com/abstract=4475995
