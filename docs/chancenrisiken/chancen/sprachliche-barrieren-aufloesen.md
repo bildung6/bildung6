@@ -11,4 +11,4 @@ type: chance
 
 ### Sprachliche Barrieren auflösen
 
-Eine weitere Chance von KI in der Bildung besteht darin, **sprachliche Barrieren** aufzulösen. KI-Systeme können Übersetzungstools, Spracherkennung und automatisierte Untertitelung bereitstellen, um Schülern zu helfen, in verschiedenen Sprachen zu lernen und kommunizieren. Dies fördert die Integration von Schülern aus verschiedenen Ländern und Kulturkreisen und ermöglicht ein grenzüberschreitendes Lernen.
+Eine weitere Chance der KI in der Bildung ist die Überwindung von **Sprachbarrieren**. KI-Systeme können Übersetzungswerkzeuge, Spracherkennung und automatische Untertitelung bereitstellen, um Lernende und Studierende beim Lernen und Kommunizieren in verschiedenen Sprachen zu unterstützen. Dies fördert die Integration von Lernenden und Studierenden aus verschiedenen Ländern und Kulturen und ermöglicht grenzüberschreitendes Lernen.

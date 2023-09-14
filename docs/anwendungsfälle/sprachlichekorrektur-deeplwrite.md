@@ -97,9 +97,6 @@ rules:
   value: kompetenzerwerb-durch-ki
 - condition: equals
   property: id
-  value: kompetenzfoerderung
-- condition: equals
-  property: id
   value: sprachliche-barrieren-aufloesen
 ```
 

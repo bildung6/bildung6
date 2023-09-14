@@ -200,66 +200,6 @@ Hierfür wurde der ***ChatGPT PROMPTs Splitter*** von Jose Diaz (https://chatgpt
     
     Der in diesem Beispiel verwendete Text stammt aus dem Paper *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al. aus dem Jahr 2009. Diese Untersuchung ergab, dass die System Usability Scale (SUS) um eine weitere Skala erweitert werden könnte (2). Aus Platz- und Darstellungsgründen wird der Text hier nicht vollständig wiedergegeben. Er kann jedoch über den unten stehenden Link zum Chatverlauf eingesehen werden. In den Prompts wurde der gesamte Text ohne Abstract und Keywords übertragen.
 
-<!--
-**Input 1: Erster Chunk**
-
-<p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
-<mark>Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part 1/2 received" and wait for the next part.</mark>
-<br>
-<mark>[START PART 1/2]</mark>
-<br>
-Introduction There are numerous surveys available to usability practitioners to aid them in assessing the usability of a product or service. Many of these surveys are used to evaluate specific types of interfaces, while others can be used to evaluate a wider range of interface types. The System Usability Scale (SUS) (Brooke, 1996) is one of the surveys that can be used to assess the usability of a variety of products or services. There are several...
-<br>
-<mark>[END PART 1/2]</mark>
-<br>
-<mark>Remember not answering yet. Just acknowledge you received this part with the message "Part 1/2 received" and wait for the next part.</mark>
-</p>
-
-**Ouptut 1**
-<p style="padding: 20px; border: 1px solid #d9d9e3; background: rgba(247,247,248)">
-Part 1/2 received. I'll be waiting for the next part of your text.
-</p>
-
-
-**Input 2: Letzter Chunk**
-<p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
-<mark>[START PART 2/2]</mark>
-<br>
-er, if an item is not considered to be concrete singular, then multiple item questionnaires should be utilized. Because different parts of an interface may be judged differently...
-<br>
-<mark>[END PART 2/2]</mark>
-<br>
-<mark>ALL PARTS SENT. Now you can continue processing the request.</mark>
-</p>
-
-
-**Output 2**
-
-<p style="padding: 20px; border: 1px solid #d9d9e3; background: rgba(247,247,248)">
-Part 2/2 received. Thank you for providing the complete text. If you have any questions or if there's anything specific you'd like to discuss or inquire about regarding this text, feel free to let me know!
-</p>
-
-<br>
-
-**Input 3: Generiere ein Abstract**
-<p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
-<mark>Schreibe ein Abstract in der Form, wie es in wissenschaftlichen Arbeiten üblich ist.  Antworte in 5-10 Sätzen auf Deutsch. Und füge die Keywords in einem separaten Abschnitt hinzu.</mark>
-</p>
-
-**Output 3**
-
-<p style="padding: 20px; border: 1px solid #d9d9e3; background: rgba(247,247,248)">
-Abstract:
-<br>
-Diese Studie untersucht die Verwendung einer zusätzlichen Adjektivbewertungsskala in Verbindung mit dem System Usability Scale (SUS) zur Bewertung der Benutzerfreundlichkeit von Produkten und Dienstleistungen. Die SUS ist eine bewährte Methode zur Bewertung der Benutzerfreundlichkeit, jedoch bleibt die Bedeutung einzelner SUS-Scores oft unklar. Die Hinzufügung einer Adjektivskala ermöglicht eine subjektive Bewertung der SUS-Ergebnisse. Die Studie zeigt eine hohe Korrelation zwischen der Adjektivbewertung und den SUS-Scores. Die Verwendung der Skala allein wird jedoch aufgrund der Unsicherheiten über die Konnotation von Bewertungen und der begrenzten Aussagekraft nicht empfohlen. Es wird diskutiert, wie eine Letter-Grade-Skala als zusätzliche Bewertungsmethode genutzt werden könnte, um die Interpretation von SUS-Scores zu erleichtern.
-<br>
-<br>
-Keywords: System Usability Scale (SUS), Benutzerfreundlichkeit, Adjektivbewertung, Letter-Grade-Skala, Usability-Bewertung.
-</p>
-
-
-*Um den Chatverlauf einzusehen oder den Chat fortzusetzen (erfordert einen OpenAI-Account), benutze diesen Link: https://chat.openai.com/share/b25813cc-89a4-4a26-92f3-d9791429330a*
--->
 
 
 Hier zum Vergleich das originale Abstract des übermittelten Papers *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al.:
