@@ -22,7 +22,7 @@ Wenn Daten in die KI eingegeben werden, können sie von den Organisationen, die 
 
 Lehrende müssen die lokalen Gesetze und Richtlinien einhalten und sicherstellen, dass sie selbst und die Lernenden keine Daten in die KI eingeben, die die Privatsphäre gefährden könnten (1).
 
-Gründsätzlich gilt:
+Grundsätzlich gilt:
 
   - **Teile der KI nur das mit, was du teilen möchtest**. Fühle dich nicht verpflichtet, etwas Persönliches zu teilen.
 
