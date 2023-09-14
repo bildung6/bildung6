@@ -10,11 +10,12 @@ title: Halluzinationen
 type: risk
 ---
 
-Halluzinationen sind ein Risiko, das bei der Verwendung von KI in der Bildung auftreten kann, dabei können KI-Systeme falsche oder ungenaue Informationen erzeugen.
+Halluzinationen sind ein Risiko, das beim Einsatz von KI auftreten kann, wenn KI-Systeme falsche oder ungenaue Informationen erzeugen.
 
 ### Beschreibung
 
-Large Language Models (LLM) neigen dazu, falsche Informationen zu produzieren, ein Phänomen, das als Halluzination bekannt ist. Während die KI Ergebnisse produzieren kann, die bemerkenswert aufschlussreich und nützlich erscheinen, **kann sie auch "Fakten" erfinden, die völlig plausibel erscheinen.** Diese Unwahrheiten sind in manchen Fällen nur schwer zu erkennen (1).
+Large Language Models (LLMs) neigen dazu, falsche Informationen zu produzieren, ein Phänomen, das als Halluzination bekannt ist. Während die KI Ergebnisse produzieren kann, die bemerkenswert aufschlussreich und nützlich erscheinen, **kann sie auch "Fakten" erfinden, die völlig plausibel erscheinen.** Diese Unwahrheiten sind in manchen Fällen nur schwer zu erkennen (1).
+
 
 ### Risikominimierung
 
@@ -22,8 +23,9 @@ Um Halluzinationen erkennen zu können, sollte die generierten Ergebnisse **übe
 
 Wenn die eigene Fachkenntnis nicht ausreicht, um den Wahrheitsgehalt zu beurteilen, müssen ggf. die **entsprechenden Quellen herangezogen** werden. 
 
-Eine weitere Möglichkeit besteht darin, die KI zu bitten, ihre eigenen Antworten zu begründen (1). Durch Nachfragen können in manchen Fällen Unstimmigkeiten aufgedeckt werden.
+Eine weitere Möglichkeit besteht darin, die KI zu bitten, ihre eigenen Antworten zu begründen (1). Durch **Nachfragen** können in manchen Fällen Unstimmigkeiten aufgedeckt werden.
 
+Durch den gezielten Einsatz von **präzise formulierten Prompts** (Eingabeaufforderungen bei Chatbots) können ggf. Halluzinationen vermieden werden. Dies kann z.B. durch **klare Anweisungen** und die Bereitstellung ausreichender **Kontextinformationen** erreicht werden. Dadurch wird die Kommunikation mit dem Chatbot strukturierter und zielgerichteter.
 
 
 ---
