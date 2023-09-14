@@ -24,6 +24,8 @@ Das folgende Beispiel zeigt, wie dieses KI-basiertes Werkzeug in der Anfangsphas
 Eine weitere Anwendungsmöglichkeit ist die Literaturrecherche in der Schlussphase deiner wissenschaftlichen Arbeit, um deine Forschungsergebnisse in den Kontext des aktuellen Forschungsstandes zu stellen (z.B. im Diskussionsteil deines Berichts). Du kannst deine Hauptergebnisse in Form von Aussagen oder Fragen formulieren, um nach Quellen zu suchen, die deine Ergebnisse stützen oder widerlegen.
 
 
+**Die Nutzung von Elicit ersetzt keine Recherche mit PubMed oder IEEEXplore. Sei dir bewusst, dass Elicit nur bestimmte Quellen durchsucht und beispielsweise Preprints anzeigt (Publikationen ohne Begutachtung).**
+
 ---
 
 ## Beispiel: Sichtung und Auslese von Quellen
@@ -45,16 +47,13 @@ Als erstes wird eine Fragestellung eingegeben, um die ersten Vorschläge zu gene
 
 *"What are the advantages and disadvantages of using chatbots for healthcare delivery?"* 
 
-<!--
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-1-frage.png){: style="width:500px"}
--->
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-1-frage.png)
 
 
 
 **Schritt 2: Die Filterfunktion nutzen, um die Suche nach Reviews einzugrenzen**
 
-Um die Suche einzugrenzen sollen nur systematische Übersichtsarbeiten (Systematic Reviews) angezeigt werden. Dazu wird die Filterfunktion genutzt.
+Um die Suche einzugrenzen, sollen nur systematische Übersichtsarbeiten (Systematic Reviews) angezeigt werden. Dazu wird die Filterfunktion genutzt.
 
 ![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-3-filterforreviews.png)
 
@@ -62,7 +61,7 @@ Um die Suche einzugrenzen sollen nur systematische Übersichtsarbeiten (Systemat
 
 **Schritt 3: Weitere Informationen in der Tabelle anzeigen lassen**
 
-Wir möchten mehr Informationen in die Auswahl einbeziehen. Zum Beispiel interessieren uns die *Publikationsplattformen* und deren *Scimago Journal Ranking*.
+Wir möchten mehr Informationen in die Auswahl einbeziehen. Zum Beispiel interessieren uns die *Publikationsplattformen* und deren *Scimago Journal Ranking.*
 
 Wähle dazu die entsprechenden Optionen im Feld unten links aus:
 
@@ -93,15 +92,18 @@ Einsicht in eine Quelle zur Entscheidung, ob sie eingeschlossen werden sollte:
 
 ---
 
-## Tipps:
 
-- Nutze ***Export as***, um die fertige Literaturliste als BIB- oder CSV-Datei zu exportieren. Diese kann bei Bedarf in dein Literaturverwaltungsprogramm importiert werden.
+!!! Tip  "Tipp"
 
-- Notiere die Quellen bzw. deine Ergebnisse in einem ***separaten Dokument***. Elicit befindet sich noch in einem frühen Entwicklungsstadium. Es kann sein, dass das System nicht mehr reagiert.
+    - Nutze ***Export as***, um die fertige Literaturliste als BIB- oder CSV-Datei zu exportieren. Diese kann bei Bedarf in dein Literaturverwaltungsprogramm importiert werden.
 
-- Recherchiere auf der Entwicklerseite von Ought nach weiteren Einsatzmöglichkeiten.
+    - Notiere die Quellen bzw. deine Ergebnisse in einem ***separaten Dokument.*** Elicit befindet sich noch in einem frühen Entwicklungsstadium. Es kann sein, dass das System nicht mehr reagiert.
 
-- Die Nutzung von Elicit ersetzt keine Recherche mit PubMed oder IEEEXplore. Sei dir bewusst, dass Elicit nur bestimmte Quellen durchsucht und beispielsweise Preprints anzeigt (Publikationen ohne Begutachtung). 
+    - Recherchiere auf der Entwicklerseite von Ought nach weiteren Einsatzmöglichkeiten.
+
+
+
+
 
 ---
 

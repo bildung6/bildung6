@@ -122,7 +122,7 @@ In diesem Beispiel wurde ein Artikel übermittelt, der sich eher nüchtern mit e
 
 !!! Tip  "Tipp"
 
-    Nutze den *Regenerate-*Button in ChatGPT, um weitere Antworten zu generieren, oder lass dir vom Chatbot die einzelnen Punkte genauer erklären.
+    Nutze den *Regenerate-*Button in ChatGPT, um weitere Antworten zu generieren oder lass dir vom Chatbot die einzelnen Punkte genauer erklären.
 
 
 
