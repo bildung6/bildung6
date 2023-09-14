@@ -31,16 +31,10 @@ Dieses Beispiel zeigt, wie mit Elicit mehrere Fragestellungen generiert werden k
 
 ### Mit "Brainstorm Research Question" Fragestellungen generieren
 
-Mit dem Elicit-Task *Brainstorm Research Question* kannst du Vorschläge zu Fragestellungen einholen.
+Mit dem Elicit-Task *Brainstorm Research Question* kannst du Vorschläge für Fragestellungen einholen.
 Dabei kannst du deine Fragestellung als Ausgangspunkt verwenden oder auch nur einzelne Themenfelder angeben.
 
 Im folgenden Beispiel werden die Begriffe "Medical Informatics" und "Care at Home" kombiniert, um Vorschläge für Fragestellungen zu generieren.
-
-???+ info "Bemerkung"
-
-    Wie sich hier erkennen lässt, generiert Elicit mit *Brainstorm Research Question* auch Vorschläge für spezifischeren Subtopics an.
-    
-    Bedenke hierbei, dass es an dir liegt die Relevanz dieser Vorschläge zu überprüfen.
 
 
 
@@ -58,11 +52,21 @@ Im folgenden Beispiel werden die Begriffe "Medical Informatics" und "Care at Hom
 | ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_8.png)      | 
 
 
+
+???+ info "Bemerkung"
+
+    Wie hier zu sehen ist, generiert Elicit mit *Brainstorm Research Question* auch Vorschläge für spezifischere Subtopics (siehe *3. Weitere Vorschläge generieren*).
+    
+    Bedenke, dass es an dir liegt, die Relevanz dieser Vorschläge zu überprüfen.
+
+
+
 !!! Tip  "Tipp"
 
     Es lässt sich auch direkt das Suchfeld der Hauptfunktionalität nutzen, um Fragestellungen zu *brainstormen*:
 
     ![alt text](../anwendungsfälle/images/elicit-brainstorm/elicit-brainstorm_9a.png){: style="width:500px"}
+
 
 
 ---
