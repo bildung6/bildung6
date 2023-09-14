@@ -96,7 +96,7 @@ Dieses Beispiel simuliert, wie ChatGPT-3.5 verwendet werden kann, um eine Zusamm
 
 Um das bestehende Eingabe-Limit (Stand August 2023) von ChatGPT-3.5 zu umgehen, wurde ein Text in mehrere Teile zerlegt und mit spezifischen Prompts an den Chatbot übergeben. 
 
-Hierfür wurde der ***ChatGPT PROMPTs Splitter*** von Jose Diaz (https://chatgpt-prompt-splitter.jjdiaz.dev/) verwendet, mit dem längere Texte **einfach und mit passenden Prompt-Anweisungen aufgeteilt werden können**.
+Hierfür wurde der ***ChatGPT PROMPTs Splitter*** von Jose Diaz (https://chatgpt-prompt-splitter.jjdiaz.dev/) verwendet, mit dem längere Texte **einfach und mit passenden Prompt-Anweisungen aufgeteilt werden können.**
 
 
 <table >
@@ -200,7 +200,7 @@ Hierfür wurde der ***ChatGPT PROMPTs Splitter*** von Jose Diaz (https://chatgpt
 
 
 
-Hier zum Vergleich das originale Abstract des übermittelten Papers *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al.:
+Hier zum Vergleich das Original des Abstracts des übermittelten Papers *Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale* von Bangor et al.:
 
 <p style="padding: 20px; border: 1px solid #d9d9e3; background: white">
 Abstract:
