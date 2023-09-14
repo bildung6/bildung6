@@ -74,10 +74,14 @@ rules:
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: fehlende-transparenz
+  value: geschuetzte-daten
+- condition: equals
+  property: id
+  value: plagiate
 ```
+
 
 ---
 

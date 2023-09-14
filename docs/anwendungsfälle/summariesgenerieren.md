@@ -34,42 +34,32 @@ rules:
 ```
 
 
+---
+
+
 ## Risiken
 
 ```yaml
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: abhaengigkeit
-- condition: contains
-  property: id
-  value: abnahme-reflexionsfaehigkeit
-- condition: contains
-  property: id
-  value: fehlende-transparenz
-- condition: contains
-  property: id
-  value: geschuetzte-daten
-- condition: contains
-  property: id
-  value: kompetenzverlust
-- condition: contains
-  property: id
-  value: monopolbildung
-- condition: contains
+  value: halluzinationen
+- condition: equals
   property: id
   value: nachvollziehbarkeit
-- condition: contains
+- condition: equals
+  property: id
+  value: geschuetzte-daten
+- condition: equals
   property: id
   value: plagiate
-- condition: contains
-  property: id
-  value: wem-gehoert-die-ki
 ```
 
+
 ---
+
 
 ## Chancen
 

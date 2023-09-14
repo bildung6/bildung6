@@ -24,24 +24,6 @@ KI-basierte Werkzeuge können eingesetzt werden, um Studierende bei der sprachli
 
 ---
 
-<!--
-## AnwenderInnen
-
-```yaml
-condition: or
-entityType: user
-rules:
-- condition: contains
-  property: id
-  value: studierende
-- condition: contains
-  property: id
-  value: lehrende
-```
-
-
----
--->
 
 ## Tools für diesen Anwendungsfall
 
@@ -138,9 +120,12 @@ answers:
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: fehlende-transparenz
+  value: geschuetzte-daten
+- condition: equals
+  property: id
+  value: plagiate
 ```
 
 

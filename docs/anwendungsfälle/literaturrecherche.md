@@ -47,30 +47,22 @@ rules:
   value: elicit
 ```
 
+
+---
+
+
 ## Risiken
 
 ```yaml
 condition: or
 entityType: risk
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: abnahme-reflexionsfaehigkeit
-- condition: contains
-  property: id
-  value: fehlende-transparenz
-- condition: contains
-  property: id
-  value: gesellschaftlicher-bias
-- condition: contains
-  property: id
-  value: kompetenzverlust
-- condition: contains
+  value: bias-diskriminierung
+- condition: equals
   property: id
   value: nachvollziehbarkeit
-- condition: contains
-  property: id
-  value: plagiate
 ```
 
 

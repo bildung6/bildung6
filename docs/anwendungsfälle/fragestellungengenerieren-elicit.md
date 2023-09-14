@@ -92,37 +92,13 @@ entityType: risk
 rules:
 - condition: equals
   property: id
-  value: abhaengigkeit
+  value: bias-diskriminierung
 - condition: equals
   property: id
-  value: abnahme-reflexionsfaehigkeit
-- condition: equals
-  property: id
-  value: blindes-folgen
-- condition: equals
-  property: id
-  value: faehigkeit-komplexe-aufgaben-loesen-nimmt-ab
-- condition: equals
-  property: id
-  value: fehlende-transparenz
-- condition: equals
-  property: id
-  value: gesellschaftlicher-bias
-- condition: equals
-  property: id
-  value: kompetenzverlust
-- condition: equals
-  property: id
-  value: meinungsverlust
+  value: halluzinationen
 - condition: equals
   property: id
   value: nachvollziehbarkeit
-- condition: equals
-  property: id
-  value: plagiate
-- condition: equals
-  property: id
-  value: verlust-kreativitaet
 ```
 
 
