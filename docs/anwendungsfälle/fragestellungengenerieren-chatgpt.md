@@ -164,7 +164,7 @@ Hier werden mehrere Forschungsfragen mit mehreren Prompts generiert. Mit dem ers
 
 ???+ info "Bemerkung"
 
-    Wie die Beispiele zeigen, sind die Antworten im ChatGPT eher allgemein und oberflächlich formuliert. Es liegt an dir, den Wahrheitsgehalt und die Relevanz zu überprüfen. An dieser Stelle muss auch erwähnt werden, dass ChatGPT-3.5 nicht in der Lage ist, korrekte Quellenangaben zu liefern. Die Informationen können jedoch als Ausgangspunkt für deine Recherchearbeit dienen.
+    Wie die Beispiele zeigen, sind die Antworten von ChatGPT eher allgemein und oberflächlich formuliert. Es liegt an dir, den Wahrheitsgehalt und die Relevanz zu überprüfen. An dieser Stelle muss auch erwähnt werden, dass ChatGPT-3.5 nicht in der Lage ist, korrekte Quellenangaben zu liefern. Diese Informationen können jedoch als Ausgangspunkt für deine Recherchearbeit dienen.
 
 
 
