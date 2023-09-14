@@ -28,7 +28,7 @@ type: guide
     Ganz unten findest du Links, die u.a. zu den verwendeten Quellen führen.
 
     **Funktionieren die gezeigten Inhalte?**<br>
-    Die meisten Beispiele wurden im September 2023 mit ChatGPT-3.5 getestet. Allerdings funktionieren sie mit anderen Chatbots (wie Bard von Google) möglicherweise nicht so gut. Auch kann es sein, dass die hier vorgestellten Inhalte mit jeder neuen Version von ChatGPT an Aktualität verlieren, bzw. nicht mehr effizient sind. 
+    Die meisten Beispiele wurden im September 2023 mit ChatGPT-3.5 getestet. Allerdings funktionieren sie mit anderen Chatbots (wie Bard von Google) möglicherweise nicht so gut. Auch kann es sein, dass die hier vorgestellten Inhalte mit jeder neuen Version von ChatGPT an Aktualität verlieren bzw. nicht mehr effizient sind. 
     
     ***Tipp: Bevor du aufgibst, versuche beim Ausprobieren der Beispiele einen neuen Chat-Dialog zu öffnen oder benutze den "Regenerate"-Button in ChatGPT, um eine von mehreren Antworten auszuwählen.***
 
@@ -71,7 +71,7 @@ Um effektive Prompts zu schreiben, sollten diese z.B. klar und eindeutig formuli
 Bevor wir zu den Strategien, Taktiken und Beispiel überhehen, hier noch ein paar allgemeingültige Tipps:
 
 -	Formuliere deine Prompts klar und spezifisch
--	Sage dem Chatbot, was er tun soll, anstatt ihm vorzugeben, was er nicht tun soll
+-	Sag dem Chatbot, was er tun soll, anstatt ihm vorzugeben, was er nicht tun soll
 -	Reichere deine Prompts mit Details an
 - Überprüfe ggf. die Antworten
 - Experimentiere: schreibe um, kombiniere verschiedene "Taktiken", vergleiche deine Ergebnisse 
@@ -140,7 +140,12 @@ Um eine relevante Antwort zu erhalten, solltest du sicherstellen, dass die Anfra
 ### Taktik: Role Prompting
 Weist man dem Chatbot eine bestimmte Rolle (oder Persona) zu, spiegelt sich diese in seinen Antworten wider. Dies kann z.B. genutzt werden, wenn die Antworten in einer fachspezifischen Sprache erfolgen oder fachspezifische Inhalte enthalten sollen. 
 
-***Tipp:** Im Internet gibt es etliche Beispiele, die unter den Begriffen "Role Prompting", "Persona", "Assigning Roles", "Role Based Prompts" oder "Act as" aufgefürt sind.*
+
+???+ Tip "Tipp"
+
+    Im Internet gibt es etliche Beispiele, die unter den Begriffen "Role Prompting", "Persona", "Assigning Roles", "Role Based Prompts" oder "Act as" aufgefürt sind.
+
+
 
 <table>
   <caption align="bottom"> 
@@ -304,7 +309,10 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
 ### Taktik: Beispiele angeben
  In einigen Fällen kann es einfacher sein, Beispiele für die erwartete Antwort zu geben. Zum Beispiel, wenn du beabsichtigst, dass das Modell einen bestimmten Stil der Beantwortung von Benutzeranfragen kopiert, der schwer explizit zu beschreiben ist (1). 
 
-*Bemerkung: Das Angeben von Beispielen wird als «one shot», «two shot»-, bzw. «few-shot»-Prompting bezeichnet, wobei «shot» ein Synonym für «Beispiel» ist.*
+
+???+ info "Bemerkung"
+
+    Das Angeben von Beispielen wird als «one shot», «two shot»-, bzw. «few-shot»-Prompting bezeichnet, wobei «shot» ein Synonym für «Beispiel» ist.
 
 
 <table>
@@ -563,7 +571,12 @@ Es ist jedoch zu beachten, dass die Anweisung an das Modell, eine bestimmte Anza
 ## Strategie: Referenztexte nutzen
 Chatbots wie ChatGPT generieren ihre Antworten anhand der verwendeten Trainingsdaten, was in einigen Fällen unzureichend sein kann. Im Falle von ChatGPT ist es möglich, einen Referenztext zur Verfügung zu stellen und den Chatbot anzuweisen, Antworten auf der Grundlage dieses Textes zu generieren. Zum Beispiel, um dem Chatbot Fragen zu einem bestimmten Artikel zu stellen.
 
-***Hinweis:*** *Zu beachten ist, dass bei ChatGPT die Grösse der Prompts begrenzt ist (Context Limit) und längere Referenztexte diesen Rahmen schnell sprengen können. Dieses Problem kann ggf. dadurch umgangen werden, indem der Referenztext abschnittsweise in "Chunks" mit mehreren Prompts übermittelt wird (siehe "Strategie: In Teile zerlegen").*
+
+
+???+ info "Bemerkung"
+
+    Zu beachten ist, dass bei ChatGPT die Grösse der Prompts begrenzt ist (Context Limit) und längere Referenztexte diesen Rahmen schnell sprengen können. Dieses Problem kann ggf. dadurch umgangen werden, indem der Referenztext abschnittsweise in "Chunks" mit mehreren Prompts übermittelt wird (siehe "Strategie: In Teile zerlegen"). 
+
 
 
 ### Taktik: Referenztexte als Basis für Antworten
@@ -656,7 +669,7 @@ Hier wird die oben beschriebene Taktik erweitert, indem der Chatbot angewiesen w
 
 
 ## Strategie: In Teile zerlegen
-Manchmal ist es sinvoller komplexere Aufgaben in kleinere Teilaufgaben zu zerlegen. 
+Manchmal ist es sinnvoller komplexere Aufgaben in kleinere Teilaufgaben zu zerlegen. 
 
 
 ### Taktik: Lange Texte stückweise übermitteln
