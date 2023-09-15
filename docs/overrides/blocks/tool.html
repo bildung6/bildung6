@@ -55,13 +55,18 @@
     for (let tag of tags) {
         let tagElement = document.createElement('span');
         tagElement.classList.add('tag');
-        tagElement.innerText = tag + ' (' + alltags[tag] + ')';
+        tagElement.innerText = tag ;
         tagElement.addEventListener('click', function () {
             if (tagElement.classList.contains('active')) {
                 tagElement.classList.remove('active');
                 tagfilter.delete(tag);
             }
             else  {
+                /*tagfilter = new Set();
+                let tags = document.querySelectorAll(".filter .tag");
+                for (let t of tags) {
+                    t.classList.remove("active")
+                }*/
                 tagfilter.add(tag);
                 tagElement.classList.add('active');
             }

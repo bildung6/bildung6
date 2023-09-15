@@ -1,8 +1,7 @@
 ---
-description: "KI kann bei der Erstellung von Fragestellungen helfen, indem sie Vorschl\xE4\
-  ge f\xFCr Fragestellungen generiert."
 id: fragestellungengenerieren
-image: "anwendungsf\xE4lle/images/fragestellung.svg" 
+description: "KI kann bei der Erstellung von Fragestellungen helfen, indem sie Vorschläge für Fragestellungen generiert."
+image: "anwendungsfälle/images/fragestellung.svg" 
 tags:
 - fragestellungen
 - studierende

@@ -1,6 +1,6 @@
 ---
 icon: fontawesome/solid/list-check
-title: Anwendungsfälle
+title: Liste aller Anwendungsfälle
 ---
 
 

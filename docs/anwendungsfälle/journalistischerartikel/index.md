@@ -1,7 +1,7 @@
 ---
 description: "Generiere Feedback zu deinem (wissenschafts-) journalistischen Artikel."
 id:  journalistischerartikelfeedback
-image: "anwendungsf\xE4lle/images/onlinearticles.svg" 
+image: "anwendungsfälle/images/onlinearticles.svg" 
 tags:
 - journalistischerartikel
 - studierende

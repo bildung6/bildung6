@@ -1,7 +1,7 @@
 ---
 description: "Elicit kann bei der Literaturrecherche behilflich sein, indem es relevante Artikel und Studien identifiziert und zur Auswahl stellt."
 id: literaturrecherche-elicit
-image: "anwendungsf\xE4lle/images/choose_editedinsgtar.svg"
+image: "anwendungsfälle/images/choose_editedinsgtar.svg"
 tags:
 - literaturrecherche
 - studierende
@@ -47,7 +47,7 @@ Als erstes wird eine Fragestellung eingegeben, um die ersten Vorschläge zu gene
 
 *"What are the advantages and disadvantages of using chatbots for healthcare delivery?"* 
 
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-1-frage.png)
+![alt text](../images/elicit-recherche/elicit-recherche-1-frage.png)
 
 
 
@@ -55,7 +55,7 @@ Als erstes wird eine Fragestellung eingegeben, um die ersten Vorschläge zu gene
 
 Um die Suche einzugrenzen, sollen nur systematische Übersichtsarbeiten (Systematic Reviews) angezeigt werden. Dazu wird die Filterfunktion genutzt.
 
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-3-filterforreviews.png)
+![alt text](../images/elicit-recherche/elicit-recherche-3-filterforreviews.png)
 
 
 
@@ -65,7 +65,7 @@ Wir möchten mehr Informationen in die Auswahl einbeziehen. Zum Beispiel interes
 
 Wähle dazu die entsprechenden Optionen im Feld unten links aus:
 
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-5-generatemoreinfo.png)
+![alt text](../images/elicit-recherche/elicit-recherche-5-generatemoreinfo.png)
 
 
 
@@ -79,16 +79,16 @@ Bei der Durchsicht der Tabelle entdecken wir unter den Vorschlägen 3 Quellen, d
 -  Für die Auswahl der Quellen lesen wir die Abstracts, indem wir die Inhalte direkt aus der Tabelle öffnen.<br> 
 
 Quellen markieren, um sie zu behalten:
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-6a-markierenquellen.png)
+![alt text](../images/elicit-recherche/elicit-recherche-6a-markierenquellen.png)
 
 Aussortierte Liste nach ***Clear unstarred***:
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-6b-cleared.png)
+![alt text](../images/elicit-recherche/elicit-recherche-6b-cleared.png)
 
 Resultat nach mehreren Vorschlagsgenerierungen und Aussortierungen (Markieren --> Clear --> Show more like starred -->  Markieren --> ...):
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-10-finalresult.png)
+![alt text](../images/elicit-recherche/elicit-recherche-10-finalresult.png)
 
 Einsicht in eine Quelle zur Entscheidung, ob sie eingeschlossen werden sollte:
-![alt text](../anwendungsfälle/images/elicit-recherche/elicit-recherche-11-lookintoabstract.png)
+![alt text](../images/elicit-recherche/elicit-recherche-11-lookintoabstract.png)
 
 ---
 

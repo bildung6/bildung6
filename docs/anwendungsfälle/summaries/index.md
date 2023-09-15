@@ -1,7 +1,7 @@
 ---
 description: "KI kann bei der Erstellung von Summaries helfen, indem sie Texte zusammenfasst."
 id: summariesgenerieren
-image: "anwendungsf\xE4lle/images/ideas_bearbeitet.svg" 
+image: "anwendungsfälle/images/ideas_bearbeitet.svg" 
 tags:
 - studierende
 title: Summaries generieren

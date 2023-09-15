@@ -6,6 +6,7 @@ id:  "whisper"
 tags:
 - "Kostenlos"
 - "Open Source"
+- "Spracherkennung"
 ---
 
 ### Whisper

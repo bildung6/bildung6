@@ -1,5 +1,5 @@
 ---
-description: "Studierende k\xF6nnen KI-Systeme verwenden, um ihre Lernprozesse zu\
+description: "Studierende können KI-Systeme verwenden, um ihre Lernprozesse zu\
   \ verbessern und effizienter zu studieren."
 id: studierende
 image: AnwenderInnen/images/studying.svg

@@ -1,8 +1,8 @@
 ---
-description: "KI kann bei der Literaturrecherche unterst\xFCtzend wirken, indem sie\
-  \ relevante Artikel und Studien identifiziert und vorschl\xE4gt."
+description: "KI kann bei der Literaturrecherche unterstützend wirken, indem sie\
+  \ relevante Artikel und Studien identifiziert und vorschlägt."
 id: literaturrecherche
-image: "anwendungsf\xE4lle/images/filesearching.svg"
+image: "anwendungsfälle/images/filesearching.svg"
 tags:
 - literaturrecherche
 - studierende

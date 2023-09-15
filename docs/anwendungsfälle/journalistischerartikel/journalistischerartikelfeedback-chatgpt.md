@@ -1,7 +1,7 @@
 ---
 description: "Generiere Feedback zu deinem (wissenschafts-) journalistischen Artikel, um diesen zu optimieren."
 id:  journalistischerartikelfeedback-chatgpt
-image: "anwendungsf\xE4lle/images/chatbot.svg" 
+image: "anwendungsfälle/images/chatbot.svg" 
 tags:
 - journalistischerartikel
 - studierende

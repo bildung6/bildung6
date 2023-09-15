@@ -1,10 +1,10 @@
 ---
 description: "Eine weitere Chance von KI in der Bildung besteht darin, sprachliche\
-  \ Barrieren aufzul\xF6sen."
+  \ Barrieren aufzulösen."
 id: sprachliche-barrieren-aufloesen
 tags:
 - sprachliche-barrieren
-title: "Sprachliche Barrieren aufl\xF6sen"
+title: "Sprachliche Barrieren auflösen"
 type: chance
 ---
 

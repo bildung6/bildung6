@@ -1,7 +1,7 @@
 ---
-description: "DeepL Write ist ein KI-Schreibassistent, der Studierende bei der sprachlichen Korrektur ihrer Texte unterst\xFCtzt."
+description: "DeepL Write ist ein KI-Schreibassistent, der Studierende bei der sprachlichen Korrektur ihrer Texte unterstützt."
 id: sprachlichekorrektur-deeplwrite
-image: "anwendungsf\xE4lle/images/decide.svg"
+image: "anwendungsfälle/images/decide.svg"
 tags:
 - sprachlichekorrektur
 - studierende
@@ -33,7 +33,7 @@ Im rechten Feld kann der Text weiter bearbeitet werden. Zum Beispiel kann ein Wo
 
 Das folgende Beispiel zeigt, dass DeepL Write einzelne Fehler korrigiert und die Punktuation verbessert hatte. Ausserdem wurde eine formalere Schreibweise erreicht:
 
-![alt text](../anwendungsfälle/images/deeplwrite-sprachlichekorrektur/deeplwrite-1.png)
+![alt text](../images/deeplwrite-sprachlichekorrektur/deeplwrite-1.png)
 
 
 ???+ info "Bemerkung"

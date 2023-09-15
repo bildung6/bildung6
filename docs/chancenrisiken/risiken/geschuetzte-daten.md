@@ -4,7 +4,7 @@ id: geschuetzte-daten
 tags:
 - datenschutz
 - risiken
-title: "Gesch\xFCtzte Daten"
+title: "Geschützte Daten"
 type: risk
 ---
 

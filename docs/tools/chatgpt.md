@@ -4,7 +4,6 @@ type: "tool"
 description: Mit ChatGPT können Dialoge mit einem KI-System geführt werden.
 id: "chatgpt"
 tags:
-- "Account erforderlich"
 - "Proprietär"
 - "Text"
 ---

@@ -1,5 +1,5 @@
 ---
-description: "Lehrende k\xF6nnen KI-Systeme verwenden, um ihre effizienter Unterrichtsmaterialien\
+description: "Lehrende können KI-Systeme verwenden, um ihre effizienter Unterrichtsmaterialien\
   \ zusammenzustellen."
 id: lehrende
 image: AnwenderInnen/images/teaching.svg

@@ -8,8 +8,7 @@ place: PH Bern
 
 # Chancen von KI-basierten Tools nutzen!
 
-## Agenda
-
+Am 6. Mai wurde am Open Education Day ein Workshop zum Thema Chance von KI-basierten Tools nutzen durchgeführt. An diesem wurden die Teilnehmer in einige KI-basierte Tools eingeführt und über die Risiken und Chancen dieser informiert.
 
 ## Folien
 

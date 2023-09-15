@@ -4,12 +4,15 @@ type: "tool"
 description: Ein KI-gestützter Bildgenerator.
 id: "stable-diffusion"
 tags:
-- "Kostenpflichtig"
+- "Open Source"
 - "Bild Generation"
+- "Kostenpflichtig"
 ---
 
 ### Stable Diffussion
 
-Ein KI-gestützter Bildgenerator.
+Stable Diffusion ist ein Werkzeug, das Texte in Bilder umwandeln kann. Es kann auf dem eigenen Rechner wenn genügend Resourcen verfügbar sind installiert werden oder über meist kostenpflichtige Weboberflächen genutzt werden. 
 
-[https://beta.dreamstudio.ai/generate](https://starryai.com/){ .md-button .md-button--primary } 
+[Source Code auf Github](https://github.com/CompVis/stable-diffusion){ .md-button .md-button--primary } 
+
+[Model Online nutzen](https://beta.dreamstudio.ai/generate){ .md-button .md-button--primary } 

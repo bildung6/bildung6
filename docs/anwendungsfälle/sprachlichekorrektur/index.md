@@ -1,9 +1,9 @@
 ---
 description: "KI kann verwendet werden, um die sprachliche Korrektur von Studierenden\
-  \ zu unterst\xFCtzen. Dies kann in Form von automatischen Korrekturen oder als Feedback\
-  \ f\xFCr Studierende erfolgen."
+  \ zu unterstützen. Dies kann in Form von automatischen Korrekturen oder als Feedback\
+  \ für Studierende erfolgen."
 id: sprachlichekorrektur
-image: "anwendungsf\xE4lle/images/usecase.svg"
+image: "anwendungsfälle/images/usecase.svg"
 tags:
 - sprachlichekorrektur
 - studierende
