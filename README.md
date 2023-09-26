@@ -1,6 +1,6 @@
 # Bildung 6.0
 
-The website of the project Bildung 6.0 from the Berne University of Applied Science.
+The website of the project Bildung 6.0, developed at Bern University of Applied Science.
 https://www.bfh.ch/de/forschung/forschungsprojekte/2023-035-219-642/
 
 ## Run Locally
