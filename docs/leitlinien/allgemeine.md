@@ -98,6 +98,6 @@ Beim Verfassen dieses Beitrags haben die Autor:innen ChatGPT (Ver. 2.10. und 3.1
 
 ## Quellen
 
-1. Gimpel H, Hall K, Decker S, Eymann T, Lämmermann L, Mädche A, Röglinger R, Ruiner C, Schoch M, Schoop M, Urbach N, Vandirk S. Unlocking the Power of Generative AI Models and Systems such as GPT-4 and ChatGPT for Higher Education A Guide for Students and Lecturers Unlocking the Power of Generative AI Models and Systems such as GPT-4 and ChatGPT for Higher Education A Guide for Students and Lecturers. 2023. 
+1. Gimpel H, Hall K, Decker S, Eymann T, Lämmermann L, Mädche A, Röglinger R, Ruiner C, Schoch M, Schoop M, Urbach N, Vandirk S. Unlocking the Power of Generative AI Models and Systems such as GPT-4 and ChatGPT for Higher Education A Guide for Students and Lecturers Unlocking the Power of Generative AI Models and Systems such as GPT-4 and ChatGPT for Higher Education A Guide for Students and Lecturers. University of Hohenheim; 2023. 
 
 
