@@ -7,10 +7,10 @@ disabled: False
 ---
 
 
-In dieser Quest geht es darum, wie KI in der Lehre eingesetzt werden kann, um die Arbeitsprozesse in Modulen und Kursen zu unterstützen.
+In dieser Quest geht es darum, wie Künstliche Intelligenz (KI) in der Lehre eingesetzt werden kann, um die Arbeitsprozesse in Modulen und Kursen zu unterstützen.
 
 ###	Notizen ausformulieren
-Künstliche Intelligenz (KI) ermöglicht die effiziente Umwandlung knapper Notizen in strukturierte Texte in verschiedenen Kontexten.
+KI ermöglicht die effiziente Umwandlung knapper Notizen in strukturierte Texte in verschiedenen Kontexten.
 
 
 ```yaml
@@ -24,7 +24,18 @@ rules:
 
 
 ###	Unterlagen übersetzen
-Beschreibung
+KI ermöglicht die schnelle und effiziente Übersetzung von Texten und Dokumenten, wodurch sprachliche Barrieren überwunden werden.
+
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: unterlagenuebersetzen
+```
+
 
 ###	Fragen generieren
 Beschreibung

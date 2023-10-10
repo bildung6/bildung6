@@ -4,7 +4,7 @@ type: "tool"
 description: DeepL Write ist ein auf künstlicher Intelligenz basierendes Schreibtool.
 id: "deepl-write"
 tags:
-- "Kostenpflichtig"
+- "Freemium"
 - "Text"
 ---
 
