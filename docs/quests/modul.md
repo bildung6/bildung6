@@ -38,7 +38,20 @@ rules:
 
 
 ###	Fragen generieren
-Beschreibung
+KI kann genutzt werden, um Prüfungs- und Quizfragen zu generieren. 
+
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: fragengenerieren
+```
+
+
+fragengenerieren
 
 ###	Arbeitsaufträge generieren
 Beschreibung

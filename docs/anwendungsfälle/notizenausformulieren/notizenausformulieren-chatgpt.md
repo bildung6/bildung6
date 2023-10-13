@@ -206,7 +206,7 @@ rules:
 
 ## Über diesen Beitrag
 
-Beim Verfassen dieses Beitrags haben die Autor:innen ChatGPT-4.0 (Ver. 9.10.2023), DeepL Translate (Ver. 2.10.2023), (Ver. 9.10.2023) und Microsoft Word verwendet, um die sprachliche Darstellung ihrer Gedanken zu verbessern. Die volle Verantwortung für den Inhalt liegt bei den Autor:innen.
+Beim Verfassen dieses Beitrags haben die Autor:innen ChatGPT-4.0 (Ver. 9.10.2023), DeepL Write (Ver. 9.10.2023) und Microsoft Word verwendet, um die sprachliche Darstellung ihrer Gedanken zu verbessern. Die volle Verantwortung für den Inhalt liegt bei den Autor:innen.
 
 
   
