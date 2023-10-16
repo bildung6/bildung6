@@ -1,5 +1,5 @@
 ---
-title: Austausch Plattform
+title: Austauschplattform
 ---
 
 ![Plattform](plattform.png)
@@ -10,7 +10,7 @@ Das Projektteam stellt immer wieder auch verschiedene Ressourcen rund um das The
 
 Aber in erster Linie soll ein Erfahrungsaustausch stattfinden. Dies wird durch vom Projektteam organisierte Events und Diskussionen zum Einsatz von KI in der Lehre unterstützt.
 
-[:simple-discord:  Link zur Discord Plattform](https://discord.gg/S2tdXkKWdB){ .md-button .md-button--primary .discord-button }
+[:simple-discord:  Link zur Discord-Plattform](https://discord.gg/S2tdXkKWdB){ .md-button .md-button--primary .discord-button }
 
 <script>
 let url = "https://discord.com/api/guilds/1116635493719871510/widget.json";
