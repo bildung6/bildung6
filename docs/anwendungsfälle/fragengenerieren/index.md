@@ -16,7 +16,7 @@ type: usecase
 Künstliche Intelligenz (KI) kann genutzt werden, um Prüfungs- und Quizfragen zu generieren. 
 
 
-## Beschreigung
+## Beschreibung
 
 Lehrende können KI, einschliesslich spezialisierter Quiz-Generatoren und Chatbots wie ChatGPT, effizient zur Optimierung der Erstellung von Prüfungs- und Quizfragen nutzen, wobei die erzielten Ergebnisse als solide Grundlage für die Ausarbeitung von Prüfungen und Quizzen dienen können.
 
@@ -70,13 +70,3 @@ rules:
   value: zweitmeinung
 ```
 
----
-
-
-## Links
-
-OpenAI:
-- Building quizzes, tests, and lesson plans from curriculum materials
-
-Gimopel:
-- 

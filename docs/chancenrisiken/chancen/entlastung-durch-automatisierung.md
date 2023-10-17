@@ -3,7 +3,7 @@ description: "Durch den Einsatz von KI-Systemen können Nutzer:innen ihre Arbeit
 id: entlastung-durch-automatisierung.md
 tags:
 - entlastung-durch-automatisierung.md
-title: Kompetenzerwerb durch KI
+title: Entlastung durch Automatisierung
 type: chance
 ---
 

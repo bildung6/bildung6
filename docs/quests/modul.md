@@ -51,13 +51,18 @@ rules:
 ```
 
 
-fragengenerieren
 
 ###	Arbeitsaufträge generieren
-Beschreibung
+Lehrende können KI für eine effiziente Erstellung von studentischen Arbeitsaufträgen einsetzen, um umgehend Vorschläge zu generieren.
 
-###	Illustrationen, Grafiken erstellen
-Beschreibung
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: arbeitsauftraege
+```
 
-###	Ideen generieren / Brainstorming
-Beschreibung
+
+
