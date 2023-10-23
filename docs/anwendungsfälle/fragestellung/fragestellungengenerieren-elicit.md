@@ -15,6 +15,7 @@ type: usecase
 Elicit kann bei der Erstellung von Fragestellungen helfen, indem es Vorschläge generiert.
 
 
+
 ## Beschreibung
 Die Hauptfunktionalitäten dieses Research Assistenten zielen vor allem auf die Unterstützung bei der *Literaturrecherche* ab (Stand August 2023) (1). Zur Formulierung deiner Fragestellung kannst du diese Hauptfunktionen nutzen, um Fachpublikationen zu identifizieren, aus der du deine eigene Fragestellung ableiten kannst. Oder du nutzt das Tool um zu prüfen, ob es bereits Publikationen gibt, die deine Forschungsfrage adressieren oder gar beantworten.
 
@@ -30,12 +31,15 @@ Dieses Beispiel zeigt, wie mit Elicit mehrere Fragestellungen generiert werden k
 
 ### Mit "Brainstorm Research Question" Fragestellungen generieren
 
+!!! bug "Funktion nicht verfügbar"
+
+    Leider ist die Funktion *Brainstorm Research Question* aktuell nicht verfügbar. Elicit hat ein neues Interface erhalten wo die Funktion nicht mehr verfügbar ist. Wir hoffen, dass die Funktion bald wieder verfügbar ist.
+
+
 Mit dem Elicit-Task *Brainstorm Research Question* kannst du Vorschläge für Fragestellungen einholen.
 Dabei kannst du deine Fragestellung als Ausgangspunkt verwenden oder auch nur einzelne Themenfelder angeben.
 
 Im folgenden Beispiel werden die Begriffe "Medical Informatics" und "Care at Home" kombiniert, um Vorschläge für Fragestellungen zu generieren.
-
-
 
 | Beispiel: Step-by-Step zur Fragestellung                                              |
 | :------------------------------------------------------------------------------------ |
