@@ -163,7 +163,7 @@ Weist man dem Chatbot eine bestimmte Rolle (oder Persona) zu, spiegelt sich dies
   <tr>
     <td bgcolor="5D6CC0">
       <p style="color:white">
-        Nimm die Rolle eines Studentenbetreuers an...
+        Nimm die Rolle eines Studierendenbetreuers an...
       </p>
     </td>
     <td bgcolor="White"></td>
@@ -187,7 +187,7 @@ Weist man dem Chatbot eine bestimmte Rolle (oder Persona) zu, spiegelt sich dies
   <tr>
     <td bgcolor="5D6CC0">
       <p style="color:white">
-        Verhalte dich wie ein wissenschaftlicher Betreuer, der Studenten an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt.
+        Verhalte dich wie ein wissenschaftlicher Betreuer, der Studierenden an einer Hochschule Feedback zum Schreiben wissenschaftsjournalistischer Artikel gibt.
         <br>
         Überprüfe und bewerte kritisch den aktuellen Stand dieses Teils meines wissenschaftsjournalistischen Artikels.<br>
         Beurteile die Klarheit meiner Erklärungen, die sprachliche Gewandtheit und die Art und Weise, wie ich den Text strukturiert habe, und übe konstruktive Kritik zu jedem Punkt.
