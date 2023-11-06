@@ -10,7 +10,7 @@ disabled: False
 
 # Allgemeine Leitlinie
 
-Seit der Einführung von Technologien wie ChatGPT hat die Bedeutung von künstlicher Intelligenz (KI) in der Bildungslandschaft stetig zugenommen (1). Diese allgemeine Leitlinie soll als Orientierungshilfe für den Einsatz von KI-basierten Werkzeugen im Bildungskontext dienen.  Er enthält Empfehlungen für den Einsatz von KI in der Bildung, die für Lernende, Studierende und Lehrende von Interesse sind. 
+Seit der Einführung von Technologien wie ChatGPT hat die Bedeutung von künstlicher Intelligenz (KI) in der Bildungslandschaft stetig zugenommen (1). Diese allgemeine Leitlinie soll als Orientierungshilfe für den Einsatz von KI-basierten Werkzeugen im Bildungskontext dienen. Sie enthält Empfehlungen für den Einsatz von KI in der Bildung, die für Lernende, Studierende und Lehrende von Interesse sind. 
 
 ---
 
@@ -47,7 +47,7 @@ schaftlichen Berichten hilfreich sein, aber sie können kritisches Denken und Kr
  
 
 ### Führe mit Chatbots ein Gespräch 
-Bei der Verwendung von Chatbots (z.B. ChatGPT oder Bard) die auf Large Language Models (LLM) basieren ist nicht immer klar, wie diese effektiv eingesetzt werden können. In einigen Fällen ist es von Vorteil, dem Chatbot genaue und spezifische Informationen zu geben und den Dialog mit dem Chatbot in einer Form zu führen, die einem Gespräch entspricht.
+Bei der Verwendung von Chatbots (z.B. ChatGPT oder Bard) die auf Large Language Models (LLM) basieren, ist nicht immer klar, wie diese effektiv eingesetzt werden können. In einigen Fällen ist es von Vorteil, dem Chatbot genaue und spezifische Informationen zu geben und den Dialog mit dem Chatbot in einer Form zu führen, die einem Gespräch entspricht.
 
 
 - **Stelle dem Chatbot relevante Informationen zur Verfügung**<br>
@@ -62,7 +62,7 @@ Bei der Verwendung von Chatbots (z.B. ChatGPT oder Bard) die auf Large Language 
 
 
 ### Sei dir der Risiken bewusst 
-Nutzer:innen von KI-basierten Werkzeugen sollten sich über die Risiken im Klaren sein. Letztendlich sind die sie bei Verfehlungen verantwortlich. Es ist daher ratsam, sich bei jedem KI-generierten Ergebnis zu überlegen, ob man die Verantwortung dafür übernehmen will oder kann.
+Nutzer:innen von KI-basierten Werkzeugen sollten sich über die Risiken im Klaren sein. Letztendlich sind sie bei Verfehlungen verantwortlich. Es ist daher ratsam, sich bei jedem KI-generierten Ergebnis zu überlegen, ob man die Verantwortung dafür übernehmen will oder kann.
 
 - **Teile der KI nur das mit, was du teilen möchtest oder darfst**<br>
   Fühle dich nicht verpflichtet, etwas Persönliches mitzuteilen. Alles, was du der KI mitteilst, kann potenziell als Trainingsdaten für die KI oder anderweitig verwendet werden.

@@ -1,5 +1,5 @@
 ---
-description: "Generiere aus Notzien einen Text."
+description: "Generiere aus Notizen einen Text."
 id:  notizenausformulieren
 image: "anwendungsfälle/images/writer.svg" 
 tags:
@@ -16,7 +16,7 @@ Künstliche Intelligenz (KI) ermöglicht die effiziente Umwandlung knapper Notiz
 
 ## Beschreibung
 
-KI und speziell Language Models (LLMs) sind effektive Werkzeuge zur Generierung strukturierter Texte aus knappen Notizen oder Stichwörtern. So kann eine Lehrkraft mithilfe von KI detailliertes und konstruktives Feedback für studentische Präsentationen aus einfachen Notizen erstellen. Ähnlich kann in einem geschäftlichen Umfeld KI dazu verwendet werden, um aus stichpunktartigen Notizen, die während eines Meetings angefertigt wurden, einen klaren und verständlichen Bericht zu erstellen. In beiden Kontexten fördert die Verwendung von KI eine effiziente und qualitative Informationsaufbereitung, die zur Verbesserung von Kommunikation und Verständnis beiträgt.
+KI und speziell Large Language Models (LLMs) sind effektive Werkzeuge zur Generierung strukturierter Texte aus knappen Notizen oder Stichwörtern. So kann eine Lehrkraft mithilfe von KI detailliertes und konstruktives Feedback für studentische Präsentationen aus einfachen Notizen erstellen. Ähnlich kann in einem geschäftlichen Umfeld KI dazu verwendet werden, um aus stichpunktartigen Notizen, die während eines Meetings angefertigt wurden, einen klaren und verständlichen Bericht zu erstellen. In beiden Kontexten fördert die Verwendung von KI eine effiziente und qualitative Informationsaufbereitung, die zur Verbesserung von Kommunikation und Verständnis beiträgt.
 
 
 

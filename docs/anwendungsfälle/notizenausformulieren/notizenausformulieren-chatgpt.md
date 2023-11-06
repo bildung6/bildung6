@@ -1,5 +1,5 @@
 ---
-description: "Generiere aus Notzien einen Text."
+description: "Generiere aus Notizen einen Text."
 id:  notizenausformulieren-chatgpt
 image: "anwendungsfälle/images/chatbot.svg" 
 tags:
@@ -17,7 +17,7 @@ Künstliche Intelligenz (KI) wie ChatGPT ermöglicht die effiziente Umwandlung v
 
 ## Beschreibung
 
-KI und speziell Language Models (LLMs) sind effektive Werkzeuge zur Generierung strukturierter Texte aus knappen Notizen oder Stichwörtern. So kann eine Lehrkraft mithilfe von KI detailliertes und konstruktives Feedback für studentische Arbeiten oder Präsentationen aus einfachen Notizen erstellen. 
+KI und speziell Large Language Models (LLMs) sind effektive Werkzeuge zur Generierung strukturierter Texte aus knappen Notizen oder Stichwörtern. So kann eine Lehrkraft mithilfe von KI detailliertes und konstruktives Feedback für studentische Arbeiten oder Präsentationen aus einfachen Notizen erstellen. 
 
 ???+ danger "Achtung"
 
