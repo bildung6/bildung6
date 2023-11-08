@@ -271,7 +271,7 @@ Einige Aufgaben lassen sich am besten als eine Abfolge von Schritten beschreiben
         Schritt 1 - Ich gebe dir einen in dreifachen Anführungszeichen gesetzten Text. Fasse diesen Text in einem Satz mit dem Präfix "Zusammenfassung:" zusammen. 
         <br>
         <br>
-        Schritt 2 - Übersetzen Sie die Zusammenfassung aus Schritt 1 ins Englische, mit einem Präfix "Uebersetzung:".
+        Schritt 2 - Übersetze die Zusammenfassung aus Schritt 1 ins Englische, mit einem Präfix "Uebersetzung:".
         <br>
         <br>
         """Lorem ipsum, ..."""
