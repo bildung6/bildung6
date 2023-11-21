@@ -1,10 +1,10 @@
 ---
-description: "Selbständiges Lernen"
+description: "KI beim selbstständigen Lernen nutzen"
 id: guide
 image: guides/images/studying.svg
 tags:
 - studierende
-title: KI für selbstständiges Lernen
+title: Effizienteres Selbststudium mit KI
 type: guide
 --- 
 
@@ -14,15 +14,15 @@ type: guide
     Dieser Guide richtet sich an Studierende die KI beim selbständigen Lernen einsetzen möchten. 
 
     **Was findest du hier?**<br>
-    Hier findest du ein Konzept für eine dreiphasige Vorgehensweise wie KI im Selbststudium eingesetzt werden kann. Z.B. können Studierende ChatGPT als Lerncoach einsetzen um sie beim Lernen zu entlasten, indem verschiedene Aufgaben auf den Chatbot ausgelagert werden.
+    Hier findest du ein Konzept für eine dreiphasige Vorgehensweise wie KI im Selbststudium eingesetzt werden kann. Z.B. können Studierende ChatGPT als Lerncoach einsetzen um sie beim Lernen zu entlasten, indem verschiedene Aufgaben an den Chatbot ausgelagert werden.
 
 
     **Wie kannst du die Inhalte hier nutzen?**<br>
-    Hier findest du Hinweise wie ChatGPT zur Informationsbeschaffung und Strukturierung des Lernprozesses eingesetzt werden kann, beispielsweise für die Generierung von Lehrplänen oder Quizfragen für die Selbstüberprüfung.
+    Hier findest du Hinweise, wie ChatGPT zur Informationsbeschaffung und Strukturierung des Lernprozesses eingesetzt werden kann, beispielsweise für die Generierung von Lernplänen oder Quizfragen zur Selbstüberprüfung.
 
 
     **Woher stammen die hier gezeigten Inhalte?**<br>
-    Das Konzept wurde von Luka Dimitrijevic, zur Zeit Studierender im Bachelorstudiengang der Physiotherapie an der Berner Fachhochschule, entworfen und von ihm an einem Discord-Event im Rahmen des Projects "Bildung 6.0" vorgestellt.
+    Das Konzept wurde von Luka Dimitrijevic, derzeit Student im Bachelorstudiengang Physiotherapie an der Berner Fachhochschule, entwickelt und im Rahmen eines Discord-Events im Projekt "Bildung 6.0" vorgestellt.
 
 
 
@@ -45,7 +45,7 @@ Der Einsatz von KI im *freien Selbststudium* kann verschiedene Vor- und Nachteil
 
 | **Vorteile:**                                  | **Nachteile:**                               |
 |:-----------------------------------------------|:---------------------------------------------|
-| KI ermöglicht flexibleres Lernen <br> (z.B. schnelle Generierung von Quizfragen zur Wiederholung) | Fehlende soziale Einbindung. |
+| KI ermöglicht flexibleres Lernen <br> (z.B. schnelle Generierung von Quizfragen zur Wiederholung) | Fehlende soziale Einbindung |
 | Individualisiertes Lernen <br> (Erklärung einzelner Sachverhalte, z.B. bei der Anwendung statistischer Methoden kann ChatGPT punktuell nach dem Rechenweg gefragt werden) | Fehlende direkte Interaktion <br>  (der Austausch mit Lehrenden und Mitstudierenden ist für den Lernerfolg unerlässlich) |
 | Individuelle Auftragserteilung <br> (Generierung von individuellen Lernplänen) |  Keine Garantie, dass die KI-generierten Vorschläge mit den wichtigen Lehrinhalten des Unterrichts übereinstimmen oder für Prüfungen relevant sind, da die Führung durch die Lehrbeauftragten hier wegfällt |
 
@@ -58,47 +58,64 @@ Der Einsatz von KI im *freien Selbststudium* kann verschiedene Vor- und Nachteil
 ## Drei Phasen 
 
 
-Der von Luka Dimitrijevic vorgeschlagene Drei-Phasen-Ansatz strukturiert den Lernprozess in drei aufeinander aufbauenden Schritten. 
+Der von Luka Dimitrijevic vorgeschlagene Drei-Phasen-Ansatz strukturiert den Lernprozess in drei aufeinander aufbauende Phasen.
 
 
-![alt text](../guides/images/3phasen_luca.jpg){style="width:200px"} <br>
+![alt text](../guides/images/3phasen_luca.jpg){style="width:400px"} <br>
 *Abb.: 3-Phasen-Konzept, von Luka Dimitrijevic*
+<br>
 
-Ziel ist es, aus Informationen Wissen zu erarbeiten, die als Grundlage dienen und in weiteren Schritten vertieft und miteinander verknüpft werden. Abschliessend wird das erworbene Wissen durch Anwendung gefestigt.
+Ziel ist es, aus Informationen Wissen zu erarbeiten, das als Grundlage dient und in weiteren Schritten vertieft und verknüpft wird. Abschliessend wird das erworbene Wissen durch Anwendung gefestigt.
 
-
+<br>
 **Construct-Phase (Aufbau):** 
 
-Hier wird Grundwissen und essenzielle Informationen zu einem Thema gesammelt. Es geht um die Identifizierung und das Verständnis der Grundkonzepte, die für das weitere Lernen notwendig sind. 
+Hier geht es darum, Grundwissen und wesentliche Informationen zu einem Thema zu sammeln. Es geht um die Identifizierung und das Verständnis der Grundkonzepte, die für das weitere Lernen notwendig sind.
 
-Die KI kann in dieser Phase als Instrument dienen, um Informationen zu sammeln und strukturiert darzustellen. Beispielsweise kann ChatGPT dazu verwendet werden, einen strukturierten Lehrplan zu einem bestimmten Thema zu erstellen und helfen, wichtige Inhalte zu identifizieren und hervorzuheben.
-
---> Insert UseCase für Lehrplan erstellen.
+Die KI kann in dieser Phase als Werkzeug dienen, um Informationen zu sammeln und strukturiert darzustellen. Zum Beispiel kann ChatGPT verwendet werden, um einen strukturierten Lehrplan zu einem bestimmten Thema zu erstellen und helfen, wichtige Inhalte zu identifizieren und hervorzuheben.
 
 
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: lernplangenerieren-chatgpt
+```
+
+<br>
 **Connect-Phase (Verknüpfung):** 
 
 Nachdem das Grundwissen erarbeitet wurde, geht es in der Connect-Phase darum, die Beziehungen und Zusammenhänge zwischen den verschiedenen Informationen zu erkennen und zu verstehen. Hier wird versucht, tiefere Zusammenhänge zu erkennen, was zu kritischem Denken anregt und ein umfassenderes Verständnis ermöglicht. 
 
-KI kann dabei helfen, komplexe Informationen zu organisieren und zu strukturieren, um Verbindungen leichter erkennbar zu machen.
-
-
---> Insert UseCase für Dialog: Wissensbausteine Verbinden, Erklärung von zusammenspiel, Folgefragen
-
-![alt text](../guides/images/wissensbausteineverbinden_luca.jpg){style="width:300px"} <br>
+![alt text](../guides/images/wissensbausteineverbinden_luca.jpg){style="width:500px"} <br>
 *Abb.: Verknüpfung von "Wissensbausteinen", von Luka Dimitrijevic*
+<br>
+
+KI kann dabei helfen, komplexe Informationen gezielt zu vertiefen, um Zusammenhänge leichter erkennbar zu machen.
 
 
 
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: wissenvertiefen-chatgpt
+```
+
+<br>
 **Challenge-Phase (Herausforderung):**
 
-In der letzten Phase wird das angeeignete Wissen angewendet und überprüft. Das kann durch die Durchführung eines Quiz, oder die Überprüfung von selbstgeschriebenen Zusammenfassungen geschehen.
+In der letzten Phase wird das angeeignete Wissen angewendet und überprüft. Das kann durch die Durchführung eines Quiz oder durch die Überprüfung selbst erstellter Zusammenfassungen geschehen.
+
+![alt text](../guides/images/challenge_kritischeval.jpg){style="width:500px"} <br>
+*Abb.: Selbstüberprüfung, von Luka Dimitrijevic*
+<br>
 
 KI-Tools können hier zum Einsatz kommen, um beispielsweise Quizfragen zu generieren.
-
-
-![alt text](../guides/images/challenge_kritischeval.jpg){style="width:300px"} <br>
-*Abb.: Selbstüberprüfung, von Luka Dimitrijevic*
 
 
 ```yaml
@@ -116,11 +133,6 @@ rules:
 
 
 ## Links
-
-ChatGPT Best Practices (OpenAI API):
-
--	https://platform.openai.com/docs/guides/gpt-best-practices
-
 
 Video des Discord Events, wo Luka Dimitrijevic seine Konzepte vorstellte:
 
