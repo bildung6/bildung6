@@ -9,7 +9,7 @@ type: usecase
 ---
 
 
-# Fragen generieren
+# Lernplan generieren
 
 Durch den Einsatz von künstlicher Intelligenz (KI) lässt sich ein massgeschneiderter Lernplan erstellen, der gezielt auf die persönlichen Bedürfnisse der Nutzer:in eingeht.
 

@@ -9,7 +9,7 @@ type: usecase
 ---
 
 
-# Wissen aneignen und vertiefen mit ChatGTP
+# Wissen aneignen und vertiefen mit ChatGPT
 
 Die Aneignung und Vertiefung von Wissen im Selbststudium kann durch ChatGPT unterstützt werden, indem individuelle Erklärungen angeboten werden, die auf die spezifischen Fragen und Bedürfnisse der Lernenden zugeschnitten sind.
 
@@ -22,7 +22,7 @@ ChatGPT fördert den Wissenserwerb und die Wissensvertiefung im Selbststudium, i
 
 ## Beispiele
 
-Durch das Einsetzen eines Chatbots in die Rolle eines Tutors können Lernende in einer konversationellen Form Fragen stellen und erhalten daraufhin massgeschneiderte Antworten sowie praktische Beispiele, die das Verständnis fördern und den Lernprozess interaktiv gestalten.
+Durch das Einsetzen eines Chatbots in der Rolle eines Tutors können Lernende in einer konversationellen Form Fragen stellen und erhalten daraufhin massgeschneiderte Antworten sowie praktische Beispiele, die das Verständnis fördern und den Lernprozess interaktiv gestalten.
 
 
 ### Mit ChatGPT lernen
@@ -125,9 +125,6 @@ rules:
 - condition: equals
   property: id
   value: halluzinationen
-- condition: equals
-  property: id
-  value: geschuetzte-daten
 ```
 
 
