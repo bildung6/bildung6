@@ -34,7 +34,7 @@ entityType: usecase
 rules:
 - condition: equals
   property: id
-  value: fragengenerieren
+  value: wissenvertiefen
 ```
 
 

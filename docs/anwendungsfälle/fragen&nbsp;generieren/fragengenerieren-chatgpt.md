@@ -382,8 +382,9 @@ OpenAI Blog "Teaching with AI":
 - https://openai.com/blog/teaching-with-ai
 
 
-Chatverlauf mit ChatGPT-4.0 zur Erstellung eines Syllabus für einen Hämatologiekurs:
+Chatverläufe: Mit ChatGPT Fragen für ein Quiz oder eine Prüfung generieren:
 
-- https://chat.openai.com/share/ccf8d04d-723d-459f-b651-4675de7c938b
+- https://chat.openai.com/share/2e2c4856-570e-4b28-92e1-9240b532a8b9
+- https://chat.openai.com/share/e5984f79-63cf-434e-97fa-4360288efad0
 
 
