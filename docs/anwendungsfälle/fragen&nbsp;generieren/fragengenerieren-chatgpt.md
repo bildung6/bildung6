@@ -18,7 +18,7 @@ Mit ChatGPT können schnell Vorschläge für Prüfungen oder ein Quiz erstellt w
 
 ## Beschreibung
 
-Lehrende können ChatGPT als unterstützendes Tool nutzen, um auf effiziente Weise Vorschläge für Prüfungs- und Quizfragen zu generieren, indem sie durch das Chat-Interface spezifische Frageformate und Themenbereiche vorgeben. Der Prozess der Erstellung von Fragen kann dadurch erleichtert und beschleunigt werden.
+Anwender:innen können ChatGPT als unterstützendes Tool nutzen, um auf effiziente Weise Vorschläge für Prüfungs- und Quizfragen zu generieren, indem sie durch das Chat-Interface spezifische Frageformate und Themenbereiche vorgeben. Der Prozess der Erstellung von Fragen kann dadurch erleichtert und beschleunigt werden.
 
 
 

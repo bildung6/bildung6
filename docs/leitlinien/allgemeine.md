@@ -1,6 +1,6 @@
 ---
 description: "In den folgenden Leitlinien werden die wichtigsten Aspekte für den\
-  \ Einsatz von KI in der Lehre für zusammengefasst."
+  \ Einsatz von KI in der Lehre zusammengefasst."
 id: leitlinien
 image: AnwenderInnen/images/studying.svg
 title: "Allgemeine Leitlinie"

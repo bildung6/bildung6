@@ -94,33 +94,25 @@ KI kann dabei helfen, komplexe Informationen zu organisieren und zu strukturiere
 
 In der letzten Phase wird das angeeignete Wissen angewendet und überprüft. Das kann durch die Durchführung eines Quiz, oder die Überprüfung von selbstgeschriebenen Zusammenfassungen geschehen.
 
-KI-Tools können hier zum Einsatz kommen, um beispielsweise Übungen zu generieren oder Feedback zu Zusammenfasungen zu geben.
+KI-Tools können hier zum Einsatz kommen, um beispielsweise Quizfragen zu generieren.
 
 
 ![alt text](../guides/images/challenge_kritischeval.jpg){style="width:300px"} <br>
 *Abb.: Selbstüberprüfung, von Luka Dimitrijevic*
 
 
---> Insert UseCaseQuiz erstellung
-
---> Insert UseCase Zusammenfassung eingeben und bewerten
-
-
----
-
-## Relevante Anwendungsfälle
-Bei diesen Anwendungsfällen könnten die hier aufgeführten Hinweise und Beispiele angewendet werden:
-
 ```yaml
 condition: or
 entityType: usecase
 rules:
-- condition: contains
+- condition: equals
   property: id
-  value: chatgpt
+  value: fragengenerieren-chatgpt
 ```
 
+
 ---
+
 
 
 ## Links
