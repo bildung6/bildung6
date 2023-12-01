@@ -4,7 +4,7 @@ id: wissenvertiefen-chatgpt
 image: "anwendungsfälle/images/chatbot.svg"
 tags:
 - studierende
-title: Wissen aneignen und vertiefen mit ChatGTP
+title: Wissen aneignen und vertiefen mit ChatGPT
 type: usecase
 ---
 

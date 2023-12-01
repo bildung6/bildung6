@@ -5,12 +5,12 @@ image: "anwendungsfälle/images/chatbot.svg"
 tags:
 - lehrende
 - arbeitsauftraege
-title: Arbeitsaufträge generieren mit ChatGTP
+title: Arbeitsaufträge generieren mit ChatGPT
 type: usecase
 ---
 
 
-# Arbeitsaufträge generieren mit ChatGTP
+# Arbeitsaufträge generieren mit ChatGPT
 
 Lehrende können KI für eine effiziente Erstellung von studentischen Arbeitsaufträgen einsetzen, um umgehend Vorschläge zu generieren.
 
@@ -25,7 +25,7 @@ ChatGPT kann als hilfreicher Bildungscoach agieren, welcher Lehrende bei der Pla
 
 ## Beispiel
 
-In diesem Beispiel wird der Chatbot (ChatGTP-4.0) nicht um eine direkte Antwort gebeten, sondern dazu aufgefordert, als Unterrichtsberater:in (Coach) zu fungieren, um die Lehrkraft schrittweise zu beraten. Der erste Input basiert auf einem Prompt, der von OpenAI (https://openai.com/blog/teaching-with-ai) vorgeschlagen wurde.
+In diesem Beispiel wird der Chatbot (ChatGPT-4.0) nicht um eine direkte Antwort gebeten, sondern dazu aufgefordert, als Unterrichtsberater:in (Coach) zu fungieren, um die Lehrkraft schrittweise zu beraten. Der erste Input basiert auf einem Prompt, der von OpenAI (https://openai.com/blog/teaching-with-ai) vorgeschlagen wurde.
 
 
 ### ChatGPT gibt in der Beraterrolle Vorschläge für Arbeitsaufträge

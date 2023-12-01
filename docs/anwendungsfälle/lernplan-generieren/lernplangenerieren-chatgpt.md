@@ -4,7 +4,7 @@ id: lernplangenerieren-chatgpt
 image: "anwendungsfälle/images/chatbot.svg"
 tags:
 - studierende
-title: Lernplan generieren mit ChatGTP
+title: Lernplan generieren mit ChatGPT
 type: usecase
 ---
 

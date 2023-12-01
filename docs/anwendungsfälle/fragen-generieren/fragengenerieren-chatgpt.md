@@ -6,7 +6,7 @@ tags:
 - studierende
 - lehrende
 - fragen
-title: Fragen generieren mit ChatGTP
+title: Fragen generieren mit ChatGPT
 type: usecase
 ---
 
