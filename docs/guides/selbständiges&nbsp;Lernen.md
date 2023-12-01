@@ -149,7 +149,7 @@ Beim Verfassen dieses Beitrags haben die Autor:innen ChatGPT-4 (Ver. 21.11.23), 
 
 ### Lizenz
 
-![cc-by-sa-icon](../../leitlinien/images/Cc_by-sa_120x42.png){ align=left } Dieser Beitrag enthält Inhalte, die auf dem Modell (Construct, Connect, Challenge) von Luka Dimitrijevic basieren und wurde zusammen mit dem zugrunde liegenden Konzept während eines
+![cc-by-sa-icon](../leitlinien/images/Cc_by-sa_120x42.png){ align=left } Dieser Beitrag enthält Inhalte, die auf dem Modell (Construct, Connect, Challenge) von Luka Dimitrijevic basieren und wurde zusammen mit dem zugrunde liegenden Konzept während eines
 <a rel="Discord-Event" href="https://www.youtube.com/watch?v=R9V8KjDD39w">Discord-Events am 3. November 2023 </a> im Rahmen des Projekts <a rel="bildung6" href="https://belearn.swiss/projekt/bildung-6-0-lernen-und-lehren-mit-ku%cc%88nstlicher-intelligenz-inklusion-statt-disruption/"> Bildung 6.0  </a> /  <a rel="belearn" href="https://belearn.swiss/"> BeLEARN </a> vorgestellt. Die inhaltliche und textliche Bearbeitung erfolgte durch das Projektteam von Bildung 6.0 / BeLEARN. Sowohl das Modell (Construct, Connect, Challenge) als auch das dazugehörige Konzept und dieser Beitrag stehen unter der <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution ShareAlike 4.0 (CC BY-SA 4.0 International License) </a> Lizenz.
 
 
