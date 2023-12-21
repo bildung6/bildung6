@@ -19,7 +19,7 @@ E-Mail: [kerstin.denecke@bfh.ch](mailto:kerstin.denecke@bfh.ch?subject=Website%2
 3. **KI und Kreativität:**  
    Exploration, wie KI in den Bereichen Text-, Bild- und Musikgenerierung eingesetzt werden kann. Diskussion über die Rolle von KI in kreativen Prozessen und die Auswirkungen auf traditionelle Kunstformen.
 
-Für weitere Informationen oder zur Planung eines massgeschneiderten Workshops, kontaktieren Sie sie bitte direkt.
+Für weitere Informationen oder zur Planung eines massgeschneiderten Workshops, nehmen Sie bitte direkt Kontakt auf.
 
 
 ```yaml
