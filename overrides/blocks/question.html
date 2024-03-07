@@ -1,0 +1,23 @@
+<div class="admonition question">
+
+    <p class="admonition-title">{{ question }}</p>
+
+    <ul class="answers">
+        {% for answer in answers %}
+        <li>
+            <label>
+                <input type="{{ 'radio' if type == 'single-choice' else 'checkbox' }}" name="{{ question }}"
+                       value="{{ answer[1] }}" class="{{answer[0] | lower}}" onclick="checkAnswer(this, {{answer[0] | lower}})">
+                {{ answer[1] }}
+
+                {% if answer[2] %}
+                <span class="explanation"> {{answer[2]}}</span>
+                {% endif %}
+            </label>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="animate__animated all-right correct" style="display: none"></p>
+
+</div>
