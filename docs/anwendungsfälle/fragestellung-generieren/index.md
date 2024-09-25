@@ -33,9 +33,6 @@ rules:
 - condition: contains
   property: id
   value: fragestellungengenerieren-chatgpt
-- condition: contains
-  property: id
-  value: fragestellungengenerieren-elicit
 ```
 
 ---
