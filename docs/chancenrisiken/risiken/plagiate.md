@@ -17,7 +17,7 @@ Die Verwendung von KI-Technologien kann auch das Risiko von **Plagiaten** erhöh
 Der Einsatz von KI-Technologien kann das Risiko von Plagiaten erhöhen. Der leichtere Zugang zu Informationen und die Möglichkeit, grosse Textmengen in kurzer Zeit zu erstellen, könnten einige Lernende und Studierende dazu verleiten, ihre Leistungsnachweise mithilfe von KI-Systemen zu erstellen.
 
 
-## Risikominderung
+## Risikominimierung
 
 Im Bildungsbereich werden verschiedene Ansätze zur Verhinderung von Plagiaten diskutiert. Dazu gehören der Einsatz von Plagiatserkennungssoftware, die Anpassung von Prüfungsformaten (mehr mündliche Prüfungen), die Überwachung von Browsern etc.
 

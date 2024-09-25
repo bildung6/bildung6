@@ -19,7 +19,7 @@ Wenn Lehrende, Lernende und Studierende die Funktionsweise und die Entscheidungs
 Beispielsweise kann dieselbe Eingabeaufforderung (Prompt) bei wiederholter Verwendung zu unterschiedlichen Antworten führen. Darüber hinaus neigen KI-Modelle dazu, nicht vorhandene Informationen zu „halluzinieren“ oder zu erfinden. Dieser Aspekt, gepaart mit der innewohnenden Unvorhersehbarkeit der Modelle, kann zu Missverständnissen und Fehlinterpretationen bei den Nutzer:innen führen, insbesondere wenn es um die Interpretation von Chatbot-Antworten und anderen KI-generierten Inhalten geht.
 
 
-## Risikominderung
+## Risikominimierung
 
 Es ist wichtig, ein Bewusstsein dafür zu schaffen, dass KI-basierte Werkzeuge **nur als unterstützende Instrumente** und nicht als vollständiger Ersatz verwendet werden sollten. Diese Sichtweise ermutigt zu einer kritischen Betrachtung der Ergebnisse und bestärkt die Nutzer:innen darin, die **generierten Informationen zu überprüfen und zu verifizieren**.
 
