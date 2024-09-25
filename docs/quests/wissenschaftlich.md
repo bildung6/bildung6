@@ -75,5 +75,42 @@ rules:
 ```
 
 
+### Ideen generieren
+Nutze die generative KI bei der Ideenfindung.
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: ideengenerieren
+```
+
+
+### Präsentationen üben
+Nutze die generative KI bei Präsentationen.
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: praesentationenueben
+```
+
+
+### Transkription (Verschriftlichung)
+Nutze die KI als Assistent bei der Verschriftlichung von Gesprächen.
+
+```yaml
+condition: or
+entityType: usecase
+rules:
+- condition: equals
+  property: id
+  value: transkription
+```
 
 
