@@ -9,7 +9,6 @@ type: risk
 ---
 
 
-
 Der Einsatz von KI in der Bildung birgt Risiken für den **Datenschutz** und die **Informationssicherheit**. Beispielsweise können personenbezogene Daten, wie die von Lernenden, Studierenden und Lehrenden, sowie sensible Daten, darunter interne Geschäftsdaten, betroffen sein. 
 
 
