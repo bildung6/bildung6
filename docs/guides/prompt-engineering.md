@@ -730,19 +730,7 @@ Die Verarbeitung grösserer Texte kann ggf. durch das vorhandene Context Limit v
 
 
 
----
 
-## Relevante Anwendungsfälle
-Bei diesen Anwendungsfällen könnten die hier aufgeführten Hinweise und Beispiele angewendet werden:
-
-```yaml
-condition: or
-entityType: usecase
-rules:
-- condition: contains
-  property: id
-  value: chatgpt
-```
 
 ---
 
