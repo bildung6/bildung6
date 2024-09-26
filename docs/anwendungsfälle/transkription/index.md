@@ -16,7 +16,7 @@ Generative KI-Modelle spielen eine zunehmend wichtige Rolle im Bereich der Speec
 
 Der Einsatz von generativer KI für Speech-to-Text basiert auf der Fähigkeit dieser Modelle, nicht nur vorhandene Muster in Daten zu erkennen, sondern auch neue Inhalte zu generieren, wenn die Eingabe unscharf oder unvollständig ist. Dies ist besonders nützlich in Szenarien, in denen die Audioqualität schlecht ist oder Hintergrundgeräusche die Verständlichkeit beeinträchtigen. Generative Modelle lernen aus grossen, vielfältigen Datensätzen und sind somit in der Lage, selbst komplexe und mehrsprachige Transkriptionen zu erstellen, ohne dass spezifisches Fine-Tuning für jede Sprache oder Aufgabe erforderlich ist (1).
 
-Generative KI-Modelle wie OpenAI's Whisper bieten hohe Transkriptionsgenauigkeit und können flexibel in verschiedenen Sprachen und Aufgabenbereichen eingesetzt werden, ohne spezifische Anpassungen an neue Sprachen oder Dialekte zu benötigen, was ihre Vielseitigkeit erhöht (1). Ein Nachteil dieser Modelle ist jedoch das Auftreten von Halluzinationen, bei denen nicht vorhandene Inhalte generiert werden, was potenziell schädlich sein kann, besonders bei Sprechern mit Sprachstörungen wie Aphasie (2). Modelle wie Whisper setzen Massstäbe in der Spracherkennung, zeigen aber Schwächen bei bestimmten Sprechergruppen, während andere Ansätze wie Generative Spoken Language Modeling auf unüberwachtem Lernen basieren und Sprache direkt aus rohen Audioaufnahmen modellieren (3) .
+Generative KI-Modelle wie OpenAI's Whisper bieten hohe Transkriptionsgenauigkeit und können flexibel in verschiedenen Sprachen und Aufgabenbereichen eingesetzt werden, ohne spezifische Anpassungen an neue Sprachen oder Dialekte zu benötigen, was ihre Vielseitigkeit erhöht (1). Ein Nachteil dieser Modelle ist jedoch das Auftreten von Halluzinationen, bei denen nicht vorhandene Inhalte generiert werden, was potenziell schädlich sein kann, besonders bei Sprechern mit Sprachstörungen wie Aphasie (2). Modelle wie Whisper setzen Massstäbe in der Spracherkennung, zeigen aber Schwächen bei bestimmten Sprechergruppen, während andere Ansätze wie Generative Spoken Language Modeling auf unüberwachtem Lernen basieren und Sprache direkt aus rohen Audioaufnahmen modellieren (3).
 
 
 
@@ -33,30 +33,13 @@ entityType: usecase
 rules:
 - condition: contains
   property: id
-  value: Speaker-Coach
+  value: mac-whisper
 ```
+
 
 
 ---
 
-## Risiken
-
-```yaml
-condition: or
-entityType: risk
-rules:
-- condition: equals
-  property: id
-  value: halluzinationen
-- condition: equals
-  property: id
-  value: geschuetzte-daten
-- condition: equals
-  property: id
-  value: bias-diskriminierung
-```
-
----
 
 ## Chancen
 
@@ -66,11 +49,12 @@ entityType: chance
 rules:
 - condition: contains
   property: id
-  value: entlastung-durch-automatisierung
+  value: sprachliche-barrieren-aufloesen
 - condition: contains
   property: id
-  value: sprachliche-barrieren-aufloesen
+  value: entlastung-durch-automatisierung.md
 ```
+
 
 ---
 
@@ -78,7 +62,6 @@ rules:
 ## Über diesen Beitrag
 
 Beim Verfassen dieses Beitrags haben die Autor:innen ChatGPT 4o (Ver. 09.09.2024) verwendet, um die sprachliche Darstellung ihrer Gedanken zu verbessern. Die volle Verantwortung für den Inhalt liegt bei den Autor:innen. 
-
 
 
 ---

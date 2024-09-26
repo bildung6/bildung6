@@ -2,7 +2,7 @@
 title: Modulmanagement
 type: "quest"
 image: quests/images/modul.svg
-description: Wie lässt sich KI in der Lehre verwenden, um die bei Modulen und Kursen anfallenden Arbeitsprozesse  zu unterstützen?
+description: Wie lässt sich KI in der Lehre verwenden, um die bei Modulen und Kursen anfallenden Arbeitsprozesse zu unterstützen?
 disabled: False
 ---
 
