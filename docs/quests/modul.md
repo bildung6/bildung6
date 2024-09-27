@@ -35,6 +35,9 @@ rules:
 - condition: equals
   property: id
   value: illustration
+- condition: equals
+  property: id
+  value: podcast
 ```
 
 
