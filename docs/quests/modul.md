@@ -32,6 +32,9 @@ rules:
 - condition: equals
   property: id
   value: leistungsbewertung
+- condition: equals
+  property: id
+  value: illustration
 ```
 
 
