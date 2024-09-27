@@ -1,6 +1,6 @@
 ---
 icon: material/snake
-title: Chancen und Risiken
+title: Chancen & Risiken
 ---
 
 Hier findest du eine Übersicht der Chancen und Risiken der Anwendung von KBW im Kontext Hochschulbildung.
