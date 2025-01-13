@@ -81,6 +81,7 @@ You need to have docker installed.
   ```
 
 - **Navigate to the following URL in your browser:**
+  
   http://0.0.0.0:8000/ or http://localhost:8000/
 
 
@@ -148,9 +149,14 @@ If you prefer to install the libraries directly on your os then start on "Step 4
 
 ### Step 2: Install Conda
 
-- Install Conda from hhttp.conda
-- Install python & pip
+- Install Miniconda or Anaconda
+- Once Conda is installed, ensure Ptyhon and pip are available.
 
+  ```bash
+  conda --version
+  python --version
+  pip --version
+  ```
 
 ---
 
