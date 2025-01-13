@@ -94,7 +94,7 @@ You need to have docker installed.
   ```
 
 
-  - **Pull the required Docker image** (*You need to pull the base Docker image*):
+- **Pull the required Docker image** (*You need to pull the base Docker image*):
   ```bash
   docker pull squidfunk/mkdocs-material:latest
   ```
