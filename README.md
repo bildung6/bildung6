@@ -60,7 +60,6 @@ You need to have docker installed.
 
 
 - **Go to the project directory:**
-
   ```bash
   cd bildung6
   ```
@@ -77,13 +76,11 @@ You need to have docker installed.
   ```
 
 - **Run the Docker container:**
-
   ```bash
   docker run --rm -it -p 8000:8000 -v ${PWD}:/docs mkdocs-material-custom
   ```
 
 - **Navigate to the following URL in your browser:**
-
   http://0.0.0.0:8000/ or http://localhost:8000/
 
 
@@ -109,13 +106,12 @@ You need to have docker installed.
   docker build -t mkdocs-material-custom .
   ```
 
-- Run the Docker container:
-
+- **Run the Docker container:**
   ```bash
   docker run --rm -it -p 8000:8000 -v "%cd%":/docs mkdocs-material-custom
   ```
 
-- Navigate to the following URL in your browser:
+- **Navigate to the following URL in your browser:**
 
   http://0.0.0.0:8000/ or http://localhost:8000/
 
