@@ -1,0 +1,98 @@
+<div class="filter">
+    <h4>Filter</h4>
+</div>
+<div class="result tool">
+    <div class="grid cards">
+        <ul>
+            {% for sub in elements %}
+            <li >
+                <strong>{{ sub.title }}</strong>
+                {% if sub.meta.belearn %}
+                 <div class="belearn-tool">
+                     <div class="stars">
+                         <span class="filled">★★★★</span>★
+                     </div>
+                     Bildung 6.0 Siegel</div>
+                {% endif %}
+                <hr>
+                {% if sub.meta.image %}
+                <img src="{{ sub.meta.image | url }}" alt="{{ sub.title }}" >
+                {% endif %}
+                <p>{{ sub.meta.description }}</p>
+                {% for tag in sub.meta.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+                <p><a href="{{ sub.url | url  }}"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                            viewBox="0 0 24 24"><path
+                        d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span>
+                    Mehr Informationen</a></p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<script>
+    let pureElements = document.querySelectorAll('.result li');
+
+    let elements = [];
+    let alltags = {list: new Set()};
+    for (let i = 0; i < pureElements.length; i++) {
+        let element = {}
+        element.title = pureElements[i].querySelector('strong').innerText;
+        element.description = pureElements[i].querySelector('p').innerText;
+        element.tags = [];
+        let tags = pureElements[i].querySelectorAll('.tag');
+        for (let j = 0; j < tags.length; j++) {
+            element.tags.push(tags[j].innerText);
+            alltags[tags[j].innerText] = alltags[tags[j].innerText] ? alltags[tags[j].innerText] + 1 : 1;
+            alltags.list.add(tags[j].innerText)
+        }
+        elements.push(element);
+    }
+    let tags = alltags.list;
+    let tagfilter = new Set();
+
+    for (let tag of tags) {
+        let tagElement = document.createElement('span');
+        tagElement.classList.add('tag');
+        tagElement.innerText = tag ;
+        tagElement.addEventListener('click', function () {
+            if (tagElement.classList.contains('active')) {
+                tagElement.classList.remove('active');
+                tagfilter.delete(tag);
+            }
+            else  {
+                /*tagfilter = new Set();
+                let tags = document.querySelectorAll(".filter .tag");
+                for (let t of tags) {
+                    t.classList.remove("active")
+                }*/
+                tagfilter.add(tag);
+                tagElement.classList.add('active');
+            }
+            filter(tagfilter);
+
+        });
+        document.querySelector('.filter').appendChild(tagElement);
+    }
+
+    function filter(tagfilter) {
+        for (let i = 0; i < pureElements.length; i++) {
+            let element = pureElements[i];
+
+            let hasAllTags = true;
+            for (let tag of tagfilter) {
+                if (!elements[i].tags.includes(tag)) {
+                    hasAllTags = false;
+                }
+            }
+            if (hasAllTags) {
+                element.style.display = 'block';
+            }
+            else {
+                element.style.display = 'none';
+            }
+
+        }
+    }
+</script>

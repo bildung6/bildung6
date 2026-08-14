@@ -1,0 +1,21 @@
+{#-
+This file was automatically generated - do not edit
+-#}
+<div class="md-copyright">
+    {% for social in config.extra.social %}
+    {% set rel = "noopener" %}
+    {% if "mastodon" in social.icon %}
+    {% set rel = rel ~ " me" %}
+    {% endif %}
+    {% set title = social.name %}
+    {% if not title and "//" in social.link %}
+    {% set _, url = social.link.split("//") %}
+    {% set title  = url.split("/")[0] %}
+    {% endif %}
+    <a href="{{ social.link }}" rel="{{ rel }}" title="{{ title | e }}" class="md-social__link">
+        {% include ".icons/" ~ social.icon ~ ".svg" %}
+
+        {{title}}
+    </a>
+    {% endfor %}
+</div>
